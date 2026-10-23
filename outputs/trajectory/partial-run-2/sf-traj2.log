@@ -1,0 +1,36 @@
+[{"stream_name":"stderr","time":8.101407452,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":8.10147758,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":9.165916249,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.16595713,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.165962865,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.165989643,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.921111905,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.921150356,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.921156157,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.921160479,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":17.757498685,"data":"['Tesla T4', 'Tesla T4'] 48 targets\n"}
+,{"stream_name":"stdout","time":104.132480399,"data":"patched: fp16 ESM + trajectory hook\n"}
+,{"stream_name":"stdout","time":164.03795786,"data":"launched 0\n"}
+,{"stream_name":"stdout","time":224.043716568,"data":"launched 1\n"}
+,{"stream_name":"stdout","time":1994.929203317,"data":"288 cif, 48 trajectories, 30.5 min\n"}
+,{"stream_name":"stderr","time":1997.349108664,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":1997.349160123,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1997.349167738,"data":"/usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom \u003c= 0 for slice.\n"}
+,{"stream_name":"stderr","time":1997.349173896,"data":"  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,\n"}
+,{"stream_name":"stderr","time":1997.349178814,"data":"\n"}
+,{"stream_name":"stderr","time":1997.349185723,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":1997.349194602,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1997.349198297,"data":"/usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom \u003c= 0 for slice.\n"}
+,{"stream_name":"stderr","time":1997.349202019,"data":"  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,\n"}
+,{"stream_name":"stdout","time":2007.296148458,"data":"kept 48 trajectory arrays, 42.5 MB\n"}
+,{"stream_name":"stdout","time":2007.296190269,"data":"48 targets with trajectory+scores; skips 0\n"}
+,{"stream_name":"stdout","time":2007.296199148,"data":"features: ['cdr3_len', 'L', 'c3_path', 'c3_net', 'c3_tort', 'c3_conv', 'c3_jitter', 'c3_early', 'fw_path', 'fw_net', 'fw_tort', 'fw_conv', 'fw_jitter', 'fw_early', 'div_final', 'div_half', 'div_step90', 'adiv_final', 'adiv_half', 'adiv_q1', 'adiv_slope', 'adiv_step90', 'spread_cdr3', 'err', 'err_mean', 'err_oracle']\n"}
+,{"stream_name":"stderr","time":2011.754893274,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2011.754926937,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2012.060932652,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2012.060961845,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2012.892731935,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2013.251385245,"data":"[NbConvertApp] Writing 19177 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2016.111005357,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2017.45541018,"data":"[NbConvertApp] Writing 355004 bytes to __results__.html\n"}
+]

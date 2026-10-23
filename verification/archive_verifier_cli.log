@@ -1,0 +1,22 @@
+usage: verify_archive_reruns.py [-h] [--download] [--model {simplefold,nbb2}]
+                                [--run-directory RUN_DIRECTORY]
+                                [--report REPORT]
+                                [--require-checkpoint-hashes]
+                                [--require-exact]
+
+Verify retained repeat coordinates and compare repeat scores with the
+benchmark.
+
+options:
+  -h, --help            show this help message and exit
+  --download
+  --model {simplefold,nbb2}
+  --run-directory RUN_DIRECTORY
+                        Completed local versioned run; never downloaded into
+  --report REPORT       Separate local verification JSON; required with --run-
+                        directory
+  --require-checkpoint-hashes
+                        Require complete hash logging for a newer run; omit
+                        for NBB2 v1
+  --require-exact       Require exact saved/replayed rows, beyond score-
+                        rounding tolerance

@@ -1,0 +1,81 @@
+{
+  "checked_utc": "2026-10-23T00:21:11.819369+00:00",
+  "model": "simplefold",
+  "run_type": "Documented repeat; primary scores remain unchanged",
+  "coordinate_files": 597,
+  "archive_sha256": "dac9f945b340edf879b0817067175bcf09d14af3b62adfce920f00b2010f5f12",
+  "score_sha256": "3fd166c962df4dfd850755aacaf45535f062e85a43b9267394b6c5e316b47eff",
+  "common_targets": 597,
+  "original_only": [],
+  "repeat_only": [],
+  "coordinate_scoring_replay_max_absolute_difference": 0.0,
+  "coordinate_scoring_exact_rows": true,
+  "score_errors": {},
+  "comparisons": {
+    "chain_cdr1": {
+      "original_median": 1.955,
+      "repeat_median": 1.955,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0,
+      "maximum_absolute_change": 0.0,
+      "exact_score_matches": 597
+    },
+    "chain_cdr2": {
+      "original_median": 1.241,
+      "repeat_median": 1.241,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0,
+      "maximum_absolute_change": 0.0,
+      "exact_score_matches": 597
+    },
+    "chain_cdr3": {
+      "original_median": 2.942,
+      "repeat_median": 2.942,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0,
+      "maximum_absolute_change": 0.0009999999999998899,
+      "exact_score_matches": 596
+    },
+    "chain_framework": {
+      "original_median": 0.826,
+      "repeat_median": 0.826,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0,
+      "maximum_absolute_change": 0.0,
+      "exact_score_matches": 597
+    },
+    "fw_cdr1": {
+      "original_median": 1.916,
+      "repeat_median": 1.916,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0,
+      "maximum_absolute_change": 0.001000000000000112,
+      "exact_score_matches": 596
+    },
+    "fw_cdr2": {
+      "original_median": 1.056,
+      "repeat_median": 1.056,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0,
+      "maximum_absolute_change": 0.0,
+      "exact_score_matches": 597
+    },
+    "fw_cdr3": {
+      "original_median": 3.194,
+      "repeat_median": 3.194,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0,
+      "maximum_absolute_change": 0.0009999999999998899,
+      "exact_score_matches": 596
+    },
+    "fw_framework": {
+      "original_median": 0.677,
+      "repeat_median": 0.677,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0,
+      "maximum_absolute_change": 0.0,
+      "exact_score_matches": 597
+    }
+  },
+  "historical_coordinate_identity_established": false
+}

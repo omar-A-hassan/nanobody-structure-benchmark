@@ -1,0 +1,12 @@
+{
+  "url": "https://files.wwpdb.org/pub/pdb/data/structures/obsolete/mmCIF/wg/4wgv.cif.gz",
+  "resolved_url": "https://files.wwpdb.org/pub/pdb/data/structures/obsolete/mmCIF/wg/4wgv.cif.gz",
+  "retrieved_utc": "2026-10-17T18:52:39.041734+00:00",
+  "content_type": "application/gzip",
+  "etag": "\"47048de0d01695eaeb17f22c9ee0c79b\"",
+  "bytes": 417380,
+  "sha256": "6d35a531d736a99687795de73ad436baee60b85fb2f68b01606c5ea2db57b40a",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 1.4
+}

@@ -1,0 +1,13 @@
+{
+  "id": "abofela/tnp-specialists",
+  "title": "tnp-specialists",
+  "code_file": "tnp-specialists.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "potatoguy44/sabdab2-nanobodies"
+  ],
+  "enable_gpu": false
+}

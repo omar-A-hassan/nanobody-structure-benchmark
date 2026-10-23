@@ -1,0 +1,72 @@
+[{"stream_name":"stderr","time":5.139113679,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.139175641,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":5.85177788,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":5.851806433,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":5.851816837,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":5.851819608,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.387022081,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.387050212,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.387055822,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.387059943,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.624074934,"data":"GPUs visible: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":11.628024818,"data":"597 targets validated; 9 likely refused by ImmuneBuilder (truncated N-terminus)\n"}
+,{"stream_name":"stdout","time":11.628052423,"data":"probe target: 8F0KN\n"}
+,{"stream_name":"stdout","time":11.628058884,"data":"[   0.1 min] start\n"}
+,{"stream_name":"stdout","time":43.347067228,"data":"hmmscan: /usr/bin/hmmscan\n"}
+,{"stream_name":"stdout","time":49.035635668,"data":"anarci -\u003e rc=0 import=ok\n"}
+,{"stream_name":"stdout","time":154.211301221,"data":"probe OK: openmm 8.5.2, 1912 atoms written\n"}
+,{"stream_name":"stdout","time":154.211336992,"data":"[   2.4 min] installed\n"}
+,{"stream_name":"stdout","time":159.051573744,"data":"weights warm\n"}
+,{"stream_name":"stdout","time":159.807659179,"data":"launched worker 0\n"}
+,{"stream_name":"stdout","time":159.809103434,"data":"launched worker 1\n"}
+,{"stream_name":"stdout","time":1983.123561638,"data":"--- worker 0 (rc=0) ---\n"}
+,{"stream_name":"stdout","time":1983.123629443,"data":"FAIL 10ZOA AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":1983.123636332,"data":"FAIL 7QHAC AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":1983.123645576,"data":"FAIL 7PQQB2 AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":1983.123649697,"data":"FAIL 8XUMC AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":1983.123652941,"data":"FAIL 8JJVA AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":1983.123656106,"data":"shard 0 finished 294 in 1818s\n"}
+,{"stream_name":"stdout","time":2052.634740031,"data":"--- worker 1 (rc=0) ---\n"}
+,{"stream_name":"stdout","time":2052.63477687,"data":"FAIL 7A5VO AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2052.634804185,"data":"FAIL 9FAKG AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2052.634809574,"data":"FAIL 8AFEJ AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2052.634813532,"data":"FAIL 9PYMB AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2052.634817609,"data":"shard 1 finished 294 in 1887s\n"}
+,{"stream_name":"stdout","time":2052.634820849,"data":"\n"}
+,{"stream_name":"stdout","time":2052.634824131,"data":"588/597 built in 31.5 min (3.22s/target)\n"}
+,{"stream_name":"stdout","time":2052.634827527,"data":"[  34.1 min] built\n"}
+,{"stream_name":"stdout","time":2056.807927716,"data":"scored 588 / 597  (unscored 9)\n"}
+,{"stream_name":"stdout","time":2056.807955511,"data":"  missing: 9  e.g. ['10ZOA', '7A5VO', '9FAKG']\n"}
+,{"stream_name":"stdout","time":2056.807959733,"data":"[  34.2 min] scored\n"}
+,{"stream_name":"stdout","time":2057.260017575,"data":"chain-aligned, n=588\n"}
+,{"stream_name":"stdout","time":2057.260053788,"data":"\n"}
+,{"stream_name":"stdout","time":2057.260058603,"data":"region          NBB2            95% CI  SimpleFold    delta\n"}
+,{"stream_name":"stdout","time":2057.260062495,"data":"cdr1           1.622    [1.418, 1.785]       1.955   -0.333\n"}
+,{"stream_name":"stdout","time":2057.26006754,"data":"cdr2           1.063    [0.968, 1.155]       1.241   -0.178\n"}
+,{"stream_name":"stdout","time":2057.260075325,"data":"cdr3           2.484    [2.232, 2.691]       2.942   -0.458\n"}
+,{"stream_name":"stdout","time":2057.2600777,"data":"framework      0.793     [0.76, 0.825]       0.826   -0.033\n"}
+,{"stream_name":"stdout","time":2057.260079998,"data":"\n"}
+,{"stream_name":"stdout","time":2057.260082219,"data":"Same 597 targets, same scoring code -- so this delta IS a controlled comparison.\n"}
+,{"stream_name":"stdout","time":2057.260084598,"data":"fw-aligned: {'cdr1': 1.607, 'cdr2': 0.976, 'cdr3': 2.739, 'framework': 0.671}\n"}
+,{"stream_name":"stdout","time":2057.26008691,"data":"\n"}
+,{"stream_name":"stdout","time":2057.260089087,"data":"stratum               n  cdr3 median\n"}
+,{"stream_name":"stdout","time":2057.260091241,"data":"ab_split==test      143        2.276\n"}
+,{"stream_name":"stdout","time":2057.260093397,"data":"method==XRAY        406        2.491\n"}
+,{"stream_name":"stdout","time":2057.498932597,"data":"method==EM          182        2.474\n"}
+,{"stream_name":"stdout","time":2057.49896814,"data":"holo==True          566        2.456\n"}
+,{"stream_name":"stdout","time":2057.498972772,"data":"holo==False          22        2.825\n"}
+,{"stream_name":"stdout","time":2057.68978986,"data":"cdr3_len 0-13       191        1.924\n"}
+,{"stream_name":"stdout","time":2057.689817005,"data":"cdr3_len 14-17      187        2.721\n"}
+,{"stream_name":"stdout","time":2057.689821652,"data":"cdr3_len 18-99      210        2.719\n"}
+,{"stream_name":"stdout","time":2057.689825494,"data":"[  34.2 min] done\n"}
+,{"stream_name":"stdout","time":2057.690575207,"data":"\n"}
+,{"stream_name":"stdout","time":2057.690594826,"data":"wrote results_nbb2.json, per_target_scores_nbb2.{json,csv}\n"}
+,{"stream_name":"stderr","time":2060.687535919,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2060.687573787,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2060.832937563,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2060.832991375,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2061.435659008,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2061.735824508,"data":"[NbConvertApp] Writing 25327 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2064.0930361,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2064.927234081,"data":"[NbConvertApp] Writing 369268 bytes to __results__.html\n"}
+]

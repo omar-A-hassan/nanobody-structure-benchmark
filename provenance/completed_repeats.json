@@ -1,0 +1,18 @@
+[
+  {
+    "run": "simplefold_version1",
+    "coordinates": 597,
+    "archive_sha256": "dac9f945b340edf879b0817067175bcf09d14af3b62adfce920f00b2010f5f12",
+    "score_sha256": "3fd166c962df4dfd850755aacaf45535f062e85a43b9267394b6c5e316b47eff",
+    "checkpoint_hashes_logged": 1,
+    "primary_scores_replaced": false
+  },
+  {
+    "run": "nbb2_version2",
+    "coordinates": 588,
+    "archive_sha256": "18374f508600d3321e9dd3794dfff0767220173c9d2faacfe09be2251e26f9d5",
+    "score_sha256": "d0fb952ca7424eb6ca475160748229c72374e03b8ed906c7f57f982d17cf72f2",
+    "checkpoint_hashes_logged": 4,
+    "primary_scores_replaced": false
+  }
+]

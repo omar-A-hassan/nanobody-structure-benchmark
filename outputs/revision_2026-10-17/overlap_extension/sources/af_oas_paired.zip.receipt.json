@@ -1,0 +1,12 @@
+{
+  "url": "https://zenodo.org/api/records/7820263/files/af_oas_paired.zip/content",
+  "resolved_url": "https://zenodo.org/api/records/7820263/files/af_oas_paired.zip/content",
+  "retrieved_utc": "2026-10-17T19:12:26.485657+00:00",
+  "content_type": "application/octet-stream",
+  "etag": null,
+  "bytes": 968536862,
+  "sha256": "f6be3acb6ebd0e0e5b9f8324f8b089d140b4f6297113bc6b210f139f20122cf3",
+  "expected_md5": "1bdfd6611991b9a1bdf9b0918ea841f8",
+  "expected_bytes": 968536862,
+  "elapsed_seconds": 1423.04
+}

@@ -1,0 +1,8 @@
+{
+  "source": "https://arxiv.org/html/2509.18480v1",
+  "paragraphs": [
+    "We train SimpleFold with a data mix of 3 different sources. First, we include around 160K structures from PDB with a cutoff of May 2020 following ESMFold  ( Lin et al., 2023b ) . Additionally, we use the SwissProt set from AFDB. Within SwissProt distilled structures, we select samples with average pLDDT greater than 85 and standard deviation of pLDDT smaller than 15, which yields approximately 270K distilled samples. Moreover, we use representative protein structures for each cluster in AFESM  ( Yeo et al., 2025 ) . We filter these structures with pLDDT larger than 0.8 resulting in more than 1.9M distilled strictures. All SimpleFold models except the largest 3B model are trained on the combination of three datasets listed above, adding up to approximately 2M structures.",
+    "To assess the benefit of scaling up the model size in SimpleFold, we train models with different sizes from the smallest with 100M parameters to the largest with 3B parameters. All models are trained with full pre-training data containing PDB, SwissProt from AFDB, and filtered AFESM. Fig.   4  (a)-(d) illustrate how model sizes affect the performance of folding (also see Fig.   1  (d)). Larger models trained with a larger training budget (i.e., training Gflops and training iterations), are preferred to achieve better performance. We believe these results highlight the positive scaling behavior of SimpleFold\nand highlight an direction of progress to obtain more powerful generative models in biology."
+  ],
+  "scope": "Published model-family recipe; exact historical benchmark checkpoint membership remains unverified"
+}

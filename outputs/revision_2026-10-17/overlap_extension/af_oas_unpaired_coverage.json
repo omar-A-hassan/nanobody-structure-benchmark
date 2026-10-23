@@ -1,0 +1,18 @@
+{
+  "archive": "outputs/revision_2026-10-17/overlap_extension/sources/af_oas_unpaired.zip",
+  "fasta_files": 22132,
+  "heavy_pairs": 20052,
+  "unique_heavy_h3_pairs": 20052,
+  "light_only_fasta_members": 2080,
+  "missing_coordinate_pairs": [],
+  "archive_sha256": "1ab9c9c3d2e4454b06c090990ebfcaa2f1ef2946f504e3a6f8c739b911fde161",
+  "ignored_resource_fork_fasta_members": 3,
+  "coordinate_status_counts": {
+    "pdb": 20052
+  },
+  "h3_method_counts": {
+    "coordinate_Chothia93-102_IMGT-equivalent": 20052
+  },
+  "unavailable_h3_members": [],
+  "h3_definition": "Chothia93-102 with insertion positions; same span as 16 October IgFold audit"
+}

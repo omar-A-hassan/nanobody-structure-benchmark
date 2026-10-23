@@ -1,0 +1,20 @@
+FAIL 7A5VO AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:
+GSLRLSCAASGHTFNYPIMGWFRQAPGKEREFVGAIS
+FAIL 9FAKG AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:
+GSLRVSCAASGRTFTTYIMAWFRQAPGKEREFLAAMD
+shard 1: 25 done, 200s
+shard 1: 50 done, 374s
+shard 1: 75 done, 526s
+FAIL 8AFEJ AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:
+DSLRLSCASSRSIDGINIMRWYRQAPGKQRGMVAVVT
+shard 1: 100 done, 704s
+shard 1: 125 done, 870s
+shard 1: 150 done, 996s
+shard 1: 175 done, 1179s
+shard 1: 200 done, 1304s
+shard 1: 225 done, 1480s
+shard 1: 250 done, 1619s
+FAIL 9PYMB AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:
+GGSLRLSCAASGNIFLWANMGWYRQAPGKEREFVASI
+shard 1: 275 done, 1749s
+shard 1 finished 294 in 1823s

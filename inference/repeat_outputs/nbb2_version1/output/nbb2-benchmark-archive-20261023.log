@@ -1,0 +1,71 @@
+[{"stream_name":"stderr","time":8.212035064,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.212077239,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.2120834,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.212087606,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.827401823,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.827430862,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.827434157999999,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.827436562,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":18.051667298,"data":"GPUs visible: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":19.443656224,"data":"597 targets validated; 9 likely refused by ImmuneBuilder (truncated N-terminus)\n"}
+,{"stream_name":"stdout","time":19.443686205,"data":"probe target: 8F0KN\n"}
+,{"stream_name":"stdout","time":19.443690817,"data":"[   0.2 min] start\n"}
+,{"stream_name":"stdout","time":49.176931871,"data":"hmmscan: /usr/bin/hmmscan\n"}
+,{"stream_name":"stdout","time":52.91541805,"data":"anarci -\u003e rc=0 import=ok\n"}
+,{"stream_name":"stdout","time":518.609407735,"data":"probe OK: openmm 8.6.1, 1912 atoms written\n"}
+,{"stream_name":"stdout","time":518.609448899,"data":"[   8.5 min] installed\n"}
+,{"stream_name":"stdout","time":525.434186863,"data":"weights warm\n"}
+,{"stream_name":"stdout","time":526.324326497,"data":"launched worker 0\n"}
+,{"stream_name":"stdout","time":526.325603505,"data":"launched worker 1\n"}
+,{"stream_name":"stdout","time":2208.992720683,"data":"--- worker 0 (rc=0) ---\n"}
+,{"stream_name":"stdout","time":2208.992819513,"data":"FAIL 10ZOA AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992826912,"data":"FAIL 7QHAC AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992831561,"data":"FAIL 7PQQB2 AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992836062,"data":"FAIL 8XUMC AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992840383,"data":"FAIL 8JJVA AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992844676,"data":"shard 0 finished 294 in 1677s\n"}
+,{"stream_name":"stdout","time":2208.992848761,"data":"--- worker 1 (rc=0) ---\n"}
+,{"stream_name":"stdout","time":2208.992858136,"data":"FAIL 7A5VO AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992861722,"data":"FAIL 9FAKG AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992864528,"data":"FAIL 8AFEJ AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992867283,"data":"FAIL 9PYMB AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stdout","time":2208.992877776,"data":"shard 1 finished 294 in 1572s\n"}
+,{"stream_name":"stdout","time":2208.992880287,"data":"\n"}
+,{"stream_name":"stdout","time":2208.992882423,"data":"588/597 built in 28.0 min (2.86s/target)\n"}
+,{"stream_name":"stdout","time":2208.992884693,"data":"[  36.7 min] built\n"}
+,{"stream_name":"stdout","time":2213.358420507,"data":"scored 588 / 597  (unscored 9)\n"}
+,{"stream_name":"stdout","time":2213.358450388,"data":"  missing: 9  e.g. ['10ZOA', '7A5VO', '9FAKG']\n"}
+,{"stream_name":"stdout","time":2218.423658336,"data":"[  36.8 min] coordinates retained\n"}
+,{"stream_name":"stdout","time":2218.44016183,"data":"[  36.8 min] scored\n"}
+,{"stream_name":"stdout","time":2218.885689352,"data":"chain-aligned, n=588\n"}
+,{"stream_name":"stdout","time":2218.885725556,"data":"\n"}
+,{"stream_name":"stdout","time":2218.88572911,"data":"region          NBB2            95% CI  SimpleFold    delta\n"}
+,{"stream_name":"stdout","time":2218.885732106,"data":"cdr1           1.619     [1.407, 1.76]       1.955   -0.336\n"}
+,{"stream_name":"stdout","time":2218.885735174,"data":"cdr2           1.062     [0.976, 1.17]       1.241   -0.179\n"}
+,{"stream_name":"stdout","time":2218.88573771,"data":"cdr3           2.474    [2.233, 2.687]       2.942   -0.468\n"}
+,{"stream_name":"stdout","time":2218.885740068,"data":"framework      0.792    [0.754, 0.826]       0.826   -0.034\n"}
+,{"stream_name":"stdout","time":2218.885742446,"data":"\n"}
+,{"stream_name":"stdout","time":2218.885744747,"data":"Same 597 targets, same scoring code -- so this delta IS a controlled comparison.\n"}
+,{"stream_name":"stdout","time":2218.885747182,"data":"fw-aligned: {'cdr1': 1.61, 'cdr2': 0.98, 'cdr3': 2.732, 'framework': 0.671}\n"}
+,{"stream_name":"stdout","time":2218.885749641,"data":"\n"}
+,{"stream_name":"stdout","time":2218.885751897,"data":"stratum               n  cdr3 median\n"}
+,{"stream_name":"stdout","time":2218.88575426,"data":"ab_split==test      143        2.328\n"}
+,{"stream_name":"stdout","time":2218.885756918,"data":"method==XRAY        406        2.482\n"}
+,{"stream_name":"stdout","time":2219.140957801,"data":"method==EM          182        2.469\n"}
+,{"stream_name":"stdout","time":2219.140988018,"data":"holo==True          566        2.463\n"}
+,{"stream_name":"stdout","time":2219.14101329,"data":"holo==False          22        2.850\n"}
+,{"stream_name":"stdout","time":2219.355167917,"data":"cdr3_len 0-13       191        1.941\n"}
+,{"stream_name":"stdout","time":2219.355193084,"data":"cdr3_len 14-17      187        2.704\n"}
+,{"stream_name":"stdout","time":2219.355197719,"data":"cdr3_len 18-99      210        2.764\n"}
+,{"stream_name":"stdout","time":2219.355201707,"data":"[  36.8 min] done\n"}
+,{"stream_name":"stdout","time":2219.356149064,"data":"\n"}
+,{"stream_name":"stdout","time":2219.356169692,"data":"wrote results_nbb2.json, per_target_scores_nbb2.{json,csv}\n"}
+,{"stream_name":"stderr","time":2222.63009023,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2222.630115391,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2222.821538491,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2222.82156304,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2223.610480541,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2223.685995908,"data":"[NbConvertApp] Writing 26714 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2226.080339027,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2226.65216982,"data":"[NbConvertApp] Writing 376513 bytes to __results__.html\n"}
+]

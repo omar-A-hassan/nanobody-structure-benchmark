@@ -1,0 +1,71 @@
+[{"stream_name":"stderr","time":5.7752396919999995,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.77528663,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":6.5774782819999995,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.577508647,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.577513623,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.577517449,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.178271551,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.178324811,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.178331135,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.178335455,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.197183515,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":13.419540429,"data":"33 targets\n"}
+,{"stream_name":"stdout","time":83.499172102,"data":"fp16 patch applied\n"}
+,{"stream_name":"stdout","time":137.440018597,"data":"warm ok\n"}
+,{"stream_name":"stdout","time":137.440059012,"data":"launched 0\n"}
+,{"stream_name":"stdout","time":197.441724855,"data":"launched 1\n"}
+,{"stream_name":"stdout","time":1292.645243952,"data":"198 structures (33 targets x 6) in 19.3 min\n"}
+,{"stream_name":"stderr","time":1294.242040399,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":1294.242084485,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1294.242088786,"data":"/usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom \u003c= 0 for slice.\n"}
+,{"stream_name":"stderr","time":1294.242092583,"data":"  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,\n"}
+,{"stream_name":"stderr","time":1294.242095679,"data":"/tmp/ipykernel_23/1455004332.py:41: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":1294.242098714,"data":"  cen=np.nanmean(A,axis=0)\n"}
+,{"stream_name":"stderr","time":1294.242101609,"data":"\n"}
+,{"stream_name":"stderr","time":1294.242104524,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":1294.242107819,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1294.242110713,"data":"/usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom \u003c= 0 for slice.\n"}
+,{"stream_name":"stderr","time":1294.242113856,"data":"  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,\n"}
+,{"stream_name":"stderr","time":1294.242116924,"data":"/tmp/ipykernel_23/1455004332.py:41: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":1294.242135761,"data":"  cen=np.nanmean(A,axis=0)\n"}
+,{"stream_name":"stdout","time":1296.451211311,"data":"scored 33/33  skips: 0\n"}
+,{"stream_name":"stdout","time":1296.512713671,"data":"n=33   CDR-H3 median, framework-aligned\n"}
+,{"stream_name":"stdout","time":1296.512821545,"data":"\n"}
+,{"stream_name":"stdout","time":1296.51283588,"data":"  single sample           3.422   [2.371, 4.132]\n"}
+,{"stream_name":"stdout","time":1296.512840805,"data":"  mean of 6               3.266   [2.650, 4.071]\n"}
+,{"stream_name":"stdout","time":1296.512844886,"data":"  MEDOID (blind pick)     3.442   [2.628, 4.069]\n"}
+,{"stream_name":"stdout","time":1296.512849961,"data":"  CENTROID (average)      2.992   [2.558, 4.067]\n"}
+,{"stream_name":"stdout","time":1296.512854202,"data":"  oracle best of 6        2.754   [2.356, 3.822]\n"}
+,{"stream_name":"stdout","time":1296.51285798,"data":"\n"}
+,{"stream_name":"stdout","time":1296.512861384,"data":"Q1  centroid vs single sample : +0.021 A  Wilcoxon p=0.3391\n"}
+,{"stream_name":"stdout","time":1296.512865002,"data":"Q3  medoid  vs centroid       : +0.014 A  Wilcoxon p=0.07254\n"}
+,{"stream_name":"stdout","time":1296.512868477,"data":"    oracle gap available      : 0.221 A\n"}
+,{"stream_name":"stdout","time":1296.512872008,"data":"    centroid captures         : 54% of it\n"}
+,{"stream_name":"stdout","time":1296.512875974,"data":"\n"}
+,{"stream_name":"stdout","time":1296.512879807,"data":"Q2  CONFIDENCE -- does ensemble spread predict error?\n"}
+,{"stream_name":"stdout","time":1296.512884031,"data":"    spread vs single-sample err    rank-rho +0.456\n"}
+,{"stream_name":"stdout","time":1296.512887675,"data":"    spread vs centroid err         rank-rho +0.493\n"}
+,{"stream_name":"stdout","time":1296.512892098,"data":"    (control) spread vs loop length      rank-rho +0.353\n"}
+,{"stream_name":"stdout","time":1296.512896338,"data":"\n"}
+,{"stream_name":"stdout","time":1296.512899896,"data":"    comparators on the SAME 33 targets: IgFold and NanoBodyBuilder2 medians\n"}
+,{"stream_name":"stdout","time":1296.512903726,"data":"{\n"}
+,{"stream_name":"stdout","time":1296.512907276,"data":" \"n\": 33,\n"}
+,{"stream_name":"stdout","time":1296.512911019,"data":" \"single\": 3.422,\n"}
+,{"stream_name":"stdout","time":1296.512915022,"data":" \"centroid\": 2.992,\n"}
+,{"stream_name":"stdout","time":1296.512918649,"data":" \"medoid\": 3.442,\n"}
+,{"stream_name":"stdout","time":1296.512922183,"data":" \"oracle\": 2.754,\n"}
+,{"stream_name":"stdout","time":1296.512925703,"data":" \"mean_of_n\": 3.266,\n"}
+,{"stream_name":"stdout","time":1296.512929259,"data":" \"p_centroid_vs_single\": 0.33910817748609656,\n"}
+,{"stream_name":"stdout","time":1296.512933027,"data":" \"p_medoid_vs_centroid\": 0.07253956398434636,\n"}
+,{"stream_name":"stdout","time":1296.512936745,"data":" \"rho_spread_vs_err\": 0.455548128342246,\n"}
+,{"stream_name":"stdout","time":1296.512940595,"data":" \"rho_spread_vs_looplen\": 0.35294117647058826\n"}
+,{"stream_name":"stdout","time":1296.512945846,"data":"}\n"}
+,{"stream_name":"stderr","time":1299.818566089,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1299.81859994,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1300.034541116,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1300.034574096,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1300.697056842,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1301.026768962,"data":"[NbConvertApp] Writing 19420 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1303.546334392,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1304.603692385,"data":"[NbConvertApp] Writing 355083 bytes to __results__.html\n"}
+]

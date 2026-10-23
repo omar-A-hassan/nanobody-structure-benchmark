@@ -1,0 +1,80 @@
+[
+ {
+  "tid": "8EMYL",
+  "why": "best CDR-H3 in the benchmark -- what success looks like",
+  "cdr3_len": 9,
+  "L": 116,
+  "rescored_fw_aligned": {
+   "cdr1": 0.65,
+   "cdr2": 1.13,
+   "cdr3": 0.48,
+   "framework": 0.31
+  },
+  "max_res_dev": 1.81
+ },
+ {
+  "tid": "9G13A",
+  "why": "worst case: whole domain misfolded (also worst framework)",
+  "cdr3_len": 17,
+  "L": 123,
+  "rescored_fw_aligned": {
+   "cdr1": 10.0,
+   "cdr2": 10.13,
+   "cdr3": 21.92,
+   "framework": 19.09
+  },
+  "max_res_dev": 62.94
+ },
+ {
+  "tid": "7B5GF",
+  "why": "the median nanobody -- representative case",
+  "cdr3_len": 15,
+  "L": 122,
+  "rescored_fw_aligned": {
+   "cdr1": 1.96,
+   "cdr2": 1.23,
+   "cdr3": 2.78,
+   "framework": 0.56
+  },
+  "max_res_dev": 4.91
+ },
+ {
+  "tid": "7Z1DFFF",
+  "why": "20-residue loop solved to 0.73 A -- hard case done well",
+  "cdr3_len": 20,
+  "L": 127,
+  "rescored_fw_aligned": {
+   "cdr1": 3.53,
+   "cdr2": 1.5,
+   "cdr3": 2.16,
+   "framework": 0.58
+  },
+  "max_res_dev": 5.75
+ },
+ {
+  "tid": "7TPRD",
+  "why": "framework fine, loop 13 A off -- biggest chain-vs-fw split",
+  "cdr3_len": 21,
+  "L": 128,
+  "rescored_fw_aligned": {
+   "cdr1": 1.64,
+   "cdr2": 1.74,
+   "cdr3": 16.3,
+   "framework": 0.83
+  },
+  "max_res_dev": 28.77
+ },
+ {
+  "tid": "7FATB",
+  "why": "longest CDR-H3 in the set (26 residues)",
+  "cdr3_len": 26,
+  "L": 132,
+  "rescored_fw_aligned": {
+   "cdr1": 2.56,
+   "cdr2": 0.91,
+   "cdr3": 4.53,
+   "framework": 0.63
+  },
+  "max_res_dev": 9.44
+ }
+]

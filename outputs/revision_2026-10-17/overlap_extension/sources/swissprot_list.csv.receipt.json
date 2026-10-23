@@ -1,0 +1,12 @@
+{
+  "url": "https://ml-site.cdn-apple.com/models/simplefold/swissprot_list.csv",
+  "resolved_url": "https://ml-site.cdn-apple.com/models/simplefold/swissprot_list.csv",
+  "retrieved_utc": "2026-10-17T18:49:13.836296+00:00",
+  "content_type": "text/csv",
+  "etag": "\"64b045b2dce57309cd634fe95680fd43\"",
+  "bytes": 6187069,
+  "sha256": "2daaf33deed592c07c6e5a6debdd20e257643de3ab0a2b1d92bd209f9027c2f6",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 6.37
+}

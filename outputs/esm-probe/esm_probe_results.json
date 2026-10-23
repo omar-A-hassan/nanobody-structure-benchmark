@@ -1,0 +1,171 @@
+{
+  "n": 518,
+  "n_kinked": 330,
+  "n_extended": 188,
+  "n_clusters": 191,
+  "largest_cluster": 313,
+  "per_layer_linear_cdr3mean": [
+    {
+      "layer": 0,
+      "auc": 0.7317
+    },
+    {
+      "layer": 1,
+      "auc": 0.7752
+    },
+    {
+      "layer": 2,
+      "auc": 0.8732
+    },
+    {
+      "layer": 3,
+      "auc": 0.8729
+    },
+    {
+      "layer": 4,
+      "auc": 0.8904
+    },
+    {
+      "layer": 5,
+      "auc": 0.8896
+    },
+    {
+      "layer": 6,
+      "auc": 0.8909
+    },
+    {
+      "layer": 7,
+      "auc": 0.8871
+    },
+    {
+      "layer": 8,
+      "auc": 0.8994
+    },
+    {
+      "layer": 9,
+      "auc": 0.9033
+    },
+    {
+      "layer": 10,
+      "auc": 0.9037
+    },
+    {
+      "layer": 11,
+      "auc": 0.9018
+    },
+    {
+      "layer": 12,
+      "auc": 0.906
+    },
+    {
+      "layer": 13,
+      "auc": 0.9063
+    },
+    {
+      "layer": 14,
+      "auc": 0.9083
+    },
+    {
+      "layer": 15,
+      "auc": 0.9097
+    },
+    {
+      "layer": 16,
+      "auc": 0.9062
+    },
+    {
+      "layer": 17,
+      "auc": 0.9017
+    },
+    {
+      "layer": 18,
+      "auc": 0.902
+    },
+    {
+      "layer": 19,
+      "auc": 0.8996
+    },
+    {
+      "layer": 20,
+      "auc": 0.9011
+    },
+    {
+      "layer": 21,
+      "auc": 0.9064
+    },
+    {
+      "layer": 22,
+      "auc": 0.9061
+    },
+    {
+      "layer": 23,
+      "auc": 0.9079
+    },
+    {
+      "layer": 24,
+      "auc": 0.9052
+    },
+    {
+      "layer": 25,
+      "auc": 0.9047
+    },
+    {
+      "layer": 26,
+      "auc": 0.9046
+    },
+    {
+      "layer": 27,
+      "auc": 0.904
+    },
+    {
+      "layer": 28,
+      "auc": 0.9015
+    },
+    {
+      "layer": 29,
+      "auc": 0.9011
+    },
+    {
+      "layer": 30,
+      "auc": 0.9111
+    },
+    {
+      "layer": 31,
+      "auc": 0.911
+    },
+    {
+      "layer": 32,
+      "auc": 0.9158
+    },
+    {
+      "layer": 33,
+      "auc": 0.915
+    },
+    {
+      "layer": 34,
+      "auc": 0.9144
+    },
+    {
+      "layer": 35,
+      "auc": 0.9138
+    },
+    {
+      "layer": 36,
+      "auc": 0.9088
+    }
+  ],
+  "best_layer": 32,
+  "best_layer_auc": 0.9158,
+  "mean_across_layers_auc": 0.9053,
+  "anchor_best_layer_auc": 0.9209,
+  "majority_baseline_acc": 0.6371,
+  "control_mean": 0.4999,
+  "control_std": 0.031,
+  "selectivity_gap": 0.4159,
+  "mlp_auc": 0.9236,
+  "mlp_control_mean": 0.5014,
+  "mlp_control_std": 0.0397,
+  "mlp_gap": 0.4222,
+  "linear_pass": true,
+  "mlp_pass": true
+}

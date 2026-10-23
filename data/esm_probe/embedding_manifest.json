@@ -1,0 +1,58 @@
+{
+  "original_sha256": "7e214baed92d33f3e22c1af76b71da37d777660b99c8bd8b2b71b99ee063a3e4",
+  "original_bytes": 272082613,
+  "arrays": {
+    "cdr3_mean": {
+      "shape": [
+        518,
+        37,
+        2560
+      ],
+      "dtype": "float16",
+      "sha256_c_order": "9b16449099656b4642304e9c8a2b9a6d00e7f92bde3fd88dc6aac9901c266309"
+    },
+    "anchor": {
+      "shape": [
+        518,
+        37,
+        2,
+        2560
+      ],
+      "dtype": "float16",
+      "sha256_c_order": "0fcc891ebfd4da083c2f9193d96466cd450f6244a222a809b6bfa7744684bc40"
+    }
+  },
+  "transformation": "Lossless layer slicing; no numeric conversion",
+  "shards": [
+    {
+      "path": "data/esm_probe/embeddings_00_08.npz",
+      "start_layer": 0,
+      "end_layer_exclusive": 8,
+      "sha256": "609aac55c079b9fbf06b85792155e7e6aee1bb17c28923103696c6c950fa78ec"
+    },
+    {
+      "path": "data/esm_probe/embeddings_08_16.npz",
+      "start_layer": 8,
+      "end_layer_exclusive": 16,
+      "sha256": "df34e593e2296cd28200c842dbcc978be16889f3cd94f1cd3c582624797e209f"
+    },
+    {
+      "path": "data/esm_probe/embeddings_16_24.npz",
+      "start_layer": 16,
+      "end_layer_exclusive": 24,
+      "sha256": "c4dd90c5accd2c29a75933edcdc19081ee76e813300395a02e93347aeae0392d"
+    },
+    {
+      "path": "data/esm_probe/embeddings_24_32.npz",
+      "start_layer": 24,
+      "end_layer_exclusive": 32,
+      "sha256": "447a8c475ec826a92eef6acbd8526f541a3778df8b91492618873f776b9b646c"
+    },
+    {
+      "path": "data/esm_probe/embeddings_32_37.npz",
+      "start_layer": 32,
+      "end_layer_exclusive": 37,
+      "sha256": "fb083026a3ea28d329349d58ec378ff0d31c75be31f49d5ef80076e5a7d5ab3f"
+    }
+  ]
+}

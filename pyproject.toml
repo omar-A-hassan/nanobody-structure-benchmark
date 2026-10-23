@@ -1,0 +1,17 @@
+[project]
+name = "nanobody-structure-benchmark"
+version = "0.1.0"
+description = "Saved-data structural benchmark analyses and public provenance artifacts"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "numpy==2.5.4",
+  "scipy==1.18.1",
+  "biopython==1.88",
+  "matplotlib==3.11.2",
+  "scikit-learn==1.9.1",
+]
+
+[tool.uv]
+package = false
+constraint-dependencies = ["python-dateutil==2.9.0.post0"]

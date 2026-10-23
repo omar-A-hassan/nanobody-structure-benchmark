@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "unit_tests": 5,
+  "unit_test_command": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "unit_test_output": "test_coordinate_checks_reject_tampering_duplicates_and_traversal (test_repeat_validation.RepeatValidationTests.test_coordinate_checks_reject_tampering_duplicates_and_traversal) ... ok\ntest_new_numbered_checkpoint_hashes_are_required_when_requested (test_repeat_validation.RepeatValidationTests.test_new_numbered_checkpoint_hashes_are_required_when_requested) ... ok\ntest_paired_changes_are_not_differences_between_medians (test_repeat_validation.RepeatValidationTests.test_paired_changes_are_not_differences_between_medians) ... ok\ntest_reusable_nbb_notebook_keeps_corrected_weight_logging (test_repeat_validation.RepeatValidationTests.test_reusable_nbb_notebook_keeps_corrected_weight_logging) ... ok\ntest_v1_missing_checkpoint_hashes_is_explicitly_accepted (test_repeat_validation.RepeatValidationTests.test_v1_missing_checkpoint_hashes_is_explicitly_accepted) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.004s\n\nOK\n",
+  "elapsed_seconds": 0.202,
+  "completed_coordinate_replays": {
+    "verification/simplefold_version1_reexecution.json": {
+      "sha256": "b62d38b78f5e344af73dbe5eb6923ff6788ec3835663a6fe6165c67b64b8d989",
+      "coordinate_files": 597,
+      "score_replay_maximum_difference": 0.0
+    },
+    "verification/nbb2_version1_reexecution.json": {
+      "sha256": "5812c34899937e79f448848f680fd7a587c62a03212d8ad1bbbb5a156ab8a05c",
+      "coordinate_files": 588,
+      "score_replay_maximum_difference": 0.0
+    },
+    "verification/nbb2_version2_reexecution.json": {
+      "sha256": "68a1012c27d9a1d0e364e368c2d0f2c74e2b6363d29a89b338afe731597f34cc",
+      "coordinate_files": 588,
+      "score_replay_maximum_difference": 0.0
+    }
+  }
+}

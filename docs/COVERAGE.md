@@ -1,0 +1,149 @@
+# Coverage and explicit gaps
+
+[Remaining work](REMAINING.md) lists the exact files and checks needed for a
+complete manuscript archive. `reproduce.py` is the public entry point for
+integrity checks and saved-analysis replay.
+
+## Included scientific material
+
+The 597 frozen targets retain all metadata, VHH sequences, three IMGT CDR
+spans and the coordinate/null representation. The three saved score collections
+contain 597 SimpleFold, 597 IgFold and 588 NanoBodyBuilder2 records, giving 588
+common targets with eight regional/alignment scores each. Full and framework
+fits, paired target bootstrap, PDB-block intervals, sequence redundancy,
+available-source training overlap, reference policy and length-adjusted
+uncertainty analyses are included.
+
+The initial overlap audit has 398 nonredundant lower-identified-risk
+representatives. The expanded available-source screen yields 393 from 362 PDB
+entries. NBB2 recovery covers all 247 previously unmapped manifest PDBs, with
+290 accepted heavy-domain candidates and 213 unique VH/H3 pairs. Candidate
+recovery does not prove which chain trained a historical checkpoint.
+The IgFold OAS pools screen 16,141 paired and 20,052 unpaired heavy records;
+light-only FASTAs and resource-fork members are excluded. All heavy records
+have an H3 assignment. Invalid coordinate members are explicitly diagnosed,
+with valid FASTA/H3 information retained in the conservative sequence screen.
+
+SimpleFold's retained public files contain 269,003 SwissProt and 2,036,414
+AFESM identifiers. The extended dictionary has 8,616,595 member occurrences
+for the extended recipe. Identifier matches and current entity/accession
+checks do not establish complete VHH homology or historical checkpoint
+membership. This repository does not certify training independence.
+
+The standalone reference reconstruction selects 604 representatives from
+3,414 single-domain rows, 3,350 SD-H rows and 2,404 eligible post-cutoff rows.
+It reproduces all 597 frozen records, including 1,791 CDR spans, 72,378 residues,
+843,498 coordinate components and 8,346 null atom slots. The seven other
+representatives fail the explicit reconstructed checks. These checks are a
+validated reconstruction, not recovered historical extraction code.
+
+The frozen reference uses the last source row for duplicate alternate-location
+atoms. Highest-occupancy selection changes 111/597 references, including
+108/588 common targets. The supplied sensitivity subsets retain original
+prediction scores; they do not rescore predictions against altered references.
+The largest reference-to-reference framework-aligned H3 displacement is
+approximately 0.6415 Å.
+
+Saved sampling material includes the full 597-target trajectory summary,
+available partial-run summaries/trajectory arrays, hard/easy uncertainty
+inputs, and finite coverage for 30 difficult plus ten control targets across
+four settings with 20 samples each. The retained artifacts do not constitute
+all raw coordinates for every trajectory or sample. The original sampling,
+trajectory, hit-rate, conformation and visualization notebooks are included.
+
+The ESM probe includes all embeddings for 518 labelled targets (330 kinked,
+188 extended; the other 79 reference labels are excluded), all 37 layers,
+mean/anchor readouts, grouped five-fold fits, linear and MLP models and 50/20
+shuffled controls. The complete rerun captures 110 cross-validation calls
+(550 fitted folds). Best-layer selection is exploratory and is not nested
+cross-validation. Comments in historical code about preregistered thresholds
+are retained source wording, not independent evidence of preregistration.
+The exact historical scikit-learn version was not recorded; the validated
+current rerun uses 1.9.1. Cached-embedding fitting is distinct from generating
+new ESM2 embeddings with model weights.
+Historical controller/side-stream decisions printed by `esm_probe_analyze.py`
+are retained provenance, not supported scientific interpretations. The
+algorithm and stored results are unchanged.
+
+## Inference provenance and unavailable work
+
+- The original IgFold benchmark generation notebook and timing CSV have not
+  been identified in the current package. All 597 regional scores are included.
+  A historical transcript attributes 4.08 seconds per target to
+  `prediction_results.csv`, but does not establish hardware, timing boundaries
+  or concurrency. The separate TNP notebook contains executable IgFold code
+  but built zero structures. That run does not establish the original
+  benchmark settings. See `provenance/igfold_benchmark_evidence.json` and the
+  remaining-work checklist. Upstream IgFold training archives are separate
+  sources used for overlap screening.
+- Original SimpleFold/NBB2 full-benchmark notebooks explicitly deleted
+  predicted coordinates after scoring. Original results and recovered source
+  notebooks survive. Historical SimpleFold commit/checkpoint hashes and full
+  filesystem iteration order, and the exact historical NBB2 installation,
+  cannot be reconstructed from those saved artifacts.
+- Visualization PDBs are included and checked as a limited scoring exercise.
+  The historical IgFold record describes its six examples as derived from
+  existing benchmark predictions; the displayed H3 scores agree with the
+  primary records. These examples are not the full prediction batch or
+  verified prepared docking inputs. SimpleFold/NBB2 visualization runs remain
+  separate from their primary benchmark records.
+- An existing three-target NBB2 CPU check retains three new predictions,
+  scores, source/weight hashes and execution receipts. Its maximum absolute
+  difference across 24 regional scores is 0.058 Å. It is a later pipeline check,
+  not recovery of the original predictions. No new inference ran for assembly.
+- NBB2 version 1 is now included as a separate completed repeat: 588 retained
+  coordinates in one ZIP, manifest, original run verification, scores/logs,
+  environment, run provenance, notebook and separate comparison JSON/CSV.
+  All 588 primary IDs recur; local original-scorer replay matches the complete
+  saved repeat rows exactly. Whole-chain H3 median RMSD is 2.4835 Å primary
+  versus 2.474 Å repeat; median absolute change is 0.018 Å, maximum 1.967 Å.
+  The nine unscored inputs are the same nine absent from the primary NBB2
+  score set. This repeat neither replaces primary scores nor establishes
+  identity with deleted historical coordinates.
+- V1's checkpoint hash map remains empty. Its logging filter omitted
+  extensionless `nanobody_model_*` weights; no weight hashes are inferred from
+  other runs. The current preparation source includes corrected logging and
+  a four-weight assertion. The completed NBB2 v2 and SimpleFold v1 runs are
+  now included as separate versions. Their local scorer replays match all
+  saved rows exactly. NBB2 v2 records four weight hashes; SimpleFold records
+  its 100M flow-checkpoint hash, source commit and worker input order. The
+  ESM2 model identifier is recorded, but its weight-file hash was not logged.
+  SimpleFold regional scores differ from the primary records by at most
+  0.001 Å across 597 targets. NBB2 v2 retains the same 588 target IDs and nine
+  refusals; its whole-chain H3 median is 2.474 Å, median absolute per-target
+  change 0.014 Å and maximum change 1.952 Å.
+  [Run-specific facts and local commands](NBB2_VERSION1.md) distinguish the
+  archived v1 notebook from the newer preparation source.
+- Docking receptor/ligand inputs, HDOCK execution artifacts, poses, DockQ
+  evaluations and epitope files were unavailable. The workflow diagram
+  depicts that separate study branch; its presence does not supply a docking
+  implementation or reproduce the manuscript's docking results.
+
+## Deliberate exclusions and verification limits
+
+Private transcripts, assignment/ownership notes, response/checklist documents,
+manuscripts, manuscript builders, credentials, pretrained weights, native
+executables, multi-GB archives, incomplete downloads/range chunks and old
+handoff/verification trees are excluded. The public source selection and
+storage transformations are explicit in `provenance/source_selection.json`.
+Full source archives remain available from their recorded upstream locations.
+Their complete remote downloads and full ANARCII recollection are not part of
+the saved-data verification unless explicitly run in the separate environment.
+The auxiliary crystal-label replay gives identical labels, rounded metrics
+and summary values. Unrounded alpha/tau angles differ by at most
+2.842170943040401e-14 degrees, within the stated 1e-12-degree absolute check.
+This is recorded as roundoff agreement rather than exact JSON equality.
+All prior 15-check records are preserved byte-for-byte. The completed NBB2 v1,
+NBB2 v2 and SimpleFold v1 replays have separate reports. Checkpoint/archive
+boundary tests reject corrupt hashes, duplicate members and unsafe paths. The
+static inventory validates all completed repeat ZIPs and their manifests.
+The source-selection audit was refreshed after the new run artifacts were
+added. This updates `verification/source_integrity.json`, not scientific data
+or the preceding 15-check execution report. Its prior checksum remains in the
+core snapshot; the extension inventory records this one derived-report update.
+
+The verifier checks syntax, configured credential patterns, notebook output
+removal, repository blob sizes, frozen targets/scores, curated receipt hashes
+and, when sealed, the complete public manifest. Credential-pattern scanning
+has finite coverage. No remote repository, DOI record or public Kaggle dataset
+was created or changed. No project licence is inferred from third-party terms.

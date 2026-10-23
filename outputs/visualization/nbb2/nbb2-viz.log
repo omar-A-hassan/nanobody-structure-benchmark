@@ -1,0 +1,33 @@
+[{"stream_name":"stderr","time":7.84956018,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":7.849643146,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":9.007018103,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.007057851,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.007064777,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.007070281,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.811478255,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.811522685,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.811553402,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.811562243000001,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.857099842,"data":"all 6 targets present and acceptable to ImmuneBuilder\n"}
+,{"stream_name":"stdout","time":52.895567942,"data":"openmm 8.5.2\n"}
+,{"stream_name":"stdout","time":54.489632266,"data":"Downloading weights for nanobody_model_1...\n"}
+,{"stream_name":"stdout","time":59.393230379,"data":"Downloading weights for nanobody_model_2...\n"}
+,{"stream_name":"stdout","time":70.903658405,"data":"Downloading weights for nanobody_model_3...\n"}
+,{"stream_name":"stdout","time":91.276957329,"data":"Downloading weights for nanobody_model_4...\n"}
+,{"stream_name":"stdout","time":108.370983346,"data":"8EMYL     cdr3   3.39  fw  0.38  (1729 atoms)\n"}
+,{"stream_name":"stdout","time":117.249468878,"data":"9G13A     cdr3  21.16  fw 19.13  (1840 atoms)\n"}
+,{"stream_name":"stdout","time":125.668726247,"data":"7B5GF     cdr3  10.21  fw  0.66  (1784 atoms)\n"}
+,{"stream_name":"stdout","time":135.27192128,"data":"7Z1DFFF   cdr3   0.61  fw  0.48  (1930 atoms)\n"}
+,{"stream_name":"stdout","time":142.97818472,"data":"7TPRD     cdr3   2.74  fw  0.83  (1857 atoms)\n"}
+,{"stream_name":"stdout","time":151.742494644,"data":"7FATB     cdr3   1.32  fw  0.44  (1897 atoms)\n"}
+,{"stream_name":"stdout","time":151.742555532,"data":"\n"}
+,{"stream_name":"stdout","time":151.742565464,"data":"wrote 7 files\n"}
+,{"stream_name":"stderr","time":155.969207875,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":155.96926659,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":156.165614477,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":156.165663623,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":156.936932738,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":157.336193286,"data":"[NbConvertApp] Writing 9611 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":160.549042587,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":161.688143335,"data":"[NbConvertApp] Writing 313543 bytes to __results__.html\n"}
+]

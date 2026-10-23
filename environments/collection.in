@@ -1,0 +1,5 @@
+# Python 3.12; optional full public-source collection/ANARCII numbering.
+biopython==1.87
+numpy==2.2.6
+anarcii==2.0.8
+

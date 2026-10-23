@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "run": "nbb2_version1",
+  "source": "outputs/revision_2026-10-23/repeat_runs/nbb2_version1",
+  "files_copied": 15,
+  "coordinate_archive_sha256": "e7d0c8e1c586e4372967d1dcca4041ca2687110e4e2190533705cdf1bf65e93e",
+  "coordinate_count": 588,
+  "same_primary_ids": true,
+  "coordinate_scoring_exact_rows": true,
+  "checkpoint_hashes_known": false,
+  "checkpoint_logging_gap": "V1 extension filter omitted extensionless nanobody_model_* weights; raw checkpoint_sha256 remains empty",
+  "primary_replaced": false,
+  "core_protected_files_unchanged": 1086,
+  "prior_core_check_count": 15,
+  "prior_core_check_report_sha256": "5a13e57db24019fa77ffcef3d5023005384d02c50336bcd9ae0803b0bb4dbbaa",
+  "local_reexecution_report": "verification/nbb2_version1_reexecution.json",
+  "kernels_launched": 0,
+  "new_model_inference": false,
+  "v2_and_simplefold_results_added": false,
+  "boundary_tests": {
+    "exit_code": 0,
+    "log": "verification/nbb2_version1_boundary_tests.log"
+  },
+  "legacy_aggregator": "provenance/original_scripts/consolidate_stats.py"
+}

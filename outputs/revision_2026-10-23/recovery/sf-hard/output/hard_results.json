@@ -1,0 +1,340 @@
+{
+ "n_samples": 6,
+ "note": "24 known-hard + 12 known-easy; is spread correctly uncertain?",
+ "gpus": [
+  "Tesla T4",
+  "Tesla T4"
+ ],
+ "rc": {
+  "0": 0,
+  "1": 0
+ },
+ "fold_min": 23.3,
+ "n_cif": 216,
+ "rows": [
+  {
+   "tid": "7A4TA",
+   "group": "hard",
+   "spread_cdr3": 0.1128,
+   "err": 10.819,
+   "err_mean": 10.891,
+   "err_oracle": 10.817,
+   "cdr3_len": 14
+  },
+  {
+   "tid": "7BNWB",
+   "group": "hard",
+   "spread_cdr3": 0.4954,
+   "err": 7.174,
+   "err_mean": 7.485,
+   "err_oracle": 6.973,
+   "cdr3_len": 14
+  },
+  {
+   "tid": "7KD0C",
+   "group": "easy",
+   "spread_cdr3": 0.1224,
+   "err": 1.453,
+   "err_mean": 1.357,
+   "err_oracle": 1.169,
+   "cdr3_len": 11
+  },
+  {
+   "tid": "7MFVB",
+   "group": "easy",
+   "spread_cdr3": 0.0791,
+   "err": 0.688,
+   "err_mean": 0.701,
+   "err_oracle": 0.53,
+   "cdr3_len": 8
+  },
+  {
+   "tid": "7MJHF",
+   "group": "hard",
+   "spread_cdr3": 0.1342,
+   "err": 9.638,
+   "err_mean": 9.855,
+   "err_oracle": 9.638,
+   "cdr3_len": 18
+  },
+  {
+   "tid": "7MY3D",
+   "group": "hard",
+   "spread_cdr3": 0.7669,
+   "err": 7.291,
+   "err_mean": 7.461,
+   "err_oracle": 6.642,
+   "cdr3_len": 15
+  },
+  {
+   "tid": "7N0RC",
+   "group": "hard",
+   "spread_cdr3": 0.53,
+   "err": 10.129,
+   "err_mean": 9.233,
+   "err_oracle": 8.905,
+   "cdr3_len": 14
+  },
+  {
+   "tid": "7N9TE",
+   "group": "hard",
+   "spread_cdr3": 0.4498,
+   "err": 9.158,
+   "err_mean": 8.889,
+   "err_oracle": 8.132,
+   "cdr3_len": 15
+  },
+  {
+   "tid": "7OMNC",
+   "group": "hard",
+   "spread_cdr3": 0.2567,
+   "err": 8.606,
+   "err_mean": 8.482,
+   "err_oracle": 8.252,
+   "cdr3_len": 18
+  },
+  {
+   "tid": "7QVKBBB",
+   "group": "hard",
+   "spread_cdr3": 0.2712,
+   "err": 9.857,
+   "err_mean": 9.583,
+   "err_oracle": 9.343,
+   "cdr3_len": 17
+  },
+  {
+   "tid": "7ZMVF",
+   "group": "hard",
+   "spread_cdr3": 0.5645,
+   "err": 18.871,
+   "err_mean": 19.029,
+   "err_oracle": 18.522,
+   "cdr3_len": 19
+  },
+  {
+   "tid": "8DQUA",
+   "group": "easy",
+   "spread_cdr3": 0.4128,
+   "err": 2.28,
+   "err_mean": 2.387,
+   "err_oracle": 1.95,
+   "cdr3_len": 18
+  },
+  {
+   "tid": "8ELNH",
+   "group": "hard",
+   "spread_cdr3": 0.3464,
+   "err": 7.085,
+   "err_mean": 7.179,
+   "err_oracle": 6.887,
+   "cdr3_len": 13
+  },
+  {
+   "tid": "8ELPB",
+   "group": "hard",
+   "spread_cdr3": 0.2854,
+   "err": 8.123,
+   "err_mean": 7.841,
+   "err_oracle": 7.588,
+   "cdr3_len": 20
+  },
+  {
+   "tid": "8ELQB",
+   "group": "hard",
+   "spread_cdr3": 0.3396,
+   "err": 8.228,
+   "err_mean": 8.185,
+   "err_oracle": 7.875,
+   "cdr3_len": 20
+  },
+  {
+   "tid": "8EN4C",
+   "group": "easy",
+   "spread_cdr3": 0.3266,
+   "err": 2.573,
+   "err_mean": 2.139,
+   "err_oracle": 1.069,
+   "cdr3_len": 10
+  },
+  {
+   "tid": "8GHRD",
+   "group": "hard",
+   "spread_cdr3": 0.2691,
+   "err": 7.873,
+   "err_mean": 7.744,
+   "err_oracle": 7.479,
+   "cdr3_len": 16
+  },
+  {
+   "tid": "8H5UB",
+   "group": "easy",
+   "spread_cdr3": 0.0743,
+   "err": 0.989,
+   "err_mean": 1.001,
+   "err_oracle": 0.954,
+   "cdr3_len": 5
+  },
+  {
+   "tid": "8OWWB",
+   "group": "easy",
+   "spread_cdr3": 0.0951,
+   "err": 0.671,
+   "err_mean": 0.692,
+   "err_oracle": 0.665,
+   "cdr3_len": 17
+  },
+  {
+   "tid": "8S5WB",
+   "group": "hard",
+   "spread_cdr3": 0.2845,
+   "err": 7.699,
+   "err_mean": 7.565,
+   "err_oracle": 7.15,
+   "cdr3_len": 16
+  },
+  {
+   "tid": "8V9XA",
+   "group": "hard",
+   "spread_cdr3": 0.0984,
+   "err": 7.456,
+   "err_mean": 7.443,
+   "err_oracle": 7.428,
+   "cdr3_len": 7
+  },
+  {
+   "tid": "8XPSB",
+   "group": "hard",
+   "spread_cdr3": 0.2881,
+   "err": 8.403,
+   "err_mean": 8.027,
+   "err_oracle": 7.231,
+   "cdr3_len": 12
+  },
+  {
+   "tid": "8YSFD",
+   "group": "easy",
+   "spread_cdr3": 0.0769,
+   "err": 1.219,
+   "err_mean": 1.224,
+   "err_oracle": 1.158,
+   "cdr3_len": 9
+  },
+  {
+   "tid": "9EMYK",
+   "group": "hard",
+   "spread_cdr3": 0.3691,
+   "err": 7.977,
+   "err_mean": 8.32,
+   "err_oracle": 7.977,
+   "cdr3_len": 18
+  },
+  {
+   "tid": "9ETLD",
+   "group": "hard",
+   "spread_cdr3": 0.1572,
+   "err": 7.644,
+   "err_mean": 7.666,
+   "err_oracle": 7.542,
+   "cdr3_len": 15
+  },
+  {
+   "tid": "9G3EC",
+   "group": "easy",
+   "spread_cdr3": 0.0642,
+   "err": 0.799,
+   "err_mean": 0.788,
+   "err_oracle": 0.678,
+   "cdr3_len": 8
+  },
+  {
+   "tid": "9GV4A",
+   "group": "easy",
+   "spread_cdr3": 0.1592,
+   "err": 0.888,
+   "err_mean": 0.802,
+   "err_oracle": 0.426,
+   "cdr3_len": 9
+  },
+  {
+   "tid": "9HO4C",
+   "group": "hard",
+   "spread_cdr3": 0.3965,
+   "err": 10.893,
+   "err_mean": 10.986,
+   "err_oracle": 10.867,
+   "cdr3_len": 14
+  },
+  {
+   "tid": "9HURB",
+   "group": "easy",
+   "spread_cdr3": 0.0723,
+   "err": 1.398,
+   "err_mean": 1.424,
+   "err_oracle": 1.363,
+   "cdr3_len": 18
+  },
+  {
+   "tid": "9LR1C",
+   "group": "hard",
+   "spread_cdr3": 0.4943,
+   "err": 7.769,
+   "err_mean": 7.372,
+   "err_oracle": 6.642,
+   "cdr3_len": 24
+  },
+  {
+   "tid": "9MTEB",
+   "group": "easy",
+   "spread_cdr3": 0.6056,
+   "err": 1.682,
+   "err_mean": 2.545,
+   "err_oracle": 1.682,
+   "cdr3_len": 13
+  },
+  {
+   "tid": "9MY8A",
+   "group": "hard",
+   "spread_cdr3": 0.8785,
+   "err": 8.788,
+   "err_mean": 7.617,
+   "err_oracle": 4.081,
+   "cdr3_len": 13
+  },
+  {
+   "tid": "9P6XF",
+   "group": "hard",
+   "spread_cdr3": 0.1797,
+   "err": 11.625,
+   "err_mean": 11.686,
+   "err_oracle": 11.625,
+   "cdr3_len": 15
+  },
+  {
+   "tid": "9Q6NC",
+   "group": "easy",
+   "spread_cdr3": 0.2712,
+   "err": 1.269,
+   "err_mean": 1.758,
+   "err_oracle": 1.269,
+   "cdr3_len": 17
+  },
+  {
+   "tid": "9W3LB",
+   "group": "hard",
+   "spread_cdr3": 0.5512,
+   "err": 13.525,
+   "err_mean": 13.154,
+   "err_oracle": 12.806,
+   "cdr3_len": 15
+  },
+  {
+   "tid": "9Z5QA",
+   "group": "hard",
+   "spread_cdr3": 0.5845,
+   "err": 10.696,
+   "err_mean": 11.173,
+   "err_oracle": 10.696,
+   "cdr3_len": 16
+  }
+ ]
+}

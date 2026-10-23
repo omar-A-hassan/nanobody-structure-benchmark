@@ -1,0 +1,12 @@
+{
+  "url": "https://ml-site.cdn-apple.com/models/simplefold/afesme_dict.json",
+  "resolved_url": "https://ml-site.cdn-apple.com/models/simplefold/afesme_dict.json",
+  "retrieved_utc": "2026-10-17T18:51:22.467880+00:00",
+  "content_type": "application/json",
+  "etag": "\"79e417ba36a1876f0f8f6355ba3e429b-17\"",
+  "bytes": 284342111,
+  "sha256": "b9d0dfc1c89a6b03e6164e41540906e0747bde201dae30a9732c9b393766654f",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 135.08
+}

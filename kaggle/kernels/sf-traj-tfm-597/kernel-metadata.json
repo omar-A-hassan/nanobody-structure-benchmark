@@ -1,0 +1,13 @@
+{
+  "id": "abofela/sf-traj-tfm-597",
+  "title": "sf-traj-tfm-597",
+  "code_file": "sf-traj-tfm-597.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["potatoguy44/sabdab2-nanobodies"]
+}

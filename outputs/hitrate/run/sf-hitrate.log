@@ -1,0 +1,78 @@
+[{"stream_name":"stderr","time":6.486889789,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.4869626369999995,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":7.3457087770000005,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.34575247,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.345758087,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.345762698,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.951433022,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.951467589,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.9514753460000005,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.951478301,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.356856338,"data":"['Tesla T4', 'Tesla T4'] 40 targets, 4 tau arms x 20 samples\n"}
+,{"stream_name":"stdout","time":90.410175685,"data":"fp16 patched\n"}
+,{"stream_name":"stdout","time":145.036514377,"data":"warmed; 40 fastas sharded\n"}
+,{"stream_name":"stdout","time":146.357346929,"data":"scoring helpers ready\n"}
+,{"stream_name":"stdout","time":146.386235221,"data":"=== tau 0.01 ===\n"}
+,{"stream_name":"stdout","time":146.387004934,"data":"  launched gpu0 tau=0.01\n"}
+,{"stream_name":"stdout","time":206.39392289,"data":"  launched gpu1 tau=0.01\n"}
+,{"stream_name":"stderr","time":4926.110433216,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":4926.11050937,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":4926.110515459,"data":"\n"}
+,{"stream_name":"stderr","time":4926.110520059,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":4926.110529991,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4936.40469413,"data":"  hard: n=30 hit@2.0=0.0 best_med=7.599 med_med=8.277 clash=0.0 bad_pep=0.0029\n"}
+,{"stream_name":"stdout","time":4936.613089645,"data":"  easy: n=10 hit@2.0=1.0 best_med=0.977 med_med=1.183 clash=0.0 bad_pep=0.0014\n"}
+,{"stream_name":"stdout","time":4937.735874252,"data":"  arm done in 79.7 min; structures deleted\n"}
+,{"stream_name":"stdout","time":4937.738002444,"data":"=== tau 0.8 ===\n"}
+,{"stream_name":"stdout","time":4937.748543259,"data":"  launched gpu0 tau=0.8\n"}
+,{"stream_name":"stdout","time":4997.753232218,"data":"  launched gpu1 tau=0.8\n"}
+,{"stream_name":"stderr","time":9597.229709272,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":9597.229792804,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":9597.229798235,"data":"\n"}
+,{"stream_name":"stderr","time":9597.229801224,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":9597.229804405,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9607.810567749,"data":"  hard: n=30 hit@2.0=0.033 best_med=4.951 med_med=7.944 clash=0.0 bad_pep=0.0465\n"}
+,{"stream_name":"stdout","time":9608.020451749,"data":"  easy: n=10 hit@2.0=1.0 best_med=1.054 med_med=1.648 clash=0.0 bad_pep=0.044\n"}
+,{"stream_name":"stdout","time":9609.059531764,"data":"  arm done in 77.7 min; structures deleted\n"}
+,{"stream_name":"stdout","time":9609.060576776,"data":"=== tau 1.5 ===\n"}
+,{"stream_name":"stdout","time":9609.061456983,"data":"  launched gpu0 tau=1.5\n"}
+,{"stream_name":"stdout","time":9669.066675027,"data":"  launched gpu1 tau=1.5\n"}
+,{"stream_name":"stderr","time":14229.023754287,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":14229.023972636,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":14229.023985676,"data":"\n"}
+,{"stream_name":"stderr","time":14229.023990704,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":14229.023996436,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":14239.088535447,"data":"  hard: n=30 hit@2.0=0.067 best_med=4.364 med_med=7.946 clash=0.7 bad_pep=0.2357\n"}
+,{"stream_name":"stdout","time":14239.289950682,"data":"  easy: n=10 hit@2.0=0.9 best_med=1.164 med_med=2.378 clash=0.4 bad_pep=0.2289\n"}
+,{"stream_name":"stdout","time":14240.294485132,"data":"  arm done in 77.0 min; structures deleted\n"}
+,{"stream_name":"stdout","time":14240.295401703,"data":"=== tau 0.3 ===\n"}
+,{"stream_name":"stdout","time":14240.29764315,"data":"  launched gpu0 tau=0.3\n"}
+,{"stream_name":"stdout","time":14300.304684261,"data":"  launched gpu1 tau=0.3\n"}
+,{"stream_name":"stderr","time":18829.025618791,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":18829.032380639,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":18829.032395238,"data":"\n"}
+,{"stream_name":"stderr","time":18829.032399378,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":18829.032408093,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":18839.961481821,"data":"  hard: n=30 hit@2.0=0.033 best_med=6.644 med_med=8.141 clash=0.0 bad_pep=0.009\n"}
+,{"stream_name":"stdout","time":18840.173388074,"data":"  easy: n=10 hit@2.0=1.0 best_med=0.779 med_med=1.345 clash=0.0 bad_pep=0.0079\n"}
+,{"stream_name":"stdout","time":18840.995765414,"data":"  arm done in 76.5 min; structures deleted\n"}
+,{"stream_name":"stdout","time":18841.002727636,"data":"\n"}
+,{"stream_name":"stdout","time":18841.00277916,"data":"ALL ARMS COMPLETE 313.9 min\n"}
+,{"stream_name":"stdout","time":18841.033402776,"data":"   tau | hit@2 hard hit@2 easy |  best med  med med |  clash  bad_pep\n"}
+,{"stream_name":"stdout","time":18841.033433226,"data":"  0.01 |        0.0        1.0 |     7.599    8.277 |    0.0   0.0029\n"}
+,{"stream_name":"stdout","time":18841.033437,"data":"   0.8 |      0.033        1.0 |     4.951    7.944 |    0.0   0.0465\n"}
+,{"stream_name":"stdout","time":18841.033439774,"data":"   1.5 |      0.067        0.9 |     4.364    7.946 |    0.7   0.2357\n"}
+,{"stream_name":"stdout","time":18841.033442855,"data":"   0.3 |      0.033        1.0 |     6.644    8.141 |    0.0    0.009\n"}
+,{"stream_name":"stdout","time":18841.033460369,"data":"\n"}
+,{"stream_name":"stdout","time":18841.03346482,"data":"best tau 1.5  hit@2.0 = 0.067 \n"}
+,{"stream_name":"stdout","time":18841.033469616,"data":"-\u003e MODE ABSENT - close all steering work\n"}
+,{"stream_name":"stdout","time":18841.033474202,"data":"control (easy) hit@2.0 at same tau = 0.9   \u003c- if this is also low the metric or sampler is broken, not the prior\n"}
+,{"stream_name":"stderr","time":18844.992031874,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":18844.992066091,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":18845.252053449,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":18845.252081985,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":18845.983814067,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":18846.328626489,"data":"[NbConvertApp] Writing 26123 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":18848.978857954,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":18850.247008098,"data":"[NbConvertApp] Writing 369046 bytes to __results__.html\n"}
+]

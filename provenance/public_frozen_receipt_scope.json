@@ -1,0 +1,13 @@
+{
+  "receipt": "outputs/revision_2026-10-17/overlap_extension/frozen_input_sha256.json",
+  "scope": "Every file in the curated public 16 October tree, frozen targets, public audit script and original three score JSONs",
+  "historical_receipt_reused": false,
+  "numeric_data_modified": false,
+  "excluded_from_old_tree": [
+    "private README.txt",
+    "integrity_manifest.json referencing response documents",
+    "raw ab_split.csv (losslessly gzipped)",
+    "raw igfold_sabdab.zip (exact derived pool and checksum supplied)",
+    "figure binaries (moved to figures/saved)"
+  ]
+}

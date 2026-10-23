@@ -1,0 +1,12 @@
+{
+  "url": "https://zenodo.org/api/records/20083995",
+  "resolved_url": "https://zenodo.org/api/records/20083995",
+  "retrieved_utc": "2026-10-17T18:48:46.556704+00:00",
+  "content_type": "application/json",
+  "etag": "\"6\"",
+  "bytes": 8962,
+  "sha256": "2b8549e73fa09838bad3806053cbd72ae93e0609b48d14c88b85c05dfda1a30e",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 0.28
+}

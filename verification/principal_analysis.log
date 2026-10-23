@@ -1,0 +1,66 @@
+Matplotlib is building the font cache; this may take a moment.
+Scoring and manifest complete; checking sequence redundancy
+Redundancy complete; uncertainty controls
+Drawing benchmark distributions
+{
+  "paired": 588,
+  "redundancy_groups": {
+    "vh90": 572,
+    "vh95": 586,
+    "cdr3_80": 585
+  },
+  "uncertainty": {
+    "trajectory": {
+      "n": 597,
+      "spread_rho": 0.41317880765944653,
+      "spread_rho_ci95": [
+        0.339824550210221,
+        0.48160663357162564
+      ],
+      "length_rho": 0.18994117248321832,
+      "spread_length_rho": 0.3833570865987859,
+      "partial_rank_rho": 0.37535132247235065,
+      "partial_rank_ci95": [
+        0.2999655081840146,
+        0.44616985237729595
+      ]
+    },
+    "seed777_replication": {
+      "n": 597,
+      "spread_rho": 0.4338953400103498,
+      "spread_rho_ci95": [
+        0.3637801012760595,
+        0.5018886898043394
+      ],
+      "length_rho": 0.20606730938738485,
+      "spread_length_rho": 0.39462059548386985,
+      "partial_rank_rho": 0.3921339331391252,
+      "partial_rank_ci95": [
+        0.31965569376154546,
+        0.4592362278288774
+      ]
+    }
+  },
+  "auc": {
+    "hard_n": 24,
+    "easy_n": 12,
+    "spread_auc": 0.7864583333333334,
+    "length_auc": 0.7256944444444444,
+    "spread_ci95": [
+      0.59375,
+      0.9427517361111113
+    ],
+    "length_ci95": [
+      0.5121527777777778,
+      0.9149305555555556
+    ],
+    "auc_difference_ci95": [
+      -0.1858072916666667,
+      0.30729166666666663
+    ]
+  },
+  "nbb2_audit": {
+    "overlap_all597": 136,
+    "overlap_paired588": 134
+  }
+}

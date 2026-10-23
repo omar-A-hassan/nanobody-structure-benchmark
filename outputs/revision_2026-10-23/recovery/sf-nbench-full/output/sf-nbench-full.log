@@ -1,0 +1,76 @@
+[{"stream_name":"stderr","time":6.815294572,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.81534776,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.815352127,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.815354915,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.396309895,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.396339332,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.396344394,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.396348216,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.361758247,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":13.361823475,"data":"[   0.1 min] start   /kaggle/working 19.5GB free\n"}
+,{"stream_name":"stdout","time":87.837014263,"data":"multichain FASTA fix present\n"}
+,{"stream_name":"stdout","time":87.837050503,"data":"[   1.3 min] installed   /kaggle/working 19.5GB free\n"}
+,{"stream_name":"stdout","time":87.85457316,"data":"ESM2-3B will load fp16 (~11GB -\u003e ~5.6GB)\n"}
+,{"stream_name":"stdout","time":87.8545969,"data":"[   1.3 min] patched   /kaggle/working 19.5GB free\n"}
+,{"stream_name":"stdout","time":88.297520013,"data":"597 nanobodies | length median 122 (99-136) | CDR-H3 median 16 (5-26)\n"}
+,{"stream_name":"stdout","time":88.297548549,"data":" method : {'XRAY': 408, 'EM': 189}\n"}
+,{"stream_name":"stdout","time":88.297554468,"data":" holo   : {'True': 575, 'False': 22}\n"}
+,{"stream_name":"stdout","time":88.297559893,"data":" split  : {'train': 449, 'test': 148}\n"}
+,{"stream_name":"stdout","time":88.29756461,"data":"[   1.3 min] targets   /kaggle/working 19.5GB free\n"}
+,{"stream_name":"stdout","time":385.148058406,"data":"checkpoints warm\n"}
+,{"stream_name":"stdout","time":385.148104759,"data":"[   6.3 min] warmed   /kaggle/working 19.5GB free\n"}
+,{"stream_name":"stdout","time":385.19122921,"data":"shard sizes: [299, 298]\n"}
+,{"stream_name":"stdout","time":385.191253266,"data":"launched GPU 0\n"}
+,{"stream_name":"stdout","time":475.22129243,"data":"launched GPU 1\n"}
+,{"stream_name":"stdout","time":7818.848909774,"data":"597/597 predicted in 123.9 min  (12.45s/target incl. stagger)\n"}
+,{"stream_name":"stdout","time":7818.852599894,"data":"[ 130.2 min] folded   /kaggle/working 19.5GB free\n"}
+,{"stream_name":"stderr","time":7821.68387247,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":7821.6839017,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":7821.683907046,"data":"\n"}
+,{"stream_name":"stderr","time":7821.683911507,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":7821.683916847,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7830.265142049,"data":"scored 597 / 597   (unscored 0)\n"}
+,{"stream_name":"stdout","time":7830.265175618,"data":"[ 130.4 min] scored   /kaggle/working 19.5GB free\n"}
+,{"stream_name":"stdout","time":7830.29949215,"data":"wrote per_target_scores.json/.csv  (597 rows, 17 cols)\n"}
+,{"stream_name":"stdout","time":7831.148848657,"data":"freed; 1016.8 GB free in /tmp\n"}
+,{"stream_name":"stdout","time":7831.148876505,"data":"working dir holds only JSON/CSV -- output pull stays small\n"}
+,{"stream_name":"stdout","time":7831.591545039,"data":"chain-aligned (ImmuneBuilder protocol), n=597\n"}
+,{"stream_name":"stdout","time":7831.59158404,"data":"\n"}
+,{"stream_name":"stdout","time":7831.591589804,"data":"region        median     mean            95% CI   | NBB2 (other set)\n"}
+,{"stream_name":"stdout","time":7831.591594247,"data":"cdr1           1.955    2.186    [1.826, 2.066]               | 1.98\n"}
+,{"stream_name":"stdout","time":7831.591597764,"data":"cdr2           1.241    1.509    [1.134, 1.317]               | 1.37\n"}
+,{"stream_name":"stdout","time":7831.591601385,"data":"cdr3           2.942    3.602    [2.774, 3.155]               | 2.89\n"}
+,{"stream_name":"stdout","time":7831.591604804,"data":"framework      0.826    0.989    [0.788, 0.853]               | 0.79\n"}
+,{"stream_name":"stdout","time":7831.591608386,"data":"\n"}
+,{"stream_name":"stdout","time":7831.591613089,"data":"fw-aligned (isolates loop error):\n"}
+,{"stream_name":"stdout","time":7831.591621279,"data":"  cdr1           1.916\n"}
+,{"stream_name":"stdout","time":7831.591623775,"data":"  cdr2           1.056\n"}
+,{"stream_name":"stdout","time":7831.591626012,"data":"  cdr3           3.194\n"}
+,{"stream_name":"stdout","time":7831.591628272,"data":"  framework      0.677\n"}
+,{"stream_name":"stdout","time":7831.59163052,"data":"\n"}
+,{"stream_name":"stdout","time":7831.591632753,"data":"NBB2 = ImmuneBuilder Tab.3, a DIFFERENT test set. Interpretable side by side,\n"}
+,{"stream_name":"stdout","time":7831.59163529,"data":"not a controlled comparison. No delta reported.\n"}
+,{"stream_name":"stdout","time":7831.591637485,"data":"\n"}
+,{"stream_name":"stdout","time":7831.591639557,"data":"stratum               n  cdr3 median            95% CI\n"}
+,{"stream_name":"stdout","time":7831.591641875,"data":"ab_split==test      148        2.953    [2.446, 3.416]\n"}
+,{"stream_name":"stdout","time":7831.591644486,"data":"method==XRAY        408        2.908    [2.656, 3.079]\n"}
+,{"stream_name":"stdout","time":7831.834776308,"data":"method==EM          189        3.132    [2.652, 3.451]\n"}
+,{"stream_name":"stdout","time":7831.834815511,"data":"holo==True          575        2.905    [2.698, 3.132]\n"}
+,{"stream_name":"stdout","time":7831.834821543,"data":"holo==False          22        3.426    [2.974, 4.066]\n"}
+,{"stream_name":"stdout","time":7832.046894995,"data":"cdr3_len 0-13       195        2.414    [2.054, 2.673]\n"}
+,{"stream_name":"stdout","time":7832.046924829,"data":"cdr3_len 14-17      188        3.369    [2.958, 3.824]\n"}
+,{"stream_name":"stdout","time":7832.046929339,"data":"cdr3_len 18-99      214        3.006     [2.78, 3.381]\n"}
+,{"stream_name":"stdout","time":7832.046932948,"data":"\n"}
+,{"stream_name":"stdout","time":7832.046936317,"data":"CDR-H3 error vs CDR-H3 length: spearman 0.19\n"}
+,{"stream_name":"stdout","time":7832.046939816,"data":"[ 130.4 min] done   /kaggle/working 19.5GB free\n"}
+,{"stream_name":"stdout","time":7832.04771122,"data":"\n"}
+,{"stream_name":"stdout","time":7832.047729926,"data":"wrote /kaggle/working/results_vhh.json\n"}
+,{"stream_name":"stderr","time":7835.320460756,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7835.320489383,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7835.562889714,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7835.562915404,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7836.233679994,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7836.544873253,"data":"[NbConvertApp] Writing 32744 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7838.871935196,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7840.010478938,"data":"[NbConvertApp] Writing 390840 bytes to __results__.html\n"}
+]

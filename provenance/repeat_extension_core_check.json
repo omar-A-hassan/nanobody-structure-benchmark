@@ -1,0 +1,11 @@
+{
+  "unchanged_core_files": 1085,
+  "updated_derived_reports": {
+    "verification/source_integrity.json": {
+      "previous_sha256": "9423c82dc64833c4a3f14641278610b2b2d04ce25b9533a87db276575bbd5fe2",
+      "current_sha256": "9b6d13b2e403af223fedc98318c93112618d2ab0dab22194e03f02ee05744c59"
+    }
+  },
+  "reason": "Source inventory regenerated after completed repeat artifacts were added",
+  "primary_data_changed": false
+}

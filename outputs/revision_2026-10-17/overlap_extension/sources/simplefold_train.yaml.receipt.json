@@ -1,0 +1,12 @@
+{
+  "url": "https://raw.githubusercontent.com/apple/ml-simplefold/main/configs/experiment/train.yaml",
+  "resolved_url": "https://raw.githubusercontent.com/apple/ml-simplefold/main/configs/experiment/train.yaml",
+  "retrieved_utc": "2026-10-17T18:49:07.581287+00:00",
+  "content_type": "text/plain; charset=utf-8",
+  "etag": "\"392ac4beee38624b515b7b8e9bc787dbdc3e42ab5ce97d5b8ef094ccab46e722\"",
+  "bytes": 1551,
+  "sha256": "9428da278f73da243ec08b631f1b242cefacb1ad975018aa246aa2ddaf2a9bfe",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 0.36
+}

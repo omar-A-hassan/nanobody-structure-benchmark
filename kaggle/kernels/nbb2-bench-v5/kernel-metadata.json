@@ -1,0 +1,21 @@
+{
+  "id": "potatoguy44/nbb2-bench",
+  "id_no": 130123484,
+  "title": "nbb2-bench",
+  "code_file": "nbb2-bench.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "potatoguy44/sabdab2-nanobodies"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "NvidiaTeslaT4"
+}

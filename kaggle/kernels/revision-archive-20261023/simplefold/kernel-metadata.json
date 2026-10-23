@@ -1,0 +1,23 @@
+{
+  "id": "potatoguy44/simplefold-benchmark-archive-20261023",
+  "id_no": 140276852,
+  "title": "simplefold benchmark archive 20261023",
+  "code_file": "repeat.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "potatoguy44/sabdab2-nanobodies"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machine_shape": "NvidiaTeslaT4"
+}

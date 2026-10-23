@@ -1,0 +1,8 @@
+test_coordinate_checks_reject_tampering_duplicates_and_traversal (test_repeat_validation.RepeatValidationTests.test_coordinate_checks_reject_tampering_duplicates_and_traversal) ... ok
+test_new_numbered_checkpoint_hashes_are_required_when_requested (test_repeat_validation.RepeatValidationTests.test_new_numbered_checkpoint_hashes_are_required_when_requested) ... ok
+test_v1_missing_checkpoint_hashes_is_explicitly_accepted (test_repeat_validation.RepeatValidationTests.test_v1_missing_checkpoint_hashes_is_explicitly_accepted) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.003s
+
+OK

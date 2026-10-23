@@ -1,0 +1,74 @@
+[
+ {
+  "tid": "8EMYL",
+  "nbb2_fw_aligned": {
+   "cdr1": 0.79,
+   "cdr2": 0.8,
+   "cdr3": 3.39,
+   "framework": 0.38
+  },
+  "max_res_dev": 7.07,
+  "atoms": 1729,
+  "seq_offset": 0
+ },
+ {
+  "tid": "9G13A",
+  "nbb2_fw_aligned": {
+   "cdr1": 10.77,
+   "cdr2": 10.18,
+   "cdr3": 21.16,
+   "framework": 19.13
+  },
+  "max_res_dev": 63.89,
+  "atoms": 1840,
+  "seq_offset": 0
+ },
+ {
+  "tid": "7B5GF",
+  "nbb2_fw_aligned": {
+   "cdr1": 2.92,
+   "cdr2": 1.45,
+   "cdr3": 10.21,
+   "framework": 0.66
+  },
+  "max_res_dev": 18.95,
+  "atoms": 1784,
+  "seq_offset": 0
+ },
+ {
+  "tid": "7Z1DFFF",
+  "nbb2_fw_aligned": {
+   "cdr1": 3.78,
+   "cdr2": 0.53,
+   "cdr3": 0.61,
+   "framework": 0.48
+  },
+  "max_res_dev": 6.19,
+  "atoms": 1930,
+  "seq_offset": 0
+ },
+ {
+  "tid": "7TPRD",
+  "nbb2_fw_aligned": {
+   "cdr1": 0.59,
+   "cdr2": 1.19,
+   "cdr3": 2.74,
+   "framework": 0.83
+  },
+  "max_res_dev": 5.65,
+  "atoms": 1857,
+  "seq_offset": 0
+ },
+ {
+  "tid": "7FATB",
+  "nbb2_fw_aligned": {
+   "cdr1": 0.86,
+   "cdr2": 0.38,
+   "cdr3": 1.32,
+   "framework": 0.44
+  },
+  "max_res_dev": 3.05,
+  "atoms": 1897,
+  "seq_offset": 0
+ }
+]

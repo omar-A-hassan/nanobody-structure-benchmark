@@ -1,0 +1,41 @@
+[{"stream_name":"stderr","time":6.720407456,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.720480406,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":7.659469651,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.659501875,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.659509278,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.659512053,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.287263886,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.287301254,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.28731886,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.287323808,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.002061363,"data":"GPU: Tesla T4 (x2)\n"}
+,{"stream_name":"stdout","time":15.267062972,"data":"8EMYL     best CDR-H3 in the benchmark -- what success looks like\n"}
+,{"stream_name":"stdout","time":15.267099555,"data":"9G13A     worst case: whole domain misfolded (also worst framework)\n"}
+,{"stream_name":"stdout","time":15.267106011,"data":"7B5GF     the median nanobody -- representative case\n"}
+,{"stream_name":"stdout","time":15.267110656,"data":"7Z1DFFF   20-residue loop solved to 0.73 A -- hard case done well\n"}
+,{"stream_name":"stdout","time":15.267115642,"data":"7TPRD     framework fine, loop 13 A off -- biggest chain-vs-fw split\n"}
+,{"stream_name":"stdout","time":15.267121106,"data":"7FATB     longest CDR-H3 in the set (26 residues)\n"}
+,{"stream_name":"stdout","time":97.558884104,"data":"fp16 patch applied\n"}
+,{"stream_name":"stdout","time":377.67974449,"data":"6 structures in 280s\n"}
+,{"stream_name":"stderr","time":379.097553335,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":379.097582553,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":379.097588899,"data":"\n"}
+,{"stream_name":"stderr","time":379.097593816,"data":"/usr/local/lib/python3.12/dist-packages/biotite/structure/io/pdbx/convert.py:435: UserWarning: Attribute 'auth_atom_id' not found within 'atom_site' category. The fallback attribute 'label_atom_id' will be used instead\n"}
+,{"stream_name":"stderr","time":379.097599147,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":379.125928882,"data":"8EMYL     cdr3   0.48  fw  0.31   best CDR-H3 in the benchmark -- what success looks like\n"}
+,{"stream_name":"stdout","time":379.125953164,"data":"9G13A     cdr3  21.92  fw 19.09   worst case: whole domain misfolded (also worst framework)\n"}
+,{"stream_name":"stdout","time":379.12596419,"data":"7B5GF     cdr3   2.78  fw  0.56   the median nanobody -- representative case\n"}
+,{"stream_name":"stdout","time":379.125968835,"data":"7Z1DFFF   cdr3   2.16  fw  0.58   20-residue loop solved to 0.73 A -- hard case done well\n"}
+,{"stream_name":"stdout","time":379.126012404,"data":"7TPRD     cdr3  16.30  fw  0.83   framework fine, loop 13 A off -- biggest chain-vs-fw split\n"}
+,{"stream_name":"stdout","time":379.126019846,"data":"7FATB     cdr3   4.53  fw  0.63   longest CDR-H3 in the set (26 residues)\n"}
+,{"stream_name":"stdout","time":379.661901999,"data":"\n"}
+,{"stream_name":"stdout","time":379.661929706,"data":"wrote 13 files; 0.68 MB\n"}
+,{"stream_name":"stderr","time":382.860677394,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":382.86070965,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":383.018809672,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":383.018836626,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":383.637061905,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":383.941677432,"data":"[NbConvertApp] Writing 14790 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":386.316308979,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":387.17140926,"data":"[NbConvertApp] Writing 326043 bytes to __results__.html\n"}
+]

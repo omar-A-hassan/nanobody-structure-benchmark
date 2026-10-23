@@ -1,0 +1,39 @@
+{
+  "manifests": {
+    "swissprot_list.csv": {
+      "rows": 269003,
+      "unique_ids": 269003,
+      "afdb_accessions": 269003,
+      "non_afdb_ids": 0,
+      "sha256": "2daaf33deed592c07c6e5a6debdd20e257643de3ab0a2b1d92bd209f9027c2f6",
+      "sequence_column_present": false
+    },
+    "afesm_list.csv": {
+      "rows": 2036414,
+      "unique_ids": 2036414,
+      "afdb_accessions": 978690,
+      "non_afdb_ids": 1057724,
+      "sha256": "5e0551bb6aa53b9c6bdc4c0563db5a284e33b4c2c3dab5a10d3bb10f9cc614ad",
+      "sequence_column_present": false
+    },
+    "afesme_dict.json": {
+      "clusters": 2036414,
+      "member_occurrences": 8616595,
+      "sha256": "b9d0dfc1c89a6b03e6164e41540906e0747bde201dae30a9732c9b393766654f",
+      "role": "3B extended set; not substituted for the published 100M AFESM representatives"
+    }
+  },
+  "github_tree_sha": "94e2cd704cf7b86ef8e7cb27a1e77154c4e35b34",
+  "repository_tree_truncated": false,
+  "published_experimental_manifest_found_in_checked_tree": false,
+  "benchmark_targets": 597,
+  "targets_with_chain_entity_mapping": 594,
+  "targets_with_uniprot_reference": 8,
+  "targets_with_manifest_accession_match": 6,
+  "limitations": [
+    "No exact full experimental PDB training membership manifest found in the checked official README/tree; configuration references a local manifest.json, not a downloadable membership list.",
+    "The recovered distilled manifests contain identifiers, not sequences. The accession screen is not a global sequence-similarity screen of approximately two million training structures.",
+    "Absence of a benchmark UniProt reference is missing coverage, not a negative match.",
+    "ESM2 sequence pretraining and exact historical checkpoint-specific memberships remain unaudited."
+  ]
+}

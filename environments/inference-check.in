@@ -1,0 +1,5 @@
+# Optional Python 3.13 coordinate/scorer verification; no model inference.
+numpy==2.5.4
+scipy==1.18.1
+biotite==1.8.0
+kaggle==2.2.5

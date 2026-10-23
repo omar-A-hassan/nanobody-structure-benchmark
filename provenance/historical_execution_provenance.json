@@ -1,0 +1,28 @@
+{
+  "scope": "Reconstructed execution plan from retained notebooks; not a historical process trace",
+  "simplefold_notebook": "kaggle/notebooks/legacy/sf-nbench-full.ipynb",
+  "simplefold_notebook_sha256": "eed689af058b0c521c5748f80ad13c9d3875bf0f3f783939a2fd7f16d74a9cad",
+  "simplefold_settings": {
+    "model": "simplefold_100M",
+    "tau": 0.01,
+    "steps": 500,
+    "seed": 12345,
+    "samples": 1,
+    "plddt": false,
+    "worker_stagger_seconds": 90
+  },
+  "simplefold_fork": "https://github.com/omar-A-hassan/ml-simplefold",
+  "simplefold_branch": "fix-multichain-fasta-parsing",
+  "simplefold_historical_commit_and_checkpoint_hash": "not recorded in retained run",
+  "simplefold_sharding": "lexicographically sorted FASTA basenames, alternating workers 0/1",
+  "simplefold_within_worker_order": "actual filesystem enumeration was not logged; reconstructed creation order is not proof of enumeration order",
+  "simplefold_seed_scope": "process-level; do not regenerate selected targets and claim byte parity",
+  "nbb2_notebook": "kaggle/kernels/nbb2-bench/nbb2-bench.ipynb",
+  "nbb2_notebook_sha256": "91855f641263cb904821eb662ca9782dcbe616dd61ff876e75f927166bc8da38",
+  "nbb2_sharding": "original targets_vhh.json order; target index modulo 2",
+  "nbb2_version_and_checkpoint_hash": "not recorded; installation command was unpinned",
+  "nbb2_openmm_version": "8.5.2 (retained log)",
+  "prediction_retention": "both original kernels explicitly deleted predicted coordinates after scoring",
+  "igfold_inference": "Original inference package and execution provenance unavailable in the supplied artifacts",
+  "new_model_inference_performed_by_this_script": false
+}

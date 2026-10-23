@@ -1,0 +1,67 @@
+{
+  "REPORT.md": {
+    "bytes": 8987,
+    "md5": "b28af85d41dee39a6fd3d50ae4c94053",
+    "sha256": "d3e77ba2715690a30066197051b114f8f7e1f1c11066cecaedad26dd0698b9a4"
+  },
+  "changed_atom_diagnosis.csv": {
+    "bytes": 112835,
+    "md5": "e0d14967a096594b0aee10140fc4d693",
+    "sha256": "d03f1ba61001ce48e463afbcb61436d58afbd48b76c5737a3cde88ec050c4cd7"
+  },
+  "exclusions.json": {
+    "bytes": 36567,
+    "md5": "20ea6ac6c775156edcd579914c7d196f",
+    "sha256": "b82bc2b06fd5456973ae5e02d5c2a55a054c31e33ed6e4f3753e9b9d8c130ee0"
+  },
+  "frozen_validation.json": {
+    "bytes": 213163,
+    "md5": "da20721f332ecf6fb1d4b15a01b9c849",
+    "sha256": "f3b19890d7b7c694ebc672ac55b9150ac59d04d5487af1553c05489ef8df5b88"
+  },
+  "occupancy_aware_604.json": {
+    "bytes": 22947806,
+    "md5": "177b6a8eb8e6be5b9d781e6e32f914ef",
+    "sha256": "af0de761886de0cd8c2b4115558143945258edf69092854003261620f2d81a64"
+  },
+  "occupancy_aware_frozen_comparison.json": {
+    "bytes": 473591,
+    "md5": "f5b4d9bcd1339fdbab33ddd05f2e78fd",
+    "sha256": "85b29186acf878d7417aeb765a33c754495e06e663527265124488c4670c2335"
+  },
+  "potentially_affected_model_scores.csv": {
+    "bytes": 29272,
+    "md5": "b71c1d8135428730c0dd95d75b8e09ff",
+    "sha256": "571b69c804d8e75448c5f33e14a59a86aee145496261a960b7e4476161b94f2a"
+  },
+  "reference_policy_displacements.csv": {
+    "bytes": 85396,
+    "md5": "3e84be6578a0570deb10acfd84fece02",
+    "sha256": "ba4e45085f9cf21e7dd82bf27f531d7c587b75970c98d9bbe566bdf2e19f8084"
+  },
+  "reference_policy_impact.json": {
+    "bytes": 6657,
+    "md5": "33c44e46cc5c51f2fed28193fe96220a",
+    "sha256": "a46b9b36b69a4f8b14da45be3e321e493a43fb01f883b3fba0cad1241ae9076c"
+  },
+  "representatives_604.json": {
+    "bytes": 32014017,
+    "md5": "9739bdf96c6f753281e3c6abfed561d3",
+    "sha256": "04470f369ecb258eb986922f0d11802d42b6bfe426113c8b6dd5234b351e7a83"
+  },
+  "source_manifest.json": {
+    "bytes": 75613,
+    "md5": "97a747a4a3132a1701a65c254c09ca20",
+    "sha256": "97493743e1089addd675bf3be84926ae9cd42bd06b8a6b44ca494230b0f23b2e"
+  },
+  "summary.json": {
+    "bytes": 9775,
+    "md5": "1ce56fdebc8793e0ba8e5c14d7428354",
+    "sha256": "727b0b7533eafe57896d164ab650a402924ff15584c3fe0f0bebe60ac6c24caf"
+  },
+  "targets_reconstructed_597.json": {
+    "bytes": 22779356,
+    "md5": "eccf42937a197fd44d91ecb9f99ebbeb",
+    "sha256": "df749b2cb058d69db180437d025d85f50426064293e4fa7df86871df088d9c02"
+  }
+}

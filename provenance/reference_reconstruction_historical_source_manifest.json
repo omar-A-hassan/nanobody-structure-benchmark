@@ -1,0 +1,2503 @@
+{
+  "inputs": {
+    "data/inputs/targets_vhh.json": {
+      "bytes": 8095865,
+      "md5": "470524556acf29644b4a7c2fdec23c85",
+      "sha256": "310632cc19183377df9e74b07449c0b9d85baee0f6495552b83fabae4c9521db"
+    },
+    "outputs/revision_2026-10-16/sources/README.md": {
+      "bytes": 12013,
+      "md5": "66c537d8876dfa69ecdd4fc4e32aa958",
+      "sha256": "2d0a50eeb0ada3c4c452eb8a8e1a7a81ab63a9cf34f20df135db607ea1632690"
+    },
+    "outputs/revision_2026-10-16/sources/ab_split_sd.csv": {
+      "bytes": 26194578,
+      "md5": "3beacacd37d38e2437f875520c57b920",
+      "sha256": "2e206b2874ca6a3ba292b487e8c8716af155f76ac129d4b228905272485abe99"
+    },
+    "outputs/revision_2026-10-16/sources/ab_split.csv": {
+      "bytes": 140906289,
+      "md5": "cbdfb80c5a222f731c121e2942fe6c3a",
+      "sha256": "f0b0aa6dae7d4e064cd09b843cc426c57368bb0bd7223dc3d910f4efe02596bc"
+    },
+    "src/reconstruct_revision_references.py": {
+      "bytes": 41753,
+      "md5": "710fb30e6ae792b926295b416f3401f3",
+      "sha256": "a8859ad9b956d22e32a763847f652127dded4cb622f2a843a17a8bca1a54607e"
+    },
+    "src/revision_source_metadata.py": {
+      "bytes": 3783,
+      "md5": "0aa7bbb72b97da5b8fea21bab0aef5bc",
+      "sha256": "696f332c1608c3fc97acae389b7fe1415923cecdf308ec0904b38bd471086069"
+    },
+    "outputs/structure/simplefold/metrics/per_target_scores.json": {
+      "bytes": 226368,
+      "md5": "68da2de15e3b41897e4e4d8346e6e4ee",
+      "sha256": "6e96ce73526fa121be991ee990a42b634abc783ec7187f4b3ef850d89e2f2927"
+    },
+    "outputs/structure/igfold/metrics/per_target_scores_igfold.json": {
+      "bytes": 249007,
+      "md5": "91287cf8c6cae3a02d2ef129554d1919",
+      "sha256": "b4b82d3c7d8964b4e1f23aad09ad5feeac035b75afeac35b5c5e7f3fa78dc4ee"
+    },
+    "outputs/structure/nbb2/per_target_scores_nbb2.json": {
+      "bytes": 245320,
+      "md5": "97b25824cecb0822aab4ef465c1c0abd",
+      "sha256": "c93a50dc982eef0b698d2e5dd91bc56e2e58ec38d22f5723690b35134398ea07"
+    },
+    "outputs/revision_2026-10-16/common_lower_risk_subset.csv": {
+      "bytes": 97910,
+      "md5": "8b9fca112e4aa084abbcf7a965feb6ff",
+      "sha256": "666598aaee3fcee2f86b3b0a7f2af80e57c7776eade57a1c0c92138d1a5fff1a"
+    },
+    "outputs/revision_2026-10-16/uncertainty_groups_36.csv": {
+      "bytes": 1742,
+      "md5": "f4c35ae0284bf81d4ad045ea1753cf88",
+      "sha256": "d0cf354d98befab07bf37f1c7a80414c5263ebc7ea65e15f3c9c8b493b87ebdc"
+    },
+    "outputs/revision_2026-10-16/coverage_groups_40.csv": {
+      "bytes": 1011,
+      "md5": "32717df6874bc7ddc2a11c51dd1f6921",
+      "sha256": "c6f15a47e9a74795b1e267d9d3af718dfaa2d06c9a5056f72d59e2913628e0b5"
+    }
+  },
+  "archive": {
+    "url": "https://zenodo.org/records/20083995/files/splits.tar.gz?download=1",
+    "hashes": {
+      "md5": "0dbb4cc499e9eb77f14008b232f2c38c",
+      "sha256": "54e3b9cdae5f5ff57a4210866f87e86686203556eea6a033200ff55c0f81e2b7"
+    },
+    "expected_md5": "0dbb4cc499e9eb77f14008b232f2c38c",
+    "expected_bytes": 876381859
+  },
+  "extracted_members": {
+    "pdb_00009mdz_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009mdz_E_+.cif",
+      "bytes": 136600
+    },
+    "pdb_00007m1h_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007m1h_D_+.cif",
+      "bytes": 345463
+    },
+    "pdb_00007cz0_G_+.cif": {
+      "archive_member": "splits_final/pdb_00007cz0_G_+.cif",
+      "bytes": 70134
+    },
+    "pdb_00008sfz_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008sfz_C_+.cif",
+      "bytes": 131151
+    },
+    "ab_split.csv": {
+      "archive_member": "splits_final/ab_split.csv",
+      "bytes": 140906289
+    },
+    "pdb_00008hr2_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008hr2_B_+.cif",
+      "bytes": 172855
+    },
+    "pdb_00007utg_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007utg_A_+.cif",
+      "bytes": 60262
+    },
+    "pdb_00007q3r_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007q3r_F_+.cif",
+      "bytes": 66447
+    },
+    "pdb_00009j3j_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009j3j_B_+.cif",
+      "bytes": 341982
+    },
+    "pdb_00007n0i_I_+.cif": {
+      "archive_member": "splits_final/pdb_00007n0i_I_+.cif",
+      "bytes": 197360
+    },
+    "pdb_00008tw3_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008tw3_B_+.cif",
+      "bytes": 127612
+    },
+    "pdb_00009rn6_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009rn6_C_+.cif",
+      "bytes": 129205
+    },
+    "pdb_00008xld_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008xld_B_+.cif",
+      "bytes": 63982
+    },
+    "pdb_00007t5f_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007t5f_C_+.cif",
+      "bytes": 62069
+    },
+    "pdb_00008h91_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008h91_D_+.cif",
+      "bytes": 185791
+    },
+    "pdb_00008pyr_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008pyr_D_+.cif",
+      "bytes": 61333
+    },
+    "pdb_00009iaz_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009iaz_C_+.cif",
+      "bytes": 65904
+    },
+    "pdb_00008sos_G_+.cif": {
+      "archive_member": "splits_final/pdb_00008sos_G_+.cif",
+      "bytes": 69133
+    },
+    "pdb_00008z2e_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008z2e_B_+.cif",
+      "bytes": 178432
+    },
+    "pdb_00009fzq_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009fzq_C_+.cif",
+      "bytes": 218341
+    },
+    "pdb_00007a4t_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007a4t_A_+.cif",
+      "bytes": 96753
+    },
+    "pdb_00009hml_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009hml_C_+.cif",
+      "bytes": 67806
+    },
+    "pdb_00007djx_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007djx_A_+.cif",
+      "bytes": 66876
+    },
+    "pdb_00007voa_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007voa_A_+.cif",
+      "bytes": 180720
+    },
+    "pdb_00008y9u_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008y9u_B_+.cif",
+      "bytes": 71866
+    },
+    "pdb_00008zoy_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008zoy_B_+.cif",
+      "bytes": 129800
+    },
+    "pdb_00007l6v_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007l6v_E_+.cif",
+      "bytes": 66489
+    },
+    "pdb_00009ucl_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009ucl_F_+.cif",
+      "bytes": 304904
+    },
+    "pdb_00009hls_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009hls_D_+.cif",
+      "bytes": 411619
+    },
+    "pdb_00009e7p_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009e7p_A_+.cif",
+      "bytes": 227983
+    },
+    "pdb_00009ljj_M_+.cif": {
+      "archive_member": "splits_final/pdb_00009ljj_M_+.cif",
+      "bytes": 340997
+    },
+    "pdb_00008k3k_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008k3k_D_+.cif",
+      "bytes": 178011
+    },
+    "pdb_00009s36_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009s36_B_+.cif",
+      "bytes": 496500
+    },
+    "pdb_00007c8v_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007c8v_A_+.cif",
+      "bytes": 190989
+    },
+    "pdb_00007x7e_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007x7e_B_+.cif",
+      "bytes": 180416
+    },
+    "pdb_00008v9x_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008v9x_A_+.cif",
+      "bytes": 69613
+    },
+    "pdb_00008q93_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008q93_C_+.cif",
+      "bytes": 179575
+    },
+    "pdb_00007xqv_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007xqv_B_+.cif",
+      "bytes": 66659
+    },
+    "pdb_00009emy_I_+.cif": {
+      "archive_member": "splits_final/pdb_00009emy_I_+.cif",
+      "bytes": 66197
+    },
+    "pdb_00009vor_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009vor_E_+.cif",
+      "bytes": 67761
+    },
+    "pdb_00008owv_FFF_+.cif": {
+      "archive_member": "splits_final/pdb_00008owv_FFF_+.cif",
+      "bytes": 190735
+    },
+    "pdb_00008sfv_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008sfv_B_+.cif",
+      "bytes": 128693
+    },
+    "pdb_00008ysh_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008ysh_A_+.cif",
+      "bytes": 178824
+    },
+    "pdb_00008be4_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008be4_A_+.cif",
+      "bytes": 64996
+    },
+    "pdb_00009goe_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009goe_B_+.cif",
+      "bytes": 75316
+    },
+    "pdb_00007ocj_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007ocj_E_+.cif",
+      "bytes": 204867
+    },
+    "pdb_00007kjh_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007kjh_B_+.cif",
+      "bytes": 69870
+    },
+    "pdb_00009uo0_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009uo0_A_+.cif",
+      "bytes": 178625
+    },
+    "pdb_00008xum_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008xum_C_+.cif",
+      "bytes": 60177
+    },
+    "pdb_00008owv_BBB_+.cif": {
+      "archive_member": "splits_final/pdb_00008owv_BBB_+.cif",
+      "bytes": 193506
+    },
+    "pdb_00007p5v_G_+.cif": {
+      "archive_member": "splits_final/pdb_00007p5v_G_+.cif",
+      "bytes": 65741
+    },
+    "pdb_00009mte_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009mte_A_+.cif",
+      "bytes": 59196
+    },
+    "pdb_00008b7w_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008b7w_H_+.cif",
+      "bytes": 75278
+    },
+    "pdb_00007mfv_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007mfv_B_+.cif",
+      "bytes": 65419
+    },
+    "pdb_00009xou_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009xou_E_+.cif",
+      "bytes": 245912
+    },
+    "pdb_00007zkz_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007zkz_B_+.cif",
+      "bytes": 69845
+    },
+    "pdb_00008en2_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008en2_C_+.cif",
+      "bytes": 68093
+    },
+    "pdb_00008en6_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008en6_C_+.cif",
+      "bytes": 235117
+    },
+    "pdb_00007ndf_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007ndf_C_+.cif",
+      "bytes": 190174
+    },
+    "pdb_00008pjp_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008pjp_C_+.cif",
+      "bytes": 157603
+    },
+    "pdb_00008rmk_M_+.cif": {
+      "archive_member": "splits_final/pdb_00008rmk_M_+.cif",
+      "bytes": 70140
+    },
+    "pdb_00008f0k_N_+.cif": {
+      "archive_member": "splits_final/pdb_00008f0k_N_+.cif",
+      "bytes": 255236
+    },
+    "pdb_00007aqy_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007aqy_D_+.cif",
+      "bytes": 247010
+    },
+    "pdb_00007m1h_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007m1h_E_+.cif",
+      "bytes": 345052
+    },
+    "pdb_00008stl_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008stl_B_+.cif",
+      "bytes": 67833
+    },
+    "pdb_00009ias_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009ias_C_+.cif",
+      "bytes": 72588
+    },
+    "pdb_00009hzk_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009hzk_A_+.cif",
+      "bytes": 104959
+    },
+    "pdb_00009hvi_H_+.cif": {
+      "archive_member": "splits_final/pdb_00009hvi_H_+.cif",
+      "bytes": 463450
+    },
+    "pdb_00007wd1_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007wd1_C_+.cif",
+      "bytes": 183139
+    },
+    "pdb_00008s79_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008s79_C_+.cif",
+      "bytes": 69696
+    },
+    "pdb_00007z1e_FFF_+.cif": {
+      "archive_member": "splits_final/pdb_00007z1e_FFF_+.cif",
+      "bytes": 187099
+    },
+    "pdb_00008c9x_I_+.cif": {
+      "archive_member": "splits_final/pdb_00008c9x_I_+.cif",
+      "bytes": 315025
+    },
+    "pdb_00008pnv_L_+.cif": {
+      "archive_member": "splits_final/pdb_00008pnv_L_+.cif",
+      "bytes": 228905
+    },
+    "pdb_00007wki_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007wki_B_+.cif",
+      "bytes": 147303
+    },
+    "pdb_00007e53_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007e53_B_+.cif",
+      "bytes": 130971
+    },
+    "pdb_00009yp2_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009yp2_C_+.cif",
+      "bytes": 65854
+    },
+    "pdb_00008ghr_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008ghr_D_+.cif",
+      "bytes": 495071
+    },
+    "pdb_00007omm_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007omm_D_+.cif",
+      "bytes": 71555
+    },
+    "pdb_00007bc6_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007bc6_B_+.cif",
+      "bytes": 300948
+    },
+    "pdb_00007lzp_G_+.cif": {
+      "archive_member": "splits_final/pdb_00007lzp_G_+.cif",
+      "bytes": 59137
+    },
+    "pdb_00007n9v_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007n9v_F_+.cif",
+      "bytes": 196471
+    },
+    "pdb_00008dtu_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008dtu_A_+.cif",
+      "bytes": 79054
+    },
+    "pdb_00007b2p_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007b2p_D_+.cif",
+      "bytes": 128127
+    },
+    "pdb_00009p6x_H_+.cif": {
+      "archive_member": "splits_final/pdb_00009p6x_H_+.cif",
+      "bytes": 72506
+    },
+    "pdb_00008bf4_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008bf4_B_+.cif",
+      "bytes": 69737
+    },
+    "pdb_00007ri1_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007ri1_B_+.cif",
+      "bytes": 68185
+    },
+    "pdb_00008qz7_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008qz7_D_+.cif",
+      "bytes": 284068
+    },
+    "pdb_00007f5g_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007f5g_B_+.cif",
+      "bytes": 200664
+    },
+    "pdb_00009u5c_H_+.cif": {
+      "archive_member": "splits_final/pdb_00009u5c_H_+.cif",
+      "bytes": 70887
+    },
+    "pdb_00008y9s_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008y9s_D_+.cif",
+      "bytes": 64577
+    },
+    "pdb_00008h64_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008h64_D_+.cif",
+      "bytes": 315970
+    },
+    "pdb_00007lvu_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007lvu_D_+.cif",
+      "bytes": 67312
+    },
+    "pdb_00007f5h_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007f5h_D_+.cif",
+      "bytes": 171424
+    },
+    "pdb_00008v5k_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008v5k_E_+.cif",
+      "bytes": 69589
+    },
+    "pdb_00008p7w_Y_+.cif": {
+      "archive_member": "splits_final/pdb_00008p7w_Y_+.cif",
+      "bytes": 68890
+    },
+    "pdb_00009eru_H_+.cif": {
+      "archive_member": "splits_final/pdb_00009eru_H_+.cif",
+      "bytes": 133482
+    },
+    "pdb_00007d5b_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007d5b_D_+.cif",
+      "bytes": 62673
+    },
+    "pdb_00008hbj_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008hbj_E_+.cif",
+      "bytes": 186298
+    },
+    "pdb_00007ozt_AAA_+.cif": {
+      "archive_member": "splits_final/pdb_00007ozt_AAA_+.cif",
+      "bytes": 282797
+    },
+    "pdb_00009nk9_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009nk9_A_+.cif",
+      "bytes": 67250
+    },
+    "pdb_00008yw9_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008yw9_C_+.cif",
+      "bytes": 190123
+    },
+    "pdb_00009h6v_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009h6v_E_+.cif",
+      "bytes": 193050
+    },
+    "pdb_00008gz6_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008gz6_A_+.cif",
+      "bytes": 69850
+    },
+    "pdb_00009g5z_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009g5z_C_+.cif",
+      "bytes": 131493
+    },
+    "pdb_00008k3l_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008k3l_H_+.cif",
+      "bytes": 145593
+    },
+    "pdb_00007nmu_CCC_+.cif": {
+      "archive_member": "splits_final/pdb_00007nmu_CCC_+.cif",
+      "bytes": 139753
+    },
+    "pdb_00009ezu_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009ezu_B_+.cif",
+      "bytes": 159882
+    },
+    "pdb_00008zer_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008zer_D_+.cif",
+      "bytes": 171684
+    },
+    "pdb_00007dv4_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007dv4_B_+.cif",
+      "bytes": 64180
+    },
+    "pdb_00009hlw_H_+.cif": {
+      "archive_member": "splits_final/pdb_00009hlw_H_+.cif",
+      "bytes": 69823
+    },
+    "pdb_00009ulp_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009ulp_C_+.cif",
+      "bytes": 212210
+    },
+    "pdb_00007d6y_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007d6y_B_+.cif",
+      "bytes": 71087
+    },
+    "pdb_00009upr_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009upr_E_+.cif",
+      "bytes": 66803
+    },
+    "pdb_00007fat_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007fat_B_+.cif",
+      "bytes": 187075
+    },
+    "pdb_00008cxn_F_+.cif": {
+      "archive_member": "splits_final/pdb_00008cxn_F_+.cif",
+      "bytes": 155930
+    },
+    "pdb_00009ryf_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009ryf_C_+.cif",
+      "bytes": 389794
+    },
+    "pdb_00009rn6_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009rn6_B_+.cif",
+      "bytes": 124655
+    },
+    "pdb_00009hkq_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009hkq_F_+.cif",
+      "bytes": 66587
+    },
+    "pdb_00008pih_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008pih_C_+.cif",
+      "bytes": 141447
+    },
+    "pdb_00009iar_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009iar_D_+.cif",
+      "bytes": 749083
+    },
+    "pdb_00007sai_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007sai_C_+.cif",
+      "bytes": 69762
+    },
+    "pdb_00008zrd_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008zrd_C_+.cif",
+      "bytes": 68556
+    },
+    "pdb_00007zmv_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007zmv_F_+.cif",
+      "bytes": 308617
+    },
+    "pdb_00009h1f_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009h1f_B_+.cif",
+      "bytes": 63163
+    },
+    "pdb_00007l6v_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007l6v_D_+.cif",
+      "bytes": 66235
+    },
+    "pdb_00008k33_F_+.cif": {
+      "archive_member": "splits_final/pdb_00008k33_F_+.cif",
+      "bytes": 137284
+    },
+    "pdb_00008elq_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008elq_B_+.cif",
+      "bytes": 172355
+    },
+    "pdb_00008c3l_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008c3l_D_+.cif",
+      "bytes": 99409
+    },
+    "pdb_00007np9_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007np9_C_+.cif",
+      "bytes": 152328
+    },
+    "pdb_00007oaq_FFF_+.cif": {
+      "archive_member": "splits_final/pdb_00007oaq_FFF_+.cif",
+      "bytes": 193167
+    },
+    "pdb_00008hbi_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008hbi_E_+.cif",
+      "bytes": 70472
+    },
+    "pdb_00008opr_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008opr_B_+.cif",
+      "bytes": 400055
+    },
+    "pdb_00009lr1_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009lr1_C_+.cif",
+      "bytes": 70286
+    },
+    "pdb_000021tw_A1_+.cif": {
+      "archive_member": "splits_final/pdb_000021tw_A1_+.cif",
+      "bytes": 63431
+    },
+    "pdb_00008omz_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008omz_D_+.cif",
+      "bytes": 316355
+    },
+    "pdb_00007oao_FFF_+.cif": {
+      "archive_member": "splits_final/pdb_00007oao_FFF_+.cif",
+      "bytes": 183680
+    },
+    "pdb_00009g4g_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009g4g_B_+.cif",
+      "bytes": 140024
+    },
+    "pdb_00008aok_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008aok_B_+.cif",
+      "bytes": 278737
+    },
+    "pdb_00009ezw_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009ezw_D_+.cif",
+      "bytes": 149617
+    },
+    "pdb_00008tnh_J_+.cif": {
+      "archive_member": "splits_final/pdb_00008tnh_J_+.cif",
+      "bytes": 71960
+    },
+    "pdb_00007te8_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007te8_A_+.cif",
+      "bytes": 68477
+    },
+    "pdb_00008heg_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008heg_D_+.cif",
+      "bytes": 188878
+    },
+    "pdb_00009qtn_G_+.cif": {
+      "archive_member": "splits_final/pdb_00009qtn_G_+.cif",
+      "bytes": 362853
+    },
+    "pdb_00008di5_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008di5_H_+.cif",
+      "bytes": 183116
+    },
+    "pdb_00006zwk_C_+.cif": {
+      "archive_member": "splits_final/pdb_00006zwk_C_+.cif",
+      "bytes": 145856
+    },
+    "pdb_00009e76_Q_+.cif": {
+      "archive_member": "splits_final/pdb_00009e76_Q_+.cif",
+      "bytes": 648328
+    },
+    "pdb_00009ea9_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009ea9_F_+.cif",
+      "bytes": 66934
+    },
+    "pdb_00008cdt_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008cdt_A_+.cif",
+      "bytes": 77205
+    },
+    "pdb_00007m1h_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007m1h_F_+.cif",
+      "bytes": 344807
+    },
+    "pdb_00007nqa_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007nqa_D_+.cif",
+      "bytes": 169766
+    },
+    "pdb_00008p8j_Z_+.cif": {
+      "archive_member": "splits_final/pdb_00008p8j_Z_+.cif",
+      "bytes": 68133
+    },
+    "pdb_00006zg3_J_+.cif": {
+      "archive_member": "splits_final/pdb_00006zg3_J_+.cif",
+      "bytes": 245809
+    },
+    "pdb_00009q6n_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009q6n_B_+.cif",
+      "bytes": 406462
+    },
+    "pdb_00008en4_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008en4_C_+.cif",
+      "bytes": 391751
+    },
+    "pdb_00008g77_F_+.cif": {
+      "archive_member": "splits_final/pdb_00008g77_F_+.cif",
+      "bytes": 65117
+    },
+    "pdb_00008weo_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008weo_C_+.cif",
+      "bytes": 168668
+    },
+    "pdb_00008b1a_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008b1a_B_+.cif",
+      "bytes": 69187
+    },
+    "pdb_00009g5k_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009g5k_B_+.cif",
+      "bytes": 68148
+    },
+    "pdb_00009g9m_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009g9m_C_+.cif",
+      "bytes": 293667
+    },
+    "pdb_00009riu_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009riu_A_+.cif",
+      "bytes": 206226
+    },
+    "pdb_00008dam_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008dam_B_+.cif",
+      "bytes": 66935
+    },
+    "pdb_00008g78_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008g78_H_+.cif",
+      "bytes": 65784
+    },
+    "pdb_00008dam_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008dam_C_+.cif",
+      "bytes": 72980
+    },
+    "pdb_00008g0w_G_+.cif": {
+      "archive_member": "splits_final/pdb_00008g0w_G_+.cif",
+      "bytes": 71013
+    },
+    "pdb_00007bnw_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007bnw_B_+.cif",
+      "bytes": 64323
+    },
+    "pdb_00009g13_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009g13_A_+.cif",
+      "bytes": 166729
+    },
+    "pdb_00009h77_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009h77_B_+.cif",
+      "bytes": 104609
+    },
+    "pdb_00007k65_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007k65_B_+.cif",
+      "bytes": 65802
+    },
+    "pdb_00008wyj_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008wyj_D_+.cif",
+      "bytes": 68301
+    },
+    "pdb_00007rg7_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007rg7_A_+.cif",
+      "bytes": 73764
+    },
+    "pdb_00009emy_K_+.cif": {
+      "archive_member": "splits_final/pdb_00009emy_K_+.cif",
+      "bytes": 67462
+    },
+    "pdb_00007epb_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007epb_D_+.cif",
+      "bytes": 65780
+    },
+    "pdb_00009pmt_N_+.cif": {
+      "archive_member": "splits_final/pdb_00009pmt_N_+.cif",
+      "bytes": 66465
+    },
+    "pdb_00009mtx_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009mtx_A_+.cif",
+      "bytes": 59662
+    },
+    "pdb_00009hll_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009hll_C_+.cif",
+      "bytes": 370629
+    },
+    "pdb_00008hbv_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008hbv_B_+.cif",
+      "bytes": 225946
+    },
+    "pdb_00008pih_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008pih_B_+.cif",
+      "bytes": 149575
+    },
+    "pdb_00008qz4_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008qz4_D_+.cif",
+      "bytes": 59818
+    },
+    "pdb_00008tao_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008tao_D_+.cif",
+      "bytes": 67579
+    },
+    "pdb_00009j3n_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009j3n_B_+.cif",
+      "bytes": 342950
+    },
+    "pdb_00007yzw_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007yzw_C_+.cif",
+      "bytes": 70572
+    },
+    "pdb_00008hxr_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008hxr_A_+.cif",
+      "bytes": 84250
+    },
+    "pdb_00007x4i_G_+.cif": {
+      "archive_member": "splits_final/pdb_00007x4i_G_+.cif",
+      "bytes": 175824
+    },
+    "pdb_00008en1_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008en1_D_+.cif",
+      "bytes": 406310
+    },
+    "pdb_00007d4b_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007d4b_B_+.cif",
+      "bytes": 142592
+    },
+    "pdb_00009ena_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009ena_B_+.cif",
+      "bytes": 383044
+    },
+    "pdb_00006zqk_B_+.cif": {
+      "archive_member": "splits_final/pdb_00006zqk_B_+.cif",
+      "bytes": 127921
+    },
+    "pdb_00007fh0_C2_+.cif": {
+      "archive_member": "splits_final/pdb_00007fh0_C2_+.cif",
+      "bytes": 73246
+    },
+    "pdb_00007kn5_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007kn5_F_+.cif",
+      "bytes": 188945
+    },
+    "pdb_00008fif_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008fif_B_+.cif",
+      "bytes": 65288
+    },
+    "pdb_00008q95_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008q95_C_+.cif",
+      "bytes": 167371
+    },
+    "pdb_00007wd2_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007wd2_C_+.cif",
+      "bytes": 186271
+    },
+    "pdb_00009etl_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009etl_D_+.cif",
+      "bytes": 139091
+    },
+    "pdb_00009q9s_e_+.cif": {
+      "archive_member": "splits_final/pdb_00009q9s_e_+.cif",
+      "bytes": 63300
+    },
+    "pdb_00008ew6_V_+.cif": {
+      "archive_member": "splits_final/pdb_00008ew6_V_+.cif",
+      "bytes": 64890
+    },
+    "pdb_00008y4w_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008y4w_B_+.cif",
+      "bytes": 415007
+    },
+    "pdb_00008v62_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008v62_E_+.cif",
+      "bytes": 63512
+    },
+    "pdb_00008av2_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008av2_C_+.cif",
+      "bytes": 76653
+    },
+    "pdb_00007pqq_B2_+.cif": {
+      "archive_member": "splits_final/pdb_00007pqq_B2_+.cif",
+      "bytes": 227363
+    },
+    "pdb_00007qvk_BBB_+.cif": {
+      "archive_member": "splits_final/pdb_00007qvk_BBB_+.cif",
+      "bytes": 127939
+    },
+    "pdb_00008dt8_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008dt8_H_+.cif",
+      "bytes": 72991
+    },
+    "pdb_00008c5h_N_+.cif": {
+      "archive_member": "splits_final/pdb_00008c5h_N_+.cif",
+      "bytes": 132360
+    },
+    "pdb_00009vq6_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009vq6_C_+.cif",
+      "bytes": 70043
+    },
+    "pdb_00008ido_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008ido_C_+.cif",
+      "bytes": 188341
+    },
+    "pdb_00008g0i_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008g0i_D_+.cif",
+      "bytes": 118482
+    },
+    "pdb_00009gcn_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009gcn_C_+.cif",
+      "bytes": 218355
+    },
+    "pdb_00008v8k_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008v8k_A_+.cif",
+      "bytes": 66070
+    },
+    "pdb_00009dvq_G_+.cif": {
+      "archive_member": "splits_final/pdb_00009dvq_G_+.cif",
+      "bytes": 493373
+    },
+    "pdb_00007na9_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007na9_D_+.cif",
+      "bytes": 70948
+    },
+    "pdb_00008h7m_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008h7m_A_+.cif",
+      "bytes": 71679
+    },
+    "pdb_00006z20_D_+.cif": {
+      "archive_member": "splits_final/pdb_00006z20_D_+.cif",
+      "bytes": 239136
+    },
+    "pdb_00007nbb_H_+.cif": {
+      "archive_member": "splits_final/pdb_00007nbb_H_+.cif",
+      "bytes": 204268
+    },
+    "pdb_00006zbv_B_+.cif": {
+      "archive_member": "splits_final/pdb_00006zbv_B_+.cif",
+      "bytes": 131336
+    },
+    "pdb_00009fc2_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009fc2_B_+.cif",
+      "bytes": 202194
+    },
+    "pdb_00007rnn_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007rnn_C_+.cif",
+      "bytes": 270712
+    },
+    "pdb_00007on5_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007on5_A_+.cif",
+      "bytes": 75618
+    },
+    "pdb_00008yj8_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008yj8_C_+.cif",
+      "bytes": 75730
+    },
+    "pdb_00008jva_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008jva_D_+.cif",
+      "bytes": 67407
+    },
+    "pdb_00008ybn_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008ybn_B_+.cif",
+      "bytes": 71753
+    },
+    "pdb_00007t84_G_+.cif": {
+      "archive_member": "splits_final/pdb_00007t84_G_+.cif",
+      "bytes": 67274
+    },
+    "pdb_00009lm6_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009lm6_D_+.cif",
+      "bytes": 65775
+    },
+    "pdb_00008cwv_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008cwv_B_+.cif",
+      "bytes": 171454
+    },
+    "pdb_00009ub6_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009ub6_B_+.cif",
+      "bytes": 71039
+    },
+    "pdb_00009h1j_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009h1j_D_+.cif",
+      "bytes": 93862
+    },
+    "pdb_00008et0_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008et0_C_+.cif",
+      "bytes": 381240
+    },
+    "pdb_00009fww_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009fww_B_+.cif",
+      "bytes": 132102
+    },
+    "pdb_00008yvo_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008yvo_A_+.cif",
+      "bytes": 107566
+    },
+    "pdb_00008irw_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008irw_A_+.cif",
+      "bytes": 65471
+    },
+    "pdb_00009dc3_CJ_+.cif": {
+      "archive_member": "splits_final/pdb_00009dc3_CJ_+.cif",
+      "bytes": 965654
+    },
+    "pdb_00009hur_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009hur_B_+.cif",
+      "bytes": 129635
+    },
+    "pdb_00008uy6_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008uy6_D_+.cif",
+      "bytes": 321462
+    },
+    "pdb_00008qz3_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008qz3_E_+.cif",
+      "bytes": 349765
+    },
+    "pdb_00007whi_G_+.cif": {
+      "archive_member": "splits_final/pdb_00007whi_G_+.cif",
+      "bytes": 68459
+    },
+    "pdb_00009rxi_H_+.cif": {
+      "archive_member": "splits_final/pdb_00009rxi_H_+.cif",
+      "bytes": 271446
+    },
+    "pdb_00008cyc_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008cyc_D_+.cif",
+      "bytes": 73523
+    },
+    "pdb_00007p5w_L_+.cif": {
+      "archive_member": "splits_final/pdb_00007p5w_L_+.cif",
+      "bytes": 70268
+    },
+    "pdb_00008g70_N_+.cif": {
+      "archive_member": "splits_final/pdb_00008g70_N_+.cif",
+      "bytes": 72572
+    },
+    "pdb_00007sla_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007sla_B_+.cif",
+      "bytes": 65362
+    },
+    "pdb_00009e7n_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009e7n_D_+.cif",
+      "bytes": 233229
+    },
+    "pdb_00008q7s_N_+.cif": {
+      "archive_member": "splits_final/pdb_00008q7s_N_+.cif",
+      "bytes": 178744
+    },
+    "pdb_00008cyd_F_+.cif": {
+      "archive_member": "splits_final/pdb_00008cyd_F_+.cif",
+      "bytes": 66741
+    },
+    "pdb_00009nrj_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009nrj_C_+.cif",
+      "bytes": 304038
+    },
+    "pdb_00007a0v_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007a0v_F_+.cif",
+      "bytes": 66480
+    },
+    "pdb_00008s5w_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008s5w_B_+.cif",
+      "bytes": 65049
+    },
+    "pdb_00009gv3_G_+.cif": {
+      "archive_member": "splits_final/pdb_00009gv3_G_+.cif",
+      "bytes": 277080
+    },
+    "pdb_00008fq7_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008fq7_A_+.cif",
+      "bytes": 71536
+    },
+    "pdb_00007om5_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007om5_B_+.cif",
+      "bytes": 66535
+    },
+    "pdb_00008xki_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008xki_D_+.cif",
+      "bytes": 68993
+    },
+    "pdb_00009uoc_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009uoc_D_+.cif",
+      "bytes": 178007
+    },
+    "pdb_00007fau_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007fau_D_+.cif",
+      "bytes": 184832
+    },
+    "pdb_00008yw9_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008yw9_D_+.cif",
+      "bytes": 129860
+    },
+    "pdb_00008s4u_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008s4u_B_+.cif",
+      "bytes": 68157
+    },
+    "pdb_00009egn_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009egn_B_+.cif",
+      "bytes": 169687
+    },
+    "pdb_00009eb9_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009eb9_F_+.cif",
+      "bytes": 66380
+    },
+    "pdb_00007unz_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007unz_A_+.cif",
+      "bytes": 69013
+    },
+    "pdb_00007nx0_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007nx0_E_+.cif",
+      "bytes": 142574
+    },
+    "pdb_00007zau_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007zau_D_+.cif",
+      "bytes": 66716
+    },
+    "pdb_00009kdc_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009kdc_F_+.cif",
+      "bytes": 65836
+    },
+    "pdb_00008en0_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008en0_D_+.cif",
+      "bytes": 227068
+    },
+    "pdb_00008t60_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008t60_B_+.cif",
+      "bytes": 134631
+    },
+    "pdb_00008g74_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008g74_E_+.cif",
+      "bytes": 64668
+    },
+    "pdb_00007jvb_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007jvb_D_+.cif",
+      "bytes": 170724
+    },
+    "pdb_00009cy1_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009cy1_B_+.cif",
+      "bytes": 64361
+    },
+    "pdb_00007f07_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007f07_C_+.cif",
+      "bytes": 66290
+    },
+    "pdb_00007s2r_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007s2r_B_+.cif",
+      "bytes": 211809
+    },
+    "pdb_00007sl9_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007sl9_B_+.cif",
+      "bytes": 67205
+    },
+    "pdb_00007kji_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007kji_A_+.cif",
+      "bytes": 59839
+    },
+    "pdb_00007vfb_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007vfb_B_+.cif",
+      "bytes": 75687
+    },
+    "pdb_00007wn1_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007wn1_C_+.cif",
+      "bytes": 68587
+    },
+    "pdb_00007sal_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007sal_D_+.cif",
+      "bytes": 124732
+    },
+    "pdb_00008vyl_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008vyl_E_+.cif",
+      "bytes": 217188
+    },
+    "pdb_00007anq_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007anq_B_+.cif",
+      "bytes": 70803
+    },
+    "pdb_00007yud_N_+.cif": {
+      "archive_member": "splits_final/pdb_00007yud_N_+.cif",
+      "bytes": 70010
+    },
+    "pdb_00007zk1_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007zk1_C_+.cif",
+      "bytes": 202975
+    },
+    "pdb_00008dp0_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008dp0_B_+.cif",
+      "bytes": 67968
+    },
+    "pdb_00007d2z_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007d2z_A_+.cif",
+      "bytes": 200488
+    },
+    "pdb_00008qz2_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008qz2_C_+.cif",
+      "bytes": 67760
+    },
+    "pdb_00009mvu_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009mvu_D_+.cif",
+      "bytes": 68170
+    },
+    "pdb_00007qia_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007qia_C_+.cif",
+      "bytes": 304000
+    },
+    "pdb_00007yz9_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007yz9_B_+.cif",
+      "bytes": 64394
+    },
+    "pdb_00007xka_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007xka_B_+.cif",
+      "bytes": 65789
+    },
+    "pdb_00007o0s_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007o0s_A_+.cif",
+      "bytes": 138083
+    },
+    "pdb_00009lds_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009lds_C_+.cif",
+      "bytes": 67982
+    },
+    "pdb_00008dlx_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008dlx_H_+.cif",
+      "bytes": 69554
+    },
+    "pdb_00007tgf_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007tgf_B_+.cif",
+      "bytes": 416734
+    },
+    "pdb_00009hls_J_+.cif": {
+      "archive_member": "splits_final/pdb_00009hls_J_+.cif",
+      "bytes": 237254
+    },
+    "pdb_00007r73_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007r73_A_+.cif",
+      "bytes": 132612
+    },
+    "pdb_00008z8v_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008z8v_B_+.cif",
+      "bytes": 61568
+    },
+    "pdb_00009q6n_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009q6n_E_+.cif",
+      "bytes": 402210
+    },
+    "pdb_00008qgz_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008qgz_A_+.cif",
+      "bytes": 127946
+    },
+    "pdb_00007qiv_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007qiv_C_+.cif",
+      "bytes": 74159
+    },
+    "pdb_00007k84_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007k84_B_+.cif",
+      "bytes": 71546
+    },
+    "pdb_00009ba0_N_+.cif": {
+      "archive_member": "splits_final/pdb_00009ba0_N_+.cif",
+      "bytes": 335916
+    },
+    "pdb_00008ya0_V_+.cif": {
+      "archive_member": "splits_final/pdb_00008ya0_V_+.cif",
+      "bytes": 99837
+    },
+    "pdb_00007pqq_B1_+.cif": {
+      "archive_member": "splits_final/pdb_00007pqq_B1_+.cif",
+      "bytes": 8110
+    },
+    "pdb_00009fak_G_+.cif": {
+      "archive_member": "splits_final/pdb_00009fak_G_+.cif",
+      "bytes": 63352
+    },
+    "pdb_00009r19_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009r19_E_+.cif",
+      "bytes": 408491
+    },
+    "pdb_00009q6h_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009q6h_B_+.cif",
+      "bytes": 811720
+    },
+    "pdb_00009e7l_T_+.cif": {
+      "archive_member": "splits_final/pdb_00009e7l_T_+.cif",
+      "bytes": 464448
+    },
+    "pdb_00007l6v_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007l6v_C_+.cif",
+      "bytes": 68279
+    },
+    "pdb_00009fr4_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009fr4_C_+.cif",
+      "bytes": 285787
+    },
+    "pdb_00008sfx_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008sfx_C_+.cif",
+      "bytes": 124688
+    },
+    "pdb_00009r19_H_+.cif": {
+      "archive_member": "splits_final/pdb_00009r19_H_+.cif",
+      "bytes": 404659
+    },
+    "pdb_00008ozb_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008ozb_C_+.cif",
+      "bytes": 102569
+    },
+    "pdb_00008gjr_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008gjr_A_+.cif",
+      "bytes": 234739
+    },
+    "pdb_00009npt_I_+.cif": {
+      "archive_member": "splits_final/pdb_00009npt_I_+.cif",
+      "bytes": 156160
+    },
+    "pdb_00009b71_G_+.cif": {
+      "archive_member": "splits_final/pdb_00009b71_G_+.cif",
+      "bytes": 510961
+    },
+    "pdb_00007x2m_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007x2m_B_+.cif",
+      "bytes": 178265
+    },
+    "pdb_00008hxq_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008hxq_A_+.cif",
+      "bytes": 88485
+    },
+    "pdb_00009g97_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009g97_B_+.cif",
+      "bytes": 287472
+    },
+    "pdb_00008w1v_F_+.cif": {
+      "archive_member": "splits_final/pdb_00008w1v_F_+.cif",
+      "bytes": 63003
+    },
+    "pdb_00009fvb_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009fvb_C_+.cif",
+      "bytes": 514765
+    },
+    "pdb_00009nsd_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009nsd_F_+.cif",
+      "bytes": 238652
+    },
+    "pdb_00009fyq_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009fyq_D_+.cif",
+      "bytes": 133277
+    },
+    "pdb_00007a4d_G_+.cif": {
+      "archive_member": "splits_final/pdb_00007a4d_G_+.cif",
+      "bytes": 83889
+    },
+    "pdb_00008cy7_F_+.cif": {
+      "archive_member": "splits_final/pdb_00008cy7_F_+.cif",
+      "bytes": 145495
+    },
+    "pdb_00008iee_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008iee_D_+.cif",
+      "bytes": 298666
+    },
+    "pdb_00007kkj_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007kkj_A_+.cif",
+      "bytes": 134887
+    },
+    "pdb_00008tw3_Y_+.cif": {
+      "archive_member": "splits_final/pdb_00008tw3_Y_+.cif",
+      "bytes": 127790
+    },
+    "pdb_00008cya_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008cya_D_+.cif",
+      "bytes": 155219
+    },
+    "pdb_00008ybp_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008ybp_B_+.cif",
+      "bytes": 66518
+    },
+    "pdb_00007a48_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007a48_A_+.cif",
+      "bytes": 88900
+    },
+    "pdb_00008q6k_N_+.cif": {
+      "archive_member": "splits_final/pdb_00008q6k_N_+.cif",
+      "bytes": 66751
+    },
+    "pdb_00007nll_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007nll_C_+.cif",
+      "bytes": 180516
+    },
+    "pdb_00007th2_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007th2_D_+.cif",
+      "bytes": 417082
+    },
+    "pdb_00008q94_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008q94_C_+.cif",
+      "bytes": 68700
+    },
+    "pdb_00008bzy_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008bzy_B_+.cif",
+      "bytes": 68351
+    },
+    "pdb_00008be2_N_+.cif": {
+      "archive_member": "splits_final/pdb_00008be2_N_+.cif",
+      "bytes": 66020
+    },
+    "pdb_00008s0l_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008s0l_B_+.cif",
+      "bytes": 71725
+    },
+    "pdb_00009q6n_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009q6n_D_+.cif",
+      "bytes": 401815
+    },
+    "pdb_00007r98_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007r98_F_+.cif",
+      "bytes": 146671
+    },
+    "pdb_00009rit_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009rit_B_+.cif",
+      "bytes": 109974
+    },
+    "pdb_00008pe1_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008pe1_C_+.cif",
+      "bytes": 71013
+    },
+    "pdb_00007kd0_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007kd0_C_+.cif",
+      "bytes": 346057
+    },
+    "pdb_00009g3e_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009g3e_C_+.cif",
+      "bytes": 521269
+    },
+    "pdb_00007p5y_I_+.cif": {
+      "archive_member": "splits_final/pdb_00007p5y_I_+.cif",
+      "bytes": 67665
+    },
+    "pdb_00008owt_AAA_+.cif": {
+      "archive_member": "splits_final/pdb_00008owt_AAA_+.cif",
+      "bytes": 187370
+    },
+    "pdb_00007kbi_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007kbi_C_+.cif",
+      "bytes": 208502
+    },
+    "pdb_00007ooi_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007ooi_B_+.cif",
+      "bytes": 69264
+    },
+    "pdb_00007qia_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007qia_B_+.cif",
+      "bytes": 306709
+    },
+    "pdb_00009en2_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009en2_C_+.cif",
+      "bytes": 65034
+    },
+    "pdb_00007nxx_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007nxx_B_+.cif",
+      "bytes": 144651
+    },
+    "pdb_000010zo_A_+.cif": {
+      "archive_member": "splits_final/pdb_000010zo_A_+.cif",
+      "bytes": 105998
+    },
+    "pdb_00009r0b_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009r0b_C_+.cif",
+      "bytes": 238222
+    },
+    "pdb_00007n9t_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007n9t_E_+.cif",
+      "bytes": 702520
+    },
+    "pdb_00007qha_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007qha_C_+.cif",
+      "bytes": 377590
+    },
+    "pdb_00008v5k_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008v5k_H_+.cif",
+      "bytes": 63391
+    },
+    "pdb_00008en5_G_+.cif": {
+      "archive_member": "splits_final/pdb_00008en5_G_+.cif",
+      "bytes": 400804
+    },
+    "pdb_00008h3x_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008h3x_A_+.cif",
+      "bytes": 75155
+    },
+    "pdb_00007omn_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007omn_C_+.cif",
+      "bytes": 69231
+    },
+    "pdb_00007dst_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007dst_E_+.cif",
+      "bytes": 183538
+    },
+    "pdb_00007p77_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007p77_A_+.cif",
+      "bytes": 65855
+    },
+    "pdb_00008piz_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008piz_B_+.cif",
+      "bytes": 173342
+    },
+    "pdb_00009det_q_+.cif": {
+      "archive_member": "splits_final/pdb_00009det_q_+.cif",
+      "bytes": 137622
+    },
+    "pdb_00009g48_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009g48_C_+.cif",
+      "bytes": 139137
+    },
+    "pdb_00007zqt_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007zqt_F_+.cif",
+      "bytes": 64253
+    },
+    "pdb_00009ei0_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009ei0_F_+.cif",
+      "bytes": 65317
+    },
+    "pdb_00007xld_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007xld_B_+.cif",
+      "bytes": 131596
+    },
+    "pdb_00008ukv_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008ukv_C_+.cif",
+      "bytes": 236808
+    },
+    "pdb_00007saj_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007saj_F_+.cif",
+      "bytes": 129262
+    },
+    "pdb_00008xty_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008xty_A_+.cif",
+      "bytes": 50286
+    },
+    "pdb_00007mfu_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007mfu_C_+.cif",
+      "bytes": 198728
+    },
+    "pdb_00009erw_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009erw_E_+.cif",
+      "bytes": 146244
+    },
+    "pdb_00009w3l_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009w3l_B_+.cif",
+      "bytes": 66364
+    },
+    "pdb_00008yot_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008yot_C_+.cif",
+      "bytes": 64834
+    },
+    "pdb_00008f6v_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008f6v_A_+.cif",
+      "bytes": 238976
+    },
+    "pdb_00008idi_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008idi_A_+.cif",
+      "bytes": 184771
+    },
+    "pdb_00008emz_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008emz_B_+.cif",
+      "bytes": 234105
+    },
+    "pdb_00008be3_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008be3_C_+.cif",
+      "bytes": 60841
+    },
+    "pdb_00009nn9_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009nn9_F_+.cif",
+      "bytes": 67476
+    },
+    "pdb_00007uia_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007uia_B_+.cif",
+      "bytes": 303455
+    },
+    "pdb_00007nft_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007nft_D_+.cif",
+      "bytes": 347950
+    },
+    "pdb_00008cxq_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008cxq_E_+.cif",
+      "bytes": 149486
+    },
+    "pdb_00008rw9_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008rw9_A_+.cif",
+      "bytes": 74368
+    },
+    "pdb_00009z5q_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009z5q_A_+.cif",
+      "bytes": 133899
+    },
+    "pdb_00009ubr_G_+.cif": {
+      "archive_member": "splits_final/pdb_00009ubr_G_+.cif",
+      "bytes": 364506
+    },
+    "pdb_00009jd0_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009jd0_F_+.cif",
+      "bytes": 197817
+    },
+    "pdb_00008elo_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008elo_B_+.cif",
+      "bytes": 166310
+    },
+    "pdb_00008jza_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008jza_A_+.cif",
+      "bytes": 136743
+    },
+    "pdb_00008gz3_N_+.cif": {
+      "archive_member": "splits_final/pdb_00008gz3_N_+.cif",
+      "bytes": 69463
+    },
+    "pdb_00009rsj_N_+.cif": {
+      "archive_member": "splits_final/pdb_00009rsj_N_+.cif",
+      "bytes": 67176
+    },
+    "pdb_00009bia_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009bia_F_+.cif",
+      "bytes": 371296
+    },
+    "pdb_00008cni_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008cni_A_+.cif",
+      "bytes": 146713
+    },
+    "pdb_00007t5f_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007t5f_B_+.cif",
+      "bytes": 63205
+    },
+    "pdb_00009axw_J_+.cif": {
+      "archive_member": "splits_final/pdb_00009axw_J_+.cif",
+      "bytes": 74378
+    },
+    "pdb_00007ar0_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007ar0_B_+.cif",
+      "bytes": 68126
+    },
+    "pdb_00006zrv_B_+.cif": {
+      "archive_member": "splits_final/pdb_00006zrv_B_+.cif",
+      "bytes": 65648
+    },
+    "pdb_00008q78_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008q78_C_+.cif",
+      "bytes": 128340
+    },
+    "pdb_00009xzx_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009xzx_D_+.cif",
+      "bytes": 407130
+    },
+    "pdb_00007my3_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007my3_D_+.cif",
+      "bytes": 67336
+    },
+    "pdb_00009kgk_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009kgk_B_+.cif",
+      "bytes": 69330
+    },
+    "pdb_00008eln_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008eln_H_+.cif",
+      "bytes": 387444
+    },
+    "pdb_00007a5v_O_+.cif": {
+      "archive_member": "splits_final/pdb_00007a5v_O_+.cif",
+      "bytes": 68021
+    },
+    "pdb_00007eow_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007eow_B_+.cif",
+      "bytes": 201158
+    },
+    "pdb_00007aqg_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007aqg_C_+.cif",
+      "bytes": 65277
+    },
+    "pdb_00008dt8_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008dt8_D_+.cif",
+      "bytes": 69979
+    },
+    "README.md": {
+      "archive_member": "splits_final/README.md",
+      "bytes": 12013
+    },
+    "pdb_00007tpr_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007tpr_F_+.cif",
+      "bytes": 1375346
+    },
+    "pdb_00009q6n_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009q6n_C_+.cif",
+      "bytes": 404621
+    },
+    "pdb_00006x07_B_+.cif": {
+      "archive_member": "splits_final/pdb_00006x07_B_+.cif",
+      "bytes": 66439
+    },
+    "pdb_00007nkt_BBB_+.cif": {
+      "archive_member": "splits_final/pdb_00007nkt_BBB_+.cif",
+      "bytes": 191170
+    },
+    "pdb_00007w1s_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007w1s_B_+.cif",
+      "bytes": 166410
+    },
+    "pdb_00008sk5_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008sk5_B_+.cif",
+      "bytes": 198041
+    },
+    "pdb_00009ert_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009ert_B_+.cif",
+      "bytes": 146919
+    },
+    "pdb_00009kdb_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009kdb_E_+.cif",
+      "bytes": 70790
+    },
+    "pdb_00009fxf_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009fxf_A_+.cif",
+      "bytes": 66692
+    },
+    "pdb_00009qzq_N_+.cif": {
+      "archive_member": "splits_final/pdb_00009qzq_N_+.cif",
+      "bytes": 71618
+    },
+    "pdb_00008aom_V_+.cif": {
+      "archive_member": "splits_final/pdb_00008aom_V_+.cif",
+      "bytes": 127738
+    },
+    "pdb_00009eot_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009eot_B_+.cif",
+      "bytes": 282330
+    },
+    "pdb_00007xl0_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007xl0_B_+.cif",
+      "bytes": 65079
+    },
+    "pdb_00006ze1_B_+.cif": {
+      "archive_member": "splits_final/pdb_00006ze1_B_+.cif",
+      "bytes": 173887
+    },
+    "pdb_00009zen_L_+.cif": {
+      "archive_member": "splits_final/pdb_00009zen_L_+.cif",
+      "bytes": 177709
+    },
+    "pdb_00009th6_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009th6_B_+.cif",
+      "bytes": 124780
+    },
+    "pdb_00007r1z_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007r1z_C_+.cif",
+      "bytes": 293664
+    },
+    "pdb_00008uw9_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008uw9_B_+.cif",
+      "bytes": 68651
+    },
+    "pdb_00008elp_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008elp_B_+.cif",
+      "bytes": 170038
+    },
+    "pdb_00007lx5_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007lx5_A_+.cif",
+      "bytes": 176776
+    },
+    "pdb_00008pe2_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008pe2_B_+.cif",
+      "bytes": 65793
+    },
+    "pdb_00009en2_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009en2_B_+.cif",
+      "bytes": 67607
+    },
+    "pdb_00008rwf_G_+.cif": {
+      "archive_member": "splits_final/pdb_00008rwf_G_+.cif",
+      "bytes": 171740
+    },
+    "pdb_00007km5_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007km5_D_+.cif",
+      "bytes": 187594
+    },
+    "pdb_00009s35_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009s35_B_+.cif",
+      "bytes": 68521
+    },
+    "pdb_00008rj7_J_+.cif": {
+      "archive_member": "splits_final/pdb_00008rj7_J_+.cif",
+      "bytes": 191866
+    },
+    "pdb_00007xl1_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007xl1_B_+.cif",
+      "bytes": 71078
+    },
+    "pdb_00008u3s_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008u3s_B_+.cif",
+      "bytes": 73956
+    },
+    "pdb_00007l1v_S_+.cif": {
+      "archive_member": "splits_final/pdb_00007l1v_S_+.cif",
+      "bytes": 59807
+    },
+    "pdb_00008cyb_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008cyb_D_+.cif",
+      "bytes": 151925
+    },
+    "pdb_00009h6v_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009h6v_D_+.cif",
+      "bytes": 190822
+    },
+    "pdb_00009mnz_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009mnz_C_+.cif",
+      "bytes": 126898
+    },
+    "pdb_00009g1y_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009g1y_D_+.cif",
+      "bytes": 203764
+    },
+    "pdb_00007kgj_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007kgj_B_+.cif",
+      "bytes": 194814
+    },
+    "pdb_00008ysf_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008ysf_D_+.cif",
+      "bytes": 64164
+    },
+    "pdb_00007nfq_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007nfq_D_+.cif",
+      "bytes": 483765
+    },
+    "pdb_00007czd_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007czd_A_+.cif",
+      "bytes": 129683
+    },
+    "pdb_00009l1k_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009l1k_A_+.cif",
+      "bytes": 67563
+    },
+    "pdb_00008cy6_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008cy6_D_+.cif",
+      "bytes": 129606
+    },
+    "pdb_00009j3l_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009j3l_C_+.cif",
+      "bytes": 337120
+    },
+    "pdb_00009j7y_H_+.cif": {
+      "archive_member": "splits_final/pdb_00009j7y_H_+.cif",
+      "bytes": 156750
+    },
+    "pdb_00008cds_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008cds_A_+.cif",
+      "bytes": 77888
+    },
+    "pdb_00007kn6_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007kn6_C_+.cif",
+      "bytes": 72447
+    },
+    "pdb_00008t58_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008t58_A_+.cif",
+      "bytes": 68374
+    },
+    "pdb_00007ym8_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007ym8_D_+.cif",
+      "bytes": 64510
+    },
+    "pdb_00007olz_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007olz_B_+.cif",
+      "bytes": 66537
+    },
+    "ab_split_sd.csv": {
+      "archive_member": "splits_final/ab_split_sd.csv",
+      "bytes": 26194578
+    },
+    "pdb_00008bf4_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008bf4_D_+.cif",
+      "bytes": 66629
+    },
+    "pdb_00008ce4_F_+.cif": {
+      "archive_member": "splits_final/pdb_00008ce4_F_+.cif",
+      "bytes": 313931
+    },
+    "pdb_00008cwu_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008cwu_B_+.cif",
+      "bytes": 171049
+    },
+    "pdb_00007r74_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007r74_B_+.cif",
+      "bytes": 63494
+    },
+    "pdb_00009qto_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009qto_F_+.cif",
+      "bytes": 316228
+    },
+    "pdb_00007a29_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007a29_D_+.cif",
+      "bytes": 66422
+    },
+    "pdb_00007omt_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007omt_A_+.cif",
+      "bytes": 77379
+    },
+    "pdb_00007usv_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007usv_D_+.cif",
+      "bytes": 143124
+    },
+    "pdb_00008f8v_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008f8v_A_+.cif",
+      "bytes": 73181
+    },
+    "pdb_00007a4y_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007a4y_C_+.cif",
+      "bytes": 59882
+    },
+    "pdb_00006x04_J_+.cif": {
+      "archive_member": "splits_final/pdb_00006x04_J_+.cif",
+      "bytes": 66141
+    },
+    "pdb_00008ybo_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008ybo_B_+.cif",
+      "bytes": 68946
+    },
+    "pdb_00008wcg_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008wcg_D_+.cif",
+      "bytes": 285435
+    },
+    "pdb_00008jjv_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008jjv_A_+.cif",
+      "bytes": 74785
+    },
+    "pdb_00008hr2_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008hr2_C_+.cif",
+      "bytes": 170119
+    },
+    "pdb_00008gq5_a_+.cif": {
+      "archive_member": "splits_final/pdb_00008gq5_a_+.cif",
+      "bytes": 193193
+    },
+    "pdb_00007fh0_B1_+.cif": {
+      "archive_member": "splits_final/pdb_00007fh0_B1_+.cif",
+      "bytes": 66945
+    },
+    "pdb_00007a50_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007a50_A_+.cif",
+      "bytes": 110495
+    },
+    "pdb_00007rby_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007rby_D_+.cif",
+      "bytes": 174864
+    },
+    "pdb_00009q6h_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009q6h_C_+.cif",
+      "bytes": 807203
+    },
+    "pdb_00008qf4_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008qf4_E_+.cif",
+      "bytes": 263249
+    },
+    "pdb_00009uoi_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009uoi_A_+.cif",
+      "bytes": 66153
+    },
+    "pdb_00008slc_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008slc_C_+.cif",
+      "bytes": 132959
+    },
+    "pdb_00008q7o_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008q7o_A_+.cif",
+      "bytes": 129939
+    },
+    "pdb_00008uo9_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008uo9_B_+.cif",
+      "bytes": 42555
+    },
+    "pdb_00008h5u_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008h5u_B_+.cif",
+      "bytes": 166868
+    },
+    "pdb_00008iiu_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008iiu_A_+.cif",
+      "bytes": 66292
+    },
+    "pdb_00009jrs_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009jrs_A_+.cif",
+      "bytes": 66141
+    },
+    "pdb_00007vnb_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007vnb_A_+.cif",
+      "bytes": 200843
+    },
+    "pdb_00009g7k_G_+.cif": {
+      "archive_member": "splits_final/pdb_00009g7k_G_+.cif",
+      "bytes": 209572
+    },
+    "pdb_00009h76_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009h76_B_+.cif",
+      "bytes": 300076
+    },
+    "pdb_00007q3r_G_+.cif": {
+      "archive_member": "splits_final/pdb_00007q3r_G_+.cif",
+      "bytes": 64639
+    },
+    "pdb_00009q6h_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009q6h_E_+.cif",
+      "bytes": 809848
+    },
+    "pdb_00006z1v_B_+.cif": {
+      "archive_member": "splits_final/pdb_00006z1v_B_+.cif",
+      "bytes": 260562
+    },
+    "pdb_00008sne_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008sne_C_+.cif",
+      "bytes": 69433
+    },
+    "pdb_00009fzc_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009fzc_C_+.cif",
+      "bytes": 332665
+    },
+    "pdb_00007l6v_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007l6v_B_+.cif",
+      "bytes": 65073
+    },
+    "pdb_00009mte_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009mte_B_+.cif",
+      "bytes": 64196
+    },
+    "pdb_00009fm1_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009fm1_F_+.cif",
+      "bytes": 68107
+    },
+    "pdb_00009my8_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009my8_A_+.cif",
+      "bytes": 185556
+    },
+    "pdb_00008tzu_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008tzu_D_+.cif",
+      "bytes": 66653
+    },
+    "pdb_00007b5g_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007b5g_F_+.cif",
+      "bytes": 136343
+    },
+    "pdb_00009g6v_I_+.cif": {
+      "archive_member": "splits_final/pdb_00009g6v_I_+.cif",
+      "bytes": 25557
+    },
+    "pdb_00008omu_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008omu_B_+.cif",
+      "bytes": 71044
+    },
+    "pdb_00009xzx_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009xzx_C_+.cif",
+      "bytes": 396936
+    },
+    "pdb_00007r4i_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007r4i_E_+.cif",
+      "bytes": 70146
+    },
+    "pdb_00008dqu_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008dqu_A_+.cif",
+      "bytes": 70630
+    },
+    "pdb_00009pym_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009pym_B_+.cif",
+      "bytes": 126038
+    },
+    "pdb_00009fzd_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009fzd_B_+.cif",
+      "bytes": 308520
+    },
+    "pdb_00006x05_K_+.cif": {
+      "archive_member": "splits_final/pdb_00006x05_K_+.cif",
+      "bytes": 73841
+    },
+    "pdb_00008emy_L_+.cif": {
+      "archive_member": "splits_final/pdb_00008emy_L_+.cif",
+      "bytes": 231839
+    },
+    "pdb_00007n0r_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007n0r_C_+.cif",
+      "bytes": 289468
+    },
+    "pdb_00009ho4_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009ho4_C_+.cif",
+      "bytes": 129626
+    },
+    "pdb_00009m6o_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009m6o_B_+.cif",
+      "bytes": 189196
+    },
+    "pdb_00007s7r_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007s7r_B_+.cif",
+      "bytes": 63365
+    },
+    "pdb_00009lme_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009lme_C_+.cif",
+      "bytes": 174962
+    },
+    "pdb_00008ee2_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008ee2_H_+.cif",
+      "bytes": 230765
+    },
+    "pdb_00009iqp_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009iqp_B_+.cif",
+      "bytes": 367728
+    },
+    "pdb_00007qbe_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007qbe_F_+.cif",
+      "bytes": 68729
+    },
+    "pdb_00009p6x_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009p6x_F_+.cif",
+      "bytes": 67245
+    },
+    "pdb_00007tpr_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007tpr_D_+.cif",
+      "bytes": 718979
+    },
+    "pdb_00007tjc_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007tjc_B_+.cif",
+      "bytes": 69628
+    },
+    "pdb_00008oww_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008oww_B_+.cif",
+      "bytes": 360159
+    },
+    "pdb_00007ubx_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007ubx_C_+.cif",
+      "bytes": 300133
+    },
+    "pdb_00008oud_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008oud_E_+.cif",
+      "bytes": 70335
+    },
+    "pdb_00007a4d_I_+.cif": {
+      "archive_member": "splits_final/pdb_00007a4d_I_+.cif",
+      "bytes": 104820
+    },
+    "pdb_00007z1a_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007z1a_E_+.cif",
+      "bytes": 184049
+    },
+    "pdb_00009q6h_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009q6h_D_+.cif",
+      "bytes": 807118
+    },
+    "pdb_00007qbg_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007qbg_E_+.cif",
+      "bytes": 68262
+    },
+    "pdb_00009obn_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009obn_F_+.cif",
+      "bytes": 65330
+    },
+    "pdb_00008th4_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008th4_B_+.cif",
+      "bytes": 71808
+    },
+    "pdb_00007l6v_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007l6v_F_+.cif",
+      "bytes": 69809
+    },
+    "pdb_00008h63_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008h63_B_+.cif",
+      "bytes": 317021
+    },
+    "pdb_00008coh_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008coh_A_+.cif",
+      "bytes": 152558
+    },
+    "pdb_00007z1d_FFF_+.cif": {
+      "archive_member": "splits_final/pdb_00007z1d_FFF_+.cif",
+      "bytes": 186264
+    },
+    "pdb_00007z1x_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007z1x_F_+.cif",
+      "bytes": 125881
+    },
+    "pdb_00007oaq_AAA_+.cif": {
+      "archive_member": "splits_final/pdb_00007oaq_AAA_+.cif",
+      "bytes": 188522
+    },
+    "pdb_00008opr_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008opr_C_+.cif",
+      "bytes": 407020
+    },
+    "pdb_00007mjh_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007mjh_F_+.cif",
+      "bytes": 72000
+    },
+    "pdb_00007z1x_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007z1x_E_+.cif",
+      "bytes": 123753
+    },
+    "pdb_00007x2j_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007x2j_B_+.cif",
+      "bytes": 181028
+    },
+    "pdb_00007ngh_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007ngh_D_+.cif",
+      "bytes": 295309
+    },
+    "pdb_00008rtf_J_+.cif": {
+      "archive_member": "splits_final/pdb_00008rtf_J_+.cif",
+      "bytes": 603067
+    },
+    "pdb_00008k4q_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008k4q_B_+.cif",
+      "bytes": 171075
+    },
+    "pdb_00008rrx_K_+.cif": {
+      "archive_member": "splits_final/pdb_00008rrx_K_+.cif",
+      "bytes": 74996
+    },
+    "pdb_00007nvm_N_+.cif": {
+      "archive_member": "splits_final/pdb_00007nvm_N_+.cif",
+      "bytes": 369835
+    },
+    "pdb_00009g2g_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009g2g_C_+.cif",
+      "bytes": 142179
+    },
+    "pdb_00008b8i_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008b8i_A_+.cif",
+      "bytes": 70744
+    },
+    "pdb_00007djy_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007djy_B_+.cif",
+      "bytes": 64650
+    },
+    "pdb_00007lzp_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007lzp_B_+.cif",
+      "bytes": 73683
+    },
+    "pdb_00008h3y_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008h3y_D_+.cif",
+      "bytes": 66671
+    },
+    "pdb_00009ho6_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009ho6_C_+.cif",
+      "bytes": 143799
+    },
+    "pdb_00008jtw_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008jtw_B_+.cif",
+      "bytes": 66245
+    },
+    "pdb_00009uyn_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009uyn_B_+.cif",
+      "bytes": 59859
+    },
+    "pdb_00008tzu_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008tzu_C_+.cif",
+      "bytes": 63965
+    },
+    "pdb_00009hzj_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009hzj_A_+.cif",
+      "bytes": 101332
+    },
+    "pdb_00009ish_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009ish_B_+.cif",
+      "bytes": 130561
+    },
+    "pdb_00007zkz_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007zkz_C_+.cif",
+      "bytes": 64002
+    },
+    "pdb_00009etj_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009etj_D_+.cif",
+      "bytes": 151554
+    },
+    "pdb_00007o06_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007o06_B_+.cif",
+      "bytes": 78286
+    },
+    "pdb_00007mfu_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007mfu_E_+.cif",
+      "bytes": 188824
+    },
+    "pdb_000029on_D_+.cif": {
+      "archive_member": "splits_final/pdb_000029on_D_+.cif",
+      "bytes": 319929
+    },
+    "pdb_00007kn5_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007kn5_D_+.cif",
+      "bytes": 195696
+    },
+    "pdb_00008h5t_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008h5t_B_+.cif",
+      "bytes": 65362
+    },
+    "pdb_00008ybm_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008ybm_B_+.cif",
+      "bytes": 67086
+    },
+    "pdb_00008im1_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008im1_H_+.cif",
+      "bytes": 68661
+    },
+    "pdb_00006zxn_D_+.cif": {
+      "archive_member": "splits_final/pdb_00006zxn_D_+.cif",
+      "bytes": 128429
+    },
+    "pdb_00008en3_D_+.cif": {
+      "archive_member": "splits_final/pdb_00008en3_D_+.cif",
+      "bytes": 399673
+    },
+    "pdb_00008wcg_b_+.cif": {
+      "archive_member": "splits_final/pdb_00008wcg_b_+.cif",
+      "bytes": 179796
+    },
+    "pdb_00007vke_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007vke_B_+.cif",
+      "bytes": 216089
+    },
+    "pdb_00009co8_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009co8_F_+.cif",
+      "bytes": 70801
+    },
+    "pdb_00008im0_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008im0_B_+.cif",
+      "bytes": 64330
+    },
+    "pdb_00007b27_DDD_+.cif": {
+      "archive_member": "splits_final/pdb_00007b27_DDD_+.cif",
+      "bytes": 170696
+    },
+    "pdb_00007q3q_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007q3q_B_+.cif",
+      "bytes": 178815
+    },
+    "pdb_00009uaq_F_+.cif": {
+      "archive_member": "splits_final/pdb_00009uaq_F_+.cif",
+      "bytes": 238893
+    },
+    "pdb_00007o31_X_+.cif": {
+      "archive_member": "splits_final/pdb_00007o31_X_+.cif",
+      "bytes": 67259
+    },
+    "pdb_00009h39_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009h39_C_+.cif",
+      "bytes": 79987
+    },
+    "pdb_00009hq5_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009hq5_B_+.cif",
+      "bytes": 124044
+    },
+    "pdb_00008w90_E_+.cif": {
+      "archive_member": "splits_final/pdb_00008w90_E_+.cif",
+      "bytes": 73988
+    },
+    "pdb_00009gv4_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009gv4_A_+.cif",
+      "bytes": 67682
+    },
+    "pdb_00007ldj_F_+.cif": {
+      "archive_member": "splits_final/pdb_00007ldj_F_+.cif",
+      "bytes": 68749
+    },
+    "pdb_00007my2_H_+.cif": {
+      "archive_member": "splits_final/pdb_00007my2_H_+.cif",
+      "bytes": 67433
+    },
+    "pdb_00009fvc_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009fvc_C_+.cif",
+      "bytes": 515721
+    },
+    "pdb_00009hpa_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009hpa_D_+.cif",
+      "bytes": 428090
+    },
+    "pdb_00009min_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009min_E_+.cif",
+      "bytes": 133345
+    },
+    "pdb_00007y9t_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007y9t_D_+.cif",
+      "bytes": 63664
+    },
+    "pdb_00007r63_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007r63_C_+.cif",
+      "bytes": 67742
+    },
+    "pdb_00009hjk_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009hjk_B_+.cif",
+      "bytes": 71406
+    },
+    "pdb_00008jxs_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008jxs_B_+.cif",
+      "bytes": 64600
+    },
+    "pdb_00008y9t_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008y9t_B_+.cif",
+      "bytes": 69106
+    },
+    "pdb_00007te8_C_+.cif": {
+      "archive_member": "splits_final/pdb_00007te8_C_+.cif",
+      "bytes": 67576
+    },
+    "pdb_00008afe_J_+.cif": {
+      "archive_member": "splits_final/pdb_00008afe_J_+.cif",
+      "bytes": 100589
+    },
+    "pdb_00007vfa_D_+.cif": {
+      "archive_member": "splits_final/pdb_00007vfa_D_+.cif",
+      "bytes": 73144
+    },
+    "pdb_00008q95_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008q95_B_+.cif",
+      "bytes": 171782
+    },
+    "pdb_00008e2n_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008e2n_A_+.cif",
+      "bytes": 70226
+    },
+    "pdb_00008apy_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008apy_C_+.cif",
+      "bytes": 210834
+    },
+    "pdb_00008yvj_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008yvj_A_+.cif",
+      "bytes": 133004
+    },
+    "pdb_00008dtn_C_+.cif": {
+      "archive_member": "splits_final/pdb_00008dtn_C_+.cif",
+      "bytes": 78707
+    },
+    "pdb_00009b0a_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009b0a_B_+.cif",
+      "bytes": 147529
+    },
+    "pdb_00008p8a_Z_+.cif": {
+      "archive_member": "splits_final/pdb_00008p8a_Z_+.cif",
+      "bytes": 67520
+    },
+    "pdb_00008ftt_A_+.cif": {
+      "archive_member": "splits_final/pdb_00008ftt_A_+.cif",
+      "bytes": 75144
+    },
+    "pdb_00009yc3_A_+.cif": {
+      "archive_member": "splits_final/pdb_00009yc3_A_+.cif",
+      "bytes": 122882
+    },
+    "pdb_00007nfr_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007nfr_B_+.cif",
+      "bytes": 141246
+    },
+    "pdb_00008tq1_H_+.cif": {
+      "archive_member": "splits_final/pdb_00008tq1_H_+.cif",
+      "bytes": 32450
+    },
+    "pdb_00009lad_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009lad_B_+.cif",
+      "bytes": 182285
+    },
+    "pdb_00007vpy_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007vpy_A_+.cif",
+      "bytes": 73695
+    },
+    "pdb_00007now_A_+.cif": {
+      "archive_member": "splits_final/pdb_00007now_A_+.cif",
+      "bytes": 171011
+    },
+    "pdb_00007sp8_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007sp8_B_+.cif",
+      "bytes": 73829
+    },
+    "pdb_00009zeo_K_+.cif": {
+      "archive_member": "splits_final/pdb_00009zeo_K_+.cif",
+      "bytes": 178912
+    },
+    "pdb_00007sah_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007sah_B_+.cif",
+      "bytes": 133667
+    },
+    "pdb_00009bdo_C_+.cif": {
+      "archive_member": "splits_final/pdb_00009bdo_C_+.cif",
+      "bytes": 64608
+    },
+    "pdb_00008ybl_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008ybl_B_+.cif",
+      "bytes": 68317
+    },
+    "pdb_00009biu_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009biu_B_+.cif",
+      "bytes": 136290
+    },
+    "pdb_00008xps_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008xps_B_+.cif",
+      "bytes": 307063
+    },
+    "pdb_00007zra_H_+.cif": {
+      "archive_member": "splits_final/pdb_00007zra_H_+.cif",
+      "bytes": 207645
+    },
+    "pdb_00006z6v_G_+.cif": {
+      "archive_member": "splits_final/pdb_00006z6v_G_+.cif",
+      "bytes": 212020
+    },
+    "pdb_00009mw5_E_+.cif": {
+      "archive_member": "splits_final/pdb_00009mw5_E_+.cif",
+      "bytes": 68519
+    },
+    "pdb_00009fzq_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009fzq_B_+.cif",
+      "bytes": 223007
+    },
+    "pdb_00007r20_B_+.cif": {
+      "archive_member": "splits_final/pdb_00007r20_B_+.cif",
+      "bytes": 148227
+    },
+    "pdb_00008rby_B_+.cif": {
+      "archive_member": "splits_final/pdb_00008rby_B_+.cif",
+      "bytes": 191563
+    },
+    "pdb_00009lh2_B_+.cif": {
+      "archive_member": "splits_final/pdb_00009lh2_B_+.cif",
+      "bytes": 179789
+    },
+    "pdb_00007xy4_E_+.cif": {
+      "archive_member": "splits_final/pdb_00007xy4_E_+.cif",
+      "bytes": 65321
+    },
+    "pdb_00009lm5_D_+.cif": {
+      "archive_member": "splits_final/pdb_00009lm5_D_+.cif",
+      "bytes": 68351
+    }
+  }
+}

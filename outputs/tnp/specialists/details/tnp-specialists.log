@@ -1,0 +1,60 @@
+[{"stream_name":"stderr","time":7.584244386,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":7.584332366,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":8.678474012,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.678516942,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.678523342,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.678528702,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.350326081,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.350366251,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.350372841,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.350377761,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.83562427,"data":"597 targets\n"}
+,{"stream_name":"stdout","time":43.164690191,"data":"hmmscan: /usr/bin/hmmscan\n"}
+,{"stream_name":"stdout","time":48.403799906,"data":"anarci -\u003e rc=0 import=ok\n"}
+,{"stream_name":"stderr","time":971.421500299,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":971.421535949,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":971.421564889,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":971.421573329,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":971.421615179,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":971.421671409,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":971.421840239,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":971.421849749,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":971.421854679,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":971.421859119,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":971.421863249,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":971.421867509,"data":"/tmp/ipykernel_16/1003655278.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":971.421871979,"data":"     42 chk=subprocess.run([sys.executable,'-c',probe],capture_output=True,text=True)\n"}
+,{"stream_name":"stderr","time":971.421877109,"data":"     43 if chk.returncode or 'PROBE_OK' not in chk.stdout:\n"}
+,{"stream_name":"stderr","time":971.421882069,"data":"---\u003e 44     raise RuntimeError('NanoBodyBuilder2 end-to-end probe failed:\\n'+(chk.stdout+chk.stderr)[-2500:])\n"}
+,{"stream_name":"stderr","time":971.421887619,"data":"     45 R['openmm_version']=chk.stdout.split('PROBE_OK')[1].strip()\n"}
+,{"stream_name":"stderr","time":971.421909739,"data":"     46 R['probe_atoms']=sum(1 for l in open('/tmp/probe.pdb') if l.startswith('ATOM'))\n"}
+,{"stream_name":"stderr","time":971.421913389,"data":"\n"}
+,{"stream_name":"stderr","time":971.421916369,"data":"RuntimeError: NanoBodyBuilder2 end-to-end probe failed:\n"}
+,{"stream_name":"stderr","time":971.421919519,"data":"Downloading weights for nanobody_model_1...\n"}
+,{"stream_name":"stderr","time":971.421922389,"data":"Downloading weights for nanobody_model_2...\n"}
+,{"stream_name":"stderr","time":971.421925239,"data":"Downloading weights for nanobody_model_3...\n"}
+,{"stream_name":"stderr","time":971.421928259,"data":"Downloading weights for nanobody_model_4...\n"}
+,{"stream_name":"stderr","time":971.421931459,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":971.421934289,"data":"  File \"\u003cstring\u003e\", line 3, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":971.421937439,"data":"  File \"/usr/local/lib/python3.12/dist-packages/ImmuneBuilder/NanoBodyBuilder2.py\", line 117, in predict\n"}
+,{"stream_name":"stderr","time":971.421941029,"data":"    numbered_sequences = number_sequences(sequence_dict, allowed_species=None, scheme = self.scheme)\n"}
+,{"stream_name":"stderr","time":971.421944339,"data":"                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":971.421990089,"data":"  File \"/usr/local/lib/python3.12/dist-packages/ImmuneBuilder/sequence_checks.py\", line 40, in number_sequences\n"}
+,{"stream_name":"stderr","time":971.421992229,"data":"    return {chain: number_single_sequence(seqs[chain], chain, scheme=scheme, allowed_species=allowed_species) for chain in seqs}\n"}
+,{"stream_name":"stderr","time":971.421994499,"data":"                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":971.421996569,"data":"  File \"/usr/local/lib/python3.12/dist-packages/ImmuneBuilder/sequence_checks.py\", line 27, in number_single_sequence\n"}
+,{"stream_name":"stderr","time":971.421998699,"data":"    assert (max(numbers) \u003e 120) and (min(numbers) \u003c 8), f\"Sequence missing too many residues to model correctly. Please give whole sequence:\\n{sequence}\"\n"}
+,{"stream_name":"stderr","time":971.422001909,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":971.422003889,"data":"AssertionError: Sequence missing too many residues to model correctly. Please give whole sequence:\n"}
+,{"stream_name":"stderr","time":971.422005919,"data":"GLVQAGESLRLSCAVPPEVFDIRTVAWYRQVPLGKGRELLSSITPWNKTTYEDSVKDRFTISRDNAKYTVYLQMNDLKPEDTAVYYCAQGWGIASMRYWGQGTQVTVSS\n"}
+,{"stream_name":"stderr","time":971.422007959,"data":"\n"}
+,{"stream_name":"stderr","time":971.422010079,"data":"\n"}
+,{"stream_name":"stderr","time":973.947014157,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":973.947054037,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":974.122170271,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":974.122196491,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":974.76983558,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":975.024642091,"data":"[NbConvertApp] Writing 21128 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":977.528978089,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":978.362584992,"data":"[NbConvertApp] Writing 347726 bytes to __results__.html\n"}
+]

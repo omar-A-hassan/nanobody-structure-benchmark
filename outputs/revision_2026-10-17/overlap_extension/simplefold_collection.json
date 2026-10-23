@@ -1,0 +1,42 @@
+[
+  {
+    "name": "simplefold_README.md",
+    "url": "https://raw.githubusercontent.com/apple/ml-simplefold/main/README.md",
+    "status": "retrieved"
+  },
+  {
+    "name": "simplefold_tree.json",
+    "url": "https://api.github.com/repos/apple/ml-simplefold/git/trees/main?recursive=1",
+    "status": "retrieved"
+  },
+  {
+    "name": "simplefold_paper.html",
+    "url": "https://arxiv.org/html/2509.18480v1",
+    "status": "retrieved"
+  },
+  {
+    "name": "simplefold_pdb_sp_afesme.yaml",
+    "url": "https://raw.githubusercontent.com/apple/ml-simplefold/main/configs/data/pdb_sp_afesme.yaml",
+    "status": "retrieved"
+  },
+  {
+    "name": "simplefold_train.yaml",
+    "url": "https://raw.githubusercontent.com/apple/ml-simplefold/main/configs/experiment/train.yaml",
+    "status": "retrieved"
+  },
+  {
+    "name": "swissprot_list.csv",
+    "url": "https://ml-site.cdn-apple.com/models/simplefold/swissprot_list.csv",
+    "status": "retrieved"
+  },
+  {
+    "name": "afesm_list.csv",
+    "url": "https://ml-site.cdn-apple.com/models/simplefold/afesm_list.csv",
+    "status": "retrieved"
+  },
+  {
+    "name": "afesme_dict.json",
+    "url": "https://ml-site.cdn-apple.com/models/simplefold/afesme_dict.json",
+    "status": "retrieved"
+  }
+]

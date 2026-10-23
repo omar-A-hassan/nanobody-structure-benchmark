@@ -1,0 +1,4 @@
+# Python 3.12; separate from the analysis environment.
+biopython==1.85
+numpy==2.2.6
+

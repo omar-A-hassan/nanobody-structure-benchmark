@@ -1,0 +1,75 @@
+{
+  "run": "nbb2_version1",
+  "primary_replaced": false,
+  "common_targets": 588,
+  "original_only": [],
+  "repeat_only": [],
+  "comparisons": {
+    "chain_cdr1": {
+      "original_median": 1.6219999999999999,
+      "repeat_median": 1.6195,
+      "median_paired_change": -0.0010000000000000009,
+      "median_absolute_change": 0.016000000000000014,
+      "maximum_absolute_change": 0.665,
+      "exact_score_matches": 13
+    },
+    "chain_cdr2": {
+      "original_median": 1.063,
+      "repeat_median": 1.062,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0129999999999999,
+      "maximum_absolute_change": 1.333,
+      "exact_score_matches": 20
+    },
+    "chain_cdr3": {
+      "original_median": 2.4835000000000003,
+      "repeat_median": 2.474,
+      "median_paired_change": -0.0009999999999999454,
+      "median_absolute_change": 0.017999999999999794,
+      "maximum_absolute_change": 1.9669999999999999,
+      "exact_score_matches": 11
+    },
+    "chain_framework": {
+      "original_median": 0.793,
+      "repeat_median": 0.7925,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0040000000000000036,
+      "maximum_absolute_change": 0.32900000000000007,
+      "exact_score_matches": 48
+    },
+    "fw_cdr1": {
+      "original_median": 1.6075,
+      "repeat_median": 1.61,
+      "median_paired_change": -0.0020000000000000018,
+      "median_absolute_change": 0.018000000000000016,
+      "maximum_absolute_change": 0.7799999999999999,
+      "exact_score_matches": 17
+    },
+    "fw_cdr2": {
+      "original_median": 0.9755,
+      "repeat_median": 0.9804999999999999,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.013000000000000012,
+      "maximum_absolute_change": 1.383,
+      "exact_score_matches": 25
+    },
+    "fw_cdr3": {
+      "original_median": 2.7385,
+      "repeat_median": 2.732,
+      "median_paired_change": -0.0019999999999998908,
+      "median_absolute_change": 0.018000000000000016,
+      "maximum_absolute_change": 2.0519999999999996,
+      "exact_score_matches": 14
+    },
+    "fw_framework": {
+      "original_median": 0.6705000000000001,
+      "repeat_median": 0.671,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.0040000000000000036,
+      "maximum_absolute_change": 0.33100000000000007,
+      "exact_score_matches": 46
+    }
+  },
+  "coordinate_scoring_exact_rows": true,
+  "checkpoint_hashes_known": false
+}

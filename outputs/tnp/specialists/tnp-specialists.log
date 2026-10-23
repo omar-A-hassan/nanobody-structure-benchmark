@@ -1,0 +1,67 @@
+[{"stream_name":"stderr","time":8.122333709,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":8.122459971,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":9.252133096,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.252164373,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.252169827,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.252173921,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.008658923,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.008698226,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.008703873,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.008708291,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.874994107,"data":"597 targets\n"}
+,{"stream_name":"stdout","time":44.339486736,"data":"hmmscan: /usr/bin/hmmscan\n"}
+,{"stream_name":"stdout","time":50.041206061,"data":"anarci -\u003e rc=0 import=ok\n"}
+,{"stream_name":"stdout","time":317.556963413,"data":"probe target 10ZOA refused, trying next\n"}
+,{"stream_name":"stdout","time":327.572339774,"data":"probe target 21TWA1\n"}
+,{"stream_name":"stdout","time":327.573792952,"data":"probe OK: openmm 8.5.2, 1713 atoms\n"}
+,{"stream_name":"stdout","time":327.575268112,"data":"installed 5.3 min\n"}
+,{"stream_name":"stdout","time":327.598655441,"data":"TNP helpers loaded\n"}
+,{"stream_name":"stdout","time":1075.159937562,"data":" nbb2 100 12.4 min\n"}
+,{"stream_name":"stdout","time":1964.536305407,"data":" nbb2 200 27.2 min\n"}
+,{"stream_name":"stdout","time":2886.524141177,"data":" nbb2 300 42.6 min\n"}
+,{"stream_name":"stdout","time":3748.625589886,"data":" nbb2 400 56.9 min\n"}
+,{"stream_name":"stdout","time":4672.647519638,"data":" nbb2 500 72.3 min\n"}
+,{"stream_name":"stdout","time":5534.128590113,"data":"NanoBodyBuilder2: 587 built, 10 refused\n"}
+,{"stream_name":"stdout","time":5534.129755776,"data":"nbb2 done 92.0 min\n"}
+,{"stream_name":"stderr","time":5543.820566254,"data":"/usr/local/lib/python3.12/dist-packages/lightning_lite/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":5543.820634509,"data":"  __import__(\"pkg_resources\").declare_namespace(__name__)\n"}
+,{"stream_name":"stderr","time":5543.82064136,"data":"\n"}
+,{"stream_name":"stderr","time":5543.820644922,"data":"/usr/local/lib/python3.12/dist-packages/lightning_lite/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":5543.820649255,"data":"  __import__(\"pkg_resources\").declare_namespace(__name__)\n"}
+,{"stream_name":"stdout","time":5604.250317553,"data":"\n"}
+,{"stream_name":"stdout","time":5604.250355667,"data":"    The code, data, and weights for this work are made available for non-commercial use \n"}
+,{"stream_name":"stdout","time":5604.250362608,"data":"    (including at commercial entities) under the terms of the JHU Academic Software License \n"}
+,{"stream_name":"stdout","time":5604.250368143,"data":"    Agreement. For commercial inquiries, please contact awichma2[at]jhu.edu.\n"}
+,{"stream_name":"stdout","time":5604.250373294,"data":"    License: https://github.com/Graylab/IgFold/blob/main/LICENSE.md\n"}
+,{"stream_name":"stdout","time":5604.250378487,"data":"    \n"}
+,{"stream_name":"stdout","time":5604.250383262,"data":"Loading 4 IgFold models...\n"}
+,{"stream_name":"stdout","time":5604.250387835,"data":"Using device: cpu\n"}
+,{"stream_name":"stdout","time":5604.250392677,"data":"Loading /usr/local/lib/python3.12/dist-packages/igfold/trained_models/IgFold/igfold_1.ckpt...\n"}
+,{"stream_name":"stdout","time":5604.25039776,"data":"IgFold unavailable, continuing with NanoBodyBuilder2 only: UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, \u001b[1mdo those steps only if you trust the source of the checkpoint\u001b[0m. \n"}
+,{"stream_name":"stdout","time":5604.250405519,"data":"\t(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\n"}
+,{"stream_name":"stdout","time":5604.250412305,"data":"\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\n"}
+,{"stream_name":"stdout","time":5604.250417392,"data":"\tWeightsUnpickler error: Unsupported global: GLOBAL transformers.models.bert.configuration_bert.BertConfig was not an allowed global by default. Please use `torch.serialization.add_safe_globals([transformers.models.bert.configuration_bert.BertConfig])` or the `torch.serialization.safe_globals([transformers.models.bert.configuration_bert.BertConfig])` context manager to allowlist this global if you trust this class/function.\n"}
+,{"stream_name":"stdout","time":5604.250423879,"data":"\n"}
+,{"stream_name":"stdout","time":5604.250428657,"data":"Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.\n"}
+,{"stream_name":"stdout","time":5604.251358575,"data":"IgFold: 0 built\n"}
+,{"stream_name":"stdout","time":5604.252631618,"data":"igfold done 93.2 min\n"}
+,{"stream_name":"stderr","time":5604.253775856,"data":"/usr/local/lib/python3.12/dist-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.\n"}
+,{"stream_name":"stderr","time":5604.253795219,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":5604.253799258,"data":"\n"}
+,{"stream_name":"stderr","time":5604.253802801,"data":"/usr/local/lib/python3.12/dist-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.\n"}
+,{"stream_name":"stderr","time":5604.25381701,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5604.615058039,"data":"\n"}
+,{"stream_name":"stdout","time":5604.615085186,"data":"TNP compactness: predicted vs crystal\n"}
+,{"stream_name":"stdout","time":5604.615090517,"data":"  nbb2     n=587  |dcompact| 0.0516  rel 5.5% (p95 26.1%)  amber-band flips 12.4%  kinked/extended flips 12.4%\n"}
+,{"stream_name":"stdout","time":5604.629276716,"data":"done 93.2 min\n"}
+,{"stream_name":"stdout","time":5604.630343207,"data":"\n"}
+,{"stream_name":"stdout","time":5604.630367038,"data":"KILL CRITERION: \u003c10% flag change =\u003e metrics robust, direction closes.\n"}
+,{"stream_name":"stderr","time":5610.838307666,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5610.838347996,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5611.035984125,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5611.036019887,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5611.770077467,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":5612.149638402,"data":"[NbConvertApp] Writing 20623 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":5615.033970099,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5616.101550395,"data":"[NbConvertApp] Writing 348013 bytes to __results__.html\n"}
+]

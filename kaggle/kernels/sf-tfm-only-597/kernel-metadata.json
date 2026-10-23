@@ -1,0 +1,13 @@
+{
+  "id": "abofela/sf-tfm-only-597",
+  "title": "sf-tfm-only-597",
+  "code_file": "tfm_only.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["abofela/trajectory"]
+}

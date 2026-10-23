@@ -1,0 +1,9 @@
+{
+  "structures": 18,
+  "source": "six separately generated visualization examples per model",
+  "original_notebook_kabsch_function_reused": true,
+  "maximum_absolute_difference_from_two_decimal_reports_A": 0.004707644517951692,
+  "synthetic_region_mask_and_rigid_rotation_tests": "PASS",
+  "meaning": "saved-coordinate to regional-score reproduction only; not original full-benchmark prediction recovery",
+  "exact_prepared_7R73_inputs_available": false
+}

@@ -1,0 +1,764 @@
+{
+  "checked_utc": "2026-10-22T22:05:32.370325+00:00",
+  "scope": "Authenticated read-only retrieval of published notebook versions and latest session outputs",
+  "remote_runs_started": 0,
+  "kernels": [
+    {
+      "ref": "potatoguy44/esm-probe",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/esm-probe/output/esm-probe.log",
+          "bytes": 4373,
+          "sha256": "34bb325fba479fa8050d440746958e11eda532920895679300863e3fc38e2cce"
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/esm-probe/output/esm_probe_meta.json",
+          "bytes": 35576,
+          "sha256": "da2fb54e9d2cd6b211fac8fbb1b8abb5b28244d5b9acf80dc10b8a4dde31aa86",
+          "json_type": "list",
+          "records_or_keys": 518
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/esm-probe/output/esm_probe_status.json",
+          "bytes": 141,
+          "sha256": "a3c97c714fef98e85402d75afbdc7e48829a1b05c75e013966cca7eba26fdc46",
+          "json_type": "dict",
+          "records_or_keys": 4
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/esm-probe/source/esm-probe.ipynb",
+          "sha256": "495b7287f504d26909e8d8a5e219d33101dd6bfcfff4b697faa96c29470aedff",
+          "matches_local_code": [
+            "kaggle/kernels/esm-probe/esm-probe.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "esm_probe_embeddings.npz",
+          "size": 864,
+          "creationDate": "5:33 pm, Saturday 15 August 2026 UTC"
+        },
+        {
+          "name": "esm_probe_meta.json",
+          "size": 848,
+          "creationDate": "5:33 pm, Saturday 15 August 2026 UTC"
+        },
+        {
+          "name": "esm_probe_status.json",
+          "size": 853,
+          "creationDate": "5:33 pm, Saturday 15 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/nbb2-bench",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/nbb2-bench/output/nbb2-bench.log",
+          "bytes": 8213,
+          "sha256": "1c0dc0b6780cd65df8fe2a359d2b27f0161388be358c68c3a3c0ce5caa59a903"
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/nbb2-bench/output/per_target_scores_nbb2.csv",
+          "bytes": 63805,
+          "sha256": "1c73c2d6ffa674968578e7c1ec3a09e9dab2c8b7d9bf2e3f04561aac7c091aac"
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/nbb2-bench/output/per_target_scores_nbb2.json",
+          "bytes": 245320,
+          "sha256": "c93a50dc982eef0b698d2e5dd91bc56e2e58ec38d22f5723690b35134398ea07",
+          "json_type": "list",
+          "records_or_keys": 588
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/nbb2-bench/output/results_nbb2.json",
+          "bytes": 310159,
+          "sha256": "8e64e5f78a4b6e187db72a1773536cf25f787c4cecaf463351cac8d1de7571d3",
+          "json_type": "dict",
+          "records_or_keys": 21
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/nbb2-bench/source/nbb2-bench.ipynb",
+          "sha256": "4cf523ea9d29f8dbe8c073d556e93a96c61271868eb3cefd77c86bb2a4ec0652",
+          "matches_local_code": [
+            "kaggle/kernels/nbb2-bench/nbb2-bench.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "per_target_scores_nbb2.csv",
+          "size": 868,
+          "creationDate": "7:32 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "per_target_scores_nbb2.json",
+          "size": 872,
+          "creationDate": "7:32 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "results_nbb2.json",
+          "size": 842,
+          "creationDate": "7:32 pm, Saturday 8 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/nbb2-bench-v5",
+      "files": [],
+      "errors": [
+        {
+          "type": "HTTPError",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/nbb2-viz",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/nbb2-viz/output/nbb2-viz.log",
+          "bytes": 3965,
+          "sha256": "a8422211f37a54a8418adcc4f8c472af27ea8013ab4013da4279a7ab6f01e0c2"
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/nbb2-viz/source/nbb2-viz.ipynb",
+          "sha256": "cde97b71d7d1c4d34e20407104f7badb66d46f3677f2026235a8efbe8351d240",
+          "matches_local_code": [
+            "kaggle/kernels/nbb2-viz/nbb2-viz.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "7B5GF_nbb2.pdb",
+          "size": 864,
+          "creationDate": "8:32 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7FATB_nbb2.pdb",
+          "size": 864,
+          "creationDate": "8:32 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7TPRD_nbb2.pdb",
+          "size": 864,
+          "creationDate": "8:32 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7Z1DFFF_nbb2.pdb",
+          "size": 870,
+          "creationDate": "8:32 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "8EMYL_nbb2.pdb",
+          "size": 864,
+          "creationDate": "8:32 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "9G13A_nbb2.pdb",
+          "size": 864,
+          "creationDate": "8:32 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "nbb2_viz_report.json",
+          "size": 882,
+          "creationDate": "8:32 pm, Saturday 8 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-ensemble",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-ensemble/output/ensemble_results.json",
+          "bytes": 7495,
+          "sha256": "cc04309d35ba9b7db4a57a620df45fedda891816c2b96853172a8b253b4d0db1",
+          "json_type": "dict",
+          "records_or_keys": 11
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-ensemble/output/sf-ensemble.log",
+          "bytes": 8011,
+          "sha256": "b032c1e0a525230562d27bda939ed689f74fb3fafdaa11f7659d1117c193c4ec"
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-ensemble/source/sf-ensemble.ipynb",
+          "sha256": "45a655ad1aea39435bed516949076b7a6257a012b3dae256f8e64a2b82fdffe2",
+          "matches_local_code": [
+            "kaggle/kernels/sf-ensemble/sf-ensemble.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "ensemble_results.json",
+          "size": 853,
+          "creationDate": "11:15 pm, Saturday 8 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-hard",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-hard/output/hard_results.json",
+          "bytes": 5803,
+          "sha256": "01b82f55bb42795b35a25c16ae6c5b0200c1e6d670555e3d857d98dc4aaac310",
+          "json_type": "dict",
+          "records_or_keys": 7
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-hard/output/sf-hard.log",
+          "bytes": 4712,
+          "sha256": "20402e0e5ce3530bf19c295a061818602b29a841580005931887c39bca0f557e"
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-hard/source/sf-hard.ipynb",
+          "sha256": "bebcd77ab0882fae53e781c69a19b9300556b39a44d12121d0837c530c10aba3",
+          "matches_local_code": [
+            "kaggle/kernels/sf-hard/sf-hard.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "hard_results.json",
+          "size": 841,
+          "creationDate": "1:21 am, Sunday 9 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-hitrate",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-hitrate/output/hitrate_results.json",
+          "bytes": 89371,
+          "sha256": "ea5405027a369543686bbbf2b8e08e235d4d8bc62fb21c6343874fc2cb01daa2",
+          "json_type": "dict",
+          "records_or_keys": 13
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-hitrate/output/sf-hitrate.log",
+          "bytes": 9809,
+          "sha256": "f2b736f06b48299d52c9b0de2bfded522b761f8569bbd519ee930b3e69859184"
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-hitrate/source/sf-hitrate.ipynb",
+          "sha256": "79a94d123d363784d2faaa72e7c959a9ddfcab5c6677c54d8a4ef061d489825b",
+          "matches_local_code": [
+            "kaggle/kernels/sf-hitrate/sf-hitrate.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "hitrate_results.json",
+          "size": 851,
+          "creationDate": "5:41 pm, Wednesday 12 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-nbench",
+      "files": [],
+      "errors": [
+        {
+          "type": "HTTPError",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-nbench-full",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-nbench-full/output/per_target_scores.csv",
+          "bytes": 61156,
+          "sha256": "e2d76449dccdbd8095ffb0b2a9737b362d7275008bb1b317bb034659f3bbfa66"
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-nbench-full/output/per_target_scores.json",
+          "bytes": 226368,
+          "sha256": "6e96ce73526fa121be991ee990a42b634abc783ec7187f4b3ef850d89e2f2927",
+          "json_type": "list",
+          "records_or_keys": 597
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-nbench-full/output/results_vhh.json",
+          "bytes": 286097,
+          "sha256": "19002f33c17d30b4c42898d2b91a9e22160835e9e9b58a4ab1ac5c9adcf577f8",
+          "json_type": "dict",
+          "records_or_keys": 19
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-nbench-full/output/sf-nbench-full.log",
+          "bytes": 8256,
+          "sha256": "f67af8faf5ce056b68d7c2001103a53d73aafd06767659db38b965d289cd2258"
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-nbench-full/source/sf-nbench-full.ipynb",
+          "sha256": "ba11ca0a6411e8b37ff941500fafccbaaaeef20c1a7482b9da728b30206ef88c",
+          "matches_local_code": []
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "per_target_scores.csv",
+          "size": 874,
+          "creationDate": "1:57 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "per_target_scores.json",
+          "size": 878,
+          "creationDate": "1:57 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "results_vhh.json",
+          "size": 860,
+          "creationDate": "1:57 pm, Saturday 8 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-tfm-only-597",
+      "files": [],
+      "errors": [
+        {
+          "type": "HTTPError",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-traj",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-traj/output/sf-traj.log",
+          "bytes": 4853,
+          "sha256": "b77b8a7c9bb5346e8af8e7ac0547d6baf44444e9cf2e725978c10b5f1f30b674"
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-traj/output/traj_results.json",
+          "bytes": 32996,
+          "sha256": "c6b4ccc5662a45915b4491d78ceba408496ba8d108c8f416460aa3653a9ae005",
+          "json_type": "dict",
+          "records_or_keys": 10
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-traj/source/sf-traj.ipynb",
+          "sha256": "726bd7d76f08e6554bb68a41cc3b44342a022f33d7fab65727d56ad8ec3f7790",
+          "matches_local_code": [
+            "kaggle/kernels/sf-traj/sf-traj.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "traj_results.json",
+          "size": 842,
+          "creationDate": "12:31 am, Sunday 9 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-traj-tfm-597",
+      "files": [],
+      "errors": [
+        {
+          "type": "HTTPError",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-traj2",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-traj2/output/sf-traj2.log",
+          "bytes": 5016,
+          "sha256": "209c6ebf4efac5da65f6e025aa430c256951868c6825af0d9d10dd7f309aee32"
+        },
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-traj2/output/traj_results.json",
+          "bytes": 42168,
+          "sha256": "910a1e2d9c2013bd74f911051d76beaf9038120c7e1909468f3090405948e5db",
+          "json_type": "dict",
+          "records_or_keys": 11
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-traj2/source/sf-traj2.ipynb",
+          "sha256": "e5c39a8523a3d5e8e5a546808ef630e1717d658f13ad9e3284d706f7a10eb65a",
+          "matches_local_code": [
+            "kaggle/kernels/sf-traj2/sf-traj2.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "6X07B.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "6Z6VG.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7D2ZA.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7JVBD.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7M1HE.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7NX0E.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7P5VG.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7Q3QB.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7QIAB.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7R4IE.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7R63C.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7SALD.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7UIAB.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7VPYA.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7XKAB.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7YZ9B.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "7ZAUD.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8AOMV.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8B8IA.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8BF4B.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8EE2H.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8FTTA.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8HXRA.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8OPRB.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8PE1C.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8Q93C.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8QZ7D.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8RTFJ.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8S4UB.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8UW9B.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8V62E.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8WCGb.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "8YBOB.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9E76Q.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9EN2B.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9FR4C.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9H6VE.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9HKQF.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9HZJA.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9HZKA.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9J7YH.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9JRSA.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9LM5D.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9NSDF.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9P6XH.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9QTOF.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9RN6B.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "9RYFC.npy",
+          "size": 835,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        },
+        {
+          "name": "traj_results.json",
+          "size": 842,
+          "creationDate": "1:13 am, Sunday 9 August 2026 UTC"
+        }
+      ]
+    },
+    {
+      "ref": "potatoguy44/sf-viz",
+      "files": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-viz/output/sf-viz.log",
+          "bytes": 5332,
+          "sha256": "da5dca8dd77777268dda652e4632fc62d89dedfc27dc050d8c86e31c2224a1eb"
+        }
+      ],
+      "errors": [],
+      "notebooks": [
+        {
+          "path": "outputs/revision_2026-10-23/recovery/sf-viz/source/sf-viz.ipynb",
+          "sha256": "c11fa77466522d033c48c0a902e35e11ae838639c95d4d5d8264c574f5bd5168",
+          "matches_local_code": [
+            "kaggle/kernels/sf-viz/sf-viz.ipynb"
+          ]
+        }
+      ],
+      "remote_file_list": [
+        {
+          "name": "7B5GF_pred.pdb",
+          "size": 854,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7B5GF_ref.pdb",
+          "size": 851,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7FATB_pred.pdb",
+          "size": 854,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7FATB_ref.pdb",
+          "size": 851,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7TPRD_pred.pdb",
+          "size": 854,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7TPRD_ref.pdb",
+          "size": 851,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7Z1DFFF_pred.pdb",
+          "size": 860,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "7Z1DFFF_ref.pdb",
+          "size": 857,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "8EMYL_pred.pdb",
+          "size": 854,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "8EMYL_ref.pdb",
+          "size": 851,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "9G13A_pred.pdb",
+          "size": 854,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "9G13A_ref.pdb",
+          "size": 851,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        },
+        {
+          "name": "viz_report.json",
+          "size": 857,
+          "creationDate": "6:49 pm, Saturday 8 August 2026 UTC"
+        }
+      ]
+    }
+  ],
+  "downloaded_files": 23,
+  "coordinate_files": []
+}

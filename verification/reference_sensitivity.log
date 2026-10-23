@@ -1,0 +1,50 @@
+{
+  "original_paired_588": {
+    "n": 588,
+    "chain_h3_medians": {
+      "SimpleFold": "2.944",
+      "IgFold": "2.885",
+      "NanoBodyBuilder2": "2.484"
+    }
+  },
+  "previous_lower_identified_risk_398": {
+    "n": 398,
+    "chain_h3_medians": {
+      "SimpleFold": "2.972",
+      "IgFold": "3.028",
+      "NanoBodyBuilder2": "3.063"
+    }
+  },
+  "expanded_lower_identified_risk": {
+    "n": 393,
+    "chain_h3_medians": {
+      "SimpleFold": "2.956",
+      "IgFold": "3.029",
+      "NanoBodyBuilder2": "3.068"
+    }
+  },
+  "original_paired_588_without_altloc_policy_changes": {
+    "n": 480,
+    "chain_h3_medians": {
+      "SimpleFold": "2.910",
+      "IgFold": "2.864",
+      "NanoBodyBuilder2": "2.440"
+    }
+  },
+  "previous_lower_identified_risk_398_without_altloc_policy_changes": {
+    "n": 323,
+    "chain_h3_medians": {
+      "SimpleFold": "2.916",
+      "IgFold": "2.977",
+      "NanoBodyBuilder2": "3.047"
+    }
+  },
+  "expanded_lower_identified_risk_without_altloc_policy_changes": {
+    "n": 319,
+    "chain_h3_medians": {
+      "SimpleFold": "2.905",
+      "IgFold": "2.979",
+      "NanoBodyBuilder2": "3.053"
+    }
+  }
+}

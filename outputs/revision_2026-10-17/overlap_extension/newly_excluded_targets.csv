@@ -1,0 +1,6 @@
+tid,no_known_training_pdb,old_max_vhh_identity,old_max_cdr3_identity,extended_max_vhh_identity,extended_max_cdr3_identity,same_matched_atom_count,old_pass_before_clustering,extended_pass_before_clustering,extension_vhh_threshold_sources,extension_cdr3_threshold_sources
+8C3LD,True,0.7631578947368421,0.6666666666666666,0.7631578947368421,0.8,True,True,False,,af_oas_paired
+8RJ7J,True,0.734375,0.6,0.9917355371900827,1.0,True,True,False,nbb2_extension,nbb2_extension
+9L1KA,True,0.8135593220338984,0.7272727272727273,0.8135593220338984,0.8,True,True,False,,af_oas_paired
+9LH2B,True,0.7769230769230769,0.42857142857142855,0.9765625,0.8571428571428571,True,True,False,nbb2_extension,nbb2_extension
+9UYNB,True,0.7521367521367521,0.4,0.9736842105263158,1.0,True,True,False,nbb2_extension,nbb2_extension

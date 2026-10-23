@@ -1,0 +1,110 @@
+{
+  "scope": "New, isolated three-target standalone VHH CPU regeneration; not antigen-context inference or docking",
+  "selection": "Lexicographically first three source-free VHHs with retained NBB2 scores; no error-based selection",
+  "historical_prediction_recovery": false,
+  "original_inputs_sha256": {
+    "data/inputs/targets_vhh.json": "310632cc19183377df9e74b07449c0b9d85baee0f6495552b83fabae4c9521db",
+    "outputs/structure/nbb2/per_target_scores_nbb2.json": "c93a50dc982eef0b698d2e5dd91bc56e2e58ec38d22f5723690b35134398ea07",
+    "kaggle/kernels/nbb2-bench/nbb2-bench.ipynb": "91855f641263cb904821eb662ca9782dcbe616dd61ff876e75f927166bc8da38"
+  },
+  "python": "3.12.12 (main, Oct 31 2025, 23:21:56) [Clang 21.1.4 ]",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "argv": [
+    "src/replay_revision_nbb2.py"
+  ],
+  "script_sha256": "0981c9fdef3e665b27eea705036097458536bfa39cfadf61115ac1401ffa3ae7",
+  "status": "PASS_NEW_PIPELINE_CHECK_NOT_HISTORICAL_REPRODUCTION",
+  "targets": [
+    {
+      "tid": "7BNWB",
+      "seconds": 17.93,
+      "prediction_sha256": "45d2dffbab0830427bcc0ab3b002d13643d6d791428d3906d531d84419e08e17",
+      "prediction": "outputs/revision_2026-10-17/nbb2_regeneration_check/predictions/7BNWB.pdb"
+    },
+    {
+      "tid": "7DJXA",
+      "seconds": 10.11,
+      "prediction_sha256": "55452b74ab7d0266ac4f2a55e152a5312348f77692ad503180763bcb2f28a40b",
+      "prediction": "outputs/revision_2026-10-17/nbb2_regeneration_check/predictions/7DJXA.pdb"
+    },
+    {
+      "tid": "7DJYB",
+      "seconds": 8.02,
+      "prediction_sha256": "3cee90309704ca7069a00ea01a104f83f3117ee11e1625c52a669b7542cede6f",
+      "prediction": "outputs/revision_2026-10-17/nbb2_regeneration_check/predictions/7DJYB.pdb"
+    }
+  ],
+  "packages": {
+    "hmmer": "3.4.0.2",
+    "torch": "2.14.1",
+    "einops": "0.8.2",
+    "packaging": "26.3",
+    "networkx": "3.7",
+    "requests": "2.34.2",
+    "OpenMM": "8.5.2",
+    "biotite": "1.8.0",
+    "ImmuneBuilder": "1.2",
+    "biopython": "1.88",
+    "numpy": "2.5.4",
+    "sympy": "1.14.0",
+    "pdbfixer": "1.12.0",
+    "msgpack": "1.2.3",
+    "setuptools": "84.0.0",
+    "urllib3": "2.8.0",
+    "biotraj": "1.2.2",
+    "mpmath": "1.3.0",
+    "fsspec": "2026.9.0",
+    "certifi": "2026.7.22",
+    "Jinja2": "3.1.6",
+    "typing_extensions": "4.16.0",
+    "MarkupSafe": "3.0.4",
+    "filelock": "4.2.1",
+    "charset-normalizer": "3.5.2",
+    "ANARCI": "2026.2.13.2",
+    "scipy": "1.18.1",
+    "idna": "3.20",
+    "pip": "25.3"
+  },
+  "hmmer_banner": [
+    "# hmmscan :: search sequence(s) against a profile database",
+    "# HMMER 3.4 (Aug 2023); http://hmmer.org/",
+    "# Copyright (C) 2023 Howard Hughes Medical Institute.",
+    "# Freely distributed under the BSD open source license."
+  ],
+  "hmmer_native_sha256": "13a197eacaec1ce6ae316155986a1cd27cbeea09be28149d0f3723326431369f",
+  "numbering_preflight": [
+    {
+      "tid": "7BNWB",
+      "h3_matches_frozen": true
+    },
+    {
+      "tid": "7DJXA",
+      "h3_matches_frozen": true
+    },
+    {
+      "tid": "7DJYB",
+      "h3_matches_frozen": true
+    }
+  ],
+  "model_source_sha256": {
+    "ABodyBuilder2.py": "654dbd44ec5a445b0f8120f2905d32ed5f8434c626154f9afe581420166a3881",
+    "NanoBodyBuilder2.py": "927ac1cb381de0266fc4bd27828b48ca0443703b6b00c13490062e48e7c727dc",
+    "TCRBuilder2.py": "dc308da5ef32f8dd45a22b98c69b8ec018f545c6651f8c3c5efee939376cd6a5",
+    "__init__.py": "d690672debbc38d2ca6d4aee6f3cab81c01b1faa28a29fd6c830531d4f07ba5b",
+    "constants.py": "f93048f70edb72550cda87412bfb0379baca705f63c67d3c6bd9f2196d2d4429",
+    "models.py": "69367b5ea0b4fa822daf6308c4480cd3b40ff2c9b3cbe69511a2d520748126d1",
+    "refine.py": "3216f62059f1f6a2cc1c1d5b3cbc295e87ddc6a6757268a3b9b8c161f6e1dec2",
+    "rigids.py": "8b149407fe20c03ad249901a56d0e78c40d1645eb1fcb3b4628a83476f77b7a2",
+    "sequence_checks.py": "cafe6fb132516f264719df9b51328a114a7dc26484a06d3ac9caadf3f3ed25a9",
+    "util.py": "803b3488269165a47fdb26396121b943a458a7d2ea1adbd9fd62b8729b04d525"
+  },
+  "weight_sha256": {
+    "nanobody_model_1": "2f8f398a95e2fd3fe38527415471a60346cb131864a1a4ef081e11816d74e995",
+    "nanobody_model_2": "41c163511ad20d1aa67fbd50f64ced9a25381d0618847b16a19d5e14df73297e",
+    "nanobody_model_3": "8de57b3f0b6b89acb0e87fc7b647522666dd90e86ed3138417cbcd785c982c4d",
+    "nanobody_model_4": "96f3cfba8de00e4c833bc73efa821f6022ed65e951a4289c7e3b5409527964e0"
+  },
+  "maximum_absolute_regional_score_difference": 0.058,
+  "scorer_excerpt_sha256": "3688fb5b45cce21bdaf6e5ff3b83c1d6819761363539e02bf1b55ec7f3ba9523",
+  "elapsed_seconds": 49.55
+}

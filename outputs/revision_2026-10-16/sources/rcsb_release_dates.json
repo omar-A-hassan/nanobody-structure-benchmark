@@ -1,0 +1,2206 @@
+{
+  "10ZO": {
+    "initial_release_date": "2026-03-25T00:00:00Z",
+    "deposit_date": "2026-02-12T00:00:00Z"
+  },
+  "29ON": {
+    "initial_release_date": "2026-04-22T00:00:00Z",
+    "deposit_date": "2026-03-26T00:00:00Z"
+  },
+  "6X04": {
+    "initial_release_date": "2020-12-09T00:00:00Z",
+    "deposit_date": "2020-05-15T00:00:00Z"
+  },
+  "6X05": {
+    "initial_release_date": "2020-12-09T00:00:00Z",
+    "deposit_date": "2020-05-15T00:00:00Z"
+  },
+  "6X07": {
+    "initial_release_date": "2020-12-09T00:00:00Z",
+    "deposit_date": "2020-05-15T00:00:00Z"
+  },
+  "6Z1V": {
+    "initial_release_date": "2020-09-23T00:00:00Z",
+    "deposit_date": "2020-05-14T00:00:00Z"
+  },
+  "6Z20": {
+    "initial_release_date": "2020-09-23T00:00:00Z",
+    "deposit_date": "2020-05-14T00:00:00Z"
+  },
+  "6Z6V": {
+    "initial_release_date": "2020-06-10T00:00:00Z",
+    "deposit_date": "2020-05-29T00:00:00Z"
+  },
+  "6ZBV": {
+    "initial_release_date": "2021-03-17T00:00:00Z",
+    "deposit_date": "2020-06-09T00:00:00Z"
+  },
+  "6ZE1": {
+    "initial_release_date": "2021-06-30T00:00:00Z",
+    "deposit_date": "2020-06-15T00:00:00Z"
+  },
+  "6ZG3": {
+    "initial_release_date": "2021-03-03T00:00:00Z",
+    "deposit_date": "2020-06-18T00:00:00Z"
+  },
+  "6ZQK": {
+    "initial_release_date": "2021-06-30T00:00:00Z",
+    "deposit_date": "2020-07-09T00:00:00Z"
+  },
+  "6ZRV": {
+    "initial_release_date": "2020-08-26T00:00:00Z",
+    "deposit_date": "2020-07-15T00:00:00Z"
+  },
+  "6ZWK": {
+    "initial_release_date": "2021-07-21T00:00:00Z",
+    "deposit_date": "2020-07-28T00:00:00Z"
+  },
+  "6ZXN": {
+    "initial_release_date": "2020-09-23T00:00:00Z",
+    "deposit_date": "2020-07-30T00:00:00Z"
+  },
+  "7A0V": {
+    "initial_release_date": "2020-12-30T00:00:00Z",
+    "deposit_date": "2020-08-11T00:00:00Z"
+  },
+  "7A29": {
+    "initial_release_date": "2020-10-21T00:00:00Z",
+    "deposit_date": "2020-08-16T00:00:00Z"
+  },
+  "7A48": {
+    "initial_release_date": "2021-05-05T00:00:00Z",
+    "deposit_date": "2020-08-19T00:00:00Z"
+  },
+  "7A4D": {
+    "initial_release_date": "2021-05-05T00:00:00Z",
+    "deposit_date": "2020-08-19T00:00:00Z"
+  },
+  "7A4T": {
+    "initial_release_date": "2021-05-05T00:00:00Z",
+    "deposit_date": "2020-08-20T00:00:00Z"
+  },
+  "7A4Y": {
+    "initial_release_date": "2021-05-05T00:00:00Z",
+    "deposit_date": "2020-08-20T00:00:00Z"
+  },
+  "7A50": {
+    "initial_release_date": "2021-05-05T00:00:00Z",
+    "deposit_date": "2020-08-20T00:00:00Z"
+  },
+  "7A5V": {
+    "initial_release_date": "2020-11-18T00:00:00Z",
+    "deposit_date": "2020-08-22T00:00:00Z"
+  },
+  "7B27": {
+    "initial_release_date": "2021-05-12T00:00:00Z",
+    "deposit_date": "2020-11-26T00:00:00Z"
+  },
+  "7B2P": {
+    "initial_release_date": "2022-03-02T00:00:00Z",
+    "deposit_date": "2020-11-27T00:00:00Z"
+  },
+  "7BC6": {
+    "initial_release_date": "2021-05-12T00:00:00Z",
+    "deposit_date": "2020-12-18T00:00:00Z"
+  },
+  "7BNW": {
+    "initial_release_date": "2021-05-26T00:00:00Z",
+    "deposit_date": "2021-01-22T00:00:00Z"
+  },
+  "7CZ0": {
+    "initial_release_date": "2021-09-08T00:00:00Z",
+    "deposit_date": "2020-09-06T00:00:00Z"
+  },
+  "7D2Z": {
+    "initial_release_date": "2021-02-17T00:00:00Z",
+    "deposit_date": "2020-09-17T00:00:00Z"
+  },
+  "7D4B": {
+    "initial_release_date": "2021-07-14T00:00:00Z",
+    "deposit_date": "2020-09-23T00:00:00Z"
+  },
+  "7D5B": {
+    "initial_release_date": "2021-03-31T00:00:00Z",
+    "deposit_date": "2020-09-25T00:00:00Z"
+  },
+  "7DST": {
+    "initial_release_date": "2021-03-10T00:00:00Z",
+    "deposit_date": "2021-01-02T00:00:00Z"
+  },
+  "7DV4": {
+    "initial_release_date": "2022-01-12T00:00:00Z",
+    "deposit_date": "2021-01-12T00:00:00Z"
+  },
+  "7E53": {
+    "initial_release_date": "2021-10-13T00:00:00Z",
+    "deposit_date": "2021-02-16T00:00:00Z"
+  },
+  "7EOW": {
+    "initial_release_date": "2021-07-07T00:00:00Z",
+    "deposit_date": "2021-04-23T00:00:00Z"
+  },
+  "7EPB": {
+    "initial_release_date": "2021-06-23T00:00:00Z",
+    "deposit_date": "2021-04-26T00:00:00Z"
+  },
+  "7F07": {
+    "initial_release_date": "2022-06-08T00:00:00Z",
+    "deposit_date": "2021-06-03T00:00:00Z"
+  },
+  "7F5G": {
+    "initial_release_date": "2022-05-25T00:00:00Z",
+    "deposit_date": "2021-06-22T00:00:00Z"
+  },
+  "7F5H": {
+    "initial_release_date": "2022-06-29T00:00:00Z",
+    "deposit_date": "2021-06-22T00:00:00Z"
+  },
+  "7DJY": {
+    "initial_release_date": "2021-11-24T00:00:00Z",
+    "deposit_date": "2020-11-22T00:00:00Z"
+  },
+  "7DJX": {
+    "initial_release_date": "2021-11-24T00:00:00Z",
+    "deposit_date": "2020-11-22T00:00:00Z"
+  },
+  "7D6Y": {
+    "initial_release_date": "2021-10-06T00:00:00Z",
+    "deposit_date": "2020-10-02T00:00:00Z"
+  },
+  "7CZD": {
+    "initial_release_date": "2021-07-14T00:00:00Z",
+    "deposit_date": "2020-09-08T00:00:00Z"
+  },
+  "7C8V": {
+    "initial_release_date": "2020-06-24T00:00:00Z",
+    "deposit_date": "2020-06-03T00:00:00Z"
+  },
+  "7B5G": {
+    "initial_release_date": "2022-09-14T00:00:00Z",
+    "deposit_date": "2020-12-03T00:00:00Z"
+  },
+  "7AR0": {
+    "initial_release_date": "2021-11-03T00:00:00Z",
+    "deposit_date": "2020-10-23T00:00:00Z"
+  },
+  "7AQY": {
+    "initial_release_date": "2021-11-03T00:00:00Z",
+    "deposit_date": "2020-10-23T00:00:00Z"
+  },
+  "7AQG": {
+    "initial_release_date": "2021-02-24T00:00:00Z",
+    "deposit_date": "2020-10-21T00:00:00Z"
+  },
+  "7ANQ": {
+    "initial_release_date": "2021-10-20T00:00:00Z",
+    "deposit_date": "2020-10-12T00:00:00Z"
+  },
+  "21TW": {
+    "initial_release_date": "2026-04-29T00:00:00Z",
+    "deposit_date": "2025-12-24T00:00:00Z"
+  },
+  "7FAT": {
+    "initial_release_date": "2022-05-18T00:00:00Z",
+    "deposit_date": "2021-07-07T00:00:00Z"
+  },
+  "7FAU": {
+    "initial_release_date": "2022-06-01T00:00:00Z",
+    "deposit_date": "2021-07-07T00:00:00Z"
+  },
+  "7FH0": {
+    "initial_release_date": "2022-08-03T00:00:00Z",
+    "deposit_date": "2021-07-28T00:00:00Z"
+  },
+  "7K65": {
+    "initial_release_date": "2021-03-17T00:00:00Z",
+    "deposit_date": "2020-09-18T00:00:00Z"
+  },
+  "7K84": {
+    "initial_release_date": "2020-10-14T00:00:00Z",
+    "deposit_date": "2020-09-25T00:00:00Z"
+  },
+  "7KBI": {
+    "initial_release_date": "2021-08-04T00:00:00Z",
+    "deposit_date": "2020-10-02T00:00:00Z"
+  },
+  "7KD0": {
+    "initial_release_date": "2021-08-04T00:00:00Z",
+    "deposit_date": "2020-10-07T00:00:00Z"
+  },
+  "7KJH": {
+    "initial_release_date": "2021-02-03T00:00:00Z",
+    "deposit_date": "2020-10-26T00:00:00Z"
+  },
+  "7KJI": {
+    "initial_release_date": "2021-02-03T00:00:00Z",
+    "deposit_date": "2020-10-26T00:00:00Z"
+  },
+  "7KKJ": {
+    "initial_release_date": "2020-11-25T00:00:00Z",
+    "deposit_date": "2020-10-27T00:00:00Z"
+  },
+  "7KM5": {
+    "initial_release_date": "2021-08-04T00:00:00Z",
+    "deposit_date": "2020-11-02T00:00:00Z"
+  },
+  "7KN5": {
+    "initial_release_date": "2021-01-20T00:00:00Z",
+    "deposit_date": "2020-11-04T00:00:00Z"
+  },
+  "7KN6": {
+    "initial_release_date": "2021-01-20T00:00:00Z",
+    "deposit_date": "2020-11-04T00:00:00Z"
+  },
+  "7L1V": {
+    "initial_release_date": "2021-02-10T00:00:00Z",
+    "deposit_date": "2020-12-15T00:00:00Z"
+  },
+  "7L6V": {
+    "initial_release_date": "2021-12-22T00:00:00Z",
+    "deposit_date": "2020-12-24T00:00:00Z"
+  },
+  "7LDJ": {
+    "initial_release_date": "2021-05-05T00:00:00Z",
+    "deposit_date": "2021-01-13T00:00:00Z"
+  },
+  "7LVU": {
+    "initial_release_date": "2021-03-24T00:00:00Z",
+    "deposit_date": "2021-02-26T00:00:00Z"
+  },
+  "7LZP": {
+    "initial_release_date": "2021-12-22T00:00:00Z",
+    "deposit_date": "2021-03-10T00:00:00Z"
+  },
+  "7MFU": {
+    "initial_release_date": "2021-06-02T00:00:00Z",
+    "deposit_date": "2021-04-11T00:00:00Z"
+  },
+  "7MFV": {
+    "initial_release_date": "2021-06-02T00:00:00Z",
+    "deposit_date": "2021-04-11T00:00:00Z"
+  },
+  "7MJH": {
+    "initial_release_date": "2021-05-12T00:00:00Z",
+    "deposit_date": "2021-04-20T00:00:00Z"
+  },
+  "7MY2": {
+    "initial_release_date": "2021-06-16T00:00:00Z",
+    "deposit_date": "2021-05-20T00:00:00Z"
+  },
+  "7N0I": {
+    "initial_release_date": "2021-06-09T00:00:00Z",
+    "deposit_date": "2021-05-25T00:00:00Z"
+  },
+  "7N0R": {
+    "initial_release_date": "2021-06-02T00:00:00Z",
+    "deposit_date": "2021-05-25T00:00:00Z"
+  },
+  "7NA9": {
+    "initial_release_date": "2021-12-22T00:00:00Z",
+    "deposit_date": "2021-06-20T00:00:00Z"
+  },
+  "7NFQ": {
+    "initial_release_date": "2021-12-01T00:00:00Z",
+    "deposit_date": "2021-02-07T00:00:00Z"
+  },
+  "7NFR": {
+    "initial_release_date": "2021-12-01T00:00:00Z",
+    "deposit_date": "2021-02-07T00:00:00Z"
+  },
+  "7NFT": {
+    "initial_release_date": "2021-12-01T00:00:00Z",
+    "deposit_date": "2021-02-07T00:00:00Z"
+  },
+  "7NGH": {
+    "initial_release_date": "2021-09-15T00:00:00Z",
+    "deposit_date": "2021-02-09T00:00:00Z"
+  },
+  "7NKT": {
+    "initial_release_date": "2021-05-12T00:00:00Z",
+    "deposit_date": "2021-02-18T00:00:00Z"
+  },
+  "7NLL": {
+    "initial_release_date": "2022-02-02T00:00:00Z",
+    "deposit_date": "2021-02-22T00:00:00Z"
+  },
+  "7NMU": {
+    "initial_release_date": "2021-03-10T00:00:00Z",
+    "deposit_date": "2021-02-23T00:00:00Z"
+  },
+  "7NOW": {
+    "initial_release_date": "2021-04-07T00:00:00Z",
+    "deposit_date": "2021-02-26T00:00:00Z"
+  },
+  "7NP9": {
+    "initial_release_date": "2022-03-23T00:00:00Z",
+    "deposit_date": "2021-02-26T00:00:00Z"
+  },
+  "7NQA": {
+    "initial_release_date": "2021-07-21T00:00:00Z",
+    "deposit_date": "2021-03-01T00:00:00Z"
+  },
+  "7NVM": {
+    "initial_release_date": "2022-03-02T00:00:00Z",
+    "deposit_date": "2021-03-15T00:00:00Z"
+  },
+  "7NX0": {
+    "initial_release_date": "2021-10-27T00:00:00Z",
+    "deposit_date": "2021-03-17T00:00:00Z"
+  },
+  "7NXX": {
+    "initial_release_date": "2022-09-28T00:00:00Z",
+    "deposit_date": "2021-03-19T00:00:00Z"
+  },
+  "7O06": {
+    "initial_release_date": "2021-09-08T00:00:00Z",
+    "deposit_date": "2021-03-25T00:00:00Z"
+  },
+  "7O0S": {
+    "initial_release_date": "2021-09-15T00:00:00Z",
+    "deposit_date": "2021-03-26T00:00:00Z"
+  },
+  "7O31": {
+    "initial_release_date": "2021-07-07T00:00:00Z",
+    "deposit_date": "2021-04-01T00:00:00Z"
+  },
+  "7NDF": {
+    "initial_release_date": "2022-03-02T00:00:00Z",
+    "deposit_date": "2021-02-01T00:00:00Z"
+  },
+  "7NBB": {
+    "initial_release_date": "2022-08-10T00:00:00Z",
+    "deposit_date": "2021-01-26T00:00:00Z"
+  },
+  "7N9V": {
+    "initial_release_date": "2022-06-22T00:00:00Z",
+    "deposit_date": "2021-06-18T00:00:00Z"
+  },
+  "7N9T": {
+    "initial_release_date": "2021-08-11T00:00:00Z",
+    "deposit_date": "2021-06-18T00:00:00Z"
+  },
+  "7MY3": {
+    "initial_release_date": "2021-06-16T00:00:00Z",
+    "deposit_date": "2021-05-20T00:00:00Z"
+  },
+  "7M1H": {
+    "initial_release_date": "2021-12-22T00:00:00Z",
+    "deposit_date": "2021-03-13T00:00:00Z"
+  },
+  "7LX5": {
+    "initial_release_date": "2021-05-05T00:00:00Z",
+    "deposit_date": "2021-03-03T00:00:00Z"
+  },
+  "7KGJ": {
+    "initial_release_date": "2021-02-03T00:00:00Z",
+    "deposit_date": "2020-10-16T00:00:00Z"
+  },
+  "7JVB": {
+    "initial_release_date": "2020-12-02T00:00:00Z",
+    "deposit_date": "2020-08-20T00:00:00Z"
+  },
+  "7OAO": {
+    "initial_release_date": "2021-08-11T00:00:00Z",
+    "deposit_date": "2021-04-19T00:00:00Z"
+  },
+  "7OAQ": {
+    "initial_release_date": "2021-08-11T00:00:00Z",
+    "deposit_date": "2021-04-20T00:00:00Z"
+  },
+  "7OCJ": {
+    "initial_release_date": "2022-10-26T00:00:00Z",
+    "deposit_date": "2021-04-27T00:00:00Z"
+  },
+  "7OLZ": {
+    "initial_release_date": "2021-08-11T00:00:00Z",
+    "deposit_date": "2021-05-20T00:00:00Z"
+  },
+  "7OM5": {
+    "initial_release_date": "2022-03-02T00:00:00Z",
+    "deposit_date": "2021-05-21T00:00:00Z"
+  },
+  "7OMM": {
+    "initial_release_date": "2022-05-04T00:00:00Z",
+    "deposit_date": "2021-05-24T00:00:00Z"
+  },
+  "7OMN": {
+    "initial_release_date": "2021-10-06T00:00:00Z",
+    "deposit_date": "2021-05-24T00:00:00Z"
+  },
+  "7OMT": {
+    "initial_release_date": "2022-05-04T00:00:00Z",
+    "deposit_date": "2021-05-24T00:00:00Z"
+  },
+  "7ON5": {
+    "initial_release_date": "2021-08-11T00:00:00Z",
+    "deposit_date": "2021-05-25T00:00:00Z"
+  },
+  "7OOI": {
+    "initial_release_date": "2021-10-06T00:00:00Z",
+    "deposit_date": "2021-05-27T00:00:00Z"
+  },
+  "7OZT": {
+    "initial_release_date": "2022-07-13T00:00:00Z",
+    "deposit_date": "2021-06-28T00:00:00Z"
+  },
+  "7P5V": {
+    "initial_release_date": "2021-09-15T00:00:00Z",
+    "deposit_date": "2021-07-15T00:00:00Z"
+  },
+  "7P5W": {
+    "initial_release_date": "2021-09-15T00:00:00Z",
+    "deposit_date": "2021-07-15T00:00:00Z"
+  },
+  "7PQQ": {
+    "initial_release_date": "2022-05-18T00:00:00Z",
+    "deposit_date": "2021-09-18T00:00:00Z"
+  },
+  "7Q3Q": {
+    "initial_release_date": "2022-11-16T00:00:00Z",
+    "deposit_date": "2021-10-28T00:00:00Z"
+  },
+  "7Q3R": {
+    "initial_release_date": "2022-11-16T00:00:00Z",
+    "deposit_date": "2021-10-28T00:00:00Z"
+  },
+  "7QBE": {
+    "initial_release_date": "2022-03-16T00:00:00Z",
+    "deposit_date": "2021-11-19T00:00:00Z"
+  },
+  "7QBG": {
+    "initial_release_date": "2022-03-16T00:00:00Z",
+    "deposit_date": "2021-11-19T00:00:00Z"
+  },
+  "7QIA": {
+    "initial_release_date": "2021-12-29T00:00:00Z",
+    "deposit_date": "2021-12-14T00:00:00Z"
+  },
+  "7QVK": {
+    "initial_release_date": "2023-02-01T00:00:00Z",
+    "deposit_date": "2022-01-21T00:00:00Z"
+  },
+  "7R1Z": {
+    "initial_release_date": "2022-06-01T00:00:00Z",
+    "deposit_date": "2022-02-03T00:00:00Z"
+  },
+  "7R20": {
+    "initial_release_date": "2022-06-01T00:00:00Z",
+    "deposit_date": "2022-02-03T00:00:00Z"
+  },
+  "7R4I": {
+    "initial_release_date": "2022-06-08T00:00:00Z",
+    "deposit_date": "2022-02-08T00:00:00Z"
+  },
+  "7R63": {
+    "initial_release_date": "2022-05-04T00:00:00Z",
+    "deposit_date": "2021-06-22T00:00:00Z"
+  },
+  "7R73": {
+    "initial_release_date": "2022-03-30T00:00:00Z",
+    "deposit_date": "2021-06-24T00:00:00Z"
+  },
+  "7R74": {
+    "initial_release_date": "2022-03-30T00:00:00Z",
+    "deposit_date": "2021-06-24T00:00:00Z"
+  },
+  "7R98": {
+    "initial_release_date": "2021-07-07T00:00:00Z",
+    "deposit_date": "2021-06-28T00:00:00Z"
+  },
+  "7RBY": {
+    "initial_release_date": "2022-03-23T00:00:00Z",
+    "deposit_date": "2021-07-06T00:00:00Z"
+  },
+  "7RG7": {
+    "initial_release_date": "2021-12-22T00:00:00Z",
+    "deposit_date": "2021-07-14T00:00:00Z"
+  },
+  "7RI1": {
+    "initial_release_date": "2022-03-30T00:00:00Z",
+    "deposit_date": "2021-07-19T00:00:00Z"
+  },
+  "7RNN": {
+    "initial_release_date": "2021-08-11T00:00:00Z",
+    "deposit_date": "2021-07-29T00:00:00Z"
+  },
+  "7S2R": {
+    "initial_release_date": "2022-03-30T00:00:00Z",
+    "deposit_date": "2021-09-03T00:00:00Z"
+  },
+  "7SAH": {
+    "initial_release_date": "2022-09-14T00:00:00Z",
+    "deposit_date": "2021-09-22T00:00:00Z"
+  },
+  "7SAI": {
+    "initial_release_date": "2022-09-14T00:00:00Z",
+    "deposit_date": "2021-09-22T00:00:00Z"
+  },
+  "7SAJ": {
+    "initial_release_date": "2022-09-14T00:00:00Z",
+    "deposit_date": "2021-09-22T00:00:00Z"
+  },
+  "7SAL": {
+    "initial_release_date": "2022-09-14T00:00:00Z",
+    "deposit_date": "2021-09-22T00:00:00Z"
+  },
+  "7SL9": {
+    "initial_release_date": "2021-12-15T00:00:00Z",
+    "deposit_date": "2021-10-23T00:00:00Z"
+  },
+  "7SLA": {
+    "initial_release_date": "2021-12-15T00:00:00Z",
+    "deposit_date": "2021-10-23T00:00:00Z"
+  },
+  "7SP8": {
+    "initial_release_date": "2022-04-06T00:00:00Z",
+    "deposit_date": "2021-11-02T00:00:00Z"
+  },
+  "7T5F": {
+    "initial_release_date": "2021-12-29T00:00:00Z",
+    "deposit_date": "2021-12-12T00:00:00Z"
+  },
+  "7T84": {
+    "initial_release_date": "2022-12-07T00:00:00Z",
+    "deposit_date": "2021-12-15T00:00:00Z"
+  },
+  "7TH2": {
+    "initial_release_date": "2022-10-12T00:00:00Z",
+    "deposit_date": "2022-01-10T00:00:00Z"
+  },
+  "7TJC": {
+    "initial_release_date": "2022-11-23T00:00:00Z",
+    "deposit_date": "2022-01-16T00:00:00Z"
+  },
+  "7TGF": {
+    "initial_release_date": "2022-10-12T00:00:00Z",
+    "deposit_date": "2022-01-07T00:00:00Z"
+  },
+  "7TE8": {
+    "initial_release_date": "2022-01-12T00:00:00Z",
+    "deposit_date": "2022-01-04T00:00:00Z"
+  },
+  "7S7R": {
+    "initial_release_date": "2022-03-02T00:00:00Z",
+    "deposit_date": "2021-09-17T00:00:00Z"
+  },
+  "7QIV": {
+    "initial_release_date": "2022-02-16T00:00:00Z",
+    "deposit_date": "2021-12-16T00:00:00Z"
+  },
+  "7QHA": {
+    "initial_release_date": "2022-12-21T00:00:00Z",
+    "deposit_date": "2021-12-11T00:00:00Z"
+  },
+  "7P77": {
+    "initial_release_date": "2021-08-04T00:00:00Z",
+    "deposit_date": "2021-07-19T00:00:00Z"
+  },
+  "7P5Y": {
+    "initial_release_date": "2021-09-15T00:00:00Z",
+    "deposit_date": "2021-07-15T00:00:00Z"
+  },
+  "7TPR": {
+    "initial_release_date": "2022-04-20T00:00:00Z",
+    "deposit_date": "2022-01-25T00:00:00Z"
+  },
+  "7UIA": {
+    "initial_release_date": "2023-04-05T00:00:00Z",
+    "deposit_date": "2022-03-28T00:00:00Z"
+  },
+  "7USV": {
+    "initial_release_date": "2022-12-28T00:00:00Z",
+    "deposit_date": "2022-04-25T00:00:00Z"
+  },
+  "7UTG": {
+    "initial_release_date": "2022-12-21T00:00:00Z",
+    "deposit_date": "2022-04-26T00:00:00Z"
+  },
+  "7VFA": {
+    "initial_release_date": "2022-03-30T00:00:00Z",
+    "deposit_date": "2021-09-11T00:00:00Z"
+  },
+  "7VFB": {
+    "initial_release_date": "2022-03-30T00:00:00Z",
+    "deposit_date": "2021-09-11T00:00:00Z"
+  },
+  "7VKE": {
+    "initial_release_date": "2022-08-03T00:00:00Z",
+    "deposit_date": "2021-09-29T00:00:00Z"
+  },
+  "7VNB": {
+    "initial_release_date": "2021-11-24T00:00:00Z",
+    "deposit_date": "2021-10-10T00:00:00Z"
+  },
+  "7VOA": {
+    "initial_release_date": "2022-08-10T00:00:00Z",
+    "deposit_date": "2021-10-13T00:00:00Z"
+  },
+  "7VPY": {
+    "initial_release_date": "2022-07-20T00:00:00Z",
+    "deposit_date": "2021-10-18T00:00:00Z"
+  },
+  "7W1S": {
+    "initial_release_date": "2022-06-29T00:00:00Z",
+    "deposit_date": "2021-11-20T00:00:00Z"
+  },
+  "7WD1": {
+    "initial_release_date": "2022-12-21T00:00:00Z",
+    "deposit_date": "2021-12-20T00:00:00Z"
+  },
+  "7WD2": {
+    "initial_release_date": "2022-12-21T00:00:00Z",
+    "deposit_date": "2021-12-20T00:00:00Z"
+  },
+  "7WHI": {
+    "initial_release_date": "2022-05-11T00:00:00Z",
+    "deposit_date": "2021-12-30T00:00:00Z"
+  },
+  "7WKI": {
+    "initial_release_date": "2022-11-23T00:00:00Z",
+    "deposit_date": "2022-01-10T00:00:00Z"
+  },
+  "7WN1": {
+    "initial_release_date": "2023-02-01T00:00:00Z",
+    "deposit_date": "2022-01-17T00:00:00Z"
+  },
+  "7X2J": {
+    "initial_release_date": "2022-12-21T00:00:00Z",
+    "deposit_date": "2022-02-25T00:00:00Z"
+  },
+  "7X4I": {
+    "initial_release_date": "2023-01-11T00:00:00Z",
+    "deposit_date": "2022-03-02T00:00:00Z"
+  },
+  "7X7E": {
+    "initial_release_date": "2022-04-20T00:00:00Z",
+    "deposit_date": "2022-03-09T00:00:00Z"
+  },
+  "7XKA": {
+    "initial_release_date": "2023-04-26T00:00:00Z",
+    "deposit_date": "2022-04-19T00:00:00Z"
+  },
+  "7XL0": {
+    "initial_release_date": "2022-11-09T00:00:00Z",
+    "deposit_date": "2022-04-20T00:00:00Z"
+  },
+  "7XL1": {
+    "initial_release_date": "2022-11-09T00:00:00Z",
+    "deposit_date": "2022-04-20T00:00:00Z"
+  },
+  "7XQV": {
+    "initial_release_date": "2022-07-13T00:00:00Z",
+    "deposit_date": "2022-05-09T00:00:00Z"
+  },
+  "7Y9T": {
+    "initial_release_date": "2022-09-07T00:00:00Z",
+    "deposit_date": "2022-06-26T00:00:00Z"
+  },
+  "7YM8": {
+    "initial_release_date": "2023-07-05T00:00:00Z",
+    "deposit_date": "2022-07-27T00:00:00Z"
+  },
+  "7YZ9": {
+    "initial_release_date": "2022-08-31T00:00:00Z",
+    "deposit_date": "2022-02-19T00:00:00Z"
+  },
+  "7YZW": {
+    "initial_release_date": "2023-03-01T00:00:00Z",
+    "deposit_date": "2022-02-21T00:00:00Z"
+  },
+  "7Z1A": {
+    "initial_release_date": "2022-03-23T00:00:00Z",
+    "deposit_date": "2022-02-24T00:00:00Z"
+  },
+  "7Z1E": {
+    "initial_release_date": "2022-03-23T00:00:00Z",
+    "deposit_date": "2022-02-24T00:00:00Z"
+  },
+  "7Z1X": {
+    "initial_release_date": "2023-09-06T00:00:00Z",
+    "deposit_date": "2022-02-25T00:00:00Z"
+  },
+  "7ZAU": {
+    "initial_release_date": "2023-09-27T00:00:00Z",
+    "deposit_date": "2022-03-22T00:00:00Z"
+  },
+  "7ZKZ": {
+    "initial_release_date": "2022-08-31T00:00:00Z",
+    "deposit_date": "2022-04-13T00:00:00Z"
+  },
+  "7ZMV": {
+    "initial_release_date": "2022-06-22T00:00:00Z",
+    "deposit_date": "2022-04-19T00:00:00Z"
+  },
+  "7ZQT": {
+    "initial_release_date": "2023-05-17T00:00:00Z",
+    "deposit_date": "2022-05-03T00:00:00Z"
+  },
+  "7ZRA": {
+    "initial_release_date": "2022-10-26T00:00:00Z",
+    "deposit_date": "2022-05-04T00:00:00Z"
+  },
+  "8AFE": {
+    "initial_release_date": "2023-08-16T00:00:00Z",
+    "deposit_date": "2022-07-17T00:00:00Z"
+  },
+  "8AOK": {
+    "initial_release_date": "2023-06-14T00:00:00Z",
+    "deposit_date": "2022-08-08T00:00:00Z"
+  },
+  "8AOM": {
+    "initial_release_date": "2023-06-14T00:00:00Z",
+    "deposit_date": "2022-08-08T00:00:00Z"
+  },
+  "8AV2": {
+    "initial_release_date": "2023-04-05T00:00:00Z",
+    "deposit_date": "2022-08-26T00:00:00Z"
+  },
+  "8B1A": {
+    "initial_release_date": "2023-08-09T00:00:00Z",
+    "deposit_date": "2022-09-09T00:00:00Z"
+  },
+  "8B7W": {
+    "initial_release_date": "2022-12-28T00:00:00Z",
+    "deposit_date": "2022-10-03T00:00:00Z"
+  },
+  "8APY": {
+    "initial_release_date": "2023-08-23T00:00:00Z",
+    "deposit_date": "2022-08-10T00:00:00Z"
+  },
+  "7ZK1": {
+    "initial_release_date": "2022-08-31T00:00:00Z",
+    "deposit_date": "2022-04-12T00:00:00Z"
+  },
+  "7Z1D": {
+    "initial_release_date": "2022-03-23T00:00:00Z",
+    "deposit_date": "2022-02-24T00:00:00Z"
+  },
+  "7YUD": {
+    "initial_release_date": "2023-09-06T00:00:00Z",
+    "deposit_date": "2022-08-17T00:00:00Z"
+  },
+  "7XY4": {
+    "initial_release_date": "2023-09-13T00:00:00Z",
+    "deposit_date": "2022-05-31T00:00:00Z"
+  },
+  "7XLD": {
+    "initial_release_date": "2023-05-31T00:00:00Z",
+    "deposit_date": "2022-04-21T00:00:00Z"
+  },
+  "7X2M": {
+    "initial_release_date": "2022-12-14T00:00:00Z",
+    "deposit_date": "2022-02-25T00:00:00Z"
+  },
+  "7UNZ": {
+    "initial_release_date": "2022-11-23T00:00:00Z",
+    "deposit_date": "2022-04-12T00:00:00Z"
+  },
+  "7UBX": {
+    "initial_release_date": "2022-11-16T00:00:00Z",
+    "deposit_date": "2022-03-15T00:00:00Z"
+  },
+  "8BE2": {
+    "initial_release_date": "2023-11-01T00:00:00Z",
+    "deposit_date": "2022-10-21T00:00:00Z"
+  },
+  "8BE3": {
+    "initial_release_date": "2023-11-01T00:00:00Z",
+    "deposit_date": "2022-10-21T00:00:00Z"
+  },
+  "8BE4": {
+    "initial_release_date": "2023-11-01T00:00:00Z",
+    "deposit_date": "2022-10-21T00:00:00Z"
+  },
+  "8BZY": {
+    "initial_release_date": "2023-03-22T00:00:00Z",
+    "deposit_date": "2022-12-15T00:00:00Z"
+  },
+  "8C3L": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-12-26T00:00:00Z"
+  },
+  "8C5H": {
+    "initial_release_date": "2023-08-02T00:00:00Z",
+    "deposit_date": "2023-01-09T00:00:00Z"
+  },
+  "8C9X": {
+    "initial_release_date": "2023-10-11T00:00:00Z",
+    "deposit_date": "2023-01-23T00:00:00Z"
+  },
+  "8CDS": {
+    "initial_release_date": "2024-02-21T00:00:00Z",
+    "deposit_date": "2023-02-01T00:00:00Z"
+  },
+  "8CDT": {
+    "initial_release_date": "2024-02-21T00:00:00Z",
+    "deposit_date": "2023-02-01T00:00:00Z"
+  },
+  "8CE4": {
+    "initial_release_date": "2023-10-11T00:00:00Z",
+    "deposit_date": "2023-02-01T00:00:00Z"
+  },
+  "8CNI": {
+    "initial_release_date": "2023-09-27T00:00:00Z",
+    "deposit_date": "2023-02-23T00:00:00Z"
+  },
+  "8COH": {
+    "initial_release_date": "2024-01-03T00:00:00Z",
+    "deposit_date": "2023-02-28T00:00:00Z"
+  },
+  "8CWU": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-19T00:00:00Z"
+  },
+  "8CWV": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-19T00:00:00Z"
+  },
+  "8CXN": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-22T00:00:00Z"
+  },
+  "8CXQ": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-22T00:00:00Z"
+  },
+  "8CY6": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-23T00:00:00Z"
+  },
+  "8CY7": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-23T00:00:00Z"
+  },
+  "8CYB": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-23T00:00:00Z"
+  },
+  "8CYC": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-23T00:00:00Z"
+  },
+  "8CYD": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-23T00:00:00Z"
+  },
+  "8DAM": {
+    "initial_release_date": "2022-12-21T00:00:00Z",
+    "deposit_date": "2022-06-13T00:00:00Z"
+  },
+  "8DP0": {
+    "initial_release_date": "2023-07-19T00:00:00Z",
+    "deposit_date": "2022-07-14T00:00:00Z"
+  },
+  "8DQU": {
+    "initial_release_date": "2023-02-08T00:00:00Z",
+    "deposit_date": "2022-07-20T00:00:00Z"
+  },
+  "8DT8": {
+    "initial_release_date": "2023-06-14T00:00:00Z",
+    "deposit_date": "2022-07-25T00:00:00Z"
+  },
+  "8E2N": {
+    "initial_release_date": "2023-10-04T00:00:00Z",
+    "deposit_date": "2022-08-15T00:00:00Z"
+  },
+  "8EE2": {
+    "initial_release_date": "2023-09-13T00:00:00Z",
+    "deposit_date": "2022-09-06T00:00:00Z"
+  },
+  "8ELN": {
+    "initial_release_date": "2023-10-18T00:00:00Z",
+    "deposit_date": "2022-09-26T00:00:00Z"
+  },
+  "8ELO": {
+    "initial_release_date": "2023-07-05T00:00:00Z",
+    "deposit_date": "2022-09-26T00:00:00Z"
+  },
+  "8ELP": {
+    "initial_release_date": "2023-07-05T00:00:00Z",
+    "deposit_date": "2022-09-26T00:00:00Z"
+  },
+  "8ELQ": {
+    "initial_release_date": "2023-07-05T00:00:00Z",
+    "deposit_date": "2022-09-26T00:00:00Z"
+  },
+  "8EMY": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8EMZ": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8EN0": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8EN1": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8EN2": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8EN3": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8EN4": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8EN5": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8EN6": {
+    "initial_release_date": "2023-03-15T00:00:00Z",
+    "deposit_date": "2022-09-28T00:00:00Z"
+  },
+  "8ET0": {
+    "initial_release_date": "2023-10-18T00:00:00Z",
+    "deposit_date": "2022-10-15T00:00:00Z"
+  },
+  "8EW6": {
+    "initial_release_date": "2022-11-23T00:00:00Z",
+    "deposit_date": "2022-10-21T00:00:00Z"
+  },
+  "8F0K": {
+    "initial_release_date": "2023-08-02T00:00:00Z",
+    "deposit_date": "2022-11-03T00:00:00Z"
+  },
+  "8F6V": {
+    "initial_release_date": "2024-03-13T00:00:00Z",
+    "deposit_date": "2022-11-17T00:00:00Z"
+  },
+  "8F8V": {
+    "initial_release_date": "2023-03-29T00:00:00Z",
+    "deposit_date": "2022-11-22T00:00:00Z"
+  },
+  "8DLX": {
+    "initial_release_date": "2022-08-31T00:00:00Z",
+    "deposit_date": "2022-07-08T00:00:00Z"
+  },
+  "8DI5": {
+    "initial_release_date": "2022-08-24T00:00:00Z",
+    "deposit_date": "2022-06-28T00:00:00Z"
+  },
+  "8CYA": {
+    "initial_release_date": "2022-07-06T00:00:00Z",
+    "deposit_date": "2022-05-23T00:00:00Z"
+  },
+  "8BF4": {
+    "initial_release_date": "2023-05-03T00:00:00Z",
+    "deposit_date": "2022-10-24T00:00:00Z"
+  },
+  "8B8I": {
+    "initial_release_date": "2024-04-17T00:00:00Z",
+    "deposit_date": "2022-10-04T00:00:00Z"
+  },
+  "8FIF": {
+    "initial_release_date": "2023-12-20T00:00:00Z",
+    "deposit_date": "2022-12-16T00:00:00Z"
+  },
+  "8FTT": {
+    "initial_release_date": "2023-10-11T00:00:00Z",
+    "deposit_date": "2023-01-13T00:00:00Z"
+  },
+  "8G0I": {
+    "initial_release_date": "2024-03-20T00:00:00Z",
+    "deposit_date": "2023-01-31T00:00:00Z"
+  },
+  "8G0W": {
+    "initial_release_date": "2023-10-04T00:00:00Z",
+    "deposit_date": "2023-02-01T00:00:00Z"
+  },
+  "8G70": {
+    "initial_release_date": "2024-02-21T00:00:00Z",
+    "deposit_date": "2023-02-16T00:00:00Z"
+  },
+  "8G74": {
+    "initial_release_date": "2024-01-24T00:00:00Z",
+    "deposit_date": "2023-02-16T00:00:00Z"
+  },
+  "8G78": {
+    "initial_release_date": "2024-02-21T00:00:00Z",
+    "deposit_date": "2023-02-16T00:00:00Z"
+  },
+  "8GHR": {
+    "initial_release_date": "2023-08-02T00:00:00Z",
+    "deposit_date": "2023-03-10T00:00:00Z"
+  },
+  "8GJR": {
+    "initial_release_date": "2024-06-26T00:00:00Z",
+    "deposit_date": "2023-03-16T00:00:00Z"
+  },
+  "8GQ5": {
+    "initial_release_date": "2023-01-18T00:00:00Z",
+    "deposit_date": "2022-08-29T00:00:00Z"
+  },
+  "8GZ3": {
+    "initial_release_date": "2022-12-21T00:00:00Z",
+    "deposit_date": "2022-09-24T00:00:00Z"
+  },
+  "8H3X": {
+    "initial_release_date": "2023-02-08T00:00:00Z",
+    "deposit_date": "2022-10-09T00:00:00Z"
+  },
+  "8H3Y": {
+    "initial_release_date": "2023-02-08T00:00:00Z",
+    "deposit_date": "2022-10-09T00:00:00Z"
+  },
+  "8H5T": {
+    "initial_release_date": "2023-10-18T00:00:00Z",
+    "deposit_date": "2022-10-13T00:00:00Z"
+  },
+  "8H5U": {
+    "initial_release_date": "2023-10-18T00:00:00Z",
+    "deposit_date": "2022-10-13T00:00:00Z"
+  },
+  "8H63": {
+    "initial_release_date": "2023-10-04T00:00:00Z",
+    "deposit_date": "2022-10-15T00:00:00Z"
+  },
+  "8H64": {
+    "initial_release_date": "2023-10-04T00:00:00Z",
+    "deposit_date": "2022-10-15T00:00:00Z"
+  },
+  "8H7M": {
+    "initial_release_date": "2023-10-25T00:00:00Z",
+    "deposit_date": "2022-10-20T00:00:00Z"
+  },
+  "8H91": {
+    "initial_release_date": "2023-11-01T00:00:00Z",
+    "deposit_date": "2022-10-24T00:00:00Z"
+  },
+  "8HBJ": {
+    "initial_release_date": "2023-11-01T00:00:00Z",
+    "deposit_date": "2022-10-28T00:00:00Z"
+  },
+  "8HBV": {
+    "initial_release_date": "2023-06-21T00:00:00Z",
+    "deposit_date": "2022-10-31T00:00:00Z"
+  },
+  "8HEG": {
+    "initial_release_date": "2023-11-15T00:00:00Z",
+    "deposit_date": "2022-11-08T00:00:00Z"
+  },
+  "8HR2": {
+    "initial_release_date": "2023-08-16T00:00:00Z",
+    "deposit_date": "2022-12-14T00:00:00Z"
+  },
+  "8HXR": {
+    "initial_release_date": "2024-01-03T00:00:00Z",
+    "deposit_date": "2023-01-05T00:00:00Z"
+  },
+  "8IDI": {
+    "initial_release_date": "2024-02-28T00:00:00Z",
+    "deposit_date": "2023-02-13T00:00:00Z"
+  },
+  "8IDO": {
+    "initial_release_date": "2024-02-28T00:00:00Z",
+    "deposit_date": "2023-02-14T00:00:00Z"
+  },
+  "8IEE": {
+    "initial_release_date": "2024-02-28T00:00:00Z",
+    "deposit_date": "2023-02-15T00:00:00Z"
+  },
+  "8IIU": {
+    "initial_release_date": "2023-12-27T00:00:00Z",
+    "deposit_date": "2023-02-24T00:00:00Z"
+  },
+  "8IM0": {
+    "initial_release_date": "2023-06-21T00:00:00Z",
+    "deposit_date": "2023-03-05T00:00:00Z"
+  },
+  "8IM1": {
+    "initial_release_date": "2023-06-21T00:00:00Z",
+    "deposit_date": "2023-03-05T00:00:00Z"
+  },
+  "8IRW": {
+    "initial_release_date": "2024-03-20T00:00:00Z",
+    "deposit_date": "2023-03-19T00:00:00Z"
+  },
+  "8JTW": {
+    "initial_release_date": "2024-03-27T00:00:00Z",
+    "deposit_date": "2023-06-22T00:00:00Z"
+  },
+  "8JXS": {
+    "initial_release_date": "2024-09-04T00:00:00Z",
+    "deposit_date": "2023-07-01T00:00:00Z"
+  },
+  "8JZA": {
+    "initial_release_date": "2024-07-10T00:00:00Z",
+    "deposit_date": "2023-07-04T00:00:00Z"
+  },
+  "8K33": {
+    "initial_release_date": "2024-07-17T00:00:00Z",
+    "deposit_date": "2023-07-14T00:00:00Z"
+  },
+  "8K3L": {
+    "initial_release_date": "2024-07-17T00:00:00Z",
+    "deposit_date": "2023-07-16T00:00:00Z"
+  },
+  "8OMU": {
+    "initial_release_date": "2023-07-19T00:00:00Z",
+    "deposit_date": "2023-03-31T00:00:00Z"
+  },
+  "8OMZ": {
+    "initial_release_date": "2024-04-10T00:00:00Z",
+    "deposit_date": "2023-03-31T00:00:00Z"
+  },
+  "8OPR": {
+    "initial_release_date": "2023-11-08T00:00:00Z",
+    "deposit_date": "2023-04-07T00:00:00Z"
+  },
+  "8OUD": {
+    "initial_release_date": "2024-05-01T00:00:00Z",
+    "deposit_date": "2023-04-22T00:00:00Z"
+  },
+  "8OWT": {
+    "initial_release_date": "2024-05-08T00:00:00Z",
+    "deposit_date": "2023-04-28T00:00:00Z"
+  },
+  "8K4Q": {
+    "initial_release_date": "2024-06-26T00:00:00Z",
+    "deposit_date": "2023-07-20T00:00:00Z"
+  },
+  "8K3K": {
+    "initial_release_date": "2024-01-24T00:00:00Z",
+    "deposit_date": "2023-07-16T00:00:00Z"
+  },
+  "8JVA": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-06-28T00:00:00Z"
+  },
+  "8JJV": {
+    "initial_release_date": "2024-01-10T00:00:00Z",
+    "deposit_date": "2023-05-31T00:00:00Z"
+  },
+  "8HXQ": {
+    "initial_release_date": "2024-01-03T00:00:00Z",
+    "deposit_date": "2023-01-05T00:00:00Z"
+  },
+  "8HBI": {
+    "initial_release_date": "2024-01-03T00:00:00Z",
+    "deposit_date": "2022-10-28T00:00:00Z"
+  },
+  "8GZ6": {
+    "initial_release_date": "2022-12-07T00:00:00Z",
+    "deposit_date": "2022-09-25T00:00:00Z"
+  },
+  "8G77": {
+    "initial_release_date": "2024-02-21T00:00:00Z",
+    "deposit_date": "2023-02-16T00:00:00Z"
+  },
+  "8FQ7": {
+    "initial_release_date": "2023-10-04T00:00:00Z",
+    "deposit_date": "2023-01-05T00:00:00Z"
+  },
+  "8OWV": {
+    "initial_release_date": "2024-05-08T00:00:00Z",
+    "deposit_date": "2023-04-28T00:00:00Z"
+  },
+  "8OWW": {
+    "initial_release_date": "2024-05-08T00:00:00Z",
+    "deposit_date": "2023-04-28T00:00:00Z"
+  },
+  "8OZB": {
+    "initial_release_date": "2024-02-28T00:00:00Z",
+    "deposit_date": "2023-05-08T00:00:00Z"
+  },
+  "8P7W": {
+    "initial_release_date": "2023-08-30T00:00:00Z",
+    "deposit_date": "2023-05-31T00:00:00Z"
+  },
+  "8P8J": {
+    "initial_release_date": "2023-08-30T00:00:00Z",
+    "deposit_date": "2023-06-01T00:00:00Z"
+  },
+  "8PE1": {
+    "initial_release_date": "2024-06-19T00:00:00Z",
+    "deposit_date": "2023-06-13T00:00:00Z"
+  },
+  "8PE2": {
+    "initial_release_date": "2024-06-19T00:00:00Z",
+    "deposit_date": "2023-06-13T00:00:00Z"
+  },
+  "8PIH": {
+    "initial_release_date": "2024-05-08T00:00:00Z",
+    "deposit_date": "2023-06-21T00:00:00Z"
+  },
+  "8PIZ": {
+    "initial_release_date": "2024-04-03T00:00:00Z",
+    "deposit_date": "2023-06-22T00:00:00Z"
+  },
+  "8PJP": {
+    "initial_release_date": "2024-04-03T00:00:00Z",
+    "deposit_date": "2023-06-23T00:00:00Z"
+  },
+  "8PNV": {
+    "initial_release_date": "2024-04-03T00:00:00Z",
+    "deposit_date": "2023-07-02T00:00:00Z"
+  },
+  "8PYR": {
+    "initial_release_date": "2024-03-06T00:00:00Z",
+    "deposit_date": "2023-07-26T00:00:00Z"
+  },
+  "8Q6K": {
+    "initial_release_date": "2023-12-06T00:00:00Z",
+    "deposit_date": "2023-08-11T00:00:00Z"
+  },
+  "8Q78": {
+    "initial_release_date": "2024-08-28T00:00:00Z",
+    "deposit_date": "2023-08-15T00:00:00Z"
+  },
+  "8Q7O": {
+    "initial_release_date": "2024-08-28T00:00:00Z",
+    "deposit_date": "2023-08-16T00:00:00Z"
+  },
+  "8Q93": {
+    "initial_release_date": "2023-12-20T00:00:00Z",
+    "deposit_date": "2023-08-19T00:00:00Z"
+  },
+  "8Q95": {
+    "initial_release_date": "2023-12-20T00:00:00Z",
+    "deposit_date": "2023-08-19T00:00:00Z"
+  },
+  "8QF4": {
+    "initial_release_date": "2024-03-13T00:00:00Z",
+    "deposit_date": "2023-09-02T00:00:00Z"
+  },
+  "8QGZ": {
+    "initial_release_date": "2024-12-25T00:00:00Z",
+    "deposit_date": "2023-09-06T00:00:00Z"
+  },
+  "8QZ2": {
+    "initial_release_date": "2024-05-29T00:00:00Z",
+    "deposit_date": "2023-10-26T00:00:00Z"
+  },
+  "8QZ3": {
+    "initial_release_date": "2024-05-29T00:00:00Z",
+    "deposit_date": "2023-10-26T00:00:00Z"
+  },
+  "8QZ4": {
+    "initial_release_date": "2024-05-29T00:00:00Z",
+    "deposit_date": "2023-10-26T00:00:00Z"
+  },
+  "8QZ7": {
+    "initial_release_date": "2024-11-13T00:00:00Z",
+    "deposit_date": "2023-10-26T00:00:00Z"
+  },
+  "8RMK": {
+    "initial_release_date": "2024-06-19T00:00:00Z",
+    "deposit_date": "2024-01-08T00:00:00Z"
+  },
+  "8RRX": {
+    "initial_release_date": "2024-10-09T00:00:00Z",
+    "deposit_date": "2024-01-23T00:00:00Z"
+  },
+  "8RTF": {
+    "initial_release_date": "2025-04-16T00:00:00Z",
+    "deposit_date": "2024-01-26T00:00:00Z"
+  },
+  "8RW9": {
+    "initial_release_date": "2024-11-20T00:00:00Z",
+    "deposit_date": "2024-02-02T00:00:00Z"
+  },
+  "8RWF": {
+    "initial_release_date": "2024-11-20T00:00:00Z",
+    "deposit_date": "2024-02-04T00:00:00Z"
+  },
+  "8S0L": {
+    "initial_release_date": "2024-06-26T00:00:00Z",
+    "deposit_date": "2024-02-14T00:00:00Z"
+  },
+  "8S5W": {
+    "initial_release_date": "2024-10-02T00:00:00Z",
+    "deposit_date": "2024-02-26T00:00:00Z"
+  },
+  "8S79": {
+    "initial_release_date": "2024-11-06T00:00:00Z",
+    "deposit_date": "2024-02-29T00:00:00Z"
+  },
+  "8SFV": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-04-11T00:00:00Z"
+  },
+  "8SK5": {
+    "initial_release_date": "2023-08-16T00:00:00Z",
+    "deposit_date": "2023-04-18T00:00:00Z"
+  },
+  "8SLC": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-04-21T00:00:00Z"
+  },
+  "8SOS": {
+    "initial_release_date": "2023-12-13T00:00:00Z",
+    "deposit_date": "2023-04-29T00:00:00Z"
+  },
+  "8STL": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-05-10T00:00:00Z"
+  },
+  "8T58": {
+    "initial_release_date": "2023-11-29T00:00:00Z",
+    "deposit_date": "2023-06-12T00:00:00Z"
+  },
+  "8T60": {
+    "initial_release_date": "2024-02-28T00:00:00Z",
+    "deposit_date": "2023-06-14T00:00:00Z"
+  },
+  "8TAO": {
+    "initial_release_date": "2023-10-11T00:00:00Z",
+    "deposit_date": "2023-06-27T00:00:00Z"
+  },
+  "8TNH": {
+    "initial_release_date": "2024-05-08T00:00:00Z",
+    "deposit_date": "2023-08-01T00:00:00Z"
+  },
+  "8TH4": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-07-13T00:00:00Z"
+  },
+  "8SNE": {
+    "initial_release_date": "2024-05-01T00:00:00Z",
+    "deposit_date": "2023-04-27T00:00:00Z"
+  },
+  "8SFZ": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-04-11T00:00:00Z"
+  },
+  "8SFX": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-04-11T00:00:00Z"
+  },
+  "8S4U": {
+    "initial_release_date": "2024-10-02T00:00:00Z",
+    "deposit_date": "2024-02-22T00:00:00Z"
+  },
+  "8RJ7": {
+    "initial_release_date": "2024-11-27T00:00:00Z",
+    "deposit_date": "2023-12-20T00:00:00Z"
+  },
+  "8RBY": {
+    "initial_release_date": "2024-12-11T00:00:00Z",
+    "deposit_date": "2023-12-05T00:00:00Z"
+  },
+  "8Q94": {
+    "initial_release_date": "2023-12-20T00:00:00Z",
+    "deposit_date": "2023-08-19T00:00:00Z"
+  },
+  "8Q7S": {
+    "initial_release_date": "2023-12-20T00:00:00Z",
+    "deposit_date": "2023-08-16T00:00:00Z"
+  },
+  "8P8A": {
+    "initial_release_date": "2023-08-30T00:00:00Z",
+    "deposit_date": "2023-05-31T00:00:00Z"
+  },
+  "8TW3": {
+    "initial_release_date": "2024-01-24T00:00:00Z",
+    "deposit_date": "2023-08-19T00:00:00Z"
+  },
+  "8TZU": {
+    "initial_release_date": "2024-05-01T00:00:00Z",
+    "deposit_date": "2023-08-27T00:00:00Z"
+  },
+  "8U3S": {
+    "initial_release_date": "2024-09-04T00:00:00Z",
+    "deposit_date": "2023-09-08T00:00:00Z"
+  },
+  "8UKV": {
+    "initial_release_date": "2024-06-19T00:00:00Z",
+    "deposit_date": "2023-10-15T00:00:00Z"
+  },
+  "8UO9": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-10-19T00:00:00Z"
+  },
+  "8UW9": {
+    "initial_release_date": "2024-09-04T00:00:00Z",
+    "deposit_date": "2023-11-06T00:00:00Z"
+  },
+  "8UY6": {
+    "initial_release_date": "2024-09-25T00:00:00Z",
+    "deposit_date": "2023-11-13T00:00:00Z"
+  },
+  "8V5K": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-11-30T00:00:00Z"
+  },
+  "8V62": {
+    "initial_release_date": "2024-05-22T00:00:00Z",
+    "deposit_date": "2023-12-01T00:00:00Z"
+  },
+  "8V9X": {
+    "initial_release_date": "2024-08-07T00:00:00Z",
+    "deposit_date": "2023-12-10T00:00:00Z"
+  },
+  "8VYL": {
+    "initial_release_date": "2024-07-17T00:00:00Z",
+    "deposit_date": "2024-02-08T00:00:00Z"
+  },
+  "8W1V": {
+    "initial_release_date": "2024-07-17T00:00:00Z",
+    "deposit_date": "2024-02-19T00:00:00Z"
+  },
+  "8W90": {
+    "initial_release_date": "2024-09-04T00:00:00Z",
+    "deposit_date": "2023-09-04T00:00:00Z"
+  },
+  "8WEO": {
+    "initial_release_date": "2024-09-25T00:00:00Z",
+    "deposit_date": "2023-09-18T00:00:00Z"
+  },
+  "8XLD": {
+    "initial_release_date": "2024-03-06T00:00:00Z",
+    "deposit_date": "2023-12-25T00:00:00Z"
+  },
+  "8XPS": {
+    "initial_release_date": "2024-09-18T00:00:00Z",
+    "deposit_date": "2024-01-04T00:00:00Z"
+  },
+  "8XUM": {
+    "initial_release_date": "2025-01-15T00:00:00Z",
+    "deposit_date": "2024-01-13T00:00:00Z"
+  },
+  "8Y4W": {
+    "initial_release_date": "2024-12-11T00:00:00Z",
+    "deposit_date": "2024-01-31T00:00:00Z"
+  },
+  "8Y9U": {
+    "initial_release_date": "2025-02-12T00:00:00Z",
+    "deposit_date": "2024-02-07T00:00:00Z"
+  },
+  "8YA0": {
+    "initial_release_date": "2025-02-26T00:00:00Z",
+    "deposit_date": "2024-02-07T00:00:00Z"
+  },
+  "8YBM": {
+    "initial_release_date": "2024-12-25T00:00:00Z",
+    "deposit_date": "2024-02-15T00:00:00Z"
+  },
+  "8YBO": {
+    "initial_release_date": "2024-12-25T00:00:00Z",
+    "deposit_date": "2024-02-15T00:00:00Z"
+  },
+  "8YBP": {
+    "initial_release_date": "2024-12-25T00:00:00Z",
+    "deposit_date": "2024-02-15T00:00:00Z"
+  },
+  "8YJ8": {
+    "initial_release_date": "2024-06-19T00:00:00Z",
+    "deposit_date": "2024-03-01T00:00:00Z"
+  },
+  "8YSH": {
+    "initial_release_date": "2024-09-11T00:00:00Z",
+    "deposit_date": "2024-03-23T00:00:00Z"
+  },
+  "8YVJ": {
+    "initial_release_date": "2024-12-18T00:00:00Z",
+    "deposit_date": "2024-03-28T00:00:00Z"
+  },
+  "8YVO": {
+    "initial_release_date": "2024-12-18T00:00:00Z",
+    "deposit_date": "2024-03-28T00:00:00Z"
+  },
+  "8YW9": {
+    "initial_release_date": "2025-03-12T00:00:00Z",
+    "deposit_date": "2024-03-30T00:00:00Z"
+  },
+  "8Z2E": {
+    "initial_release_date": "2025-04-23T00:00:00Z",
+    "deposit_date": "2024-04-12T00:00:00Z"
+  },
+  "8Z8V": {
+    "initial_release_date": "2024-09-04T00:00:00Z",
+    "deposit_date": "2024-04-22T00:00:00Z"
+  },
+  "8ZER": {
+    "initial_release_date": "2024-09-04T00:00:00Z",
+    "deposit_date": "2024-05-06T00:00:00Z"
+  },
+  "8ZOY": {
+    "initial_release_date": "2024-09-11T00:00:00Z",
+    "deposit_date": "2024-05-29T00:00:00Z"
+  },
+  "8ZRD": {
+    "initial_release_date": "2025-09-10T00:00:00Z",
+    "deposit_date": "2024-06-04T00:00:00Z"
+  },
+  "9AXW": {
+    "initial_release_date": "2026-03-25T00:00:00Z",
+    "deposit_date": "2024-03-06T00:00:00Z"
+  },
+  "9B0A": {
+    "initial_release_date": "2025-03-26T00:00:00Z",
+    "deposit_date": "2024-03-11T00:00:00Z"
+  },
+  "9BA0": {
+    "initial_release_date": "2024-11-20T00:00:00Z",
+    "deposit_date": "2024-04-03T00:00:00Z"
+  },
+  "9BDO": {
+    "initial_release_date": "2025-04-16T00:00:00Z",
+    "deposit_date": "2024-04-12T00:00:00Z"
+  },
+  "9BIA": {
+    "initial_release_date": "2024-10-16T00:00:00Z",
+    "deposit_date": "2024-04-23T00:00:00Z"
+  },
+  "9BIU": {
+    "initial_release_date": "2024-07-24T00:00:00Z",
+    "deposit_date": "2024-04-24T00:00:00Z"
+  },
+  "9B71": {
+    "initial_release_date": "2024-06-26T00:00:00Z",
+    "deposit_date": "2024-03-26T00:00:00Z"
+  },
+  "8YSF": {
+    "initial_release_date": "2024-09-11T00:00:00Z",
+    "deposit_date": "2024-03-22T00:00:00Z"
+  },
+  "8YOT": {
+    "initial_release_date": "2025-06-18T00:00:00Z",
+    "deposit_date": "2024-03-13T00:00:00Z"
+  },
+  "8YBN": {
+    "initial_release_date": "2024-12-25T00:00:00Z",
+    "deposit_date": "2024-02-15T00:00:00Z"
+  },
+  "8YBL": {
+    "initial_release_date": "2024-12-25T00:00:00Z",
+    "deposit_date": "2024-02-15T00:00:00Z"
+  },
+  "8Y9T": {
+    "initial_release_date": "2025-02-12T00:00:00Z",
+    "deposit_date": "2024-02-07T00:00:00Z"
+  },
+  "8Y9S": {
+    "initial_release_date": "2025-02-12T00:00:00Z",
+    "deposit_date": "2024-02-07T00:00:00Z"
+  },
+  "8XKI": {
+    "initial_release_date": "2024-07-10T00:00:00Z",
+    "deposit_date": "2023-12-23T00:00:00Z"
+  },
+  "8WYJ": {
+    "initial_release_date": "2024-11-13T00:00:00Z",
+    "deposit_date": "2023-10-31T00:00:00Z"
+  },
+  "8WCG": {
+    "initial_release_date": "2024-09-18T00:00:00Z",
+    "deposit_date": "2023-09-12T00:00:00Z"
+  },
+  "8V8K": {
+    "initial_release_date": "2024-09-11T00:00:00Z",
+    "deposit_date": "2023-12-05T00:00:00Z"
+  },
+  "9CY1": {
+    "initial_release_date": "2025-04-16T00:00:00Z",
+    "deposit_date": "2024-08-01T00:00:00Z"
+  },
+  "9DC3": {
+    "initial_release_date": "2024-11-27T00:00:00Z",
+    "deposit_date": "2024-08-25T00:00:00Z"
+  },
+  "9DVQ": {
+    "initial_release_date": "2025-02-26T00:00:00Z",
+    "deposit_date": "2024-10-08T00:00:00Z"
+  },
+  "9E76": {
+    "initial_release_date": "2025-02-05T00:00:00Z",
+    "deposit_date": "2024-10-31T00:00:00Z"
+  },
+  "9E7L": {
+    "initial_release_date": "2025-02-05T00:00:00Z",
+    "deposit_date": "2024-11-02T00:00:00Z"
+  },
+  "9E7N": {
+    "initial_release_date": "2025-07-30T00:00:00Z",
+    "deposit_date": "2024-11-03T00:00:00Z"
+  },
+  "9E7P": {
+    "initial_release_date": "2025-07-30T00:00:00Z",
+    "deposit_date": "2024-11-03T00:00:00Z"
+  },
+  "9EA9": {
+    "initial_release_date": "2025-09-17T00:00:00Z",
+    "deposit_date": "2024-11-10T00:00:00Z"
+  },
+  "9EB9": {
+    "initial_release_date": "2026-01-21T00:00:00Z",
+    "deposit_date": "2024-11-12T00:00:00Z"
+  },
+  "9EGN": {
+    "initial_release_date": "2025-02-26T00:00:00Z",
+    "deposit_date": "2024-11-21T00:00:00Z"
+  },
+  "9EI0": {
+    "initial_release_date": "2025-12-03T00:00:00Z",
+    "deposit_date": "2024-11-25T00:00:00Z"
+  },
+  "9EMY": {
+    "initial_release_date": "2025-03-26T00:00:00Z",
+    "deposit_date": "2024-03-11T00:00:00Z"
+  },
+  "9EN2": {
+    "initial_release_date": "2024-07-03T00:00:00Z",
+    "deposit_date": "2024-03-12T00:00:00Z"
+  },
+  "9ENA": {
+    "initial_release_date": "2025-06-04T00:00:00Z",
+    "deposit_date": "2024-03-12T00:00:00Z"
+  },
+  "9EOT": {
+    "initial_release_date": "2024-11-13T00:00:00Z",
+    "deposit_date": "2024-03-15T00:00:00Z"
+  },
+  "9ERU": {
+    "initial_release_date": "2024-12-25T00:00:00Z",
+    "deposit_date": "2024-03-25T00:00:00Z"
+  },
+  "9ERW": {
+    "initial_release_date": "2024-12-11T00:00:00Z",
+    "deposit_date": "2024-03-25T00:00:00Z"
+  },
+  "9ETJ": {
+    "initial_release_date": "2024-12-11T00:00:00Z",
+    "deposit_date": "2024-03-26T00:00:00Z"
+  },
+  "9ETL": {
+    "initial_release_date": "2024-12-11T00:00:00Z",
+    "deposit_date": "2024-03-26T00:00:00Z"
+  },
+  "9EZU": {
+    "initial_release_date": "2025-10-29T00:00:00Z",
+    "deposit_date": "2024-04-14T00:00:00Z"
+  },
+  "9EZW": {
+    "initial_release_date": "2025-10-29T00:00:00Z",
+    "deposit_date": "2024-04-14T00:00:00Z"
+  },
+  "9FC2": {
+    "initial_release_date": "2025-06-11T00:00:00Z",
+    "deposit_date": "2024-05-15T00:00:00Z"
+  },
+  "9FM1": {
+    "initial_release_date": "2025-07-09T00:00:00Z",
+    "deposit_date": "2024-06-05T00:00:00Z"
+  },
+  "9FR4": {
+    "initial_release_date": "2025-03-19T00:00:00Z",
+    "deposit_date": "2024-06-18T00:00:00Z"
+  },
+  "9FVB": {
+    "initial_release_date": "2024-11-06T00:00:00Z",
+    "deposit_date": "2024-06-26T00:00:00Z"
+  },
+  "9FVC": {
+    "initial_release_date": "2024-11-06T00:00:00Z",
+    "deposit_date": "2024-06-26T00:00:00Z"
+  },
+  "9FWW": {
+    "initial_release_date": "2024-10-30T00:00:00Z",
+    "deposit_date": "2024-07-01T00:00:00Z"
+  },
+  "9FYQ": {
+    "initial_release_date": "2025-05-21T00:00:00Z",
+    "deposit_date": "2024-07-03T00:00:00Z"
+  },
+  "9FZC": {
+    "initial_release_date": "2024-07-17T00:00:00Z",
+    "deposit_date": "2024-07-05T00:00:00Z"
+  },
+  "9FZD": {
+    "initial_release_date": "2024-07-17T00:00:00Z",
+    "deposit_date": "2024-07-05T00:00:00Z"
+  },
+  "9G13": {
+    "initial_release_date": "2024-07-31T00:00:00Z",
+    "deposit_date": "2024-07-09T00:00:00Z"
+  },
+  "9G1Y": {
+    "initial_release_date": "2024-07-24T00:00:00Z",
+    "deposit_date": "2024-07-10T00:00:00Z"
+  },
+  "9G2G": {
+    "initial_release_date": "2024-07-24T00:00:00Z",
+    "deposit_date": "2024-07-10T00:00:00Z"
+  },
+  "9G48": {
+    "initial_release_date": "2024-07-24T00:00:00Z",
+    "deposit_date": "2024-07-15T00:00:00Z"
+  },
+  "9G4G": {
+    "initial_release_date": "2024-07-24T00:00:00Z",
+    "deposit_date": "2024-07-15T00:00:00Z"
+  },
+  "9G5K": {
+    "initial_release_date": "2024-10-02T00:00:00Z",
+    "deposit_date": "2024-07-17T00:00:00Z"
+  },
+  "9G5Z": {
+    "initial_release_date": "2024-07-24T00:00:00Z",
+    "deposit_date": "2024-07-17T00:00:00Z"
+  },
+  "9G7K": {
+    "initial_release_date": "2024-07-31T00:00:00Z",
+    "deposit_date": "2024-07-21T00:00:00Z"
+  },
+  "9G97": {
+    "initial_release_date": "2025-01-22T00:00:00Z",
+    "deposit_date": "2024-07-24T00:00:00Z"
+  },
+  "9G9M": {
+    "initial_release_date": "2025-01-22T00:00:00Z",
+    "deposit_date": "2024-07-25T00:00:00Z"
+  },
+  "9GCN": {
+    "initial_release_date": "2025-08-06T00:00:00Z",
+    "deposit_date": "2024-08-02T00:00:00Z"
+  },
+  "9GOE": {
+    "initial_release_date": "2025-03-12T00:00:00Z",
+    "deposit_date": "2024-09-05T00:00:00Z"
+  },
+  "9GV3": {
+    "initial_release_date": "2025-10-01T00:00:00Z",
+    "deposit_date": "2024-09-21T00:00:00Z"
+  },
+  "9G3E": {
+    "initial_release_date": "2025-07-23T00:00:00Z",
+    "deposit_date": "2024-07-12T00:00:00Z"
+  },
+  "9FZQ": {
+    "initial_release_date": "2025-03-05T00:00:00Z",
+    "deposit_date": "2024-07-05T00:00:00Z"
+  },
+  "9FXF": {
+    "initial_release_date": "2024-10-30T00:00:00Z",
+    "deposit_date": "2024-07-01T00:00:00Z"
+  },
+  "9FAK": {
+    "initial_release_date": "2025-07-02T00:00:00Z",
+    "deposit_date": "2024-05-10T00:00:00Z"
+  },
+  "9ERT": {
+    "initial_release_date": "2024-12-11T00:00:00Z",
+    "deposit_date": "2024-03-25T00:00:00Z"
+  },
+  "9DET": {
+    "initial_release_date": "2025-09-10T00:00:00Z",
+    "deposit_date": "2024-08-29T00:00:00Z"
+  },
+  "9CO8": {
+    "initial_release_date": "2024-11-20T00:00:00Z",
+    "deposit_date": "2024-07-16T00:00:00Z"
+  },
+  "9GV4": {
+    "initial_release_date": "2025-06-11T00:00:00Z",
+    "deposit_date": "2024-09-21T00:00:00Z"
+  },
+  "9H39": {
+    "initial_release_date": "2025-07-16T00:00:00Z",
+    "deposit_date": "2024-10-16T00:00:00Z"
+  },
+  "9H76": {
+    "initial_release_date": "2025-01-01T00:00:00Z",
+    "deposit_date": "2024-10-26T00:00:00Z"
+  },
+  "9H77": {
+    "initial_release_date": "2025-11-05T00:00:00Z",
+    "deposit_date": "2024-10-26T00:00:00Z"
+  },
+  "9HJK": {
+    "initial_release_date": "2025-12-10T00:00:00Z",
+    "deposit_date": "2024-11-29T00:00:00Z"
+  },
+  "9HKQ": {
+    "initial_release_date": "2025-12-17T00:00:00Z",
+    "deposit_date": "2024-12-04T00:00:00Z"
+  },
+  "9HLL": {
+    "initial_release_date": "2025-12-17T00:00:00Z",
+    "deposit_date": "2024-12-05T00:00:00Z"
+  },
+  "9HLS": {
+    "initial_release_date": "2025-09-03T00:00:00Z",
+    "deposit_date": "2024-12-05T00:00:00Z"
+  },
+  "9HLW": {
+    "initial_release_date": "2025-07-16T00:00:00Z",
+    "deposit_date": "2024-12-05T00:00:00Z"
+  },
+  "9HO4": {
+    "initial_release_date": "2025-12-24T00:00:00Z",
+    "deposit_date": "2024-12-11T00:00:00Z"
+  },
+  "9HO6": {
+    "initial_release_date": "2025-12-24T00:00:00Z",
+    "deposit_date": "2024-12-11T00:00:00Z"
+  },
+  "9HQ5": {
+    "initial_release_date": "2025-11-19T00:00:00Z",
+    "deposit_date": "2024-12-16T00:00:00Z"
+  },
+  "9HVI": {
+    "initial_release_date": "2025-07-16T00:00:00Z",
+    "deposit_date": "2024-12-29T00:00:00Z"
+  },
+  "9HZK": {
+    "initial_release_date": "2025-04-23T00:00:00Z",
+    "deposit_date": "2025-01-13T00:00:00Z"
+  },
+  "9IAR": {
+    "initial_release_date": "2026-03-04T00:00:00Z",
+    "deposit_date": "2025-02-11T00:00:00Z"
+  },
+  "9ISH": {
+    "initial_release_date": "2025-05-28T00:00:00Z",
+    "deposit_date": "2024-07-17T00:00:00Z"
+  },
+  "9J3J": {
+    "initial_release_date": "2025-03-19T00:00:00Z",
+    "deposit_date": "2024-08-08T00:00:00Z"
+  },
+  "9J3L": {
+    "initial_release_date": "2025-03-19T00:00:00Z",
+    "deposit_date": "2024-08-08T00:00:00Z"
+  },
+  "9J3N": {
+    "initial_release_date": "2025-03-19T00:00:00Z",
+    "deposit_date": "2024-08-08T00:00:00Z"
+  },
+  "9J7Y": {
+    "initial_release_date": "2025-01-15T00:00:00Z",
+    "deposit_date": "2024-08-20T00:00:00Z"
+  },
+  "9JD0": {
+    "initial_release_date": "2025-07-30T00:00:00Z",
+    "deposit_date": "2024-08-30T00:00:00Z"
+  },
+  "9JRS": {
+    "initial_release_date": "2025-10-01T00:00:00Z",
+    "deposit_date": "2024-09-29T00:00:00Z"
+  },
+  "9KDB": {
+    "initial_release_date": "2025-10-08T00:00:00Z",
+    "deposit_date": "2024-11-03T00:00:00Z"
+  },
+  "9KGK": {
+    "initial_release_date": "2025-07-16T00:00:00Z",
+    "deposit_date": "2024-11-08T00:00:00Z"
+  },
+  "9L1K": {
+    "initial_release_date": "2025-08-27T00:00:00Z",
+    "deposit_date": "2024-12-14T00:00:00Z"
+  },
+  "9LAD": {
+    "initial_release_date": "2025-12-10T00:00:00Z",
+    "deposit_date": "2025-01-02T00:00:00Z"
+  },
+  "9LH2": {
+    "initial_release_date": "2026-01-14T00:00:00Z",
+    "deposit_date": "2025-01-11T00:00:00Z"
+  },
+  "9LJJ": {
+    "initial_release_date": "2025-02-12T00:00:00Z",
+    "deposit_date": "2025-01-15T00:00:00Z"
+  },
+  "9LM6": {
+    "initial_release_date": "2026-01-21T00:00:00Z",
+    "deposit_date": "2025-01-18T00:00:00Z"
+  },
+  "9M6O": {
+    "initial_release_date": "2025-11-12T00:00:00Z",
+    "deposit_date": "2025-03-07T00:00:00Z"
+  },
+  "9MIN": {
+    "initial_release_date": "2025-08-06T00:00:00Z",
+    "deposit_date": "2024-12-13T00:00:00Z"
+  },
+  "9MNZ": {
+    "initial_release_date": "2025-03-05T00:00:00Z",
+    "deposit_date": "2024-12-24T00:00:00Z"
+  },
+  "9MTE": {
+    "initial_release_date": "2025-11-19T00:00:00Z",
+    "deposit_date": "2025-01-11T00:00:00Z"
+  },
+  "9MTX": {
+    "initial_release_date": "2025-11-19T00:00:00Z",
+    "deposit_date": "2025-01-12T00:00:00Z"
+  },
+  "9MDZ": {
+    "initial_release_date": "2025-05-21T00:00:00Z",
+    "deposit_date": "2024-12-05T00:00:00Z"
+  },
+  "9LR1": {
+    "initial_release_date": "2026-02-04T00:00:00Z",
+    "deposit_date": "2025-01-28T00:00:00Z"
+  },
+  "9LME": {
+    "initial_release_date": "2026-01-21T00:00:00Z",
+    "deposit_date": "2025-01-18T00:00:00Z"
+  },
+  "9LM5": {
+    "initial_release_date": "2026-01-21T00:00:00Z",
+    "deposit_date": "2025-01-18T00:00:00Z"
+  },
+  "9LDS": {
+    "initial_release_date": "2025-04-02T00:00:00Z",
+    "deposit_date": "2025-01-06T00:00:00Z"
+  },
+  "9KDC": {
+    "initial_release_date": "2025-10-08T00:00:00Z",
+    "deposit_date": "2024-11-03T00:00:00Z"
+  },
+  "9IQP": {
+    "initial_release_date": "2025-07-16T00:00:00Z",
+    "deposit_date": "2024-07-13T00:00:00Z"
+  },
+  "9IAZ": {
+    "initial_release_date": "2026-04-29T00:00:00Z",
+    "deposit_date": "2025-02-11T00:00:00Z"
+  },
+  "9IAS": {
+    "initial_release_date": "2026-03-04T00:00:00Z",
+    "deposit_date": "2025-02-11T00:00:00Z"
+  },
+  "9HZJ": {
+    "initial_release_date": "2025-04-23T00:00:00Z",
+    "deposit_date": "2025-01-13T00:00:00Z"
+  },
+  "9HUR": {
+    "initial_release_date": "2025-11-19T00:00:00Z",
+    "deposit_date": "2024-12-23T00:00:00Z"
+  },
+  "9HPA": {
+    "initial_release_date": "2025-09-03T00:00:00Z",
+    "deposit_date": "2024-12-12T00:00:00Z"
+  },
+  "9HML": {
+    "initial_release_date": "2025-04-09T00:00:00Z",
+    "deposit_date": "2024-12-09T00:00:00Z"
+  },
+  "9H6V": {
+    "initial_release_date": "2025-07-16T00:00:00Z",
+    "deposit_date": "2024-10-25T00:00:00Z"
+  },
+  "9H1J": {
+    "initial_release_date": "2025-10-29T00:00:00Z",
+    "deposit_date": "2024-10-09T00:00:00Z"
+  },
+  "9H1F": {
+    "initial_release_date": "2025-03-19T00:00:00Z",
+    "deposit_date": "2024-10-09T00:00:00Z"
+  },
+  "9MVU": {
+    "initial_release_date": "2025-08-13T00:00:00Z",
+    "deposit_date": "2025-01-16T00:00:00Z"
+  },
+  "9NK9": {
+    "initial_release_date": "2025-05-28T00:00:00Z",
+    "deposit_date": "2025-02-28T00:00:00Z"
+  },
+  "9NPT": {
+    "initial_release_date": "2025-12-31T00:00:00Z",
+    "deposit_date": "2025-03-11T00:00:00Z"
+  },
+  "9NRJ": {
+    "initial_release_date": "2025-10-15T00:00:00Z",
+    "deposit_date": "2025-03-14T00:00:00Z"
+  },
+  "9OBN": {
+    "initial_release_date": "2026-01-21T00:00:00Z",
+    "deposit_date": "2025-04-22T00:00:00Z"
+  },
+  "9P6X": {
+    "initial_release_date": "2026-01-21T00:00:00Z",
+    "deposit_date": "2025-06-20T00:00:00Z"
+  },
+  "9PMT": {
+    "initial_release_date": "2026-05-06T00:00:00Z",
+    "deposit_date": "2025-07-18T00:00:00Z"
+  },
+  "9PYM": {
+    "initial_release_date": "2025-11-12T00:00:00Z",
+    "deposit_date": "2025-08-07T00:00:00Z"
+  },
+  "9Q6N": {
+    "initial_release_date": "2026-03-25T00:00:00Z",
+    "deposit_date": "2025-08-22T00:00:00Z"
+  },
+  "9Q9S": {
+    "initial_release_date": "2025-09-03T00:00:00Z",
+    "deposit_date": "2025-02-26T00:00:00Z"
+  },
+  "9QTN": {
+    "initial_release_date": "2026-02-18T00:00:00Z",
+    "deposit_date": "2025-04-09T00:00:00Z"
+  },
+  "9QTO": {
+    "initial_release_date": "2026-02-18T00:00:00Z",
+    "deposit_date": "2025-04-09T00:00:00Z"
+  },
+  "9QZQ": {
+    "initial_release_date": "2025-11-05T00:00:00Z",
+    "deposit_date": "2025-04-23T00:00:00Z"
+  },
+  "9R0B": {
+    "initial_release_date": "2025-09-03T00:00:00Z",
+    "deposit_date": "2025-04-24T00:00:00Z"
+  },
+  "9R19": {
+    "initial_release_date": "2025-09-17T00:00:00Z",
+    "deposit_date": "2025-04-25T00:00:00Z"
+  },
+  "9RIU": {
+    "initial_release_date": "2025-11-05T00:00:00Z",
+    "deposit_date": "2025-06-11T00:00:00Z"
+  },
+  "9RN6": {
+    "initial_release_date": "2026-01-21T00:00:00Z",
+    "deposit_date": "2025-06-19T00:00:00Z"
+  },
+  "9RSJ": {
+    "initial_release_date": "2025-11-26T00:00:00Z",
+    "deposit_date": "2025-07-01T00:00:00Z"
+  },
+  "9RYF": {
+    "initial_release_date": "2026-04-08T00:00:00Z",
+    "deposit_date": "2025-07-15T00:00:00Z"
+  },
+  "9S36": {
+    "initial_release_date": "2025-09-03T00:00:00Z",
+    "deposit_date": "2025-07-23T00:00:00Z"
+  },
+  "9TH6": {
+    "initial_release_date": "2026-02-11T00:00:00Z",
+    "deposit_date": "2025-12-02T00:00:00Z"
+  },
+  "9U5C": {
+    "initial_release_date": "2025-10-08T00:00:00Z",
+    "deposit_date": "2025-03-21T00:00:00Z"
+  },
+  "9UAQ": {
+    "initial_release_date": "2026-02-11T00:00:00Z",
+    "deposit_date": "2025-04-01T00:00:00Z"
+  },
+  "9UB6": {
+    "initial_release_date": "2025-10-22T00:00:00Z",
+    "deposit_date": "2025-04-02T00:00:00Z"
+  },
+  "9UCL": {
+    "initial_release_date": "2026-02-11T00:00:00Z",
+    "deposit_date": "2025-04-04T00:00:00Z"
+  },
+  "9UO0": {
+    "initial_release_date": "2026-04-29T00:00:00Z",
+    "deposit_date": "2025-04-24T00:00:00Z"
+  },
+  "9UOC": {
+    "initial_release_date": "2026-04-29T00:00:00Z",
+    "deposit_date": "2025-04-25T00:00:00Z"
+  },
+  "9UPR": {
+    "initial_release_date": "2026-05-06T00:00:00Z",
+    "deposit_date": "2025-04-28T00:00:00Z"
+  },
+  "9UYN": {
+    "initial_release_date": "2025-11-19T00:00:00Z",
+    "deposit_date": "2025-05-15T00:00:00Z"
+  },
+  "9VOR": {
+    "initial_release_date": "2025-12-31T00:00:00Z",
+    "deposit_date": "2025-07-02T00:00:00Z"
+  },
+  "9VQ6": {
+    "initial_release_date": "2026-01-28T00:00:00Z",
+    "deposit_date": "2025-07-04T00:00:00Z"
+  },
+  "9W3L": {
+    "initial_release_date": "2026-05-06T00:00:00Z",
+    "deposit_date": "2025-07-29T00:00:00Z"
+  },
+  "9XOU": {
+    "initial_release_date": "2026-02-11T00:00:00Z",
+    "deposit_date": "2025-11-15T00:00:00Z"
+  },
+  "9XZX": {
+    "initial_release_date": "2026-05-06T00:00:00Z",
+    "deposit_date": "2025-08-27T00:00:00Z"
+  },
+  "9YP2": {
+    "initial_release_date": "2025-12-03T00:00:00Z",
+    "deposit_date": "2025-10-13T00:00:00Z"
+  },
+  "9Z5Q": {
+    "initial_release_date": "2025-12-17T00:00:00Z",
+    "deposit_date": "2025-11-12T00:00:00Z"
+  },
+  "9ZEN": {
+    "initial_release_date": "2026-03-04T00:00:00Z",
+    "deposit_date": "2025-11-30T00:00:00Z"
+  },
+  "9ZEO": {
+    "initial_release_date": "2026-03-04T00:00:00Z",
+    "deposit_date": "2025-11-30T00:00:00Z"
+  },
+  "9YC3": {
+    "initial_release_date": "2025-12-31T00:00:00Z",
+    "deposit_date": "2025-09-18T00:00:00Z"
+  },
+  "9UOI": {
+    "initial_release_date": "2026-04-29T00:00:00Z",
+    "deposit_date": "2025-04-25T00:00:00Z"
+  },
+  "9ULP": {
+    "initial_release_date": "2026-03-25T00:00:00Z",
+    "deposit_date": "2025-04-20T00:00:00Z"
+  },
+  "9UBR": {
+    "initial_release_date": "2026-02-11T00:00:00Z",
+    "deposit_date": "2025-04-03T00:00:00Z"
+  },
+  "9S35": {
+    "initial_release_date": "2025-09-03T00:00:00Z",
+    "deposit_date": "2025-07-23T00:00:00Z"
+  },
+  "9RXI": {
+    "initial_release_date": "2026-01-28T00:00:00Z",
+    "deposit_date": "2025-07-11T00:00:00Z"
+  },
+  "9Q6H": {
+    "initial_release_date": "2026-03-25T00:00:00Z",
+    "deposit_date": "2025-08-22T00:00:00Z"
+  },
+  "9NSD": {
+    "initial_release_date": "2026-01-21T00:00:00Z",
+    "deposit_date": "2025-03-16T00:00:00Z"
+  },
+  "9NN9": {
+    "initial_release_date": "2025-10-01T00:00:00Z",
+    "deposit_date": "2025-03-05T00:00:00Z"
+  },
+  "9MY8": {
+    "initial_release_date": "2025-08-13T00:00:00Z",
+    "deposit_date": "2025-01-21T00:00:00Z"
+  },
+  "9MW5": {
+    "initial_release_date": "2025-08-13T00:00:00Z",
+    "deposit_date": "2025-01-16T00:00:00Z"
+  },
+  "9RIT": {
+    "initial_release_date": "2025-11-05",
+    "deposit_date": "2025-06-11",
+    "status": "obsolete",
+    "obsolete_date": "2026-09-02",
+    "replacement": "9S9E",
+    "source": "https://www.rcsb.org/structure/removed/9RIT"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "abofela/tnp-sf",
+  "title": "tnp-sf",
+  "code_file": "tnp-sf.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "potatoguy44/sabdab2-nanobodies"
+  ],
+  "enable_gpu": true,
+  "machine_shape": "NvidiaTeslaT4"
+}

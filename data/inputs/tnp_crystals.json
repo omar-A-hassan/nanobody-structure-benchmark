@@ -1,0 +1,5380 @@
+{
+ "p5": 0.73592,
+ "p95": 1.2938599999999996,
+ "median": 0.9889,
+ "rows": [
+  {
+   "tid": "10ZOA",
+   "compact": 0.9485,
+   "reach": 11.598,
+   "n_res": 11,
+   "alpha": 82.38947290444221,
+   "tau": 138.22033593472713,
+   "kink": "other"
+  },
+  {
+   "tid": "8F0KN",
+   "compact": 1.3615,
+   "reach": 15.424,
+   "n_res": 21,
+   "alpha": 60.37700647645752,
+   "tau": 99.56194032373827,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7R73A",
+   "compact": 0.957,
+   "reach": 20.898,
+   "n_res": 20,
+   "alpha": 1.0453522912461848,
+   "tau": 98.52449820153113,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7RG7A",
+   "compact": 1.2023,
+   "reach": 14.139,
+   "n_res": 17,
+   "alpha": 39.28373916394401,
+   "tau": 93.65667896937993,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9UAQF",
+   "compact": 0.7777,
+   "reach": 10.286,
+   "n_res": 8,
+   "alpha": -172.13804914768332,
+   "tau": 107.87104768499792,
+   "kink": "extended"
+  },
+  {
+   "tid": "7D5BD",
+   "compact": 0.8864,
+   "reach": 5.641,
+   "n_res": 5,
+   "alpha": 107.4399366853927,
+   "tau": 95.06526289357441,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7L6VE",
+   "compact": 1.246,
+   "reach": 11.236,
+   "n_res": 14,
+   "alpha": -145.45113958416525,
+   "tau": 118.83737798830425,
+   "kink": "extended"
+  },
+  {
+   "tid": "7XKAB",
+   "compact": 0.7872,
+   "reach": 17.785,
+   "n_res": 14,
+   "alpha": -171.47892710204255,
+   "tau": 132.04485696306105,
+   "kink": "extended"
+  },
+  {
+   "tid": "7ZQTF",
+   "compact": 0.8633,
+   "reach": 9.267,
+   "n_res": 8,
+   "alpha": 60.25567637206212,
+   "tau": 97.78995752958605,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7A5VO",
+   "compact": 1.2181,
+   "reach": 14.777,
+   "n_res": 18,
+   "alpha": 53.62664453958513,
+   "tau": 112.14924005151171,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8W1VF",
+   "compact": 0.7218,
+   "reach": 18.011,
+   "n_res": 13,
+   "alpha": -174.4027700604824,
+   "tau": 122.77961252685907,
+   "kink": "extended"
+  },
+  {
+   "tid": "9FAKG",
+   "compact": 1.1036,
+   "reach": 15.404,
+   "n_res": 17,
+   "alpha": 57.871608714415196,
+   "tau": 98.67180364429811,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7AQGC",
+   "compact": 0.9788,
+   "reach": 14.304,
+   "n_res": 14,
+   "alpha": 10.105910018052523,
+   "tau": 100.17615057096548,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9UYNB",
+   "compact": 0.8879,
+   "reach": 9.01,
+   "n_res": 8,
+   "alpha": -93.30339564322622,
+   "tau": 123.25930188228995,
+   "kink": "other"
+  },
+  {
+   "tid": "9RYFC",
+   "compact": 0.8184,
+   "reach": 20.772,
+   "n_res": 17,
+   "alpha": 67.21184538885817,
+   "tau": 115.53970306744817,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7SAHB",
+   "compact": 1.1604,
+   "reach": 17.235,
+   "n_res": 20,
+   "alpha": 32.03761754782164,
+   "tau": 100.7292463496064,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9EA9F",
+   "compact": 0.8244,
+   "reach": 9.704,
+   "n_res": 8,
+   "alpha": -173.01805410491679,
+   "tau": 91.93714359785197,
+   "kink": "other"
+  },
+  {
+   "tid": "8YA0V",
+   "compact": 0.8145,
+   "reach": 13.506,
+   "n_res": 11,
+   "alpha": -155.25361179537524,
+   "tau": 108.96489108903911,
+   "kink": "extended"
+  },
+  {
+   "tid": "8TAOD",
+   "compact": 0.9358,
+   "reach": 17.098,
+   "n_res": 16,
+   "alpha": 29.345639480105888,
+   "tau": 97.58437657197375,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9LR1C",
+   "compact": 0.9676,
+   "reach": 24.804,
+   "n_res": 24,
+   "alpha": -24.440089362489882,
+   "tau": 129.05638316268605,
+   "kink": "other"
+  },
+  {
+   "tid": "7SAJF",
+   "compact": 1.1495,
+   "reach": 16.529,
+   "n_res": 19,
+   "alpha": 52.635789292907134,
+   "tau": 139.48450257109604,
+   "kink": "other"
+  },
+  {
+   "tid": "8APYC",
+   "compact": 0.8242,
+   "reach": 16.986,
+   "n_res": 14,
+   "alpha": 179.0619824928632,
+   "tau": 121.5213341433946,
+   "kink": "other"
+  },
+  {
+   "tid": "8UY6D",
+   "compact": 0.7158,
+   "reach": 18.162,
+   "n_res": 13,
+   "alpha": -166.51548355076392,
+   "tau": 129.265688031544,
+   "kink": "extended"
+  },
+  {
+   "tid": "9B71G",
+   "compact": 1.1231,
+   "reach": 17.808,
+   "n_res": 20,
+   "alpha": 54.31214183183491,
+   "tau": 107.76292872650667,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7M1HD",
+   "compact": 0.9515,
+   "reach": 18.918,
+   "n_res": 18,
+   "alpha": -102.98537212471065,
+   "tau": 120.57067966387588,
+   "kink": "extended"
+  },
+  {
+   "tid": "6ZXND",
+   "compact": 0.8686,
+   "reach": 12.664,
+   "n_res": 11,
+   "alpha": -72.05437509823935,
+   "tau": 129.38073984158123,
+   "kink": "other"
+  },
+  {
+   "tid": "6Z20D",
+   "compact": 1.0167,
+   "reach": 13.77,
+   "n_res": 14,
+   "alpha": 38.443791634725514,
+   "tau": 95.72737576126903,
+   "kink": "kinked"
+  },
+  {
+   "tid": "6X05K",
+   "compact": 0.8449,
+   "reach": 17.754,
+   "n_res": 15,
+   "alpha": -127.2690050003948,
+   "tau": 131.83714235064778,
+   "kink": "extended"
+  },
+  {
+   "tid": "7BC6B",
+   "compact": 0.8341,
+   "reach": 14.387,
+   "n_res": 12,
+   "alpha": -156.93123321801377,
+   "tau": 119.96686125097655,
+   "kink": "extended"
+  },
+  {
+   "tid": "7FATB",
+   "compact": 1.5125,
+   "reach": 17.19,
+   "n_res": 26,
+   "alpha": 60.017719965760975,
+   "tau": 97.18042715955505,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7D6YB",
+   "compact": 1.5979,
+   "reach": 16.271,
+   "n_res": 26,
+   "alpha": 17.570846016336564,
+   "tau": 85.79660381701335,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7EOWB",
+   "compact": 1.3342,
+   "reach": 15.74,
+   "n_res": 21,
+   "alpha": 55.148616572388114,
+   "tau": 108.19548774222079,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7KN5D",
+   "compact": 0.8589,
+   "reach": 25.615,
+   "n_res": 22,
+   "alpha": 22.226414166084464,
+   "tau": 95.14388314686076,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7KN6C",
+   "compact": 0.9212,
+   "reach": 16.283,
+   "n_res": 15,
+   "alpha": 27.532197932244284,
+   "tau": 105.80553719219587,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7AQYD",
+   "compact": 1.1885,
+   "reach": 15.986,
+   "n_res": 19,
+   "alpha": 21.189003972974668,
+   "tau": 100.95845996433532,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7C8VA",
+   "compact": 0.7612,
+   "reach": 10.509,
+   "n_res": 8,
+   "alpha": -163.68787687372793,
+   "tau": 121.52561365725838,
+   "kink": "extended"
+  },
+  {
+   "tid": "7FAUD",
+   "compact": 1.3619,
+   "reach": 15.42,
+   "n_res": 21,
+   "alpha": 56.92367168908535,
+   "tau": 105.95984243532928,
+   "kink": "kinked"
+  },
+  {
+   "tid": "6ZE1B",
+   "compact": 0.8622,
+   "reach": 16.237,
+   "n_res": 14,
+   "alpha": 32.120908086001165,
+   "tau": 98.03699287690466,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7Z1EFFF",
+   "compact": 1.0332,
+   "reach": 19.358,
+   "n_res": 20,
+   "alpha": 40.571032875538464,
+   "tau": 100.27634625532586,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7FH0C2",
+   "compact": 1.1013,
+   "reach": 19.068,
+   "n_res": 21,
+   "alpha": 35.175527579587516,
+   "tau": 104.4462980084351,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7FH0B1",
+   "compact": 1.1044,
+   "reach": 14.488,
+   "n_res": 16,
+   "alpha": 49.637911074714964,
+   "tau": 104.49462871900838,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7B27DDD",
+   "compact": 0.9331,
+   "reach": 16.076,
+   "n_res": 15,
+   "alpha": -150.0640509957577,
+   "tau": 128.18424169383513,
+   "kink": "extended"
+  },
+  {
+   "tid": "6Z1VB",
+   "compact": 1.101,
+   "reach": 14.532,
+   "n_res": 16,
+   "alpha": 57.99975867754848,
+   "tau": 101.84268226417042,
+   "kink": "kinked"
+  },
+  {
+   "tid": "6ZBVB",
+   "compact": 0.8021,
+   "reach": 17.455,
+   "n_res": 14,
+   "alpha": -159.5657715098668,
+   "tau": 107.95535629200299,
+   "kink": "extended"
+  },
+  {
+   "tid": "6X07B",
+   "compact": 0.9301,
+   "reach": 12.902,
+   "n_res": 12,
+   "alpha": 82.9306940700305,
+   "tau": 94.2843499054217,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7D4BB",
+   "compact": 1.082,
+   "reach": 16.636,
+   "n_res": 18,
+   "alpha": -149.08220588998094,
+   "tau": 146.4813400441739,
+   "kink": "other"
+  },
+  {
+   "tid": "7A4TA",
+   "compact": 0.7544,
+   "reach": 18.557,
+   "n_res": 14,
+   "alpha": -179.90781764710962,
+   "tau": 127.53414109448101,
+   "kink": "extended"
+  },
+  {
+   "tid": "7A50A",
+   "compact": 1.2315,
+   "reach": 15.429,
+   "n_res": 19,
+   "alpha": 61.68200518516584,
+   "tau": 98.75482994385632,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7O31X",
+   "compact": 0.8865,
+   "reach": 15.792,
+   "n_res": 14,
+   "alpha": 47.94379501166543,
+   "tau": 97.80280945053242,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7DJXA",
+   "compact": 1.109,
+   "reach": 16.231,
+   "n_res": 18,
+   "alpha": 15.970865410826079,
+   "tau": 90.94021278130688,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7A0VF",
+   "compact": 1.2359,
+   "reach": 12.946,
+   "n_res": 16,
+   "alpha": 56.441739124563234,
+   "tau": 101.53088183181828,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7F5GB",
+   "compact": 0.8159,
+   "reach": 13.482,
+   "n_res": 11,
+   "alpha": 126.81659424174995,
+   "tau": 90.66995558402074,
+   "kink": "other"
+  },
+  {
+   "tid": "7CZDA",
+   "compact": 1.0531,
+   "reach": 7.597,
+   "n_res": 8,
+   "alpha": 30.859409635257286,
+   "tau": 90.024187326031,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7DSTE",
+   "compact": 0.8596,
+   "reach": 12.797,
+   "n_res": 11,
+   "alpha": 48.82164855832124,
+   "tau": 127.66026355086616,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7D2ZA",
+   "compact": 0.7859,
+   "reach": 10.179,
+   "n_res": 8,
+   "alpha": -167.95609481626968,
+   "tau": 112.12310203280524,
+   "kink": "extended"
+  },
+  {
+   "tid": "8UW9B",
+   "compact": 1.263,
+   "reach": 7.918,
+   "n_res": 10,
+   "alpha": 152.60560560715362,
+   "tau": 91.73258804719063,
+   "kink": "other"
+  },
+  {
+   "tid": "6ZWKC",
+   "compact": 1.0498,
+   "reach": 17.146,
+   "n_res": 18,
+   "alpha": 44.02276818304219,
+   "tau": 100.52997975551688,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7AR0B",
+   "compact": 1.223,
+   "reach": 15.535,
+   "n_res": 19,
+   "alpha": 60.7103071437876,
+   "tau": 97.78954504925184,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7A4YC",
+   "compact": 0.9734,
+   "reach": 8.219,
+   "n_res": 8,
+   "alpha": 31.97276526496152,
+   "tau": 115.09343625119249,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7EPBD",
+   "compact": 0.7536,
+   "reach": 15.923,
+   "n_res": 12,
+   "alpha": -148.12136027522183,
+   "tau": 119.83619890768922,
+   "kink": "extended"
+  },
+  {
+   "tid": "7B2PD",
+   "compact": 1.0367,
+   "reach": 13.504,
+   "n_res": 14,
+   "alpha": -29.707942770428,
+   "tau": 94.69967880949028,
+   "kink": "other"
+  },
+  {
+   "tid": "7A48A",
+   "compact": 0.8698,
+   "reach": 12.647,
+   "n_res": 11,
+   "alpha": -108.38463512415306,
+   "tau": 125.47291394421826,
+   "kink": "extended"
+  },
+  {
+   "tid": "7A29D",
+   "compact": 0.8265,
+   "reach": 9.679,
+   "n_res": 8,
+   "alpha": -151.55918072255355,
+   "tau": 114.01053565747424,
+   "kink": "extended"
+  },
+  {
+   "tid": "7B5GF",
+   "compact": 0.7433,
+   "reach": 20.18,
+   "n_res": 15,
+   "alpha": 117.0793336496882,
+   "tau": 98.08750745714102,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7ANQB",
+   "compact": 1.101,
+   "reach": 18.165,
+   "n_res": 20,
+   "alpha": 40.842478308995,
+   "tau": 108.49578923810817,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7E53B",
+   "compact": 1.1327,
+   "reach": 18.54,
+   "n_res": 21,
+   "alpha": 37.222552212730726,
+   "tau": 111.32317964178952,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HLWH",
+   "compact": 1.0927,
+   "reach": 18.303,
+   "n_res": 20,
+   "alpha": 34.98372836101902,
+   "tau": 111.20848278106993,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7CZ0G",
+   "compact": 0.7505,
+   "reach": 10.659,
+   "n_res": 8,
+   "alpha": 176.84053485697072,
+   "tau": 116.14091649049503,
+   "kink": "other"
+  },
+  {
+   "tid": "6Z6VG",
+   "compact": 1.0232,
+   "reach": 18.569,
+   "n_res": 19,
+   "alpha": 38.438869259995045,
+   "tau": 100.41242618591082,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7F5HD",
+   "compact": 0.7479,
+   "reach": 12.034,
+   "n_res": 9,
+   "alpha": -157.49464226606688,
+   "tau": 116.07203495636914,
+   "kink": "extended"
+  },
+  {
+   "tid": "6ZRVB",
+   "compact": 1.1326,
+   "reach": 14.127,
+   "n_res": 16,
+   "alpha": 20.96938907463387,
+   "tau": 97.99580559130915,
+   "kink": "kinked"
+  },
+  {
+   "tid": "6ZG3J",
+   "compact": 1.0701,
+   "reach": 17.755,
+   "n_res": 19,
+   "alpha": 47.43847632030676,
+   "tau": 103.85447247420528,
+   "kink": "kinked"
+  },
+  {
+   "tid": "6X04J",
+   "compact": 0.7009,
+   "reach": 18.549,
+   "n_res": 13,
+   "alpha": -167.98926636576462,
+   "tau": 128.8266176738653,
+   "kink": "extended"
+  },
+  {
+   "tid": "6ZQKB",
+   "compact": 0.8231,
+   "reach": 15.795,
+   "n_res": 13,
+   "alpha": 46.255234175913806,
+   "tau": 136.59665458979208,
+   "kink": "other"
+  },
+  {
+   "tid": "7DJYB",
+   "compact": 1.2715,
+   "reach": 12.584,
+   "n_res": 16,
+   "alpha": 28.267000016929476,
+   "tau": 98.3104777480456,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7F07C",
+   "compact": 0.9596,
+   "reach": 19.801,
+   "n_res": 19,
+   "alpha": 42.18408407985597,
+   "tau": 106.03770587982743,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7BNWB",
+   "compact": 0.7383,
+   "reach": 18.962,
+   "n_res": 14,
+   "alpha": -179.70092722720088,
+   "tau": 119.006598929711,
+   "kink": "extended"
+  },
+  {
+   "tid": "7KJHB",
+   "compact": 0.7838,
+   "reach": 16.585,
+   "n_res": 13,
+   "alpha": 53.04048802859072,
+   "tau": 99.41409298643966,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9BIUB",
+   "compact": 1.1214,
+   "reach": 17.834,
+   "n_res": 20,
+   "alpha": 49.85778644573179,
+   "tau": 108.7899423087456,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7SAIC",
+   "compact": 1.1524,
+   "reach": 17.356,
+   "n_res": 20,
+   "alpha": 22.183029734465435,
+   "tau": 96.85784294953298,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8OWVBBB",
+   "compact": 1.0875,
+   "reach": 16.552,
+   "n_res": 18,
+   "alpha": 56.92215645776908,
+   "tau": 97.85939454493095,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7MJHF",
+   "compact": 1.1333,
+   "reach": 15.883,
+   "n_res": 18,
+   "alpha": 20.659989959693743,
+   "tau": 96.10032023925328,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7OMNC",
+   "compact": 0.8917,
+   "reach": 20.187,
+   "n_res": 18,
+   "alpha": 17.498917120514257,
+   "tau": 100.1241074294648,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7MFUE",
+   "compact": 0.7458,
+   "reach": 10.726,
+   "n_res": 8,
+   "alpha": -175.37551937298815,
+   "tau": 120.01740978445885,
+   "kink": "extended"
+  },
+  {
+   "tid": "7MFUC",
+   "compact": 1.1982,
+   "reach": 15.022,
+   "n_res": 18,
+   "alpha": -131.26680319058104,
+   "tau": 136.84583194891124,
+   "kink": "extended"
+  },
+  {
+   "tid": "7QIAB",
+   "compact": 1.1952,
+   "reach": 15.061,
+   "n_res": 18,
+   "alpha": 30.01151905323649,
+   "tau": 100.22464840139575,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7QIAC",
+   "compact": 1.0202,
+   "reach": 12.743,
+   "n_res": 13,
+   "alpha": 59.15970419737648,
+   "tau": 112.11447929816336,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7SLAB",
+   "compact": 0.8436,
+   "reach": 14.224,
+   "n_res": 12,
+   "alpha": 31.537626441289902,
+   "tau": 104.1474410746557,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7N9TE",
+   "compact": 0.9046,
+   "reach": 16.583,
+   "n_res": 15,
+   "alpha": -115.4092464855409,
+   "tau": 116.22920608271268,
+   "kink": "extended"
+  },
+  {
+   "tid": "7QVKBBB",
+   "compact": 1.2993,
+   "reach": 13.084,
+   "n_res": 17,
+   "alpha": 53.74978770354096,
+   "tau": 86.90923911409652,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7M1HF",
+   "compact": 0.7908,
+   "reach": 20.233,
+   "n_res": 16,
+   "alpha": -179.85062317482485,
+   "tau": 110.42153949662375,
+   "kink": "extended"
+  },
+  {
+   "tid": "7L6VF",
+   "compact": 1.2163,
+   "reach": 15.621,
+   "n_res": 19,
+   "alpha": 27.1494773143714,
+   "tau": 102.7049484224002,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7M1HE",
+   "compact": 0.8092,
+   "reach": 18.537,
+   "n_res": 15,
+   "alpha": -166.34854633354942,
+   "tau": 118.78665651623923,
+   "kink": "extended"
+  },
+  {
+   "tid": "7LVUD",
+   "compact": 1.1603,
+   "reach": 13.79,
+   "n_res": 16,
+   "alpha": 57.61319015381657,
+   "tau": 103.4052708054676,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7R4IE",
+   "compact": 1.241,
+   "reach": 13.699,
+   "n_res": 17,
+   "alpha": -127.36471517975745,
+   "tau": 115.22272325801552,
+   "kink": "extended"
+  },
+  {
+   "tid": "7TJCB",
+   "compact": 1.0702,
+   "reach": 15.885,
+   "n_res": 17,
+   "alpha": 25.460425713503188,
+   "tau": 97.44216280709465,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7R98F",
+   "compact": 1.1093,
+   "reach": 17.128,
+   "n_res": 19,
+   "alpha": 35.61719049675566,
+   "tau": 143.0121667294064,
+   "kink": "other"
+  },
+  {
+   "tid": "9MINE",
+   "compact": 0.7743,
+   "reach": 12.916,
+   "n_res": 10,
+   "alpha": -170.89644990192215,
+   "tau": 125.23684045269175,
+   "kink": "extended"
+  },
+  {
+   "tid": "7Q3QB",
+   "compact": 1.2406,
+   "reach": 16.121,
+   "n_res": 20,
+   "alpha": 54.58765912695339,
+   "tau": 103.34586069953899,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7T84G",
+   "compact": 0.762,
+   "reach": 15.749,
+   "n_res": 12,
+   "alpha": -170.87975204999074,
+   "tau": 128.08298479794732,
+   "kink": "extended"
+  },
+  {
+   "tid": "7SALD",
+   "compact": 1.1367,
+   "reach": 14.075,
+   "n_res": 16,
+   "alpha": 46.75513147224589,
+   "tau": 101.25525868871671,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7SP8B",
+   "compact": 1.0771,
+   "reach": 16.711,
+   "n_res": 18,
+   "alpha": 55.751050477760685,
+   "tau": 97.28430422344432,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7MFVB",
+   "compact": 0.7766,
+   "reach": 10.301,
+   "n_res": 8,
+   "alpha": -165.66459077870837,
+   "tau": 117.45591979868004,
+   "kink": "extended"
+  },
+  {
+   "tid": "7TPRF",
+   "compact": 0.7274,
+   "reach": 20.622,
+   "n_res": 15,
+   "alpha": 23.356628756648576,
+   "tau": 102.11442793138376,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7TPRD",
+   "compact": 0.7781,
+   "reach": 26.989,
+   "n_res": 21,
+   "alpha": -104.66193509948437,
+   "tau": 125.81558083595655,
+   "kink": "extended"
+  },
+  {
+   "tid": "7MY2H",
+   "compact": 1.2249,
+   "reach": 11.429,
+   "n_res": 14,
+   "alpha": -2.334203389443026,
+   "tau": 83.95495423343687,
+   "kink": "other"
+  },
+  {
+   "tid": "7NKTBBB",
+   "compact": 1.0972,
+   "reach": 17.317,
+   "n_res": 19,
+   "alpha": 46.24079613244978,
+   "tau": 101.93715350711771,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7QBGE",
+   "compact": 0.9803,
+   "reach": 18.361,
+   "n_res": 18,
+   "alpha": 50.01097952846959,
+   "tau": 101.34261122899764,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7NMUCCC",
+   "compact": 1.0679,
+   "reach": 17.791,
+   "n_res": 19,
+   "alpha": 60.45246257442036,
+   "tau": 107.01413410985197,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7O0SA",
+   "compact": 0.7086,
+   "reach": 16.934,
+   "n_res": 12,
+   "alpha": -174.23351549507086,
+   "tau": 123.596532615375,
+   "kink": "extended"
+  },
+  {
+   "tid": "7TH2D",
+   "compact": 1.1696,
+   "reach": 15.389,
+   "n_res": 18,
+   "alpha": 33.82760929105033,
+   "tau": 104.12075149180225,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8T58A",
+   "compact": 1.1655,
+   "reach": 17.16,
+   "n_res": 20,
+   "alpha": 47.9779418080725,
+   "tau": 112.34604829846101,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7R1ZC",
+   "compact": 0.9102,
+   "reach": 12.086,
+   "n_res": 11,
+   "alpha": -123.3461162902857,
+   "tau": 120.9666610633786,
+   "kink": "extended"
+  },
+  {
+   "tid": "8QF4E",
+   "compact": 1.0535,
+   "reach": 18.034,
+   "n_res": 19,
+   "alpha": 42.58438468816384,
+   "tau": 104.7492426237109,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7O06B",
+   "compact": 0.8147,
+   "reach": 19.639,
+   "n_res": 16,
+   "alpha": -177.01999865979909,
+   "tau": 124.09443538234076,
+   "kink": "extended"
+  },
+  {
+   "tid": "7P5WL",
+   "compact": 0.8302,
+   "reach": 16.864,
+   "n_res": 14,
+   "alpha": -162.89973545355377,
+   "tau": 117.72844784602874,
+   "kink": "extended"
+  },
+  {
+   "tid": "7OAOFFF",
+   "compact": 1.0375,
+   "reach": 13.494,
+   "n_res": 14,
+   "alpha": 45.827509404753506,
+   "tau": 104.82142314046533,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7QBEF",
+   "compact": 1.0825,
+   "reach": 17.553,
+   "n_res": 19,
+   "alpha": 41.348986109099634,
+   "tau": 99.94775108628035,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7OZTAAA",
+   "compact": 0.8523,
+   "reach": 15.253,
+   "n_res": 13,
+   "alpha": 93.76954585730316,
+   "tau": 87.8583735102358,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7NFRB",
+   "compact": 1.0069,
+   "reach": 9.932,
+   "n_res": 10,
+   "alpha": 2.5239506966560565,
+   "tau": 93.40699232488673,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7OM5B",
+   "compact": 1.2704,
+   "reach": 12.595,
+   "n_res": 16,
+   "alpha": 64.50115192584607,
+   "tau": 99.79570456374317,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9EI0F",
+   "compact": 0.7564,
+   "reach": 13.221,
+   "n_res": 10,
+   "alpha": -166.62207541509517,
+   "tau": 126.47498603367065,
+   "kink": "extended"
+  },
+  {
+   "tid": "7QHAC",
+   "compact": 1.1856,
+   "reach": 10.121,
+   "n_res": 12,
+   "alpha": 94.2644924603623,
+   "tau": 95.71737845402654,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8RJ7J",
+   "compact": 0.7383,
+   "reach": 18.963,
+   "n_res": 14,
+   "alpha": 87.66485712924847,
+   "tau": 108.55160329443638,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7KN5F",
+   "compact": 1.1075,
+   "reach": 17.155,
+   "n_res": 19,
+   "alpha": 51.04318720334871,
+   "tau": 105.81115838195079,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7KKJA",
+   "compact": 0.929,
+   "reach": 12.917,
+   "n_res": 12,
+   "alpha": -102.14121814392767,
+   "tau": 134.81440336476317,
+   "kink": "extended"
+  },
+  {
+   "tid": "7NGHD",
+   "compact": 0.8553,
+   "reach": 9.353,
+   "n_res": 8,
+   "alpha": -178.40362919364446,
+   "tau": 113.20423514049817,
+   "kink": "extended"
+  },
+  {
+   "tid": "7QIVC",
+   "compact": 1.1325,
+   "reach": 14.129,
+   "n_res": 16,
+   "alpha": 58.964608588992164,
+   "tau": 100.66386011786417,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7P5YI",
+   "compact": 1.0346,
+   "reach": 13.532,
+   "n_res": 14,
+   "alpha": -158.1234657742608,
+   "tau": 126.50237299336884,
+   "kink": "extended"
+  },
+  {
+   "tid": "7KJIA",
+   "compact": 0.7851,
+   "reach": 11.464,
+   "n_res": 9,
+   "alpha": -166.41592976570684,
+   "tau": 125.0585975719101,
+   "kink": "extended"
+  },
+  {
+   "tid": "7NLLC",
+   "compact": 1.2995,
+   "reach": 18.469,
+   "n_res": 24,
+   "alpha": 30.006828456743058,
+   "tau": 100.44566702197366,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7LDJF",
+   "compact": 0.9046,
+   "reach": 25.426,
+   "n_res": 23,
+   "alpha": 26.489175119918137,
+   "tau": 101.78010233675475,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7NA9D",
+   "compact": 1.3073,
+   "reach": 16.829,
+   "n_res": 22,
+   "alpha": 62.80259422177924,
+   "tau": 101.57372204316296,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7NX0E",
+   "compact": 0.9182,
+   "reach": 20.693,
+   "n_res": 19,
+   "alpha": 131.24751689735692,
+   "tau": 91.08017649323654,
+   "kink": "other"
+  },
+  {
+   "tid": "7UNZA",
+   "compact": 0.902,
+   "reach": 15.52,
+   "n_res": 14,
+   "alpha": -92.5908311010976,
+   "tau": 129.28267568310133,
+   "kink": "other"
+  },
+  {
+   "tid": "7KGJB",
+   "compact": 0.7418,
+   "reach": 18.873,
+   "n_res": 14,
+   "alpha": -157.2759071577851,
+   "tau": 112.26368545630787,
+   "kink": "extended"
+  },
+  {
+   "tid": "7OAQFFF",
+   "compact": 1.0095,
+   "reach": 19.811,
+   "n_res": 20,
+   "alpha": 67.71775624192765,
+   "tau": 143.52470727768065,
+   "kink": "other"
+  },
+  {
+   "tid": "7OAQAAA",
+   "compact": 1.2346,
+   "reach": 13.769,
+   "n_res": 17,
+   "alpha": 61.28296331637268,
+   "tau": 95.65968287400766,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7KBIC",
+   "compact": 1.1039,
+   "reach": 17.211,
+   "n_res": 19,
+   "alpha": 69.02653755159865,
+   "tau": 96.70716708946239,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7N0II",
+   "compact": 1.094,
+   "reach": 17.367,
+   "n_res": 19,
+   "alpha": 47.02969653645032,
+   "tau": 107.09019651929977,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7N9VF",
+   "compact": 0.7519,
+   "reach": 10.64,
+   "n_res": 8,
+   "alpha": -164.39047926877748,
+   "tau": 116.2295578957569,
+   "kink": "extended"
+  },
+  {
+   "tid": "7NQAD",
+   "compact": 0.7578,
+   "reach": 22.434,
+   "n_res": 17,
+   "alpha": -161.05108614951138,
+   "tau": 121.23480576934337,
+   "kink": "extended"
+  },
+  {
+   "tid": "7NFQD",
+   "compact": 0.9969,
+   "reach": 10.032,
+   "n_res": 10,
+   "alpha": 48.97552118117194,
+   "tau": 92.8757085127889,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7NFTD",
+   "compact": 1.1961,
+   "reach": 12.541,
+   "n_res": 15,
+   "alpha": 52.31271754409426,
+   "tau": 104.27893682754693,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7P77A",
+   "compact": 0.7645,
+   "reach": 10.464,
+   "n_res": 8,
+   "alpha": -164.20753654269615,
+   "tau": 118.8495861131892,
+   "kink": "extended"
+  },
+  {
+   "tid": "7L6VD",
+   "compact": 0.8076,
+   "reach": 13.621,
+   "n_res": 11,
+   "alpha": -144.51097117208286,
+   "tau": 138.39771009549924,
+   "kink": "extended"
+  },
+  {
+   "tid": "7LZPB",
+   "compact": 1.0976,
+   "reach": 20.954,
+   "n_res": 23,
+   "alpha": 59.375435834070736,
+   "tau": 105.84328456044135,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7LZPG",
+   "compact": 0.9418,
+   "reach": 5.309,
+   "n_res": 5,
+   "alpha": 94.50094819676464,
+   "tau": 96.28623678788702,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7R20B",
+   "compact": 0.8526,
+   "reach": 14.074,
+   "n_res": 12,
+   "alpha": -115.91717332775798,
+   "tau": 125.63216236306836,
+   "kink": "extended"
+  },
+  {
+   "tid": "7T5FB",
+   "compact": 0.8223,
+   "reach": 13.377,
+   "n_res": 11,
+   "alpha": 96.88731886699698,
+   "tau": 103.11188585878398,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7T5FC",
+   "compact": 0.8696,
+   "reach": 12.649,
+   "n_res": 11,
+   "alpha": -153.46270198652164,
+   "tau": 117.5645848528093,
+   "kink": "extended"
+  },
+  {
+   "tid": "7RBYD",
+   "compact": 0.9134,
+   "reach": 25.181,
+   "n_res": 23,
+   "alpha": 27.53599934344226,
+   "tau": 103.04989851128195,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7KD0C",
+   "compact": 0.9332,
+   "reach": 11.787,
+   "n_res": 11,
+   "alpha": -147.099477856539,
+   "tau": 111.53065999895965,
+   "kink": "extended"
+  },
+  {
+   "tid": "7LX5A",
+   "compact": 0.9807,
+   "reach": 17.335,
+   "n_res": 17,
+   "alpha": 65.8300841371512,
+   "tau": 101.70488889164194,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7NOWA",
+   "compact": 1.11,
+   "reach": 18.92,
+   "n_res": 21,
+   "alpha": 44.29927585486779,
+   "tau": 106.21510607708234,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7OLZB",
+   "compact": 1.178,
+   "reach": 14.432,
+   "n_res": 17,
+   "alpha": 34.049846450009454,
+   "tau": 108.68406486307659,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7ON5A",
+   "compact": 0.7775,
+   "reach": 25.722,
+   "n_res": 20,
+   "alpha": 32.77550683316143,
+   "tau": 103.47899359659428,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7S2RB",
+   "compact": 1.1542,
+   "reach": 19.927,
+   "n_res": 23,
+   "alpha": 54.27808842467017,
+   "tau": 103.49007243203577,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7RNNC",
+   "compact": 0.8279,
+   "reach": 10.87,
+   "n_res": 9,
+   "alpha": -92.96801941991163,
+   "tau": 139.81878672589625,
+   "kink": "other"
+  },
+  {
+   "tid": "7TGFB",
+   "compact": 1.234,
+   "reach": 14.586,
+   "n_res": 18,
+   "alpha": -145.87318383236462,
+   "tau": 115.40241846761084,
+   "kink": "extended"
+  },
+  {
+   "tid": "7P5VG",
+   "compact": 0.7561,
+   "reach": 10.581,
+   "n_res": 8,
+   "alpha": -174.39614866379443,
+   "tau": 112.56996756947814,
+   "kink": "extended"
+  },
+  {
+   "tid": "7R74B",
+   "compact": 0.872,
+   "reach": 13.761,
+   "n_res": 12,
+   "alpha": 49.88434173739031,
+   "tau": 106.04047545838252,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7R63C",
+   "compact": 1.1545,
+   "reach": 14.726,
+   "n_res": 17,
+   "alpha": 59.078073893171194,
+   "tau": 98.27718180651716,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7UIAB",
+   "compact": 1.3976,
+   "reach": 15.741,
+   "n_res": 22,
+   "alpha": 20.784956009625116,
+   "tau": 98.6436789615011,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7RI1B",
+   "compact": 1.3181,
+   "reach": 12.898,
+   "n_res": 17,
+   "alpha": 54.3768592637835,
+   "tau": 101.44918397923165,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7K84B",
+   "compact": 1.2579,
+   "reach": 15.104,
+   "n_res": 19,
+   "alpha": 40.977932167085825,
+   "tau": 103.9778477129032,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7KM5D",
+   "compact": 0.8273,
+   "reach": 14.506,
+   "n_res": 12,
+   "alpha": -142.9816103121762,
+   "tau": 105.53906413937352,
+   "kink": "extended"
+  },
+  {
+   "tid": "7NDFC",
+   "compact": 1.0443,
+   "reach": 7.66,
+   "n_res": 8,
+   "alpha": -37.45333516423233,
+   "tau": 127.34377087280215,
+   "kink": "other"
+  },
+  {
+   "tid": "7S7RB",
+   "compact": 1.1691,
+   "reach": 11.975,
+   "n_res": 14,
+   "alpha": 66.20974666485259,
+   "tau": 104.90541408013786,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7JVBD",
+   "compact": 0.871,
+   "reach": 13.778,
+   "n_res": 12,
+   "alpha": 71.11884352373845,
+   "tau": 100.53168513412967,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7L1VS",
+   "compact": 0.784,
+   "reach": 10.204,
+   "n_res": 8,
+   "alpha": -167.09594504194104,
+   "tau": 107.07149057653324,
+   "kink": "extended"
+  },
+  {
+   "tid": "7NXXB",
+   "compact": 1.145,
+   "reach": 17.467,
+   "n_res": 20,
+   "alpha": 32.624314855952804,
+   "tau": 102.10735318005106,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7PQQB2",
+   "compact": 1.1949,
+   "reach": 15.901,
+   "n_res": 19,
+   "alpha": 45.52981320828144,
+   "tau": 98.0542862932952,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7OOIB",
+   "compact": 0.719,
+   "reach": 25.036,
+   "n_res": 18,
+   "alpha": -163.62943168163218,
+   "tau": 132.49028162593416,
+   "kink": "extended"
+  },
+  {
+   "tid": "9RSJN",
+   "compact": 0.8021,
+   "reach": 19.948,
+   "n_res": 16,
+   "alpha": -172.11041262261412,
+   "tau": 128.14969588938558,
+   "kink": "extended"
+  },
+  {
+   "tid": "7SL9B",
+   "compact": 0.7985,
+   "reach": 20.036,
+   "n_res": 16,
+   "alpha": -136.16516865327594,
+   "tau": 120.016189244716,
+   "kink": "extended"
+  },
+  {
+   "tid": "7NP9C",
+   "compact": 1.093,
+   "reach": 12.809,
+   "n_res": 14,
+   "alpha": 47.72775379991582,
+   "tau": 98.9372682661383,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7OCJE",
+   "compact": 0.7539,
+   "reach": 11.938,
+   "n_res": 9,
+   "alpha": -173.96057329829094,
+   "tau": 124.77345241241483,
+   "kink": "extended"
+  },
+  {
+   "tid": "7Q3RG",
+   "compact": 0.7514,
+   "reach": 19.964,
+   "n_res": 15,
+   "alpha": -174.33614160254157,
+   "tau": 115.98197424486361,
+   "kink": "extended"
+  },
+  {
+   "tid": "7Q3RF",
+   "compact": 1.1391,
+   "reach": 18.436,
+   "n_res": 21,
+   "alpha": 51.331945922466716,
+   "tau": 103.54404887360236,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7UBXC",
+   "compact": 1.1616,
+   "reach": 12.913,
+   "n_res": 15,
+   "alpha": -108.21582605667099,
+   "tau": 131.91832833670762,
+   "kink": "extended"
+  },
+  {
+   "tid": "7N0RC",
+   "compact": 0.8406,
+   "reach": 16.656,
+   "n_res": 14,
+   "alpha": 64.83141921736215,
+   "tau": 92.96131475295248,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7K65B",
+   "compact": 0.8311,
+   "reach": 14.438,
+   "n_res": 12,
+   "alpha": -153.60687666441052,
+   "tau": 112.92448756862304,
+   "kink": "extended"
+  },
+  {
+   "tid": "7MY3D",
+   "compact": 0.8478,
+   "reach": 17.693,
+   "n_res": 15,
+   "alpha": -174.32326103645264,
+   "tau": 115.93894665691415,
+   "kink": "extended"
+  },
+  {
+   "tid": "8G74E",
+   "compact": 0.8394,
+   "reach": 10.723,
+   "n_res": 9,
+   "alpha": -153.82725112968504,
+   "tau": 110.0567351846512,
+   "kink": "extended"
+  },
+  {
+   "tid": "8AFEJ",
+   "compact": 0.7688,
+   "reach": 11.707,
+   "n_res": 9,
+   "alpha": -171.68635346089283,
+   "tau": 121.41941485754582,
+   "kink": "extended"
+  },
+  {
+   "tid": "8B1AB",
+   "compact": 1.2044,
+   "reach": 14.115,
+   "n_res": 17,
+   "alpha": 59.63389875179669,
+   "tau": 101.80056221682514,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7XL0B",
+   "compact": 0.7495,
+   "reach": 20.012,
+   "n_res": 15,
+   "alpha": -166.7280534844462,
+   "tau": 119.12695781536989,
+   "kink": "extended"
+  },
+  {
+   "tid": "7ZMVF",
+   "compact": 0.7795,
+   "reach": 24.373,
+   "n_res": 19,
+   "alpha": -165.0748894509984,
+   "tau": 119.01992138276265,
+   "kink": "extended"
+  },
+  {
+   "tid": "8EMZB",
+   "compact": 1.1983,
+   "reach": 17.525,
+   "n_res": 21,
+   "alpha": 56.30619391945651,
+   "tau": 98.23034441290334,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8EMYL",
+   "compact": 0.7485,
+   "reach": 12.024,
+   "n_res": 9,
+   "alpha": -168.99472594908121,
+   "tau": 129.4246978246649,
+   "kink": "extended"
+  },
+  {
+   "tid": "8G70N",
+   "compact": 0.9314,
+   "reach": 21.472,
+   "n_res": 20,
+   "alpha": 36.71754034691655,
+   "tau": 111.59437080458012,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8G78H",
+   "compact": 0.7351,
+   "reach": 10.883,
+   "n_res": 8,
+   "alpha": -158.6757419215551,
+   "tau": 119.2872017203338,
+   "kink": "extended"
+  },
+  {
+   "tid": "7YUDN",
+   "compact": 1.0789,
+   "reach": 18.537,
+   "n_res": 20,
+   "alpha": 29.116169011401364,
+   "tau": 102.95404195695573,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CWUB",
+   "compact": 0.8708,
+   "reach": 17.225,
+   "n_res": 15,
+   "alpha": 22.308498203822353,
+   "tau": 99.24674006883141,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8OMUB",
+   "compact": 0.9572,
+   "reach": 8.358,
+   "n_res": 8,
+   "alpha": 103.41857519607667,
+   "tau": 89.56298070066016,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7Z1DFFF",
+   "compact": 1.0515,
+   "reach": 19.021,
+   "n_res": 20,
+   "alpha": 60.423734831047604,
+   "tau": 97.10398358962541,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CY7F",
+   "compact": 0.8291,
+   "reach": 18.093,
+   "n_res": 15,
+   "alpha": 34.88033514288059,
+   "tau": 108.98909372930547,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8BF4B",
+   "compact": 1.0159,
+   "reach": 16.734,
+   "n_res": 17,
+   "alpha": 16.509876010068886,
+   "tau": 91.113225998644,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8BF4D",
+   "compact": 1.0797,
+   "reach": 10.188,
+   "n_res": 11,
+   "alpha": 36.36472855086058,
+   "tau": 98.93472796252495,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7X4IG",
+   "compact": 1.1416,
+   "reach": 14.891,
+   "n_res": 17,
+   "alpha": 52.53391044211384,
+   "tau": 91.59868908920218,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8EN5G",
+   "compact": 1.2598,
+   "reach": 14.288,
+   "n_res": 18,
+   "alpha": 61.75852332790432,
+   "tau": 95.29833512067678,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7VPYA",
+   "compact": 0.8228,
+   "reach": 13.369,
+   "n_res": 11,
+   "alpha": 160.32337553571034,
+   "tau": 117.71406289826186,
+   "kink": "other"
+  },
+  {
+   "tid": "8EN3D",
+   "compact": 1.0746,
+   "reach": 15.821,
+   "n_res": 17,
+   "alpha": 45.473106471688304,
+   "tau": 109.71220681386083,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7VFAD",
+   "compact": 1.1642,
+   "reach": 15.461,
+   "n_res": 18,
+   "alpha": 71.1313552428577,
+   "tau": 95.66113432562223,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7VNBA",
+   "compact": 1.1647,
+   "reach": 10.303,
+   "n_res": 12,
+   "alpha": -138.25869964955317,
+   "tau": 136.63858091462254,
+   "kink": "extended"
+  },
+  {
+   "tid": "8EE2H",
+   "compact": 0.7431,
+   "reach": 18.841,
+   "n_res": 14,
+   "alpha": -171.49632783744897,
+   "tau": 129.71945553739351,
+   "kink": "extended"
+  },
+  {
+   "tid": "8BZYB",
+   "compact": 0.7975,
+   "reach": 17.554,
+   "n_res": 14,
+   "alpha": -159.16931002346928,
+   "tau": 118.24862857472539,
+   "kink": "extended"
+  },
+  {
+   "tid": "9FZQC",
+   "compact": 1.1783,
+   "reach": 18.672,
+   "n_res": 22,
+   "alpha": 43.225372037163744,
+   "tau": 99.13198321233033,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9FZQB",
+   "compact": 1.2999,
+   "reach": 13.078,
+   "n_res": 17,
+   "alpha": 34.80483499347466,
+   "tau": 101.97600227832162,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CDTA",
+   "compact": 1.32,
+   "reach": 12.122,
+   "n_res": 16,
+   "alpha": -82.66285308261278,
+   "tau": 127.86748118719908,
+   "kink": "other"
+  },
+  {
+   "tid": "8CDSA",
+   "compact": 1.116,
+   "reach": 16.129,
+   "n_res": 18,
+   "alpha": 35.79677659385493,
+   "tau": 143.50066649046315,
+   "kink": "other"
+  },
+  {
+   "tid": "8F8VA",
+   "compact": 1.0652,
+   "reach": 13.143,
+   "n_res": 14,
+   "alpha": -134.98294499204104,
+   "tau": 127.87942999352966,
+   "kink": "extended"
+  },
+  {
+   "tid": "8EN4C",
+   "compact": 0.7871,
+   "reach": 12.704,
+   "n_res": 10,
+   "alpha": -130.92860062545117,
+   "tau": 141.1327689493919,
+   "kink": "extended"
+  },
+  {
+   "tid": "7YM8D",
+   "compact": 0.7714,
+   "reach": 14.26,
+   "n_res": 11,
+   "alpha": -166.3489094297451,
+   "tau": 128.9766587542801,
+   "kink": "extended"
+  },
+  {
+   "tid": "7ZKZB",
+   "compact": 1.2917,
+   "reach": 13.16,
+   "n_res": 17,
+   "alpha": 46.39780269663243,
+   "tau": 101.86803886727253,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7ZK1C",
+   "compact": 0.7366,
+   "reach": 19.006,
+   "n_res": 14,
+   "alpha": -157.70553777878897,
+   "tau": 118.94940059616141,
+   "kink": "extended"
+  },
+  {
+   "tid": "8HBJE",
+   "compact": 0.8164,
+   "reach": 19.599,
+   "n_res": 16,
+   "alpha": -3.3779734721917563,
+   "tau": 149.14803412919522,
+   "kink": "other"
+  },
+  {
+   "tid": "7XL1B",
+   "compact": 0.7475,
+   "reach": 22.742,
+   "n_res": 17,
+   "alpha": -148.73369832704998,
+   "tau": 131.58992571395433,
+   "kink": "extended"
+  },
+  {
+   "tid": "8CXQE",
+   "compact": 0.7979,
+   "reach": 17.547,
+   "n_res": 14,
+   "alpha": 35.037718927457014,
+   "tau": 106.01802678702867,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CYAD",
+   "compact": 1.3066,
+   "reach": 13.011,
+   "n_res": 17,
+   "alpha": 64.37061644683126,
+   "tau": 94.10800846890689,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7WHIG",
+   "compact": 0.8639,
+   "reach": 15.049,
+   "n_res": 13,
+   "alpha": 13.264526341406201,
+   "tau": 101.01939464156384,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7Y9TD",
+   "compact": 0.821,
+   "reach": 9.744,
+   "n_res": 8,
+   "alpha": -166.39873181516697,
+   "tau": 111.89952888051354,
+   "kink": "extended"
+  },
+  {
+   "tid": "8G77F",
+   "compact": 0.8291,
+   "reach": 15.679,
+   "n_res": 13,
+   "alpha": -133.19050392952096,
+   "tau": 119.8449786055697,
+   "kink": "extended"
+  },
+  {
+   "tid": "8ELNH",
+   "compact": 0.7249,
+   "reach": 17.934,
+   "n_res": 13,
+   "alpha": -173.47867265643146,
+   "tau": 121.5856082508071,
+   "kink": "extended"
+  },
+  {
+   "tid": "8G0ID",
+   "compact": 0.7955,
+   "reach": 12.57,
+   "n_res": 10,
+   "alpha": -121.16242954147516,
+   "tau": 134.6997262699179,
+   "kink": "extended"
+  },
+  {
+   "tid": "8C3LD",
+   "compact": 0.8804,
+   "reach": 5.679,
+   "n_res": 5,
+   "alpha": 122.34923687514606,
+   "tau": 93.88679394563245,
+   "kink": "other"
+  },
+  {
+   "tid": "8CWVB",
+   "compact": 1.1066,
+   "reach": 18.073,
+   "n_res": 20,
+   "alpha": 44.034832722550604,
+   "tau": 111.2623730940744,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8C5HN",
+   "compact": 1.0729,
+   "reach": 9.32,
+   "n_res": 10,
+   "alpha": -91.52163439206933,
+   "tau": 116.9935984397328,
+   "kink": "other"
+  },
+  {
+   "tid": "8DLXH",
+   "compact": 0.8356,
+   "reach": 15.557,
+   "n_res": 13,
+   "alpha": 19.001985804711808,
+   "tau": 110.77451830573287,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8GZ6A",
+   "compact": 1.045,
+   "reach": 12.44,
+   "n_res": 13,
+   "alpha": 40.3070645160874,
+   "tau": 98.88317752454508,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8HBIE",
+   "compact": 0.9896,
+   "reach": 18.19,
+   "n_res": 18,
+   "alpha": 31.152729895467967,
+   "tau": 111.49302804410242,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8Z2EB",
+   "compact": 0.8387,
+   "reach": 11.924,
+   "n_res": 10,
+   "alpha": -155.10427740633125,
+   "tau": 134.26325055809806,
+   "kink": "extended"
+  },
+  {
+   "tid": "7WKIB",
+   "compact": 1.3328,
+   "reach": 19.507,
+   "n_res": 26,
+   "alpha": 12.564488210626202,
+   "tau": 93.47812110038129,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8GQ5a",
+   "compact": 0.9948,
+   "reach": 6.031,
+   "n_res": 6,
+   "alpha": 76.02444984663178,
+   "tau": 106.10832353616007,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8E2NA",
+   "compact": 1.0904,
+   "reach": 15.591,
+   "n_res": 17,
+   "alpha": -97.7548748508974,
+   "tau": 135.96332851887652,
+   "kink": "other"
+  },
+  {
+   "tid": "8GJRA",
+   "compact": 0.7185,
+   "reach": 18.094,
+   "n_res": 13,
+   "alpha": 172.63604504958562,
+   "tau": 126.41434949418091,
+   "kink": "other"
+  },
+  {
+   "tid": "8AOKB",
+   "compact": 1.2319,
+   "reach": 16.235,
+   "n_res": 20,
+   "alpha": 63.482160911431976,
+   "tau": 100.19088076714961,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7VFBB",
+   "compact": 1.0574,
+   "reach": 19.86,
+   "n_res": 21,
+   "alpha": 52.45766626138452,
+   "tau": 109.84356804745256,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7XLDB",
+   "compact": 1.2865,
+   "reach": 11.66,
+   "n_res": 15,
+   "alpha": 21.036802536315708,
+   "tau": 98.61621817793782,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CYCD",
+   "compact": 1.0345,
+   "reach": 19.333,
+   "n_res": 20,
+   "alpha": 31.818078683271153,
+   "tau": 105.96212238765584,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8EN2C",
+   "compact": 1.1073,
+   "reach": 17.158,
+   "n_res": 19,
+   "alpha": 22.871880669763108,
+   "tau": 102.26026362067151,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7ZRAH",
+   "compact": 0.9015,
+   "reach": 17.749,
+   "n_res": 16,
+   "alpha": -170.51927616537924,
+   "tau": 116.56992678147238,
+   "kink": "extended"
+  },
+  {
+   "tid": "8BE2N",
+   "compact": 0.7429,
+   "reach": 14.807,
+   "n_res": 11,
+   "alpha": -169.76712861219107,
+   "tau": 118.55098115104428,
+   "kink": "extended"
+  },
+  {
+   "tid": "8H63B",
+   "compact": 0.9815,
+   "reach": 14.264,
+   "n_res": 14,
+   "alpha": -113.51148844210816,
+   "tau": 120.22511726078132,
+   "kink": "extended"
+  },
+  {
+   "tid": "8BE4A",
+   "compact": 0.8639,
+   "reach": 13.891,
+   "n_res": 12,
+   "alpha": -157.29110433409934,
+   "tau": 128.15186202559474,
+   "kink": "extended"
+  },
+  {
+   "tid": "8ET0C",
+   "compact": 0.7778,
+   "reach": 15.428,
+   "n_res": 12,
+   "alpha": -160.95412640669633,
+   "tau": 117.31736291477381,
+   "kink": "extended"
+  },
+  {
+   "tid": "8DAMC",
+   "compact": 1.1813,
+   "reach": 18.623,
+   "n_res": 22,
+   "alpha": 39.50810169972105,
+   "tau": 107.26445539629358,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8EN0D",
+   "compact": 0.7631,
+   "reach": 13.104,
+   "n_res": 10,
+   "alpha": -140.5804783380774,
+   "tau": 117.19449008667767,
+   "kink": "extended"
+  },
+  {
+   "tid": "8HBVB",
+   "compact": 0.8342,
+   "reach": 16.782,
+   "n_res": 14,
+   "alpha": -169.45831291114112,
+   "tau": 118.74805402067219,
+   "kink": "extended"
+  },
+  {
+   "tid": "8EN6C",
+   "compact": 0.7657,
+   "reach": 16.979,
+   "n_res": 13,
+   "alpha": -84.28246724085305,
+   "tau": 141.9539216598888,
+   "kink": "other"
+  },
+  {
+   "tid": "7WD1C",
+   "compact": 0.9089,
+   "reach": 25.305,
+   "n_res": 23,
+   "alpha": 37.46623613787128,
+   "tau": 96.12822135725531,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CY6D",
+   "compact": 0.808,
+   "reach": 17.327,
+   "n_res": 14,
+   "alpha": -163.9738092167781,
+   "tau": 115.82193960422501,
+   "kink": "extended"
+  },
+  {
+   "tid": "8F6VA",
+   "compact": 0.7973,
+   "reach": 25.084,
+   "n_res": 20,
+   "alpha": -134.24181087778146,
+   "tau": 116.77338457571817,
+   "kink": "extended"
+  },
+  {
+   "tid": "7XY4E",
+   "compact": 0.8113,
+   "reach": 17.257,
+   "n_res": 14,
+   "alpha": -148.3929902742675,
+   "tau": 106.30590281046265,
+   "kink": "extended"
+  },
+  {
+   "tid": "8AOMV",
+   "compact": 0.8199,
+   "reach": 14.635,
+   "n_res": 12,
+   "alpha": -156.71832567721484,
+   "tau": 122.18217565868879,
+   "kink": "extended"
+  },
+  {
+   "tid": "7X2JB",
+   "compact": 1.119,
+   "reach": 17.873,
+   "n_res": 20,
+   "alpha": 23.205663101889503,
+   "tau": 104.47084158253622,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7W1SB",
+   "compact": 0.7372,
+   "reach": 10.851,
+   "n_res": 8,
+   "alpha": -160.36719184769134,
+   "tau": 118.9952393128012,
+   "kink": "extended"
+  },
+  {
+   "tid": "8H7MA",
+   "compact": 0.8092,
+   "reach": 13.594,
+   "n_res": 11,
+   "alpha": -168.210715722268,
+   "tau": 133.44530379853487,
+   "kink": "extended"
+  },
+  {
+   "tid": "8B8IA",
+   "compact": 0.8411,
+   "reach": 13.078,
+   "n_res": 11,
+   "alpha": -58.03863020044474,
+   "tau": 125.70264394647492,
+   "kink": "other"
+  },
+  {
+   "tid": "8G0WG",
+   "compact": 1.1137,
+   "reach": 12.571,
+   "n_res": 14,
+   "alpha": -29.04858668474714,
+   "tau": 124.72926503055635,
+   "kink": "other"
+  },
+  {
+   "tid": "7ZAUD",
+   "compact": 1.0227,
+   "reach": 16.623,
+   "n_res": 17,
+   "alpha": 21.642522558899042,
+   "tau": 95.71428665117197,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8ELOB",
+   "compact": 0.7369,
+   "reach": 27.142,
+   "n_res": 20,
+   "alpha": 120.88616977265818,
+   "tau": 114.07104391265445,
+   "kink": "other"
+  },
+  {
+   "tid": "8COHA",
+   "compact": 1.1803,
+   "reach": 16.097,
+   "n_res": 19,
+   "alpha": 49.41078841289774,
+   "tau": 98.95011915858854,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8H5TB",
+   "compact": 1.0851,
+   "reach": 13.823,
+   "n_res": 15,
+   "alpha": 31.543499528027315,
+   "tau": 104.95335702815804,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7WN1C",
+   "compact": 0.7042,
+   "reach": 22.722,
+   "n_res": 16,
+   "alpha": -163.46505671369908,
+   "tau": 122.69341650797656,
+   "kink": "extended"
+  },
+  {
+   "tid": "8ELPB",
+   "compact": 0.7248,
+   "reach": 27.595,
+   "n_res": 20,
+   "alpha": 97.28824580020797,
+   "tau": 104.55944049069298,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8H91D",
+   "compact": 0.9058,
+   "reach": 13.248,
+   "n_res": 12,
+   "alpha": 64.33961137938604,
+   "tau": 104.3762839450721,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7YZ9B",
+   "compact": 1.2775,
+   "reach": 7.828,
+   "n_res": 10,
+   "alpha": 143.39722615282443,
+   "tau": 92.45903376631757,
+   "kink": "other"
+  },
+  {
+   "tid": "8DI5H",
+   "compact": 0.7388,
+   "reach": 16.242,
+   "n_res": 12,
+   "alpha": -168.4099676201358,
+   "tau": 105.3936122015356,
+   "kink": "extended"
+  },
+  {
+   "tid": "7Z1AE",
+   "compact": 1.0441,
+   "reach": 19.155,
+   "n_res": 20,
+   "alpha": 22.127806517251376,
+   "tau": 101.83303242803538,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8AV2C",
+   "compact": 1.0566,
+   "reach": 20.822,
+   "n_res": 22,
+   "alpha": 19.95250503982582,
+   "tau": 99.24375712018312,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8DT8D",
+   "compact": 0.8582,
+   "reach": 20.974,
+   "n_res": 18,
+   "alpha": -155.5257456535714,
+   "tau": 103.96677394932524,
+   "kink": "extended"
+  },
+  {
+   "tid": "8DT8H",
+   "compact": 0.8102,
+   "reach": 24.686,
+   "n_res": 20,
+   "alpha": 39.33572067934971,
+   "tau": 120.93052638515874,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8DQUA",
+   "compact": 1.2568,
+   "reach": 14.323,
+   "n_res": 18,
+   "alpha": 80.95991300196161,
+   "tau": 102.78196581869264,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CYBD",
+   "compact": 1.0799,
+   "reach": 16.668,
+   "n_res": 18,
+   "alpha": 49.28648092807634,
+   "tau": 108.56103695945642,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8H64D",
+   "compact": 1.0339,
+   "reach": 17.41,
+   "n_res": 18,
+   "alpha": 89.9023306080401,
+   "tau": 144.97810035520644,
+   "kink": "other"
+  },
+  {
+   "tid": "8CNIA",
+   "compact": 1.1189,
+   "reach": 16.087,
+   "n_res": 18,
+   "alpha": 62.63886831103763,
+   "tau": 109.9839819189268,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8H3YD",
+   "compact": 0.9174,
+   "reach": 15.26,
+   "n_res": 14,
+   "alpha": 44.025288930256885,
+   "tau": 113.02430275983303,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8ELQB",
+   "compact": 0.7251,
+   "reach": 27.581,
+   "n_res": 20,
+   "alpha": 105.77020799829434,
+   "tau": 92.956901582078,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8B7WH",
+   "compact": 1.1107,
+   "reach": 16.206,
+   "n_res": 18,
+   "alpha": -157.66757637353805,
+   "tau": 119.8947798972415,
+   "kink": "extended"
+  },
+  {
+   "tid": "8GHRD",
+   "compact": 0.8866,
+   "reach": 18.046,
+   "n_res": 16,
+   "alpha": 20.06264429726399,
+   "tau": 112.88875303186501,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7USVD",
+   "compact": 0.9778,
+   "reach": 17.385,
+   "n_res": 17,
+   "alpha": 48.92479827763659,
+   "tau": 101.2876912943514,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8HEGD",
+   "compact": 1.1409,
+   "reach": 13.147,
+   "n_res": 15,
+   "alpha": 55.35809201283794,
+   "tau": 98.36097999497011,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CXNF",
+   "compact": 1.3422,
+   "reach": 14.156,
+   "n_res": 19,
+   "alpha": 173.51167481268527,
+   "tau": 136.4962065433314,
+   "kink": "other"
+  },
+  {
+   "tid": "7VKEB",
+   "compact": 0.9282,
+   "reach": 18.314,
+   "n_res": 17,
+   "alpha": 35.91374753579221,
+   "tau": 102.78648855015435,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7X2MB",
+   "compact": 1.0934,
+   "reach": 17.376,
+   "n_res": 19,
+   "alpha": 57.60084444713722,
+   "tau": 108.20723188281897,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7VOAA",
+   "compact": 0.9014,
+   "reach": 23.298,
+   "n_res": 21,
+   "alpha": 101.69908434040717,
+   "tau": 100.9309112939968,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8H5UB",
+   "compact": 0.9254,
+   "reach": 5.403,
+   "n_res": 5,
+   "alpha": 101.10005830278617,
+   "tau": 98.67314314981826,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8EN1D",
+   "compact": 1.2564,
+   "reach": 17.51,
+   "n_res": 22,
+   "alpha": 51.8403734664289,
+   "tau": 104.50092279472437,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8BE3C",
+   "compact": 0.9754,
+   "reach": 6.151,
+   "n_res": 6,
+   "alpha": 104.866095126521,
+   "tau": 112.09935699727973,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7WD2C",
+   "compact": 1.1158,
+   "reach": 18.821,
+   "n_res": 21,
+   "alpha": 60.38176638882661,
+   "tau": 101.7132903140751,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8H3XA",
+   "compact": 1.0025,
+   "reach": 14.963,
+   "n_res": 15,
+   "alpha": -3.3008853444236723,
+   "tau": 99.93028689335205,
+   "kink": "other"
+  },
+  {
+   "tid": "8CYDF",
+   "compact": 1.1246,
+   "reach": 13.339,
+   "n_res": 15,
+   "alpha": -60.47202290332157,
+   "tau": 130.90209735778458,
+   "kink": "other"
+  },
+  {
+   "tid": "7ZKZC",
+   "compact": 0.7733,
+   "reach": 19.399,
+   "n_res": 15,
+   "alpha": -171.36620982633792,
+   "tau": 117.51210247555863,
+   "kink": "extended"
+  },
+  {
+   "tid": "8GZ3N",
+   "compact": 0.9996,
+   "reach": 19.007,
+   "n_res": 19,
+   "alpha": -119.4934919720698,
+   "tau": 129.8635895055185,
+   "kink": "extended"
+  },
+  {
+   "tid": "7XQVB",
+   "compact": 0.7722,
+   "reach": 18.131,
+   "n_res": 14,
+   "alpha": -162.96575084630484,
+   "tau": 115.35338056395008,
+   "kink": "extended"
+  },
+  {
+   "tid": "8DP0B",
+   "compact": 0.9889,
+   "reach": 20.225,
+   "n_res": 20,
+   "alpha": 67.62263711820219,
+   "tau": 98.64029958115539,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8FTTA",
+   "compact": 0.7954,
+   "reach": 17.602,
+   "n_res": 14,
+   "alpha": 41.69471470838745,
+   "tau": 144.81686557179265,
+   "kink": "other"
+  },
+  {
+   "tid": "7YZWC",
+   "compact": 1.2726,
+   "reach": 13.358,
+   "n_res": 17,
+   "alpha": 46.5616186358337,
+   "tau": 107.1212668707854,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7UTGA",
+   "compact": 0.8406,
+   "reach": 13.085,
+   "n_res": 11,
+   "alpha": -153.69774115310503,
+   "tau": 138.7940504786901,
+   "kink": "extended"
+  },
+  {
+   "tid": "8SK5B",
+   "compact": 1.0674,
+   "reach": 17.8,
+   "n_res": 19,
+   "alpha": 58.956054989304896,
+   "tau": 103.03647930724918,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8XPSB",
+   "compact": 0.9911,
+   "reach": 12.108,
+   "n_res": 12,
+   "alpha": -98.56701138816537,
+   "tau": 136.2529361866164,
+   "kink": "other"
+  },
+  {
+   "tid": "8U3SB",
+   "compact": 0.7801,
+   "reach": 14.101,
+   "n_res": 11,
+   "alpha": -150.0947529607595,
+   "tau": 105.64375179414058,
+   "kink": "extended"
+  },
+  {
+   "tid": "8XUMC",
+   "compact": 1.2111,
+   "reach": 15.688,
+   "n_res": 19,
+   "alpha": 45.18145746626577,
+   "tau": 98.63015290432276,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8QGZA",
+   "compact": 1.0927,
+   "reach": 14.643,
+   "n_res": 16,
+   "alpha": 64.23560536082165,
+   "tau": 100.65726072492816,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8RBYB",
+   "compact": 1.0882,
+   "reach": 11.946,
+   "n_res": 13,
+   "alpha": 98.93145846053936,
+   "tau": 98.42031055388604,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8VYLE",
+   "compact": 1.0669,
+   "reach": 16.871,
+   "n_res": 18,
+   "alpha": 29.044868151870475,
+   "tau": 102.1593238974986,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8V5KH",
+   "compact": 0.7658,
+   "reach": 13.059,
+   "n_res": 10,
+   "alpha": -163.73401831811154,
+   "tau": 128.08658487707942,
+   "kink": "extended"
+  },
+  {
+   "tid": "8V5KE",
+   "compact": 1.1647,
+   "reach": 12.879,
+   "n_res": 15,
+   "alpha": 9.49532036707141,
+   "tau": 95.0386293528962,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8HXRA",
+   "compact": 1.0031,
+   "reach": 13.957,
+   "n_res": 14,
+   "alpha": 30.060623642988155,
+   "tau": 94.07289144706034,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8SLCC",
+   "compact": 1.0433,
+   "reach": 19.171,
+   "n_res": 20,
+   "alpha": 45.69198581037548,
+   "tau": 103.29267722051557,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8K3KD",
+   "compact": 1.0306,
+   "reach": 15.524,
+   "n_res": 16,
+   "alpha": 9.013557260436603,
+   "tau": 102.26207447881217,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8JXSB",
+   "compact": 0.7793,
+   "reach": 17.965,
+   "n_res": 14,
+   "alpha": -167.68657672602856,
+   "tau": 121.6322091054036,
+   "kink": "extended"
+  },
+  {
+   "tid": "8Z8VB",
+   "compact": 0.8481,
+   "reach": 9.433,
+   "n_res": 8,
+   "alpha": -119.0366149725523,
+   "tau": 118.92247281615843,
+   "kink": "extended"
+  },
+  {
+   "tid": "8Q7OA",
+   "compact": 0.7103,
+   "reach": 18.303,
+   "n_res": 13,
+   "alpha": -178.84019569646065,
+   "tau": 120.57618931983943,
+   "kink": "extended"
+  },
+  {
+   "tid": "8IDOC",
+   "compact": 1.4754,
+   "reach": 14.911,
+   "n_res": 22,
+   "alpha": 49.463977360945115,
+   "tau": 104.20631886796659,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8TZUC",
+   "compact": 1.0163,
+   "reach": 12.791,
+   "n_res": 13,
+   "alpha": 65.062543984505,
+   "tau": 92.12904998719213,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8TZUD",
+   "compact": 1.0796,
+   "reach": 17.598,
+   "n_res": 19,
+   "alpha": 95.81423047772505,
+   "tau": 141.4224699363432,
+   "kink": "other"
+  },
+  {
+   "tid": "8QZ3E",
+   "compact": 1.2459,
+   "reach": 16.053,
+   "n_res": 20,
+   "alpha": 43.702747428785244,
+   "tau": 105.35527746134412,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8IDIA",
+   "compact": 1.1861,
+   "reach": 18.548,
+   "n_res": 22,
+   "alpha": 57.867710409816915,
+   "tau": 100.16677029761263,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8Q95B",
+   "compact": 1.1134,
+   "reach": 17.963,
+   "n_res": 20,
+   "alpha": 51.31947634443914,
+   "tau": 104.02026299827982,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8Q95C",
+   "compact": 0.7538,
+   "reach": 14.592,
+   "n_res": 11,
+   "alpha": -172.07234453560503,
+   "tau": 123.43678060163886,
+   "kink": "extended"
+  },
+  {
+   "tid": "8OMZD",
+   "compact": 1.1084,
+   "reach": 16.24,
+   "n_res": 18,
+   "alpha": 60.5496794798675,
+   "tau": 107.43124336347223,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8RRXK",
+   "compact": 1.0844,
+   "reach": 19.366,
+   "n_res": 21,
+   "alpha": -150.3511749638497,
+   "tau": 136.24437851110767,
+   "kink": "extended"
+  },
+  {
+   "tid": "8Y9UB",
+   "compact": 1.3922,
+   "reach": 13.647,
+   "n_res": 19,
+   "alpha": 24.81107447791745,
+   "tau": 108.0414647740152,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8S0LB",
+   "compact": 1.0071,
+   "reach": 20.852,
+   "n_res": 21,
+   "alpha": -84.05851351645823,
+   "tau": 146.67438293380417,
+   "kink": "other"
+  },
+  {
+   "tid": "8TH4B",
+   "compact": 0.7102,
+   "reach": 16.897,
+   "n_res": 12,
+   "alpha": -157.9634626462692,
+   "tau": 115.25091976909067,
+   "kink": "extended"
+  },
+  {
+   "tid": "8IM0B",
+   "compact": 1.1736,
+   "reach": 12.781,
+   "n_res": 15,
+   "alpha": 32.17031944995715,
+   "tau": 103.52998591393867,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8K33F",
+   "compact": 0.7481,
+   "reach": 12.03,
+   "n_res": 9,
+   "alpha": -70.07853235361607,
+   "tau": 118.96810822325993,
+   "kink": "other"
+  },
+  {
+   "tid": "8Q78C",
+   "compact": 0.773,
+   "reach": 16.817,
+   "n_res": 13,
+   "alpha": -163.33246255870623,
+   "tau": 109.18246739877834,
+   "kink": "extended"
+  },
+  {
+   "tid": "8PIHB",
+   "compact": 1.1106,
+   "reach": 18.008,
+   "n_res": 20,
+   "alpha": 58.667458397039354,
+   "tau": 99.90854707772178,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8PIHC",
+   "compact": 0.7549,
+   "reach": 14.571,
+   "n_res": 11,
+   "alpha": -169.19180837565662,
+   "tau": 127.33808921932888,
+   "kink": "extended"
+  },
+  {
+   "tid": "8PNVL",
+   "compact": 0.8981,
+   "reach": 12.248,
+   "n_res": 11,
+   "alpha": 56.50850078650766,
+   "tau": 104.65260017054662,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8SFVB",
+   "compact": 1.2678,
+   "reach": 13.409,
+   "n_res": 17,
+   "alpha": 56.43009421086658,
+   "tau": 101.6531648442516,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8HR2B",
+   "compact": 1.1253,
+   "reach": 18.661,
+   "n_res": 21,
+   "alpha": 51.90055213140764,
+   "tau": 100.76899741315053,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8HR2C",
+   "compact": 1.1589,
+   "reach": 15.532,
+   "n_res": 18,
+   "alpha": 62.783770234823045,
+   "tau": 99.33466301574339,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8JTWB",
+   "compact": 1.0044,
+   "reach": 15.93,
+   "n_res": 16,
+   "alpha": 35.4469886615636,
+   "tau": 101.36730035022855,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8IEED",
+   "compact": 1.193,
+   "reach": 20.956,
+   "n_res": 25,
+   "alpha": -143.79889303241916,
+   "tau": 141.58383532618052,
+   "kink": "extended"
+  },
+  {
+   "tid": "8K3LH",
+   "compact": 1.0401,
+   "reach": 19.229,
+   "n_res": 20,
+   "alpha": 80.11764946860677,
+   "tau": 102.85962504611585,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8OWVFFF",
+   "compact": 0.9934,
+   "reach": 17.112,
+   "n_res": 17,
+   "alpha": 31.25946822423302,
+   "tau": 106.41230695914476,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8JZAA",
+   "compact": 0.969,
+   "reach": 20.641,
+   "n_res": 20,
+   "alpha": 64.14462012110093,
+   "tau": 94.6871937120813,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8UO9B",
+   "compact": 0.738,
+   "reach": 17.615,
+   "n_res": 13,
+   "alpha": -162.13381990035813,
+   "tau": 136.01032888023354,
+   "kink": "extended"
+  },
+  {
+   "tid": "8TNHJ",
+   "compact": 1.2583,
+   "reach": 14.305,
+   "n_res": 18,
+   "alpha": 43.60519189031012,
+   "tau": 101.40631797016849,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8YBLB",
+   "compact": 1.1099,
+   "reach": 18.92,
+   "n_res": 21,
+   "alpha": 66.05541886829374,
+   "tau": 101.3538030813517,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8Q94C",
+   "compact": 1.0449,
+   "reach": 20.098,
+   "n_res": 21,
+   "alpha": 53.31801162370675,
+   "tau": 100.59328252552906,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8SFXC",
+   "compact": 1.269,
+   "reach": 13.396,
+   "n_res": 17,
+   "alpha": 46.72617059458205,
+   "tau": 104.03230959882418,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8P7WY",
+   "compact": 0.9043,
+   "reach": 18.799,
+   "n_res": 17,
+   "alpha": -130.95603973967576,
+   "tau": 109.07248978190428,
+   "kink": "extended"
+  },
+  {
+   "tid": "8WCGb",
+   "compact": 1.267,
+   "reach": 18.943,
+   "n_res": 24,
+   "alpha": 86.89139054550091,
+   "tau": 94.01897046252842,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8WCGD",
+   "compact": 1.1188,
+   "reach": 17.877,
+   "n_res": 20,
+   "alpha": 26.598932945798015,
+   "tau": 100.84909689944855,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8V9XA",
+   "compact": 0.7065,
+   "reach": 9.909,
+   "n_res": 7,
+   "alpha": -69.31452865473604,
+   "tau": 135.49575535949145,
+   "kink": "other"
+  },
+  {
+   "tid": "9G5KB",
+   "compact": 1.0727,
+   "reach": 17.712,
+   "n_res": 19,
+   "alpha": 59.97886416069924,
+   "tau": 97.17874786479162,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8JJVA",
+   "compact": 1.0489,
+   "reach": 10.488,
+   "n_res": 11,
+   "alpha": 48.07577614017073,
+   "tau": 92.8262787309855,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8QZ7D",
+   "compact": 1.2344,
+   "reach": 15.392,
+   "n_res": 19,
+   "alpha": 64.77295760236724,
+   "tau": 114.6465217614739,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8IM1H",
+   "compact": 1.1094,
+   "reach": 17.127,
+   "n_res": 19,
+   "alpha": 50.36275569994988,
+   "tau": 100.8121421901551,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8UKVC",
+   "compact": 0.7944,
+   "reach": 17.622,
+   "n_res": 14,
+   "alpha": -174.79504145283272,
+   "tau": 128.72436537204032,
+   "kink": "extended"
+  },
+  {
+   "tid": "8HXQA",
+   "compact": 0.8484,
+   "reach": 14.144,
+   "n_res": 12,
+   "alpha": 73.62786323004107,
+   "tau": 100.71382196006488,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8SFZC",
+   "compact": 0.9711,
+   "reach": 17.507,
+   "n_res": 17,
+   "alpha": 55.78426251199083,
+   "tau": 100.50383240911803,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8WYJD",
+   "compact": 1.2032,
+   "reach": 14.96,
+   "n_res": 18,
+   "alpha": 157.99411309801266,
+   "tau": 121.31927150656753,
+   "kink": "other"
+  },
+  {
+   "tid": "8OPRB",
+   "compact": 0.9465,
+   "reach": 15.849,
+   "n_res": 15,
+   "alpha": 54.17167163783621,
+   "tau": 104.90849102264201,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8OPRC",
+   "compact": 1.262,
+   "reach": 15.847,
+   "n_res": 20,
+   "alpha": 62.2640889514273,
+   "tau": 99.24101093119914,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8IIUA",
+   "compact": 1.1353,
+   "reach": 16.735,
+   "n_res": 19,
+   "alpha": 32.64343419584603,
+   "tau": 105.16721818245767,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8RW9A",
+   "compact": 1.1351,
+   "reach": 15.858,
+   "n_res": 18,
+   "alpha": 41.76849478959881,
+   "tau": 93.74443336062771,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8S5WB",
+   "compact": 0.9837,
+   "reach": 16.265,
+   "n_res": 16,
+   "alpha": 35.657831147631626,
+   "tau": 103.46523647681656,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8Q7SN",
+   "compact": 1.1746,
+   "reach": 6.811,
+   "n_res": 8,
+   "alpha": 120.66531421727808,
+   "tau": 102.66910330585843,
+   "kink": "other"
+  },
+  {
+   "tid": "8Q93C",
+   "compact": 0.8995,
+   "reach": 25.571,
+   "n_res": 23,
+   "alpha": 53.78216979263024,
+   "tau": 99.54325915979544,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8JVAD",
+   "compact": 1.0112,
+   "reach": 12.857,
+   "n_res": 13,
+   "alpha": 129.18846584925956,
+   "tau": 107.96359240160702,
+   "kink": "other"
+  },
+  {
+   "tid": "8Y9SD",
+   "compact": 1.214,
+   "reach": 12.356,
+   "n_res": 15,
+   "alpha": 43.0795302924775,
+   "tau": 102.62737433349685,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8RMKM",
+   "compact": 0.7315,
+   "reach": 25.973,
+   "n_res": 19,
+   "alpha": -167.68898641508122,
+   "tau": 133.46358953713982,
+   "kink": "extended"
+  },
+  {
+   "tid": "8PE2B",
+   "compact": 0.778,
+   "reach": 19.28,
+   "n_res": 15,
+   "alpha": -170.12990750692524,
+   "tau": 112.2014832170723,
+   "kink": "extended"
+  },
+  {
+   "tid": "8YBOB",
+   "compact": 1.2636,
+   "reach": 16.619,
+   "n_res": 21,
+   "alpha": 48.196832710412,
+   "tau": 105.70756385457388,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8Y4WB",
+   "compact": 1.1556,
+   "reach": 12.981,
+   "n_res": 15,
+   "alpha": 50.98889033312253,
+   "tau": 99.94345083257033,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8P8AZ",
+   "compact": 1.1785,
+   "reach": 13.576,
+   "n_res": 16,
+   "alpha": 37.882830173203,
+   "tau": 125.02957391409917,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8PE1C",
+   "compact": 0.8386,
+   "reach": 19.078,
+   "n_res": 16,
+   "alpha": 175.4981519718726,
+   "tau": 109.93240386160308,
+   "kink": "other"
+  },
+  {
+   "tid": "8QZ2C",
+   "compact": 1.1171,
+   "reach": 16.113,
+   "n_res": 18,
+   "alpha": 45.5549664989395,
+   "tau": 108.19675269752523,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8P8JZ",
+   "compact": 1.0849,
+   "reach": 16.591,
+   "n_res": 18,
+   "alpha": 43.31446527767732,
+   "tau": 109.64169636379006,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8K4QB",
+   "compact": 0.9793,
+   "reach": 12.253,
+   "n_res": 12,
+   "alpha": 29.476968140396508,
+   "tau": 101.2201747505437,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8OZBC",
+   "compact": 0.7516,
+   "reach": 18.626,
+   "n_res": 14,
+   "alpha": -166.12022029855223,
+   "tau": 124.6128169075636,
+   "kink": "extended"
+  },
+  {
+   "tid": "8OWWB",
+   "compact": 1.2092,
+   "reach": 14.058,
+   "n_res": 17,
+   "alpha": 59.409502169949896,
+   "tau": 105.00163674184297,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8T60B",
+   "compact": 0.9064,
+   "reach": 11.033,
+   "n_res": 10,
+   "alpha": -161.36359085358376,
+   "tau": 88.60071227840527,
+   "kink": "other"
+  },
+  {
+   "tid": "8V8KA",
+   "compact": 0.6699,
+   "reach": 25.378,
+   "n_res": 17,
+   "alpha": -176.6582452950927,
+   "tau": 121.32257385712931,
+   "kink": "extended"
+  },
+  {
+   "tid": "8S4UB",
+   "compact": 1.1336,
+   "reach": 18.526,
+   "n_res": 21,
+   "alpha": 94.5896124691171,
+   "tau": 134.56623935280268,
+   "kink": "other"
+  },
+  {
+   "tid": "8STLB",
+   "compact": 1.3151,
+   "reach": 12.926,
+   "n_res": 17,
+   "alpha": 35.87780383982468,
+   "tau": 101.69714085120424,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8WEOC",
+   "compact": 0.7134,
+   "reach": 19.625,
+   "n_res": 14,
+   "alpha": -172.78826355562606,
+   "tau": 126.9361656107744,
+   "kink": "extended"
+  },
+  {
+   "tid": "8IRWA",
+   "compact": 0.8927,
+   "reach": 19.044,
+   "n_res": 17,
+   "alpha": -161.82527620579793,
+   "tau": 115.50065129284867,
+   "kink": "extended"
+  },
+  {
+   "tid": "8RWFG",
+   "compact": 0.7475,
+   "reach": 16.054,
+   "n_res": 12,
+   "alpha": -174.80037182918684,
+   "tau": 116.667013152401,
+   "kink": "extended"
+  },
+  {
+   "tid": "8YBMB",
+   "compact": 1.1097,
+   "reach": 19.825,
+   "n_res": 22,
+   "alpha": 45.56802638123943,
+   "tau": 103.37167749402516,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8S79C",
+   "compact": 0.8629,
+   "reach": 9.271,
+   "n_res": 8,
+   "alpha": -85.30480005269767,
+   "tau": 117.6828101367784,
+   "kink": "other"
+  },
+  {
+   "tid": "8OWTAAA",
+   "compact": 1.1894,
+   "reach": 15.133,
+   "n_res": 18,
+   "alpha": 36.10847082478812,
+   "tau": 107.88048222102726,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8XKID",
+   "compact": 0.7316,
+   "reach": 19.137,
+   "n_res": 14,
+   "alpha": -152.41961928359802,
+   "tau": 134.0529838711289,
+   "kink": "extended"
+  },
+  {
+   "tid": "8SOSG",
+   "compact": 0.9761,
+   "reach": 20.49,
+   "n_res": 20,
+   "alpha": 51.261132977218566,
+   "tau": 108.71772823341783,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8TW3B",
+   "compact": 1.2279,
+   "reach": 15.473,
+   "n_res": 19,
+   "alpha": 64.26343799196472,
+   "tau": 100.65224481720125,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8TW3Y",
+   "compact": 1.0128,
+   "reach": 16.785,
+   "n_res": 17,
+   "alpha": 42.33065180108308,
+   "tau": 100.92029766549909,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8W90E",
+   "compact": 1.0417,
+   "reach": 16.32,
+   "n_res": 17,
+   "alpha": 42.754381716743104,
+   "tau": 100.44007154063267,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8V62E",
+   "compact": 0.7883,
+   "reach": 11.417,
+   "n_res": 9,
+   "alpha": -163.58186085018028,
+   "tau": 120.35801269945175,
+   "kink": "extended"
+  },
+  {
+   "tid": "8RTFJ",
+   "compact": 1.2697,
+   "reach": 13.389,
+   "n_res": 17,
+   "alpha": 28.59913940468099,
+   "tau": 105.03318063733438,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8SNEC",
+   "compact": 0.8147,
+   "reach": 19.64,
+   "n_res": 16,
+   "alpha": -173.1256288051795,
+   "tau": 115.11147361612348,
+   "kink": "extended"
+  },
+  {
+   "tid": "8YBNB",
+   "compact": 1.1994,
+   "reach": 20.011,
+   "n_res": 24,
+   "alpha": 63.35488171318392,
+   "tau": 100.45339208633253,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8QZ4D",
+   "compact": 0.9035,
+   "reach": 7.748,
+   "n_res": 7,
+   "alpha": 136.03176558046493,
+   "tau": 93.76214647176741,
+   "kink": "other"
+  },
+  {
+   "tid": "8PYRD",
+   "compact": 0.8156,
+   "reach": 9.809,
+   "n_res": 8,
+   "alpha": 174.50012986085733,
+   "tau": 123.1725444706979,
+   "kink": "other"
+  },
+  {
+   "tid": "8YBPB",
+   "compact": 1.2119,
+   "reach": 16.502,
+   "n_res": 20,
+   "alpha": 40.12596383830054,
+   "tau": 104.68253284078142,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8Y9TB",
+   "compact": 1.3127,
+   "reach": 14.474,
+   "n_res": 19,
+   "alpha": 23.005090593418522,
+   "tau": 95.51014359870018,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9ERWE",
+   "compact": 1.4601,
+   "reach": 14.382,
+   "n_res": 21,
+   "alpha": 25.747417552179844,
+   "tau": 96.82079502184948,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9J3NB",
+   "compact": 0.799,
+   "reach": 13.767,
+   "n_res": 11,
+   "alpha": -131.21392846224637,
+   "tau": 125.91162934976487,
+   "kink": "extended"
+  },
+  {
+   "tid": "9KDCF",
+   "compact": 1.0275,
+   "reach": 15.571,
+   "n_res": 16,
+   "alpha": -171.016574307099,
+   "tau": 105.9313402776578,
+   "kink": "extended"
+  },
+  {
+   "tid": "9GOEB",
+   "compact": 0.8747,
+   "reach": 16.005,
+   "n_res": 14,
+   "alpha": -156.25326317053742,
+   "tau": 109.32444692677318,
+   "kink": "extended"
+  },
+  {
+   "tid": "9FR4C",
+   "compact": 1.1003,
+   "reach": 16.359,
+   "n_res": 18,
+   "alpha": 51.16002875051538,
+   "tau": 100.81490983973349,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HLLC",
+   "compact": 1.0596,
+   "reach": 15.099,
+   "n_res": 16,
+   "alpha": 34.02741380988418,
+   "tau": 94.72115150933492,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9M6OB",
+   "compact": 1.1761,
+   "reach": 14.454,
+   "n_res": 17,
+   "alpha": 56.16143217573152,
+   "tau": 101.26213233070808,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9EGNB",
+   "compact": 1.1048,
+   "reach": 8.146,
+   "n_res": 9,
+   "alpha": 7.376132910471441,
+   "tau": 117.74283348344241,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9H76B",
+   "compact": 0.8652,
+   "reach": 12.715,
+   "n_res": 11,
+   "alpha": -155.4266456262491,
+   "tau": 117.76078921115354,
+   "kink": "extended"
+  },
+  {
+   "tid": "9ERTB",
+   "compact": 1.4054,
+   "reach": 17.789,
+   "n_res": 25,
+   "alpha": -93.77152708186048,
+   "tau": 139.20322209390818,
+   "kink": "other"
+  },
+  {
+   "tid": "9H39C",
+   "compact": 0.7794,
+   "reach": 19.246,
+   "n_res": 15,
+   "alpha": -169.36775239966815,
+   "tau": 115.47543561111596,
+   "kink": "extended"
+  },
+  {
+   "tid": "8YVJA",
+   "compact": 0.9468,
+   "reach": 20.068,
+   "n_res": 19,
+   "alpha": 16.592187972915745,
+   "tau": 100.67620895628771,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9MDZE",
+   "compact": 0.9605,
+   "reach": 14.576,
+   "n_res": 14,
+   "alpha": 39.513487692117465,
+   "tau": 99.40399568797774,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9MNZC",
+   "compact": 0.6824,
+   "reach": 17.586,
+   "n_res": 12,
+   "alpha": -164.75677433826337,
+   "tau": 122.65406184423456,
+   "kink": "extended"
+  },
+  {
+   "tid": "9HZJA",
+   "compact": 1.116,
+   "reach": 16.128,
+   "n_res": 18,
+   "alpha": 29.187665238501953,
+   "tau": 108.71742044252221,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9W3LB",
+   "compact": 0.7431,
+   "reach": 20.186,
+   "n_res": 15,
+   "alpha": -163.71232183236216,
+   "tau": 132.68116090926873,
+   "kink": "extended"
+  },
+  {
+   "tid": "9DVQG",
+   "compact": 0.9016,
+   "reach": 17.746,
+   "n_res": 16,
+   "alpha": -11.005666276477536,
+   "tau": 129.84942339218023,
+   "kink": "other"
+  },
+  {
+   "tid": "9G9MC",
+   "compact": 1.2798,
+   "reach": 13.284,
+   "n_res": 17,
+   "alpha": 43.291242292058634,
+   "tau": 105.2684324132346,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9G97B",
+   "compact": 1.153,
+   "reach": 18.214,
+   "n_res": 21,
+   "alpha": 72.66619695292725,
+   "tau": 94.67910554824783,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9LM6D",
+   "compact": 0.9963,
+   "reach": 22.081,
+   "n_res": 22,
+   "alpha": -103.7808795287167,
+   "tau": 127.45487814842355,
+   "kink": "extended"
+  },
+  {
+   "tid": "9EZUB",
+   "compact": 1.0939,
+   "reach": 16.455,
+   "n_res": 18,
+   "alpha": 45.549110817555295,
+   "tau": 101.21954560012117,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9BA0N",
+   "compact": 0.7553,
+   "reach": 21.185,
+   "n_res": 16,
+   "alpha": -170.8632149865288,
+   "tau": 128.47299682789205,
+   "kink": "extended"
+  },
+  {
+   "tid": "9BDOC",
+   "compact": 0.8463,
+   "reach": 12.998,
+   "n_res": 11,
+   "alpha": -176.54374120616342,
+   "tau": 133.71239026860732,
+   "kink": "extended"
+  },
+  {
+   "tid": "9LDSC",
+   "compact": 0.7815,
+   "reach": 11.517,
+   "n_res": 9,
+   "alpha": -170.59722922030588,
+   "tau": 133.43918717604626,
+   "kink": "extended"
+  },
+  {
+   "tid": "9G48C",
+   "compact": 1.3875,
+   "reach": 17.297,
+   "n_res": 24,
+   "alpha": 18.26102919960526,
+   "tau": 94.77840718805035,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9GV3G",
+   "compact": 0.948,
+   "reach": 27.427,
+   "n_res": 26,
+   "alpha": 63.15768637387212,
+   "tau": 143.34830507502602,
+   "kink": "other"
+  },
+  {
+   "tid": "9CY1B",
+   "compact": 0.7819,
+   "reach": 10.231,
+   "n_res": 8,
+   "alpha": -169.7319025417301,
+   "tau": 107.42393445261132,
+   "kink": "extended"
+  },
+  {
+   "tid": "9H1JD",
+   "compact": 1.0051,
+   "reach": 7.959,
+   "n_res": 8,
+   "alpha": 45.196967252148085,
+   "tau": 92.27251161022463,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8YJ8C",
+   "compact": 1.1893,
+   "reach": 15.135,
+   "n_res": 18,
+   "alpha": 38.153091427286114,
+   "tau": 110.23518702054989,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9GCNC",
+   "compact": 0.7183,
+   "reach": 23.666,
+   "n_res": 17,
+   "alpha": -173.53167729870313,
+   "tau": 119.74169427814766,
+   "kink": "extended"
+  },
+  {
+   "tid": "8ZOYB",
+   "compact": 0.8445,
+   "reach": 16.578,
+   "n_res": 14,
+   "alpha": 158.78005428588503,
+   "tau": 103.71701538204717,
+   "kink": "other"
+  },
+  {
+   "tid": "9CO8F",
+   "compact": 1.0095,
+   "reach": 21.792,
+   "n_res": 22,
+   "alpha": 56.94052047422477,
+   "tau": 104.58499978488175,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9H6VE",
+   "compact": 1.113,
+   "reach": 17.071,
+   "n_res": 19,
+   "alpha": 47.977223149443375,
+   "tau": 118.83100075185341,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9H6VD",
+   "compact": 1.2278,
+   "reach": 13.846,
+   "n_res": 17,
+   "alpha": 51.03953540668124,
+   "tau": 105.17403334375206,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9R0BC",
+   "compact": 0.8266,
+   "reach": 14.516,
+   "n_res": 12,
+   "alpha": -171.84717890033414,
+   "tau": 121.4245947615169,
+   "kink": "extended"
+  },
+  {
+   "tid": "9HPAD",
+   "compact": 0.795,
+   "reach": 17.611,
+   "n_res": 14,
+   "alpha": 170.27903288137892,
+   "tau": 102.25359814686583,
+   "kink": "other"
+  },
+  {
+   "tid": "9FVBC",
+   "compact": 0.957,
+   "reach": 14.629,
+   "n_res": 14,
+   "alpha": 39.26193778390177,
+   "tau": 97.15497933921678,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9J3JB",
+   "compact": 0.9004,
+   "reach": 15.55,
+   "n_res": 14,
+   "alpha": 179.7920846622607,
+   "tau": 128.26556265254493,
+   "kink": "other"
+  },
+  {
+   "tid": "9EB9F",
+   "compact": 0.8062,
+   "reach": 9.923,
+   "n_res": 8,
+   "alpha": -166.1976926158145,
+   "tau": 108.88158275728931,
+   "kink": "extended"
+  },
+  {
+   "tid": "9HMLC",
+   "compact": 0.8527,
+   "reach": 15.246,
+   "n_res": 13,
+   "alpha": 66.65897429600564,
+   "tau": 97.97540366150425,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9GV4A",
+   "compact": 0.7796,
+   "reach": 11.545,
+   "n_res": 9,
+   "alpha": -169.14604116498307,
+   "tau": 119.83095408144455,
+   "kink": "extended"
+  },
+  {
+   "tid": "9JRSA",
+   "compact": 1.1207,
+   "reach": 16.954,
+   "n_res": 19,
+   "alpha": 47.21144710023084,
+   "tau": 106.97708532710718,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HVIH",
+   "compact": 1.2395,
+   "reach": 13.715,
+   "n_res": 17,
+   "alpha": 70.27379940759779,
+   "tau": 108.6614944717794,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9MTXA",
+   "compact": 0.8793,
+   "reach": 7.961,
+   "n_res": 7,
+   "alpha": 158.76413120515832,
+   "tau": 91.4319375088817,
+   "kink": "other"
+  },
+  {
+   "tid": "9HLSD",
+   "compact": 0.7717,
+   "reach": 18.142,
+   "n_res": 14,
+   "alpha": -178.9073606380558,
+   "tau": 104.68415179946336,
+   "kink": "extended"
+  },
+  {
+   "tid": "9HLSJ",
+   "compact": 0.76,
+   "reach": 18.421,
+   "n_res": 14,
+   "alpha": -171.10384557466028,
+   "tau": 123.38973696513384,
+   "kink": "extended"
+  },
+  {
+   "tid": "9IQPB",
+   "compact": 1.6002,
+   "reach": 11.873,
+   "n_res": 19,
+   "alpha": -131.11014621619103,
+   "tau": 138.9784332032514,
+   "kink": "extended"
+  },
+  {
+   "tid": "9H77B",
+   "compact": 0.8301,
+   "reach": 15.661,
+   "n_res": 13,
+   "alpha": 31.38342711666835,
+   "tau": 99.94189735074241,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9ETLD",
+   "compact": 1.2086,
+   "reach": 12.411,
+   "n_res": 15,
+   "alpha": 55.90452846737712,
+   "tau": 90.68835781820685,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9G13A",
+   "compact": 0.7259,
+   "reach": 23.419,
+   "n_res": 17,
+   "alpha": -73.68218039221495,
+   "tau": 143.43866153398105,
+   "kink": "other"
+  },
+  {
+   "tid": "8YVOA",
+   "compact": 1.2134,
+   "reach": 18.131,
+   "n_res": 22,
+   "alpha": 54.38711130399162,
+   "tau": 104.95669775923474,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9ISHB",
+   "compact": 1.0589,
+   "reach": 18.887,
+   "n_res": 20,
+   "alpha": 56.963491907680904,
+   "tau": 99.8423444629398,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HJKB",
+   "compact": 0.8658,
+   "reach": 9.24,
+   "n_res": 8,
+   "alpha": 22.434488852528617,
+   "tau": 98.3619744485489,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8ZRDC",
+   "compact": 1.038,
+   "reach": 23.122,
+   "n_res": 24,
+   "alpha": 29.57299333703662,
+   "tau": 98.51003067570649,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9ERUH",
+   "compact": 0.7685,
+   "reach": 23.423,
+   "n_res": 18,
+   "alpha": -166.70010748019365,
+   "tau": 115.0690559145309,
+   "kink": "extended"
+  },
+  {
+   "tid": "9FWWB",
+   "compact": 1.0952,
+   "reach": 14.609,
+   "n_res": 16,
+   "alpha": 42.28893720632727,
+   "tau": 105.30610248295295,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9EOTB",
+   "compact": 1.1818,
+   "reach": 14.384,
+   "n_res": 17,
+   "alpha": 55.86460017018695,
+   "tau": 134.5954677399642,
+   "kink": "other"
+  },
+  {
+   "tid": "9IARD",
+   "compact": 0.7865,
+   "reach": 11.443,
+   "n_res": 9,
+   "alpha": -162.34060737649065,
+   "tau": 117.0670999749967,
+   "kink": "extended"
+  },
+  {
+   "tid": "9LADB",
+   "compact": 0.7446,
+   "reach": 12.087,
+   "n_res": 9,
+   "alpha": -171.7369807461863,
+   "tau": 124.47978269732205,
+   "kink": "extended"
+  },
+  {
+   "tid": "9JD0F",
+   "compact": 1.0861,
+   "reach": 14.732,
+   "n_res": 16,
+   "alpha": -93.31029391883925,
+   "tau": 111.3489938273102,
+   "kink": "other"
+  },
+  {
+   "tid": "9FXFA",
+   "compact": 0.9342,
+   "reach": 14.986,
+   "n_res": 14,
+   "alpha": 28.35498061881353,
+   "tau": 104.28371700145932,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HO4C",
+   "compact": 0.9947,
+   "reach": 14.074,
+   "n_res": 14,
+   "alpha": -118.69361087259314,
+   "tau": 115.14063155346454,
+   "kink": "extended"
+  },
+  {
+   "tid": "9G7KG",
+   "compact": 1.2714,
+   "reach": 18.09,
+   "n_res": 23,
+   "alpha": 19.910197164848213,
+   "tau": 100.41683393951268,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9LM5D",
+   "compact": 1.229,
+   "reach": 16.274,
+   "n_res": 20,
+   "alpha": 49.204637399866186,
+   "tau": 104.10024808904069,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9FM1F",
+   "compact": 1.1715,
+   "reach": 15.365,
+   "n_res": 18,
+   "alpha": 65.54641575221096,
+   "tau": 110.62548624406037,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9EN2C",
+   "compact": 0.9835,
+   "reach": 10.168,
+   "n_res": 10,
+   "alpha": -149.23466595706103,
+   "tau": 130.85703202464828,
+   "kink": "extended"
+  },
+  {
+   "tid": "9EN2B",
+   "compact": 1.1024,
+   "reach": 12.699,
+   "n_res": 14,
+   "alpha": 69.00405789719385,
+   "tau": 88.23669795572003,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HO6C",
+   "compact": 1.0378,
+   "reach": 13.491,
+   "n_res": 14,
+   "alpha": -144.15453328625043,
+   "tau": 115.25717318064126,
+   "kink": "extended"
+  },
+  {
+   "tid": "9P6XF",
+   "compact": 0.8505,
+   "reach": 17.637,
+   "n_res": 15,
+   "alpha": -175.81304968029494,
+   "tau": 125.8227704211231,
+   "kink": "extended"
+  },
+  {
+   "tid": "8ZERD",
+   "compact": 0.7089,
+   "reach": 21.16,
+   "n_res": 15,
+   "alpha": -125.68136323943067,
+   "tau": 137.80182146467652,
+   "kink": "extended"
+  },
+  {
+   "tid": "9HQ5B",
+   "compact": 0.7484,
+   "reach": 10.69,
+   "n_res": 8,
+   "alpha": -179.93250993821454,
+   "tau": 130.11324341847399,
+   "kink": "extended"
+  },
+  {
+   "tid": "9FC2B",
+   "compact": 0.7927,
+   "reach": 18.923,
+   "n_res": 15,
+   "alpha": 174.56323033378195,
+   "tau": 122.21409365353247,
+   "kink": "other"
+  },
+  {
+   "tid": "9FZDB",
+   "compact": 0.736,
+   "reach": 17.662,
+   "n_res": 13,
+   "alpha": -160.85020030978617,
+   "tau": 128.88475390168657,
+   "kink": "extended"
+  },
+  {
+   "tid": "9E7PA",
+   "compact": 1.137,
+   "reach": 17.59,
+   "n_res": 20,
+   "alpha": 56.924335770171645,
+   "tau": 97.58624140822775,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9ENAB",
+   "compact": 1.1818,
+   "reach": 19.462,
+   "n_res": 23,
+   "alpha": 39.65211098419061,
+   "tau": 103.9148559423777,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8YOTC",
+   "compact": 0.9304,
+   "reach": 12.898,
+   "n_res": 12,
+   "alpha": -155.56772950329236,
+   "tau": 142.0007883006986,
+   "kink": "extended"
+  },
+  {
+   "tid": "9G5ZC",
+   "compact": 0.7794,
+   "reach": 12.83,
+   "n_res": 10,
+   "alpha": 32.14900873432255,
+   "tau": 114.45336707588915,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HKQF",
+   "compact": 0.87,
+   "reach": 8.046,
+   "n_res": 7,
+   "alpha": 142.31320259770675,
+   "tau": 87.63119200618536,
+   "kink": "other"
+  },
+  {
+   "tid": "9G2GC",
+   "compact": 1.0758,
+   "reach": 15.803,
+   "n_res": 17,
+   "alpha": 42.91251768212398,
+   "tau": 93.86183176902887,
+   "kink": "kinked"
+  },
+  {
+   "tid": "21TWA1",
+   "compact": 0.929,
+   "reach": 8.611,
+   "n_res": 8,
+   "alpha": 8.811311288762653,
+   "tau": 113.41605686598555,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9B0AB",
+   "compact": 0.7516,
+   "reach": 10.644,
+   "n_res": 8,
+   "alpha": -175.92532488118707,
+   "tau": 129.2136782737094,
+   "kink": "extended"
+  },
+  {
+   "tid": "9J3LC",
+   "compact": 0.8118,
+   "reach": 17.246,
+   "n_res": 14,
+   "alpha": -179.57748069347028,
+   "tau": 119.52042842493954,
+   "kink": "extended"
+  },
+  {
+   "tid": "9FVCC",
+   "compact": 1.4215,
+   "reach": 14.773,
+   "n_res": 21,
+   "alpha": 3.2768696025403736,
+   "tau": 97.96636057863056,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HZKA",
+   "compact": 1.0995,
+   "reach": 16.371,
+   "n_res": 18,
+   "alpha": 30.18018218972793,
+   "tau": 109.81928422863542,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9G1YD",
+   "compact": 1.0814,
+   "reach": 22.194,
+   "n_res": 24,
+   "alpha": 36.248006988036536,
+   "tau": 113.66352010333097,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9G3EC",
+   "compact": 0.7593,
+   "reach": 10.537,
+   "n_res": 8,
+   "alpha": -168.6927450837763,
+   "tau": 117.98397473477671,
+   "kink": "extended"
+  },
+  {
+   "tid": "9E7ND",
+   "compact": 0.9749,
+   "reach": 17.438,
+   "n_res": 17,
+   "alpha": 36.76565219328017,
+   "tau": 111.32294001158613,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8YSHA",
+   "compact": 1.1628,
+   "reach": 8.6,
+   "n_res": 10,
+   "alpha": 56.50570904460969,
+   "tau": 94.15725044216245,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9ETJD",
+   "compact": 1.1972,
+   "reach": 20.047,
+   "n_res": 24,
+   "alpha": 24.776418607693735,
+   "tau": 108.47070882144645,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9HURB",
+   "compact": 1.1886,
+   "reach": 15.143,
+   "n_res": 18,
+   "alpha": 59.11161505688729,
+   "tau": 104.00874748003174,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9AXWJ",
+   "compact": 1.1772,
+   "reach": 14.441,
+   "n_res": 17,
+   "alpha": 70.83704022746363,
+   "tau": 96.80210141188073,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9IASC",
+   "compact": 1.0457,
+   "reach": 18.169,
+   "n_res": 19,
+   "alpha": 73.23133547752475,
+   "tau": 141.33654265243862,
+   "kink": "other"
+  },
+  {
+   "tid": "9J7YH",
+   "compact": 1.2488,
+   "reach": 12.813,
+   "n_res": 16,
+   "alpha": 47.337518352435566,
+   "tau": 87.52618584076345,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9KDBE",
+   "compact": 1.1144,
+   "reach": 17.947,
+   "n_res": 20,
+   "alpha": 58.332638248391774,
+   "tau": 104.4310065887118,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9G4GB",
+   "compact": 1.0231,
+   "reach": 20.525,
+   "n_res": 21,
+   "alpha": 56.2100792798231,
+   "tau": 108.37772739417768,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8YSFD",
+   "compact": 0.7624,
+   "reach": 11.805,
+   "n_res": 9,
+   "alpha": -167.46273364956303,
+   "tau": 131.32210161825657,
+   "kink": "extended"
+  },
+  {
+   "tid": "9MTEB",
+   "compact": 0.7271,
+   "reach": 17.88,
+   "n_res": 13,
+   "alpha": -167.10117605179636,
+   "tau": 124.42439793528366,
+   "kink": "extended"
+  },
+  {
+   "tid": "9MTEA",
+   "compact": 0.8594,
+   "reach": 8.145,
+   "n_res": 7,
+   "alpha": 153.76619864975342,
+   "tau": 94.17777712469153,
+   "kink": "other"
+  },
+  {
+   "tid": "9LJJM",
+   "compact": 0.8976,
+   "reach": 5.571,
+   "n_res": 5,
+   "alpha": 124.05825752827451,
+   "tau": 98.06459116464958,
+   "kink": "other"
+  },
+  {
+   "tid": "9L1KA",
+   "compact": 0.7374,
+   "reach": 13.561,
+   "n_res": 10,
+   "alpha": -166.38809321921337,
+   "tau": 117.9832709312739,
+   "kink": "extended"
+  },
+  {
+   "tid": "9H1FB",
+   "compact": 0.8427,
+   "reach": 8.307,
+   "n_res": 7,
+   "alpha": 102.15648430340069,
+   "tau": 101.71543667872133,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9P6XH",
+   "compact": 1.2184,
+   "reach": 13.132,
+   "n_res": 16,
+   "alpha": 29.265630986845736,
+   "tau": 105.65556026061184,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9EMYK",
+   "compact": 0.8171,
+   "reach": 22.028,
+   "n_res": 18,
+   "alpha": 5.2314144607747775,
+   "tau": 93.69918872942908,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9EMYI",
+   "compact": 1.3259,
+   "reach": 15.084,
+   "n_res": 20,
+   "alpha": 5.267331138755454,
+   "tau": 95.86449403971717,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9KGKB",
+   "compact": 1.1031,
+   "reach": 17.224,
+   "n_res": 19,
+   "alpha": 56.146042530079335,
+   "tau": 105.222272592515,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9FZCC",
+   "compact": 0.7731,
+   "reach": 15.522,
+   "n_res": 12,
+   "alpha": -156.74529478524974,
+   "tau": 110.57652617493969,
+   "kink": "extended"
+  },
+  {
+   "tid": "9EZWD",
+   "compact": 1.0807,
+   "reach": 16.656,
+   "n_res": 18,
+   "alpha": 42.60681329702663,
+   "tau": 99.76502959019282,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9E76Q",
+   "compact": 1.1074,
+   "reach": 18.06,
+   "n_res": 20,
+   "alpha": 3.7966570499733305,
+   "tau": 103.38257941556661,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9LH2B",
+   "compact": 1.0946,
+   "reach": 19.185,
+   "n_res": 21,
+   "alpha": 21.830890899145803,
+   "tau": 97.02534287714515,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9LMEC",
+   "compact": 1.0273,
+   "reach": 9.734,
+   "n_res": 10,
+   "alpha": -53.553218022531496,
+   "tau": 135.0509970428058,
+   "kink": "other"
+  },
+  {
+   "tid": "9ZENL",
+   "compact": 0.7471,
+   "reach": 16.063,
+   "n_res": 12,
+   "alpha": -158.7063364030969,
+   "tau": 104.9302396984167,
+   "kink": "extended"
+  },
+  {
+   "tid": "9MVUD",
+   "compact": 1.1193,
+   "reach": 14.294,
+   "n_res": 16,
+   "alpha": -100.09523384149757,
+   "tau": 128.02706074536835,
+   "kink": "extended"
+  },
+  {
+   "tid": "9U5CH",
+   "compact": 1.2317,
+   "reach": 18.673,
+   "n_res": 23,
+   "alpha": 39.48779955734638,
+   "tau": 93.93216061475125,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9VORE",
+   "compact": 0.9352,
+   "reach": 12.831,
+   "n_res": 12,
+   "alpha": 147.18116883935727,
+   "tau": 105.91707677282756,
+   "kink": "other"
+  },
+  {
+   "tid": "9RXIH",
+   "compact": 1.1333,
+   "reach": 20.294,
+   "n_res": 23,
+   "alpha": 14.64112294200443,
+   "tau": 96.50872968330255,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9QZQN",
+   "compact": 0.9765,
+   "reach": 20.482,
+   "n_res": 20,
+   "alpha": -105.551903865265,
+   "tau": 130.57588843682362,
+   "kink": "extended"
+  },
+  {
+   "tid": "9YC3A",
+   "compact": 1.3742,
+   "reach": 16.009,
+   "n_res": 22,
+   "alpha": 25.543221032990076,
+   "tau": 95.00572235672722,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9TH6B",
+   "compact": 1.2925,
+   "reach": 12.379,
+   "n_res": 16,
+   "alpha": 8.453980135681178,
+   "tau": 92.06850582251919,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9S35B",
+   "compact": 0.6796,
+   "reach": 25.014,
+   "n_res": 17,
+   "alpha": -164.53528022627358,
+   "tau": 119.78187247011041,
+   "kink": "extended"
+  },
+  {
+   "tid": "9Q6HD",
+   "compact": 1.3232,
+   "reach": 12.092,
+   "n_res": 16,
+   "alpha": 17.090651933515787,
+   "tau": 92.40059912076461,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9Q6HB",
+   "compact": 1.3066,
+   "reach": 18.368,
+   "n_res": 24,
+   "alpha": 37.21154880253952,
+   "tau": 109.93485235662375,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9Q6HC",
+   "compact": 1.1931,
+   "reach": 14.248,
+   "n_res": 17,
+   "alpha": 63.55123476806838,
+   "tau": 100.50289984168921,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9Q6HE",
+   "compact": 1.155,
+   "reach": 18.182,
+   "n_res": 21,
+   "alpha": 39.854862404934885,
+   "tau": 99.24096632801331,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9Q9Se",
+   "compact": 0.745,
+   "reach": 12.081,
+   "n_res": 9,
+   "alpha": -174.16016696646295,
+   "tau": 134.5287884127249,
+   "kink": "extended"
+  },
+  {
+   "tid": "9RN6C",
+   "compact": 0.8348,
+   "reach": 14.375,
+   "n_res": 12,
+   "alpha": 61.061070035272074,
+   "tau": 104.76114251125843,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9RN6B",
+   "compact": 0.9626,
+   "reach": 11.428,
+   "n_res": 11,
+   "alpha": -107.18420475514861,
+   "tau": 122.89094464196164,
+   "kink": "extended"
+  },
+  {
+   "tid": "9XOUE",
+   "compact": 1.2745,
+   "reach": 17.261,
+   "n_res": 22,
+   "alpha": 61.41583346407469,
+   "tau": 110.02503903725847,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9MW5E",
+   "compact": 1.2183,
+   "reach": 14.774,
+   "n_res": 18,
+   "alpha": 65.31220238862595,
+   "tau": 104.862402116884,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9UB6B",
+   "compact": 0.8559,
+   "reach": 8.179,
+   "n_res": 7,
+   "alpha": 126.812722453058,
+   "tau": 87.24303999079363,
+   "kink": "other"
+  },
+  {
+   "tid": "9UCLF",
+   "compact": 0.9549,
+   "reach": 17.802,
+   "n_res": 17,
+   "alpha": -84.79701846417701,
+   "tau": 130.77258095704798,
+   "kink": "other"
+  },
+  {
+   "tid": "9R19E",
+   "compact": 1.1327,
+   "reach": 16.775,
+   "n_res": 19,
+   "alpha": 56.48104738984163,
+   "tau": 101.77855960954521,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9R19H",
+   "compact": 1.2222,
+   "reach": 8.182,
+   "n_res": 10,
+   "alpha": 151.2165212906367,
+   "tau": 95.45167561679675,
+   "kink": "other"
+  },
+  {
+   "tid": "9QTNG",
+   "compact": 1.1475,
+   "reach": 17.43,
+   "n_res": 20,
+   "alpha": 52.25429732560245,
+   "tau": 104.3510343603504,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9NK9A",
+   "compact": 0.7613,
+   "reach": 11.822,
+   "n_res": 9,
+   "alpha": -170.43239671644363,
+   "tau": 119.959947513023,
+   "kink": "extended"
+  },
+  {
+   "tid": "9RITB",
+   "compact": 0.8255,
+   "reach": 14.536,
+   "n_res": 12,
+   "alpha": -52.5526722899185,
+   "tau": 115.72008174683805,
+   "kink": "other"
+  },
+  {
+   "tid": "9ULPC",
+   "compact": 0.7356,
+   "reach": 16.314,
+   "n_res": 12,
+   "alpha": -179.5689953958795,
+   "tau": 108.69957037043893,
+   "kink": "extended"
+  },
+  {
+   "tid": "9MY8A",
+   "compact": 0.9018,
+   "reach": 14.416,
+   "n_res": 13,
+   "alpha": 142.97783247890166,
+   "tau": 93.73439354963722,
+   "kink": "other"
+  },
+  {
+   "tid": "9YP2C",
+   "compact": 1.0069,
+   "reach": 4.965,
+   "n_res": 5,
+   "alpha": 102.43629008508941,
+   "tau": 94.12004508869187,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9VQ6C",
+   "compact": 0.7713,
+   "reach": 14.261,
+   "n_res": 11,
+   "alpha": -154.0966509676684,
+   "tau": 118.85746040602471,
+   "kink": "extended"
+  },
+  {
+   "tid": "9PYMB",
+   "compact": 0.835,
+   "reach": 23.953,
+   "n_res": 20,
+   "alpha": -141.0872133181777,
+   "tau": 119.34205264906092,
+   "kink": "extended"
+  },
+  {
+   "tid": "9RIUA",
+   "compact": 0.8795,
+   "reach": 13.644,
+   "n_res": 12,
+   "alpha": 70.41299624439137,
+   "tau": 96.30117271880295,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9OBNF",
+   "compact": 1.2378,
+   "reach": 14.542,
+   "n_res": 18,
+   "alpha": 60.82224630277388,
+   "tau": 102.41547857051636,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9NPTI",
+   "compact": 1.1254,
+   "reach": 22.214,
+   "n_res": 25,
+   "alpha": 60.19809374796628,
+   "tau": 138.2918125822174,
+   "kink": "other"
+  },
+  {
+   "tid": "9NN9F",
+   "compact": 0.7347,
+   "reach": 17.695,
+   "n_res": 13,
+   "alpha": -165.057377159308,
+   "tau": 125.69170495822934,
+   "kink": "extended"
+  },
+  {
+   "tid": "9Q6NB",
+   "compact": 1.173,
+   "reach": 17.902,
+   "n_res": 21,
+   "alpha": 44.36681427430966,
+   "tau": 129.69331762727435,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9Q6ND",
+   "compact": 1.3173,
+   "reach": 12.905,
+   "n_res": 17,
+   "alpha": 38.72888687106404,
+   "tau": 100.6681448988468,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9Q6NE",
+   "compact": 0.9017,
+   "reach": 13.308,
+   "n_res": 12,
+   "alpha": 30.658713446124562,
+   "tau": 122.94899939520401,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9Q6NC",
+   "compact": 1.3389,
+   "reach": 12.697,
+   "n_res": 17,
+   "alpha": 60.350271146145,
+   "tau": 93.62898972204059,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9UBRG",
+   "compact": 1.2465,
+   "reach": 12.033,
+   "n_res": 15,
+   "alpha": 56.58146353197814,
+   "tau": 99.69271966274444,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9S36B",
+   "compact": 1.0762,
+   "reach": 18.584,
+   "n_res": 20,
+   "alpha": 48.47997036963651,
+   "tau": 98.31426332824164,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9NSDF",
+   "compact": 0.9478,
+   "reach": 13.715,
+   "n_res": 13,
+   "alpha": 20.00701068906468,
+   "tau": 117.62598196018168,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9ZEOK",
+   "compact": 1.2215,
+   "reach": 13.917,
+   "n_res": 17,
+   "alpha": 44.53250794941489,
+   "tau": 118.54576500276187,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9Z5QA",
+   "compact": 0.7203,
+   "reach": 22.214,
+   "n_res": 16,
+   "alpha": -169.4970675029829,
+   "tau": 118.45195845390634,
+   "kink": "extended"
+  },
+  {
+   "tid": "9NRJC",
+   "compact": 0.8001,
+   "reach": 11.249,
+   "n_res": 9,
+   "alpha": -163.7432193838395,
+   "tau": 118.12463764614826,
+   "kink": "extended"
+  },
+  {
+   "tid": "9DC3CJ",
+   "compact": 1.0287,
+   "reach": 18.47,
+   "n_res": 19,
+   "alpha": 50.19904939687448,
+   "tau": 101.20492889932277,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8PJPC",
+   "compact": 1.0575,
+   "reach": 17.967,
+   "n_res": 19,
+   "alpha": 56.15069964151574,
+   "tau": 100.39356746926128,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8PIZB",
+   "compact": 1.0525,
+   "reach": 19.002,
+   "n_res": 20,
+   "alpha": 19.733715304521944,
+   "tau": 96.73447194034839,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8FQ7A",
+   "compact": 0.8019,
+   "reach": 13.717,
+   "n_res": 11,
+   "alpha": 179.1617738655574,
+   "tau": 101.08688480696401,
+   "kink": "other"
+  },
+  {
+   "tid": "9DETq",
+   "compact": 1.0688,
+   "reach": 16.841,
+   "n_res": 18,
+   "alpha": 21.906492791009782,
+   "tau": 92.60613718063836,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8YW9D",
+   "compact": 0.8349,
+   "reach": 9.582,
+   "n_res": 8,
+   "alpha": -146.37979945446295,
+   "tau": 125.01636860231604,
+   "kink": "extended"
+  },
+  {
+   "tid": "7OMTA",
+   "compact": 0.8316,
+   "reach": 15.632,
+   "n_res": 13,
+   "alpha": -156.71681734996127,
+   "tau": 123.58006203182075,
+   "kink": "extended"
+  },
+  {
+   "tid": "7NVMN",
+   "compact": 0.9455,
+   "reach": 13.749,
+   "n_res": 13,
+   "alpha": -167.23946639862407,
+   "tau": 108.28242308258287,
+   "kink": "extended"
+  },
+  {
+   "tid": "8YW9C",
+   "compact": 0.7811,
+   "reach": 25.605,
+   "n_res": 20,
+   "alpha": 24.44100238738382,
+   "tau": 105.68680970342355,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7OMMD",
+   "compact": 0.9498,
+   "reach": 20.005,
+   "n_res": 19,
+   "alpha": -165.57820391784796,
+   "tau": 99.5257253644162,
+   "kink": "other"
+  },
+  {
+   "tid": "8Q6KN",
+   "compact": 1.2561,
+   "reach": 16.719,
+   "n_res": 21,
+   "alpha": 66.14038996724719,
+   "tau": 99.05363434572617,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9FYQD",
+   "compact": 1.1253,
+   "reach": 15.107,
+   "n_res": 17,
+   "alpha": 23.15541910853775,
+   "tau": 106.61915294245128,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8CE4F",
+   "compact": 1.1533,
+   "reach": 14.74,
+   "n_res": 17,
+   "alpha": -64.52626264232377,
+   "tau": 123.58250951039106,
+   "kink": "other"
+  },
+  {
+   "tid": "7L6VB",
+   "compact": 0.8842,
+   "reach": 11.31,
+   "n_res": 10,
+   "alpha": -154.45678882904386,
+   "tau": 121.86723008566673,
+   "kink": "extended"
+  },
+  {
+   "tid": "7L6VC",
+   "compact": 0.7245,
+   "reach": 22.084,
+   "n_res": 16,
+   "alpha": -118.73532269562669,
+   "tau": 120.92820702797819,
+   "kink": "extended"
+  },
+  {
+   "tid": "8FIFB",
+   "compact": 0.7979,
+   "reach": 18.8,
+   "n_res": 15,
+   "alpha": -176.61071171405453,
+   "tau": 120.84987727404564,
+   "kink": "extended"
+  },
+  {
+   "tid": "8OUDE",
+   "compact": 0.7537,
+   "reach": 13.268,
+   "n_res": 10,
+   "alpha": -149.88665340977101,
+   "tau": 132.29296396594347,
+   "kink": "extended"
+  },
+  {
+   "tid": "8C9XI",
+   "compact": 1.0833,
+   "reach": 13.847,
+   "n_res": 15,
+   "alpha": 38.882143373306285,
+   "tau": 105.83208209652429,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7A4DG",
+   "compact": 1.0681,
+   "reach": 10.298,
+   "n_res": 11,
+   "alpha": 34.338882004369566,
+   "tau": 100.13196036235155,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7A4DI",
+   "compact": 0.9205,
+   "reach": 9.777,
+   "n_res": 9,
+   "alpha": 96.94834637699144,
+   "tau": 95.58660395015757,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7TE8A",
+   "compact": 0.8147,
+   "reach": 13.503,
+   "n_res": 11,
+   "alpha": -160.30687582362822,
+   "tau": 110.78419197532158,
+   "kink": "extended"
+  },
+  {
+   "tid": "7TE8C",
+   "compact": 0.8029,
+   "reach": 13.7,
+   "n_res": 11,
+   "alpha": -120.76515917846704,
+   "tau": 125.51712207217487,
+   "kink": "extended"
+  },
+  {
+   "tid": "9BIAF",
+   "compact": 0.7257,
+   "reach": 13.78,
+   "n_res": 10,
+   "alpha": -174.21291199981812,
+   "tau": 128.69073408373742,
+   "kink": "extended"
+  },
+  {
+   "tid": "7DV4B",
+   "compact": 0.9322,
+   "reach": 13.945,
+   "n_res": 13,
+   "alpha": -165.80836793871964,
+   "tau": 109.2995772933564,
+   "kink": "extended"
+  },
+  {
+   "tid": "7Z1XE",
+   "compact": 0.7914,
+   "reach": 15.163,
+   "n_res": 12,
+   "alpha": -110.46497609982943,
+   "tau": 139.67314871443983,
+   "kink": "extended"
+  },
+  {
+   "tid": "7Z1XF",
+   "compact": 0.8037,
+   "reach": 19.908,
+   "n_res": 16,
+   "alpha": 12.210962445931242,
+   "tau": 98.29576418499303,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9E7LT",
+   "compact": 0.8189,
+   "reach": 13.433,
+   "n_res": 11,
+   "alpha": -162.86991652741662,
+   "tau": 118.55432779805938,
+   "kink": "extended"
+  },
+  {
+   "tid": "7X7EB",
+   "compact": 1.055,
+   "reach": 20.852,
+   "n_res": 22,
+   "alpha": 50.13399200038579,
+   "tau": 102.70127093992089,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9QTOF",
+   "compact": 1.1507,
+   "reach": 15.642,
+   "n_res": 18,
+   "alpha": 3.7878384706680284,
+   "tau": 105.89504451196717,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9UOIA",
+   "compact": 0.7377,
+   "reach": 13.556,
+   "n_res": 10,
+   "alpha": -157.64404599524997,
+   "tau": 125.54231742424994,
+   "kink": "extended"
+  },
+  {
+   "tid": "9XZXC",
+   "compact": 0.8046,
+   "reach": 12.428,
+   "n_res": 10,
+   "alpha": -161.79595817391598,
+   "tau": 116.62591462995857,
+   "kink": "extended"
+  },
+  {
+   "tid": "9XZXD",
+   "compact": 1.0857,
+   "reach": 16.579,
+   "n_res": 18,
+   "alpha": 51.23568224888867,
+   "tau": 98.5121795146745,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9UOCD",
+   "compact": 1.0042,
+   "reach": 17.924,
+   "n_res": 18,
+   "alpha": 24.87592740731839,
+   "tau": 101.46930739898127,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9UPRE",
+   "compact": 0.8726,
+   "reach": 18.336,
+   "n_res": 16,
+   "alpha": 72.51316675437549,
+   "tau": 146.2402341965745,
+   "kink": "other"
+  },
+  {
+   "tid": "29OND",
+   "compact": 0.9474,
+   "reach": 13.722,
+   "n_res": 13,
+   "alpha": 44.986380751686774,
+   "tau": 92.82973908274003,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9UO0A",
+   "compact": 1.1457,
+   "reach": 13.965,
+   "n_res": 16,
+   "alpha": 43.97984823629437,
+   "tau": 102.16693602357478,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9PMTN",
+   "compact": 1.1199,
+   "reach": 15.18,
+   "n_res": 17,
+   "alpha": 31.665277918268504,
+   "tau": 105.2005347962449,
+   "kink": "kinked"
+  },
+  {
+   "tid": "7NBBH",
+   "compact": 0.8283,
+   "reach": 19.317,
+   "n_res": 16,
+   "alpha": 31.231063931482932,
+   "tau": 96.91539467242816,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8EW6V",
+   "compact": 1.1618,
+   "reach": 14.633,
+   "n_res": 17,
+   "alpha": 18.11924384846692,
+   "tau": 101.21643118389902,
+   "kink": "kinked"
+  },
+  {
+   "tid": "8XLDB",
+   "compact": 0.9651,
+   "reach": 13.47,
+   "n_res": 13,
+   "alpha": 57.797665273562075,
+   "tau": 96.58864270808822,
+   "kink": "kinked"
+  },
+  {
+   "tid": "9IAZC",
+   "compact": 0.8906,
+   "reach": 12.352,
+   "n_res": 11,
+   "alpha": 39.831678303647024,
+   "tau": 106.92788014147561,
+   "kink": "kinked"
+  }
+ ]
+}

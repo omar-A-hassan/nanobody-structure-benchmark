@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "source_sha256": "edc02f96c5f57d67c4a4ee657eafda512254d4c12cdb26f87b70c2784e7be2b0",
+  "functions": [
+    "figure2_uncertainty",
+    "figure3_prior_coverage",
+    "figure4_esm_probe"
+  ],
+  "n_trajectory": 597,
+  "spearman_average_ties": {
+    "spread_cdr3": 0.41317880765944665,
+    "adiv_q1": 0.4432357809439116,
+    "adiv_half": 0.4105158038954232,
+    "adiv_final": 0.39703379217749546,
+    "div_final": -0.025209159873451858
+  },
+  "outputs": [
+    "figure2_uncertainty.png",
+    "figure2_uncertainty.pdf",
+    "figure3_prior_coverage.png",
+    "figure3_prior_coverage.pdf",
+    "figure4_esm_probe.png",
+    "figure4_esm_probe.pdf"
+  ],
+  "superseded_benchmark_bar_not_run": true
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://ml-site.cdn-apple.com/models/simplefold/afesm_list.csv",
+  "resolved_url": "https://ml-site.cdn-apple.com/models/simplefold/afesm_list.csv",
+  "retrieved_utc": "2026-10-17T18:49:34.825354+00:00",
+  "content_type": "text/csv",
+  "etag": "\"7aab96dcb7f311b8e865076823d969fb-3\"",
+  "bytes": 45355126,
+  "sha256": "5e0551bb6aa53b9c6bdc4c0563db5a284e33b4c2c3dab5a10d3bb10f9cc614ad",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 27.33
+}

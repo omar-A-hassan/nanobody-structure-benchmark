@@ -1,0 +1,38 @@
+[
+ {
+  "why": "best_cdr3",
+  "instance": "pdb_00008emy_L_+",
+  "tid": "8EMYL",
+  "note": "near-perfect loop -- what success looks like"
+ },
+ {
+  "why": "worst_cdr3",
+  "instance": "pdb_00009g13_A_+",
+  "tid": "9G13A",
+  "note": "catastrophic: whole domain misfolded (also worst framework)"
+ },
+ {
+  "why": "typical",
+  "instance": "pdb_00007b5g_F_+",
+  "tid": "7B5GF",
+  "note": "the median nanobody -- representative case"
+ },
+ {
+  "why": "long_loop_good",
+  "instance": "pdb_00007z1d_FFF_+",
+  "tid": "7Z1DFFF",
+  "note": "20-residue loop solved to 0.73 A -- hard case done well"
+ },
+ {
+  "why": "align_mode_gap",
+  "instance": "pdb_00007tpr_D_+",
+  "tid": "7TPRD",
+  "note": "framework fine (2.5) but loop 13 A off -- biggest chain-vs-fw split"
+ },
+ {
+  "why": "longest_loop",
+  "instance": "pdb_00007fat_B_+",
+  "tid": "7FATB",
+  "note": "longest CDR-H3 in the set (26 res)"
+ }
+]

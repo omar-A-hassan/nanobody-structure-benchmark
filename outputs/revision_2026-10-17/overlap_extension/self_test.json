@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "global_alignment_definition",
+    "histogram_pruning_equals_brute_force_40_comparisons",
+    "7NXB_H3_span_regression",
+    "heavy_fasta_parser",
+    "failed_numbering_is_not_heavy",
+    "engineered_domain_not_rejected_for_anchor_mutation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "biotite": "1.8.0",
+    "kaggle": "2.2.5"
+  },
+  "biotite_pdbx_import": true,
+  "archive_verifier_help": true,
+  "remote_requests": 0,
+  "kernels_launched": 0,
+  "scope": "Optional stack import and CLI only; no completed repeat data available"
+}

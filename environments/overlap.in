@@ -1,0 +1,4 @@
+# Python 3.12; saved comparisons, sequence alignment and extension self-test.
+biopython==1.87
+numpy==2.2.6
+

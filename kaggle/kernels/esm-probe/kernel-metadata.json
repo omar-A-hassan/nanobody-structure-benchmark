@@ -1,0 +1,12 @@
+{
+  "id": "potatoguy44/esm-probe",
+  "title": "esm-probe",
+  "code_file": "esm-probe.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_internet": true,
+  "dataset_sources": ["potatoguy44/sabdab2-nanobodies"],
+  "enable_gpu": true,
+  "machine_shape": "NvidiaTeslaT4"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "potatoguy44/sf-hitrate",
+  "title": "sf-hitrate",
+  "code_file": "sf-hitrate.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "enable_internet": true,
+  "dataset_sources": [
+    "potatoguy44/sabdab2-nanobodies"
+  ]
+}

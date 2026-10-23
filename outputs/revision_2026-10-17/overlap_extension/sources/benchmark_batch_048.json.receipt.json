@@ -1,0 +1,12 @@
+{
+  "url": "https://data.rcsb.org/graphql?query=%7Bentries%28entry_ids%3A%5B%227F5G%22%2C+%227F5H%22%2C+%227FAT%22%2C+%227FAU%22%2C+%227FH0%22%2C+%227JVB%22%2C+%227K65%22%2C+%227K84%22%2C+%227KBI%22%2C+%227KD0%22%2C+%227KGJ%22%2C+%227KJH%22%2C+%227KJI%22%2C+%227KKJ%22%2C+%227KM5%22%2C+%227KN5%22%5D%29%7Brcsb_id+polymer_entities%7Brcsb_id+rcsb_polymer_entity%7Bpdbx_description%7D+rcsb_polymer_entity_container_identifiers%7Bauth_asym_ids+asym_ids+reference_sequence_identifiers%7Bdatabase_name+database_accession%7D%7D+entity_poly%7Btype+pdbx_seq_one_letter_code_can%7D%7D%7D%7D",
+  "resolved_url": "https://data.rcsb.org/graphql?query=%7Bentries%28entry_ids%3A%5B%227F5G%22%2C+%227F5H%22%2C+%227FAT%22%2C+%227FAU%22%2C+%227FH0%22%2C+%227JVB%22%2C+%227K65%22%2C+%227K84%22%2C+%227KBI%22%2C+%227KD0%22%2C+%227KGJ%22%2C+%227KJH%22%2C+%227KJI%22%2C+%227KKJ%22%2C+%227KM5%22%2C+%227KN5%22%5D%29%7Brcsb_id+polymer_entities%7Brcsb_id+rcsb_polymer_entity%7Bpdbx_description%7D+rcsb_polymer_entity_container_identifiers%7Bauth_asym_ids+asym_ids+reference_sequence_identifiers%7Bdatabase_name+database_accession%7D%7D+entity_poly%7Btype+pdbx_seq_one_letter_code_can%7D%7D%7D%7D",
+  "retrieved_utc": "2026-10-17T18:52:58.691894+00:00",
+  "content_type": "application/json",
+  "etag": null,
+  "bytes": 19597,
+  "sha256": "4ec14a6a7de22e969c2fbc6769d6c2c0cffdad7c53dff9d1ce3e5336f7d425b5",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 0.71
+}

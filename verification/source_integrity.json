@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "source_hashes_checked": 1143,
+  "packaged_hashes_checked": 1143,
+  "notebook_source_cells_exact": 38,
+  "igfold_pool_reextraction_exact": true,
+  "current_reusable_figure_source_exact": true,
+  "actual_repeat_metadata": [
+    {
+      "model": "simplefold",
+      "actual_ref": "potatoguy44/simplefold-benchmark-archive-20261023",
+      "source": "outputs/revision_2026-10-23/repeat_runs/simplefold/source/kernel-metadata.json",
+      "source_sha256": "a0d1f80628767d8f37a7dd8e11c688d539938689393be95dae99e784c1cc4dec",
+      "packaged_code_file": "repeat.ipynb"
+    },
+    {
+      "model": "nbb2",
+      "actual_ref": "potatoguy44/nbb2-benchmark-archive-20261023",
+      "source": "outputs/revision_2026-10-23/repeat_runs/nbb2/source/kernel-metadata.json",
+      "source_sha256": "38cbeb919e10b85ca086d4fea61802cdf502bad0a16a6bf4f70f0cb64412331c",
+      "packaged_code_file": "repeat.ipynb"
+    }
+  ],
+  "local_repeat_output_files": [
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/run_provenance.json",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/coordinate_manifest.json",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/nbb2_coordinates.zip",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/per_target_scores_nbb2.json",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/worker0.log",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/worker1.log",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/environment.txt",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/per_target_scores_nbb2.csv",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/results_nbb2.json",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2_version1/output/nbb2-benchmark-archive-20261023.log",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/run_provenance.json",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/simplefold_coordinates.zip",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/simplefold-benchmark-archive-20261023.log",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/coordinate_manifest.json",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/simplefold_source.tar",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/results_vhh.json",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/worker0.log",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/worker1.log",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/environment.txt",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/per_target_scores.json",
+    "outputs/revision_2026-10-23/repeat_runs/simplefold/output/per_target_scores.csv",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/run_provenance.json",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/coordinate_manifest.json",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/nbb2_coordinates.zip",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/per_target_scores_nbb2.json",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/worker0.log",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/worker1.log",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/environment.txt",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/per_target_scores_nbb2.csv",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/results_nbb2.json",
+    "outputs/revision_2026-10-23/repeat_runs/nbb2/output/nbb2-benchmark-archive-20261023.log"
+  ],
+  "writes_to_source": 0,
+  "scope": "Every selected original source artifact remains byte-identical to its assembly-time hash"
+}

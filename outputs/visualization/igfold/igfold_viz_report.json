@@ -1,0 +1,68 @@
+[
+ {
+  "tid": "8EMYL",
+  "igfold_fw_aligned": {
+   "cdr1": 0.69,
+   "cdr2": 0.98,
+   "cdr3": 1.5,
+   "framework": 0.38
+  },
+  "max_res_dev": 2.31,
+  "atoms": 566
+ },
+ {
+  "tid": "7B5GF",
+  "igfold_fw_aligned": {
+   "cdr1": 1.82,
+   "cdr2": 0.97,
+   "cdr3": 7.15,
+   "framework": 0.54
+  },
+  "max_res_dev": 11.65,
+  "atoms": 595
+ },
+ {
+  "tid": "7Z1DFFF",
+  "igfold_fw_aligned": {
+   "cdr1": 4.2,
+   "cdr2": 0.62,
+   "cdr3": 2.3,
+   "framework": 0.5
+  },
+  "max_res_dev": 7.12,
+  "atoms": 621
+ },
+ {
+  "tid": "7FATB",
+  "igfold_fw_aligned": {
+   "cdr1": 2.39,
+   "cdr2": 0.39,
+   "cdr3": 5.38,
+   "framework": 0.7
+  },
+  "max_res_dev": 10.48,
+  "atoms": 641
+ },
+ {
+  "tid": "7TPRD",
+  "igfold_fw_aligned": {
+   "cdr1": 2.77,
+   "cdr2": 2.0,
+   "cdr3": 15.48,
+   "framework": 0.79
+  },
+  "max_res_dev": 27.6,
+  "atoms": 622
+ },
+ {
+  "tid": "9G13A",
+  "igfold_fw_aligned": {
+   "cdr1": 10.99,
+   "cdr2": 10.3,
+   "cdr3": 23.54,
+   "framework": 19.07
+  },
+  "max_res_dev": 63.66,
+  "atoms": 601
+ }
+]

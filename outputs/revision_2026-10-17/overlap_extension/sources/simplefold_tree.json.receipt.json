@@ -1,0 +1,12 @@
+{
+  "url": "https://api.github.com/repos/apple/ml-simplefold/git/trees/main?recursive=1",
+  "resolved_url": "https://api.github.com/repositories/1062261519/git/trees/main?recursive=1",
+  "retrieved_utc": "2026-10-17T18:49:07.644082+00:00",
+  "content_type": "application/json; charset=utf-8",
+  "etag": "W/\"e670337c59c48797c55b6c742b4c6bd29c7c1f29e5d89219fcde7ca458ea84e4\"",
+  "bytes": 49682,
+  "sha256": "e670337c59c48797c55b6c742b4c6bd29c7c1f29e5d89219fcde7ca458ea84e4",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 1.16
+}

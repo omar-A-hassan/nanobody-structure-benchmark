@@ -1,0 +1,176 @@
+{
+  "nbb2": {
+    "pdb_overlap_all": 136,
+    "vhh_ge90_all": 181,
+    "cdr3_ge80_all": 177
+  },
+  "igfold": {
+    "pdb_overlap_all": 48,
+    "vhh_ge90_all": 83,
+    "cdr3_ge80_all": 87
+  },
+  "all_known_pdb_excluded": {
+    "n": 453,
+    "medians": {
+      "SimpleFold": {
+        "chain_cdr1": 1.968,
+        "chain_cdr2": 1.2,
+        "chain_cdr3": 2.981,
+        "chain_framework": 0.805,
+        "fw_cdr1": 1.939,
+        "fw_cdr2": 1.03,
+        "fw_cdr3": 3.276,
+        "fw_framework": 0.663
+      },
+      "IgFold": {
+        "chain_cdr1": 2.069,
+        "chain_cdr2": 1.234,
+        "chain_cdr3": 2.955,
+        "chain_framework": 0.821,
+        "fw_cdr1": 2.078,
+        "fw_cdr2": 1.07,
+        "fw_cdr3": 3.284,
+        "fw_framework": 0.662
+      },
+      "NanoBodyBuilder2": {
+        "chain_cdr1": 1.948,
+        "chain_cdr2": 1.224,
+        "chain_cdr3": 2.946,
+        "chain_framework": 0.854,
+        "fw_cdr1": 1.964,
+        "fw_cdr2": 1.122,
+        "fw_cdr3": 3.216,
+        "fw_framework": 0.708
+      }
+    },
+    "paired_effects": {
+      "SF minus IgFold: chain": {
+        "median": -0.03999999999999915,
+        "ci95": [
+          -0.18129999999999907,
+          0.03300000000000036
+        ],
+        "pdb_block_ci95": [
+          -0.19300000000000006,
+          0.03300000000000036
+        ]
+      },
+      "SF minus IgFold: fw": {
+        "median": -0.0810000000000004,
+        "ci95": [
+          -0.23299999999999965,
+          0.013000000000000345
+        ],
+        "pdb_block_ci95": [
+          -0.23500000000000032,
+          0.013000000000000345
+        ]
+      },
+      "SF minus NanoBodyBuilder2: chain": {
+        "median": -0.02499999999999991,
+        "ci95": [
+          -0.15399999999999991,
+          0.10400000000000009
+        ],
+        "pdb_block_ci95": [
+          -0.15700000000000003,
+          0.09949999999999992
+        ]
+      },
+      "SF minus NanoBodyBuilder2: fw": {
+        "median": -0.051000000000000156,
+        "ci95": [
+          -0.16052499999999975,
+          0.06800000000000006
+        ],
+        "pdb_block_ci95": [
+          -0.17049999999999998,
+          0.06600000000000006
+        ]
+      }
+    },
+    "n_pdbs": 421
+  },
+  "lower_risk_nonredundant": {
+    "n": 398,
+    "medians": {
+      "SimpleFold": {
+        "chain_cdr1": 1.963,
+        "chain_cdr2": 1.1875,
+        "chain_cdr3": 2.9715,
+        "chain_framework": 0.8045,
+        "fw_cdr1": 1.9365,
+        "fw_cdr2": 1.029,
+        "fw_cdr3": 3.2664999999999997,
+        "fw_framework": 0.6635
+      },
+      "IgFold": {
+        "chain_cdr1": 2.0885,
+        "chain_cdr2": 1.247,
+        "chain_cdr3": 3.028,
+        "chain_framework": 0.8225,
+        "fw_cdr1": 2.141,
+        "fw_cdr2": 1.093,
+        "fw_cdr3": 3.3235,
+        "fw_framework": 0.666
+      },
+      "NanoBodyBuilder2": {
+        "chain_cdr1": 2.0855,
+        "chain_cdr2": 1.2719999999999998,
+        "chain_cdr3": 3.0629999999999997,
+        "chain_framework": 0.8694999999999999,
+        "fw_cdr1": 2.052,
+        "fw_cdr2": 1.185,
+        "fw_cdr3": 3.4074999999999998,
+        "fw_framework": 0.7244999999999999
+      }
+    },
+    "paired_effects": {
+      "SF minus IgFold: chain": {
+        "median": -0.0794999999999999,
+        "ci95": [
+          -0.2280000000000002,
+          0.009999999999999898
+        ],
+        "pdb_block_ci95": [
+          -0.2270000000000003,
+          0.010999999999999899
+        ]
+      },
+      "SF minus IgFold: fw": {
+        "median": -0.14250000000000007,
+        "ci95": [
+          -0.3095000000000001,
+          -0.016474999999999868
+        ],
+        "pdb_block_ci95": [
+          -0.30411250000000023,
+          -0.018999999999999906
+        ]
+      },
+      "SF minus NanoBodyBuilder2: chain": {
+        "median": -0.15549999999999997,
+        "ci95": [
+          -0.2250000000000001,
+          -0.03299999999999992
+        ],
+        "pdb_block_ci95": [
+          -0.2280000000000002,
+          -0.038999999999999924
+        ]
+      },
+      "SF minus NanoBodyBuilder2: fw": {
+        "median": -0.1875000000000001,
+        "ci95": [
+          -0.32000000000000006,
+          -0.05899999999999972
+        ],
+        "pdb_block_ci95": [
+          -0.33099999999999996,
+          -0.06800000000000006
+        ]
+      }
+    },
+    "n_pdbs": 367
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://files.wwpdb.org/pub/pdb/data/structures/obsolete/mmCIF/cs/6csy.cif.gz",
+  "resolved_url": "https://files.wwpdb.org/pub/pdb/data/structures/obsolete/mmCIF/cs/6csy.cif.gz",
+  "retrieved_utc": "2026-10-17T18:52:42.167188+00:00",
+  "content_type": "application/gzip",
+  "etag": "\"69fcdd1f268e54eb063bd7c3592516df\"",
+  "bytes": 280536,
+  "sha256": "a67db32918d6cbf86d68549a1237210578e4dcf59aeec35b9eb15a66fb41b876",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 1.22
+}

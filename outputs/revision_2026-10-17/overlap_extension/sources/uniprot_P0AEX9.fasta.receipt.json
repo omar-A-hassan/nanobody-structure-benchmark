@@ -1,0 +1,12 @@
+{
+  "url": "https://rest.uniprot.org/uniprotkb/P0AEX9.fasta",
+  "resolved_url": "https://rest.uniprot.org/uniprotkb/P0AEX9.fasta",
+  "retrieved_utc": "2026-10-18T00:18:44.471825+00:00",
+  "content_type": "text/plain;format=fasta",
+  "etag": null,
+  "bytes": 534,
+  "sha256": "3feb3c4f8304f5843b2e9fca94e58a718d71ea9f73bc9ed01c799c14806ddbb4",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 0.33
+}

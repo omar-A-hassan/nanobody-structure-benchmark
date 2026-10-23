@@ -1,0 +1,12 @@
+{
+  "url": "https://raw.githubusercontent.com/apple/ml-simplefold/main/configs/data/pdb_sp_afesme.yaml",
+  "resolved_url": "https://raw.githubusercontent.com/apple/ml-simplefold/main/configs/data/pdb_sp_afesme.yaml",
+  "retrieved_utc": "2026-10-17T18:49:07.476933+00:00",
+  "content_type": "text/plain; charset=utf-8",
+  "etag": "\"66be2636261fa9325f19680a37c5a20699b7589ebdb80cc44b06af39bdb9feeb\"",
+  "bytes": 2095,
+  "sha256": "858c0fa711e104be3d5de1f026f373514aa2fd3e93a3acbb71c82048829d5194",
+  "expected_md5": null,
+  "expected_bytes": null,
+  "elapsed_seconds": 0.52
+}

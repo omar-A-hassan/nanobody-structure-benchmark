@@ -1,0 +1,25 @@
+{
+  "source": "Historical project transcript docs/allworksofar.txt",
+  "source_sha256": "ecf87d75d85593991935814a6f619b5d84c44a5a33902283b384b4b4486f197c",
+  "source_type": "project transcript, not the original execution log",
+  "reported_benchmark": {
+    "prediction_count": 597,
+    "timing_seconds_per_target": 4.08,
+    "timing_source_named_in_transcript": "prediction_results.csv",
+    "source_lines": [16418, 16438, 16504, 16513, 16624],
+    "timing_status": "reported; original CSV, timing boundary, hardware and concurrency need verification",
+    "generation_code_status": "not yet identified as the original benchmark generator"
+  },
+  "included_files": {
+    "regional_scores": "outputs/structure/igfold/metrics/per_target_scores_igfold.json",
+    "regional_score_sha256": "b4b82d3c7d8964b4e1f23aad09ad5feeac035b75afeac35b5c5e7f3fa78dc4ee",
+    "visualization_examples": "outputs/visualization/igfold/",
+    "separate_inference_code": "kaggle/kernels/tnp-specialists/tnp-specialists.ipynb"
+  },
+  "separate_tnp_run": {
+    "igfold_structures_built": 0,
+    "failure": "checkpoint-loading error",
+    "benchmark_provenance": false
+  },
+  "interpretation": "IgFold code and a historical timing report exist. They do not verify the original benchmark configuration or a controlled runtime comparison."
+}

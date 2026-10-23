@@ -1,0 +1,529 @@
+{
+  "entities": [
+    {
+      "pdb": "3J69",
+      "rcsb_id": "3J69_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Capsid protein VP1"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "1"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "GLGQMLESMIDNTVRETVGAATSRDALPNTEASGPTHSKEIPALTAVETGATNPLVPSDTVQTRHVVQHRSRSESSIESFFARGACVTIMTVDNPASTTNKDKLFAVWKITYKDTVQLRRKLEFFTYSRFDMELTFVVTANFTETNNGHALNQVYQIMYVPPGAPVPEKWDDYTWQTSSNPSIFYTYGTAPARISVPYVGISNAYSHFYDGFSKVPLKDQSAALGDSLYGAASLNDFGILAVRVVNDHNPTKVTSKIRVYLKPKHIRVWCPRPPRAVAYYGPGVDYKDGTLTPLSTKDLTTY"
+      }
+    },
+    {
+      "pdb": "3J69",
+      "rcsb_id": "3J69_2",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Capsid protein VP2"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "2"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "SPNIEACGYSDRVLQLTLGNSTITTQEAANSVVAYGRWPEYLRDSEANPVDQPTEPDVAACRFYTLDTVSWTKESRGWWWKLPDALRDMGLFGQNMYYHYLGRSGYTVHVQCNASKFHQGALGVFAVPEMCLAGDSNTTTMHTSYQNANPGEKGGTFTGTFTPDNNQTSPARRFCPVDYLLGNGTLLGNAFVFPHQIINLRTNNCATLVLPYVNSLSIDSMVKHNNWGIAILPLAPLNFASESSPEIPITLTIAPMCCEFNGLRNITLPRLQ"
+      }
+    },
+    {
+      "pdb": "3J69",
+      "rcsb_id": "3J69_3",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Capsid protein VP3"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "3"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "GLPVMNTPGSNQYLTADNFQSPCALPEFDVTPPIDIPGEVKNMMELAEIDTMIPFDLSATKKNTMEMYRVRLSDKPHTDDPILCLSLSPASDPRLSHTMLGEILNYYTHWAGSLKFTFLFCGSMMATGKLLVSYAPPGADPPKKRKEAMLGTHVIWDIGLQSSCTMVVPWISNTTYRQTIDDSFTEGGYISVFYQTRIVVPLSTPREMDILGFVSACNDFSVRLLRDTTHIEQKALAQ"
+      }
+    },
+    {
+      "pdb": "3J69",
+      "rcsb_id": "3J69_4",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Capsid protein VP4"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "4"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "XGAQVSSQKVGAHENSNRAYGGSTINYTTINYYRDSASNAASKQDFSQDPSKFTEPIKDVLIKTAPMLN"
+      }
+    },
+    {
+      "pdb": "3J69",
+      "rcsb_id": "3J69_5",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "nanobody VHH PVSP6A"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "7"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGSAQTGGSLRLSCAASGFTFSHGYMAWFRQAPEKEREWVACVRTSGVSAYYADSVLGRFTISQDNAKSTLYLQMNNLKPEDTAMYYCAATSISCSSGYMFWGQGTQVTVSSHHHHHH"
+      }
+    },
+    {
+      "pdb": "3J6A",
+      "rcsb_id": "3J6A_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Capsid protein VP1"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "1"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "GLGQMLESMIDNTVRETVGAATSRDALPNTEASGPTHSKEIPALTAVETGATNPLVPSDTVQTRHVVQHRSRSESSIESFFARGACVTIMTVDNPASTTNKDKLFAVWKITYKDTVQLRRKLEFFTYSRFDMELTFVVTANFTETNNGHALNQVYQIMYVPPGAPVPEKWDDYTWQTSSNPSIFYTYGTAPARISVPYVGISNAYSHFYDGFSKVPLKDQSAALGDSLYGAASLNDFGILAVRVVNDHNPTKVTSKIRVYLKPKHIRVWCPRPPRAVAYYGPGVDYKDGTLTPLSTKDLTTY"
+      }
+    },
+    {
+      "pdb": "3J6A",
+      "rcsb_id": "3J6A_2",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Capsid protein VP2"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "2"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "SPNIEACGYSDRVLQLTLGNSTITTQEAANSVVAYGRWPEYLRDSEANPVDQPTEPDVAACRFYTLDTVSWTKESRGWWWKLPDALRDMGLFGQNMYYHYLGRSGYTVHVQCNASKFHQGALGVFAVPEMCLAGDSNTTTMHTSYQNANPGEKGGTFTGTFTPDNNQTSPARRFCPVDYLLGNGTLLGNAFVFPHQIINLRTNNCATLVLPYVNSLSIDSMVKHNNWGIAILPLAPLNFASESSPEIPITLTIAPMCCEFNGLRNITLPRLQ"
+      }
+    },
+    {
+      "pdb": "3J6A",
+      "rcsb_id": "3J6A_3",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Capsid protein VP3"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "3"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "GLPVMNTPGSNQYLTADNFQSPCALPEFDVTPPIDIPGEVKNMMELAEIDTMIPFDLSATKKNTMEMYRVRLSDKPHTDDPILCLSLSPASDPRLSHTMLGEILNYYTHWAGSLKFTFLFCGSMMATGKLLVSYAPPGADPPKKRKEAMLGTHVIWDIGLQSSCTMVVPWISNTTYRQTIDDSFTEGGYISVFYQTRIVVPLSTPREMDILGFVSACNDFSVRLLRDTTHIEQKALAQ"
+      }
+    },
+    {
+      "pdb": "3J6A",
+      "rcsb_id": "3J6A_4",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Capsid protein VP4"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "4"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "XGAQVSSQKVGAHENSNRAYGGSTINYTTINYYRDSASNAASKQDFSQDPSKFTEPIKDVLIKTAPMLN"
+      }
+    },
+    {
+      "pdb": "3J6A",
+      "rcsb_id": "3J6A_5",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "nanobody VHH PVSP29F"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "7"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGSVQTGGSLRLSCAASEYTQSSACMGWFRQAPGKEREGVAGISRFFGTAYYADSVKGRFTISQDKAKNTVYLQMNSLKPEDTAIYYCAAGQGCLTTIQALGGAYGYNAWGQGTQVTVSSHHHHHH"
+      }
+    },
+    {
+      "pdb": "4WGV",
+      "rcsb_id": "4WGV_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Divalent metal cation transporter MntH"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "A",
+          "C"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "MSVAVGYMDPGNWITSMQGGAQYGYTLLFVILISSLAAMLLQSMTVRLGIATGKDLAQMTRHFLSKPVAIIFWIIAELAIIATDIAEVIGSAIALDLIFGIPLIVGALITVFDVFLLLFIMRFGFRKIEAIVGTLIFTVLAIFVFEVFISSPQLTDILNGFVPHKEIVTNQGILYIALGIIGATIMPHNLYLHSSIVQSRKYDRHDNEEKAQAIKYATIDSNLQLSIAFVVNCLLLTLGAALFFGTKTNDLGGFYDLYHALKTEPVLGATLGGVMSTLFAVALLASGQNSTITGTLAGQIVMEGFLRLSIPNWLRRLITRSLAVIPVIICLIIFKGNSEKIEQLLVFSQVFLSIALPFSLIPLQLATSNKKLMGPFINKTWVNIISWTLIVILSGLNVYLIIQTFQELALEVLFQ"
+      }
+    },
+    {
+      "pdb": "4WGV",
+      "rcsb_id": "4WGV_2",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Camelid antibody fragment, nanobody"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "B",
+          "D"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "GPSQVQLQESGGGLVQAGGSLRLSCAASRSIFSIDTANWYRQPPGMQRELVATITRDGNANYADSVKGRFTISRDRARNTVYLQMNSLKPEDTGVYYCNAAIRTTVRTSAQEYWGQGTQVTVSS"
+      }
+    },
+    {
+      "pdb": "4WGW",
+      "rcsb_id": "4WGW_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Divalent metal cation transporter MntH"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "A",
+          "C"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "MSVAVGYMDPGNWITSMQGGAQYGYTLLFVILISSLAAMLLQSMTVRLGIATGKDLAQMTRHFLSKPVAIIFWIIAELAIIATDIAEVIGSAIALDLIFGIPLIVGALITVFDVFLLLFIMRFGFRKIEAIVGTLIFTVLAIFVFEVFISSPQLTDILNGFVPHKEIVTNQGILYIALGIIGATIMPHNLYLHSSIVQSRKYDRHDNEEKAQAIKYATIDSNLQLSIAFVVNCLLLTLGAALFFGTKTNDLGGFYDLYHALKTEPVLGATLGGVMSTLFAVALLASGQNSTITGTLAGQIVMEGFLRLSIPNWLRRLITRSLAVIPVIICLIIFKGNSEKIEQLLVFSQVFLSIALPFSLIPLQLATSNKKLMGPFINKTWVNIISWTLIVILSGLNVYLIIQTFQELALEVLFQ"
+      }
+    },
+    {
+      "pdb": "4WGW",
+      "rcsb_id": "4WGW_2",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Camelid antibody fragment, nanobody"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "B",
+          "D"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "GPSQVQLQESGGGLVQAGGSLRLSCAASRSIFSIDTANWYRQPPGMQRELVATITRDGNANYADSVKGRFTISRDRARNTVYLQMNSLKPEDTGVYYCNAAIRTTVRTSAQEYWGQGTQVTVSS"
+      }
+    },
+    {
+      "pdb": "6CSY",
+      "rcsb_id": "6CSY_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Fusion protein of Lysozyme and Beta-2 adrenergic receptor"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "A"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "GNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWDAYAADEVWVVGMGIVMSLIVLAIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGAAHILTKTWTFGNFWCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGLTSFLPIQMHWYRATHQEAINCYAEETCCDFFTNQAYAIASSIVSFYVPLVIMVFVYSRVFQEAKRQLQKIDKFCLKEHKALKTLGIIMGTFTLCWLPFFIVNIVHVIQDNLIRKEVYILLNWIGYVNSGFNPLIYCRSPDFRIAFQELLCLRRSSLKAYGNGYSSNGNTGEQSG"
+      }
+    },
+    {
+      "pdb": "6CSY",
+      "rcsb_id": "6CSY_2",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Single chain antibody (nanobody)"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "N"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQPGGSLRLSCAASGFAFSSYELRWYRQAPGKQHELVAGITTGGNTYYADSVKGRFTISRDNAKNTVYLQMSNLRPEDTAVYACNANWDLLSDYWGQGTQVTVSSHHHHHH"
+      }
+    },
+    {
+      "pdb": "6H7K",
+      "rcsb_id": "6H7K_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Thioredoxin 1"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "E",
+          "F"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "SDKIIHLTDDSFDTDVLKADGAILVDFWAEWSGPSKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDANLAE"
+      }
+    },
+    {
+      "pdb": "6H7K",
+      "rcsb_id": "6H7K_2",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Beta-1 adrenergic receptor"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "A",
+          "B"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "AAAKVMSLLMALVVLLIVAGNVLVIAAIGSTQRLQTLTNLFITSLACADLVVGLLVVPFGATLVVRGTWLWGSFLCELWTSLDVLCVTASIETLCVIAIDRYLAITSPFRYQSLMTRARAKVIICTVWAISALVSFLPIMMHWWRDEDPQALKCYQDPGCCDFVTNRAYAIASSIISFYIPLLIMIFVYLRVYREAKEQIRKIDRASKRKTSRVMAMKEHKALKTLGIIMGVFTLCWLPFFLVNIVNVFNRDLVPDWLFVAFNWLGYANSAMNPIIYCRSPDFRKAFKRLLAFPRKADRRLHHHHHH"
+      }
+    },
+    {
+      "pdb": "6H7K",
+      "rcsb_id": "6H7K_3",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Camelid antibody fragment Nb80"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "C",
+          "D"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "SQVQLQESGGGLVQAGGSLRLSCAASGSIFSINTMGWYRQAPGKQRELVAAIHSGGSTNYANSVKGRFTISRDNAANTVYLQMNSLKPEDTAVYYCNVKDYGAVLYEYDYWGQGTQVTVSS"
+      }
+    },
+    {
+      "pdb": "7EVW",
+      "rcsb_id": "7EVW_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "minGas"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "A"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "NSKTEDQRNEEKAQREANKKIEKQLQKDKQVYRATHRLLLLGADNSGKSTIVKQMRILHGGSGGSGGTSGIFETKFQVDKVNFHMFDVGGQRDERRKWIQCFNDVTAIIFVVDSSDYNRLQEALNLFKSIWNNRWLRTISVILFLNKQDLLAEKVLAGKSKIEDYFPEFARYTTPEDATPEPGEDPRVTRAKYFIRDEFLRISTASGDGRHYCYPHFTCAVDTENARRIFNDCRDIIQRMHLRQYELL"
+      }
+    },
+    {
+      "pdb": "7EVW",
+      "rcsb_id": "7EVW_2",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Ggamma"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "C"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "HHHHHHGGGSDSLEFIASKLAGGGSMASNNTASIAQARKLVEQLKMEANIDRIKVSKAAADLMAYCEAHAKEDPLLTPVPASENPFREKKFFSAIL"
+      }
+    },
+    {
+      "pdb": "7EVW",
+      "rcsb_id": "7EVW_3",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nb35"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "N"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "MKYLLPTAAAGLLLLAAQPAMAMQVQLQESGGGLVQPGGSLRLSCAASGFTFSNYKMNWVRQAPGKGLEWVSDISQSGASISYTGSVKGRFTISRDNAKNTLYLQMNSLKPEDTAVYYCARCPAPFTRDCFDVTSTTYAYRGQGTQVTV"
+      }
+    },
+    {
+      "pdb": "7EVW",
+      "rcsb_id": "7EVW_4",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Frizzled-7"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "R"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "AAAAAAAAAAAAAMKTIIALSYIFCLVFADYKDDDDKEKGISVPDHGFCQPISIPLCTDIAYNQTILPNLLGHTNQEDAGLEVHQFYPLVKVQCSPELRFFLCSMYAPVCTVLDQAIPPCRSLCERARQGCEALMNKFGFQWPERLRCENFPVHGAGEICVGQNTSDGSGGPGGGPTAYPTAPYLPDLPFTALPPGASDGRGRPAFPFSCPRQLKVPPYLGYRFLGERDCGAPCEPGRANGLMYFKEEERRFARLWVGVWSVLCCASTLFTVLTYLVDMRRFSYPERPIIFLSGCYFMVAVAHVAGFLLEDRAVCVERFSDDGYRTVAQGTKKEGCTILFMVLYFFGMASSIWWVILSLTWFLAAGMKWGHEAIEANSQYFHLAAWAVPAVKTITILAMGQVDGDLLSGVCYVGLSSVDALRGFVLAPLFVYLFIGTSFLLAGFVSLFRIRTIMKHDGTKTEKLEKLMVRIGVFSVLYTVPATIVLACYFYEQAFREHWERTWLLQTCKSYAVPCPPGHFPPMSPDFTVFMIKYLMTMIVGITTGFWIWSGKTLQSWRRFYHRLSHSSKGETAVHHHHHHHHHHGLNDIFEAQKIEWHE"
+      }
+    },
+    {
+      "pdb": "7EVW",
+      "rcsb_id": "7EVW_5",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "B"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "MSELDQLRQEAEQLKNQIRDARKACADATLSQITNNIDPVGRIQMRTRRTLRGHLAKIYAMHWGTDSRLLVSASQDGKLIIWDSYTTNKVHAIPLRSSWVMTCAYAPSGNYVACGGLDNICSIYNLKTREGNVRVSRELAGHTGYLSCCRFLDDNQIVTSSGDTTCALWDIETGQQTTTFTGHTGDVMSLSLAPDTRLFVSGACDASAKLWDVREGMCRQTFTGHESDINAICFFPNGNAFATGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAGYDDFNCNVWDALKADRAGVLAGHDNRVSCLGVTDDGMAVATGSWDSFLKIWN"
+      }
+    },
+    {
+      "pdb": "7KGL",
+      "rcsb_id": "7KGL_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "SB16, Sybody-16, Synthetic Nanobody"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "B"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "QVQLVESGGGLVQAGGSLRLSCAASGFPVAYKTMWWYRQAPGKEREWVAAIESYGIKWTRYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCIVWVGAQYHGQGTQVTVSA"
+      }
+    },
+    {
+      "pdb": "7N0S",
+      "rcsb_id": "7N0S_1",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nucleoprotein"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "SNATASWFTALTQHGKEDLKFPRGQGVPINTNSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGANKDGIIWVATEGALNTPKDHIGTRNPANNAAIVLQLPQGTTLPKGFYAE"
+      }
+    },
+    {
+      "pdb": "7N0S",
+      "rcsb_id": "7N0S_2",
+      "obsolete": true,
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Single-domain antibody B6"
+      },
+      "rcsb_polymer_entity_container_identifiers": {
+        "auth_asym_ids": [
+          "D",
+          "E",
+          "F"
+        ],
+        "asym_ids": [],
+        "reference_sequence_identifiers": []
+      },
+      "entity_poly": {
+        "type": "polypeptide(L)",
+        "pdbx_seq_one_letter_code_can": "MAEVQLQASGGGLVQAGDSLRLSCVAVSGRTISTFAMGWFRQAPGKEREFVATINWSGSSARYADPVEGRFTISRDDAKNTVYLEMSSLKPGDSAVYYCASGRYLGGITSYSQGDFAPWGQGTQVTVSSAAALEHHHHHH"
+      }
+    }
+  ],
+  "failures": []
+}

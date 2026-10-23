@@ -1,0 +1,3 @@
+{"id":"potatoguy44/nbb2-bench","title":"nbb2-bench","code_file":"nbb2-bench.ipynb","language":"python",
+ "kernel_type":"notebook","is_private":true,"enable_gpu":true,"machine_shape":"NvidiaTeslaT4",
+ "enable_internet":true,"dataset_sources":["potatoguy44/sabdab2-nanobodies"]}
