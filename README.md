@@ -8,7 +8,9 @@ screen contains 393 representatives.
 This package reproduces the supplied structural analyses. It does not yet
 reproduce every result in the manuscript. The original IgFold inference
 workflow and the docking workflow still need integration. See
-[Remaining work](docs/REMAINING.md) for the required files and checks.
+[Remaining work](docs/REMAINING.md) for workflow tasks, claim-dependent evidence,
+scientific responses and optional archival work. It is not a blanket request
+to regenerate every historical output.
 
 ## Reproduce the saved analyses
 
@@ -86,8 +88,13 @@ coordinate-rescoring commands. These commands score retained coordinates;
 they do not generate new structures.
 
 The ESM2 probe replay fits classifiers from the supplied cached embeddings.
-It does not run ESM2 embedding inference. Full raw coordinates for every
-historical sampling trajectory are not included.
+It does not run ESM2 embedding inference. The original sampling, trajectory
+and hit-rate generators are included under `kaggle/kernels/`. Their saved
+results support analysis replay; the recent replay did not rerun GPU sampling.
+Generator version pinning, run instructions and the trajectory-coordinate
+description still need verification, as specified in
+[Remaining work](docs/REMAINING.md#3-sampling-generation-and-description).
+Full raw sample/trajectory archives are not a default release requirement.
 
 ## Tests and source records
 
@@ -102,8 +109,10 @@ Pretrained model weights are not redistributed.
 
 ## Licence and citation
 
-The project licence and public version DOI have not been assigned. The release
-must complete the [publication checklist](docs/REMAINING.md) before it can be
-cited as the complete manuscript archive. Existing source-data DOIs identify
-those datasets, not this repository. Upstream attribution and terms are retained
-in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The project licence and public version DOI have not been assigned. Before
+describing a deposit as the complete manuscript archive, resolve the applicable
+[workflow and deposit items](docs/REMAINING.md) and match its declared coverage
+to the final paper. Optional archival items are not publication gates.
+Existing source-data DOIs identify those datasets, not this repository.
+Upstream attribution and terms are retained in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

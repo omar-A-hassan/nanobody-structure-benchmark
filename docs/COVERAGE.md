@@ -1,7 +1,8 @@
 # Coverage and explicit gaps
 
-[Remaining work](REMAINING.md) lists the exact files and checks needed for a
-complete manuscript archive. `reproduce.py` is the public entry point for
+[Remaining work](REMAINING.md) distinguishes workflow requirements,
+claim-dependent records, scientific responses and optional archival work.
+`reproduce.py` is the public entry point for
 integrity checks and saved-analysis replay.
 
 ## Included scientific material
@@ -50,6 +51,13 @@ inputs, and finite coverage for 30 difficult plus ten control targets across
 four settings with 20 samples each. The retained artifacts do not constitute
 all raw coordinates for every trajectory or sample. The original sampling,
 trajectory, hit-rate, conformation and visualization notebooks are included.
+Full frame archives are not a default requirement for code delivery. They
+would support exact historical coordinate-to-feature auditing; generation
+code and saved-result analysis replay are separate capabilities. The sampling
+notebooks use a moving source branch and some unpinned dependencies. Their
+regeneration setup has not been verified by the recent saved-data replay.
+The trajectory logger's per-residue atom averages also need to be reconciled
+with the manuscript's C-alpha description; see the sampling checklist.
 
 The ESM probe includes all embeddings for 518 labelled targets (330 kinked,
 188 extended; the other 79 reference labels are excluded), all 37 layers,
@@ -68,7 +76,10 @@ algorithm and stored results are unchanged.
 ## Inference provenance and unavailable work
 
 - The original IgFold benchmark generation notebook and timing CSV have not
-  been identified in the current package. All 597 regional scores are included.
+  been identified in the current package. The remaining task is to supply the
+  original procedure or a validated, separately identified regeneration path;
+  no specific notebook or CSV filename is required. All 597 regional scores
+  are included.
   A historical transcript attributes 4.08 seconds per target to
   `prediction_results.csv`, but does not establish hardware, timing boundaries
   or concurrency. The separate TNP notebook contains executable IgFold code
@@ -76,6 +87,8 @@ algorithm and stored results are unchanged.
   benchmark settings. See `provenance/igfold_benchmark_evidence.json` and the
   remaining-work checklist. Upstream IgFold training archives are separate
   sources used for overlap screening.
+  Runtime records, hardware and timing boundaries are needed if a timing or
+  speed claim is retained; their absence is not a reason to invent a value.
 - Original SimpleFold/NBB2 full-benchmark notebooks explicitly deleted
   predicted coordinates after scoring. Original results and recovered source
   notebooks survive. Historical SimpleFold commit/checkpoint hashes and full
@@ -115,7 +128,10 @@ algorithm and stored results are unchanged.
   [Run-specific facts and local commands](NBB2_VERSION1.md) distinguish the
   archived v1 notebook from the newer preparation source.
 - Docking receptor/ligand inputs, HDOCK execution artifacts, poses, DockQ
-  evaluations and epitope files were unavailable. The workflow diagram
+  evaluations and epitope files are not included. A documented manual HDOCK
+  submission with retained inputs, settings, reported candidate poses and
+  runnable local scoring is an acceptable workflow form; a new server client
+  and permanent job-page access are not required. The workflow diagram
   depicts that separate study branch; its presence does not supply a docking
   implementation or reproduce the manuscript's docking results.
 
@@ -144,6 +160,8 @@ core snapshot; the extension inventory records this one derived-report update.
 
 The verifier checks syntax, configured credential patterns, notebook output
 removal, repository blob sizes, frozen targets/scores, curated receipt hashes
-and, when sealed, the complete public manifest. Credential-pattern scanning
-has finite coverage. No remote repository, DOI record or public Kaggle dataset
-was created or changed. No project licence is inferred from third-party terms.
+and, when sealed, the complete package manifest. Credential-pattern scanning
+has finite coverage. These verifier checks do not publish a repository, DOI
+record or Kaggle dataset. A separate private GitHub collaboration release
+exists; it is not a public DOI deposit. No project licence is inferred from
+third-party terms.
