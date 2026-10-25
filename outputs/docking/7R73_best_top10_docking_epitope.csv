@@ -1,0 +1,5 @@
+VHH_input,Best_pose_rank,Best_DockQ,Epitope_recovered,Native_epitope_total,Recall,Precision,Jaccard
+Experimental,1,0.986,26,26,1.0,0.963,0.963
+NanoBodyBuilder2,1,0.74,20,26,0.769,0.8,0.645
+IgFold,5,0.057,9,26,0.346,0.474,0.25
+SimpleFold,9,0.05,5,26,0.192,0.25,0.122

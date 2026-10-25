@@ -1,0 +1,5 @@
+VHH_input,DockQ,LRMSD_A,fnat,Epitope_recovered,Native_epitope_total,Recall,Precision,Jaccard,DockQ_quality
+Experimental,0.986,0.64,1.0,26,26,1.0,0.963,0.963,High
+NanoBodyBuilder2,0.74,2.926,0.7,20,26,0.769,0.8,0.645,Medium
+IgFold,0.022,35.767,0.0,2,26,0.077,0.083,0.042,Incorrect
+SimpleFold,0.009,60.919,0.0,0,26,0.0,0.0,0.0,Incorrect
