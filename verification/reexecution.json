@@ -6,11 +6,18 @@
   "kaggle_kernels_launched": 0,
   "jobs": [
     {
+      "name": "full_esm_probe",
+      "status": "PASS",
+      "execution": "Completed earlier in a fresh disposable copy during this assembly",
+      "calls": 110,
+      "exact_saved_json_match": true,
+      "receipt": "verification/probe_reproduction/verification.json"
+    },
+    {
       "name": "principal_analysis",
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -20,7 +27,7 @@
         "src/reviewer_revision_analysis.py"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 150.04,
+      "elapsed_seconds": 64.95,
       "exact_json_matches": {
         "outputs/revision_2026-10-16/revision_statistics.json": true
       },
@@ -32,7 +39,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -42,7 +48,7 @@
         "src/revision_training_audit.py"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 8.72,
+      "elapsed_seconds": 6.25,
       "exact_json_matches": {
         "outputs/revision_2026-10-16/training_overlap_audit.json": true
       },
@@ -54,7 +60,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.12",
@@ -65,7 +70,7 @@
         "self-test"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 2.48,
+      "elapsed_seconds": 2.71,
       "exact_json_matches": {},
       "omitted_provenance_keys": [],
       "log": "verification/overlap_self_test.log"
@@ -75,7 +80,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.12",
@@ -86,7 +90,7 @@
         "summarize"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 14.71,
+      "elapsed_seconds": 6.36,
       "exact_json_matches": {
         "outputs/revision_2026-10-17/overlap_extension/overlap_extension_summary.json": true
       },
@@ -98,7 +102,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.12",
@@ -109,7 +112,7 @@
         "analyze-simplefold"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 56.3,
+      "elapsed_seconds": 25.24,
       "exact_json_matches": {
         "outputs/revision_2026-10-17/overlap_extension/simplefold_manifest_summary.json": true
       },
@@ -121,7 +124,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.12",
@@ -132,7 +134,7 @@
         "--self-check"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 0.67,
+      "elapsed_seconds": 0.41,
       "exact_json_matches": {},
       "omitted_provenance_keys": [],
       "log": "verification/reference_self_check.log"
@@ -142,7 +144,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -154,7 +155,7 @@
         "outputs/revision_2026-10-17/overlap_extension/extended_lower_risk_targets.csv"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 3.86,
+      "elapsed_seconds": 3.24,
       "exact_json_matches": {
         "outputs/revision_2026-10-17/reference_sensitivity/reference_sensitivity.json": true
       },
@@ -168,7 +169,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -178,7 +178,7 @@
         "src/recreate_reused_figures.py"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 2.48,
+      "elapsed_seconds": 2.05,
       "exact_json_matches": {
         "outputs/revision_2026-10-17/reused_figures/reproduction.json": true
       },
@@ -190,7 +190,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -200,17 +199,82 @@
         "src/verify_retained_structure_scoring.py"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 0.5,
+      "elapsed_seconds": 0.6,
       "exact_json_matches": {},
       "omitted_provenance_keys": [],
       "log": "verification/retained_structure_scoring.log"
+    },
+    {
+      "name": "prepared_vhh_scoring",
+      "command": [
+        "uv",
+        "run",
+        "--no-project",
+        "--python",
+        "3.13",
+        "--with-requirements",
+        "environments/analysis.lock",
+        "python",
+        "src/score_prepared_vhh.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.34,
+      "exact_json_matches": {},
+      "omitted_provenance_keys": [],
+      "log": "verification/prepared_vhh_scoring.log"
+    },
+    {
+      "name": "complex_source_screen",
+      "command": [
+        "uv",
+        "run",
+        "--no-project",
+        "--python",
+        "3.13",
+        "--with-requirements",
+        "environments/analysis.lock",
+        "python",
+        "src/audit_complex_overlap.py",
+        "screen"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 29.26,
+      "exact_json_matches": {
+        "outputs/revision_2026-10-26/complex_overlap/antigen_matches.json": true
+      },
+      "omitted_provenance_keys": [],
+      "log": "verification/complex_source_screen.log"
+    },
+    {
+      "name": "complex_source_contacts",
+      "command": [
+        "uv",
+        "run",
+        "--no-project",
+        "--python",
+        "3.13",
+        "--with-requirements",
+        "environments/analysis.lock",
+        "python",
+        "src/audit_complex_overlap.py",
+        "contacts"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 70.66,
+      "exact_json_matches": {
+        "outputs/revision_2026-10-26/complex_overlap/summary.json": true,
+        "outputs/revision_2026-10-26/complex_overlap/native_contacts.json": true,
+        "outputs/revision_2026-10-26/complex_overlap/contact_extraction_errors.json": true
+      },
+      "omitted_provenance_keys": [],
+      "log": "verification/complex_source_contacts.log"
     },
     {
       "name": "conformation_metrics",
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -220,7 +284,7 @@
         "src/tnp/tnp_metrics.py"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 0.13,
+      "elapsed_seconds": 0.29,
       "exact_json_matches": {},
       "omitted_provenance_keys": [],
       "log": "verification/conformation_metrics.log"
@@ -230,7 +294,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -240,7 +303,7 @@
         "src/tnp/tnp_crystals.py"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 0.57,
+      "elapsed_seconds": 0.51,
       "exact_json_matches": {
         "data/inputs/tnp_crystals.json": false
       },
@@ -259,7 +322,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -269,7 +331,7 @@
         "src/make_revision_workflow.py"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 1.05,
+      "elapsed_seconds": 1.26,
       "exact_json_matches": {},
       "omitted_provenance_keys": [],
       "log": "verification/workflow_figure.log"
@@ -279,7 +341,6 @@
       "command": [
         "uv",
         "run",
-        "--offline",
         "--no-project",
         "--python",
         "3.13",
@@ -294,50 +355,9 @@
       "exact_json_matches": {},
       "omitted_provenance_keys": [],
       "log": "verification/archive_verifier_cli.log"
-    },
-    {
-      "name": "prepare_probe",
-      "command": [
-        "uv",
-        "run",
-        "--offline",
-        "--no-project",
-        "--python",
-        "3.13",
-        "--with-requirements",
-        "environments/analysis.lock",
-        "python",
-        "tools/prepare_probe_inputs.py"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 43.91,
-      "exact_json_matches": {},
-      "omitted_provenance_keys": [],
-      "log": "verification/prepare_probe.log"
-    },
-    {
-      "name": "full_esm_probe",
-      "command": [
-        "uv",
-        "run",
-        "--offline",
-        "--no-project",
-        "--python",
-        "3.13",
-        "--with-requirements",
-        "environments/analysis.lock",
-        "python",
-        "src/reproduce_esm_probe.py"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 191.83,
-      "exact_json_matches": {
-        "outputs/revision_2026-10-23/probe_reproduction/results.json": true
-      },
-      "omitted_provenance_keys": [],
-      "log": "verification/full_esm_probe.log"
     }
   ],
   "full_reference_archive_replayed": false,
-  "full_probe_repeated": true
+  "full_probe_repeated": false,
+  "full_probe_reuse_validated": true
 }

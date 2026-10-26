@@ -1,0 +1,170 @@
+Contact extraction 1 interfaces; remaining files=773
+Contact extraction 2 interfaces; remaining files=772
+Contact extraction 50 interfaces; remaining files=727
+Contact extraction 51 interfaces; remaining files=726
+Contact extraction 52 interfaces; remaining files=725
+Contact extraction 101 interfaces; remaining files=682
+Contact extraction 150 interfaces; remaining files=639
+Contact extraction 151 interfaces; remaining files=638
+Contact extraction 152 interfaces; remaining files=637
+Contact extraction 200 interfaces; remaining files=589
+Contact extraction 201 interfaces; remaining files=588
+Contact extraction 202 interfaces; remaining files=587
+Contact extraction 250 interfaces; remaining files=549
+Contact extraction 251 interfaces; remaining files=548
+Contact extraction 252 interfaces; remaining files=547
+Contact extraction 300 interfaces; remaining files=499
+Contact extraction 301 interfaces; remaining files=498
+Contact extraction 302 interfaces; remaining files=497
+Contact extraction 350 interfaces; remaining files=449
+Contact extraction 351 interfaces; remaining files=448
+Contact extraction 352 interfaces; remaining files=447
+Contact extraction 400 interfaces; remaining files=400
+Contact extraction 401 interfaces; remaining files=399
+Contact extraction 402 interfaces; remaining files=398
+Contact extraction 450 interfaces; remaining files=354
+Contact extraction 451 interfaces; remaining files=353
+Contact extraction 452 interfaces; remaining files=352
+Contact extraction 500 interfaces; remaining files=306
+Contact extraction 501 interfaces; remaining files=305
+Contact extraction 502 interfaces; remaining files=304
+Contact extraction 550 interfaces; remaining files=258
+Contact extraction 551 interfaces; remaining files=257
+Contact extraction 552 interfaces; remaining files=256
+Contact extraction 600 interfaces; remaining files=208
+Contact extraction 601 interfaces; remaining files=207
+Contact extraction 602 interfaces; remaining files=206
+Contact extraction 650 interfaces; remaining files=167
+Contact extraction 651 interfaces; remaining files=166
+Contact extraction 652 interfaces; remaining files=165
+Contact extraction 700 interfaces; remaining files=121
+Contact extraction 701 interfaces; remaining files=120
+Contact extraction 702 interfaces; remaining files=119
+Contact extraction 750 interfaces; remaining files=82
+Contact extraction 751 interfaces; remaining files=81
+Contact extraction 752 interfaces; remaining files=80
+Contact extraction 800 interfaces; remaining files=39
+Contact extraction 801 interfaces; remaining files=38
+Contact extraction 802 interfaces; remaining files=37
+Mapped interface comparisons 500/12005
+Mapped interface comparisons 1000/12005
+Mapped interface comparisons 1500/12005
+Mapped interface comparisons 2000/12005
+Mapped interface comparisons 2500/12005
+Mapped interface comparisons 3000/12005
+Mapped interface comparisons 3500/12005
+Mapped interface comparisons 4000/12005
+Mapped interface comparisons 4500/12005
+Mapped interface comparisons 5000/12005
+Mapped interface comparisons 5500/12005
+Mapped interface comparisons 6000/12005
+Mapped interface comparisons 6500/12005
+Mapped interface comparisons 7000/12005
+Mapped interface comparisons 7500/12005
+Mapped interface comparisons 8000/12005
+Mapped interface comparisons 8500/12005
+Mapped interface comparisons 9000/12005
+Mapped interface comparisons 9500/12005
+Mapped interface comparisons 10000/12005
+Mapped interface comparisons 10500/12005
+Mapped interface comparisons 11000/12005
+Mapped interface comparisons 11500/12005
+Mapped interface comparisons 12000/12005
+{
+  "full_597": {
+    "SimpleFold_pre_cutoff_proxy": {
+      "targets": 597,
+      "polymer_antigen_evaluable": 286,
+      "native_heavy_interface_evaluable": 285,
+      "antigen_ge90": 120,
+      "exact_antigen": 23,
+      "distinct_pdb_antigen_ge90": 120,
+      "epitope_jaccard_ge50": 34,
+      "interface_jaccard_ge50": 8
+    },
+    "IgFold": {
+      "targets": 597,
+      "polymer_antigen_evaluable": 286,
+      "native_heavy_interface_evaluable": 285,
+      "antigen_ge90": 132,
+      "exact_antigen": 62,
+      "distinct_pdb_antigen_ge90": 128,
+      "epitope_jaccard_ge50": 88,
+      "interface_jaccard_ge50": 40
+    },
+    "NanoBodyBuilder2": {
+      "targets": 597,
+      "polymer_antigen_evaluable": 286,
+      "native_heavy_interface_evaluable": 285,
+      "antigen_ge90": 138,
+      "exact_antigen": 85,
+      "distinct_pdb_antigen_ge90": 117,
+      "epitope_jaccard_ge50": 102,
+      "interface_jaccard_ge50": 75
+    }
+  },
+  "common_588": {
+    "SimpleFold_pre_cutoff_proxy": {
+      "targets": 588,
+      "polymer_antigen_evaluable": 281,
+      "native_heavy_interface_evaluable": 280,
+      "antigen_ge90": 120,
+      "exact_antigen": 23,
+      "distinct_pdb_antigen_ge90": 120,
+      "epitope_jaccard_ge50": 34,
+      "interface_jaccard_ge50": 8
+    },
+    "IgFold": {
+      "targets": 588,
+      "polymer_antigen_evaluable": 281,
+      "native_heavy_interface_evaluable": 280,
+      "antigen_ge90": 132,
+      "exact_antigen": 62,
+      "distinct_pdb_antigen_ge90": 128,
+      "epitope_jaccard_ge50": 88,
+      "interface_jaccard_ge50": 40
+    },
+    "NanoBodyBuilder2": {
+      "targets": 588,
+      "polymer_antigen_evaluable": 281,
+      "native_heavy_interface_evaluable": 280,
+      "antigen_ge90": 137,
+      "exact_antigen": 84,
+      "distinct_pdb_antigen_ge90": 117,
+      "epitope_jaccard_ge50": 101,
+      "interface_jaccard_ge50": 74
+    }
+  },
+  "screened_393": {
+    "SimpleFold_pre_cutoff_proxy": {
+      "targets": 393,
+      "polymer_antigen_evaluable": 192,
+      "native_heavy_interface_evaluable": 192,
+      "antigen_ge90": 69,
+      "exact_antigen": 11,
+      "distinct_pdb_antigen_ge90": 69,
+      "epitope_jaccard_ge50": 16,
+      "interface_jaccard_ge50": 0
+    },
+    "IgFold": {
+      "targets": 393,
+      "polymer_antigen_evaluable": 192,
+      "native_heavy_interface_evaluable": 192,
+      "antigen_ge90": 71,
+      "exact_antigen": 17,
+      "distinct_pdb_antigen_ge90": 71,
+      "epitope_jaccard_ge50": 33,
+      "interface_jaccard_ge50": 2
+    },
+    "NanoBodyBuilder2": {
+      "targets": 393,
+      "polymer_antigen_evaluable": 192,
+      "native_heavy_interface_evaluable": 192,
+      "antigen_ge90": 61,
+      "exact_antigen": 14,
+      "distinct_pdb_antigen_ge90": 61,
+      "epitope_jaccard_ge50": 27,
+      "interface_jaccard_ge50": 3
+    }
+  }
+}

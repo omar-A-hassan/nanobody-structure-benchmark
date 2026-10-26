@@ -1,0 +1,14 @@
+[
+  {
+    "key": "pdb_00007n9t_D_+:C",
+    "error": "No positive-occupancy matching heavy atoms: pdb_00007n9t_D_+:C chain D"
+  },
+  {
+    "key": "pdb_00007n9t_E_+:A",
+    "error": "No positive-occupancy matching heavy atoms: pdb_00007n9t_E_+:A chain E"
+  },
+  {
+    "key": "pdb_00007n9t_F_+:B",
+    "error": "No positive-occupancy matching heavy atoms: pdb_00007n9t_F_+:B chain F"
+  }
+]

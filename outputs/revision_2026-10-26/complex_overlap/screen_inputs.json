@@ -1,0 +1,16 @@
+{
+  "threshold": 0.9,
+  "distance_cutoff_A": 5.0,
+  "source_sha256": {
+    "outputs/revision_2026-10-16/sources/ab_split.csv.gz": "7dfdec66463ab12ddd7f3dd7fd657d54fe01515cd41be8c770bffedb4ebbbde3",
+    "outputs/revision_2026-10-16/sources/nbb2_nanobody_data.csv": "a2e002e22ba38ddd24e8b1bbad924bdf1e19007aeec29b92fad0ab4b9aad548e",
+    "outputs/revision_2026-10-16/sources/igfold_experimental_sequence_pool.json": "aa315cbfc367a0ee80362a87fda812b6b99da1ce6b97888408ac695b00f1a86c",
+    "data/inputs/targets_vhh.json": "310632cc19183377df9e74b07449c0b9d85baee0f6495552b83fabae4c9521db"
+  },
+  "query_antigen_chains": 336,
+  "query_unique_typed_sequences": 240,
+  "source_antigen_chains": 3433,
+  "source_unique_typed_sequences": 1654,
+  "matches": 12005,
+  "elapsed_seconds": 28.752001041546464
+}

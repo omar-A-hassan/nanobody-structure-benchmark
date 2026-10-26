@@ -15,6 +15,12 @@ fits, paired target bootstrap, PDB-block intervals, sequence redundancy,
 available-source training overlap, reference policy and length-adjusted
 uncertainty analyses are included.
 
+The complex-source audit supplies 281 common-set polymer-antigen sequence
+comparisons and 280 usable native interfaces, with model-linked antigen,
+epitope and heavy-domain contact-pattern matches. It records unavailable
+partners and zero-occupancy exclusions separately. These measurements and
+their limits are in `docs/COMPLEX_OVERLAP.md` and Supplementary Table S3.
+
 The initial overlap audit has 398 nonredundant lower-identified-risk
 representatives. The expanded available-source screen yields 393 from 362 PDB
 entries. NBB2 recovery covers all 247 previously unmapped manifest PDBs, with

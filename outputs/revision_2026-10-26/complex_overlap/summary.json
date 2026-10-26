@@ -1,0 +1,171 @@
+{
+  "status": "COMPLETED_AVAILABLE_SOURCE_COMPLEX_AUDIT",
+  "counts": {
+    "full_597": {
+      "SimpleFold_pre_cutoff_proxy": {
+        "targets": 597,
+        "polymer_antigen_evaluable": 286,
+        "native_heavy_interface_evaluable": 285,
+        "antigen_ge90": 120,
+        "exact_antigen": 23,
+        "distinct_pdb_antigen_ge90": 120,
+        "epitope_jaccard_ge50": 34,
+        "interface_jaccard_ge50": 8
+      },
+      "IgFold": {
+        "targets": 597,
+        "polymer_antigen_evaluable": 286,
+        "native_heavy_interface_evaluable": 285,
+        "antigen_ge90": 132,
+        "exact_antigen": 62,
+        "distinct_pdb_antigen_ge90": 128,
+        "epitope_jaccard_ge50": 88,
+        "interface_jaccard_ge50": 40
+      },
+      "NanoBodyBuilder2": {
+        "targets": 597,
+        "polymer_antigen_evaluable": 286,
+        "native_heavy_interface_evaluable": 285,
+        "antigen_ge90": 138,
+        "exact_antigen": 85,
+        "distinct_pdb_antigen_ge90": 117,
+        "epitope_jaccard_ge50": 102,
+        "interface_jaccard_ge50": 75
+      }
+    },
+    "common_588": {
+      "SimpleFold_pre_cutoff_proxy": {
+        "targets": 588,
+        "polymer_antigen_evaluable": 281,
+        "native_heavy_interface_evaluable": 280,
+        "antigen_ge90": 120,
+        "exact_antigen": 23,
+        "distinct_pdb_antigen_ge90": 120,
+        "epitope_jaccard_ge50": 34,
+        "interface_jaccard_ge50": 8
+      },
+      "IgFold": {
+        "targets": 588,
+        "polymer_antigen_evaluable": 281,
+        "native_heavy_interface_evaluable": 280,
+        "antigen_ge90": 132,
+        "exact_antigen": 62,
+        "distinct_pdb_antigen_ge90": 128,
+        "epitope_jaccard_ge50": 88,
+        "interface_jaccard_ge50": 40
+      },
+      "NanoBodyBuilder2": {
+        "targets": 588,
+        "polymer_antigen_evaluable": 281,
+        "native_heavy_interface_evaluable": 280,
+        "antigen_ge90": 137,
+        "exact_antigen": 84,
+        "distinct_pdb_antigen_ge90": 117,
+        "epitope_jaccard_ge50": 101,
+        "interface_jaccard_ge50": 74
+      }
+    },
+    "screened_393": {
+      "SimpleFold_pre_cutoff_proxy": {
+        "targets": 393,
+        "polymer_antigen_evaluable": 192,
+        "native_heavy_interface_evaluable": 192,
+        "antigen_ge90": 69,
+        "exact_antigen": 11,
+        "distinct_pdb_antigen_ge90": 69,
+        "epitope_jaccard_ge50": 16,
+        "interface_jaccard_ge50": 0
+      },
+      "IgFold": {
+        "targets": 393,
+        "polymer_antigen_evaluable": 192,
+        "native_heavy_interface_evaluable": 192,
+        "antigen_ge90": 71,
+        "exact_antigen": 17,
+        "distinct_pdb_antigen_ge90": 71,
+        "epitope_jaccard_ge50": 33,
+        "interface_jaccard_ge50": 2
+      },
+      "NanoBodyBuilder2": {
+        "targets": 393,
+        "polymer_antigen_evaluable": 192,
+        "native_heavy_interface_evaluable": 192,
+        "antigen_ge90": 61,
+        "exact_antigen": 14,
+        "distinct_pdb_antigen_ge90": 61,
+        "epitope_jaccard_ge50": 27,
+        "interface_jaccard_ge50": 3
+      }
+    }
+  },
+  "source_pool_coverage": {
+    "SimpleFold_pre_cutoff_proxy": {
+      "polymer_antigen_chain_records": 2870,
+      "pdb_entries": 1473,
+      "unique_typed_sequences": 1464
+    },
+    "IgFold": {
+      "polymer_antigen_chain_records": 2714,
+      "pdb_entries": 1440,
+      "unique_typed_sequences": 1372
+    },
+    "NanoBodyBuilder2": {
+      "polymer_antigen_chain_records": 781,
+      "pdb_entries": 392,
+      "unique_typed_sequences": 310
+    }
+  },
+  "coordinate_quality_sensitivity": {
+    "excluded_targets": [
+      "7N9TE"
+    ],
+    "common_targets_retained": 587,
+    "medians": {
+      "SimpleFold": {
+        "chain_cdr3": 2.942,
+        "fw_cdr3": 3.189
+      },
+      "IgFold": {
+        "chain_cdr3": 2.883,
+        "fw_cdr3": 3.194
+      },
+      "NanoBodyBuilder2": {
+        "chain_cdr3": 2.485,
+        "fw_cdr3": 2.739
+      }
+    }
+  },
+  "source_interface_records": 847,
+  "extraction_errors": [
+    {
+      "key": "pdb_00007n9t_D_+:C",
+      "error": "No positive-occupancy matching heavy atoms: pdb_00007n9t_D_+:C chain D"
+    },
+    {
+      "key": "pdb_00007n9t_E_+:A",
+      "error": "No positive-occupancy matching heavy atoms: pdb_00007n9t_E_+:A chain E"
+    },
+    {
+      "key": "pdb_00007n9t_F_+:B",
+      "error": "No positive-occupancy matching heavy atoms: pdb_00007n9t_F_+:B chain F"
+    }
+  ],
+  "interface_comparisons": 15221,
+  "methods": {
+    "antigen_sequence_identity": "global affine-gap optimal-score alignment; identical positions/all columns including gaps; match2/mismatch-1/open-5/extend-0.5",
+    "antigen_threshold": 0.9,
+    "native_contact_cutoff_A": 5.0,
+    "epitope": "antigen residues within cutoff of heavy-variable-domain heavy atoms",
+    "interface": "heavy-domain/antigen residue contact pairs; sequence-align both partners; unmapped residues retained in union",
+    "altloc": "positive occupancy only; highest atom occupancy; first source row on ties; first deposited model",
+    "source_file_identity": "exact case-sensitive archive member; case-sensitive instance hashed for portable cache filenames"
+  },
+  "limits": [
+    "Entry-linked experimental-source complexes; not verified checkpoint training-chain membership or antigen input exposure.",
+    "SimpleFold source pool is a pre-cutoff antibody-complex proxy, not its full experimental/distilled training set.",
+    "Only source-retained polymer antigens can be sequence-screened; nonpolymeric or removed partners are not classified as nonoverlapping.",
+    "Only antigen pairs passing global90 identity receive epitope/contact-pattern comparisons; lower-identity structural analogues are not screened.",
+    "Heavy-domain contact-pattern similarity is not a DockQ score or a rigid-body docking prediction.",
+    "Protein/peptide types share an alphabet; DNA/RNA are screened separately."
+  ]
+}

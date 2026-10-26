@@ -251,6 +251,8 @@ def replay(args):
             reports.append(run("reused_figures", "src/recreate_reused_figures.py", comparisons=("outputs/revision_2026-10-17/reused_figures/reproduction.json",)))
             reports.append(run("retained_structure_scoring", "src/verify_retained_structure_scoring.py"))
             reports.append(run("prepared_vhh_scoring", "src/score_prepared_vhh.py", extra=("--check",)))
+            reports.append(run("complex_source_screen", "src/audit_complex_overlap.py", extra=("screen",), comparisons=("outputs/revision_2026-10-26/complex_overlap/antigen_matches.json",)))
+            reports.append(run("complex_source_contacts", "src/audit_complex_overlap.py", extra=("contacts",), comparisons=("outputs/revision_2026-10-26/complex_overlap/summary.json", "outputs/revision_2026-10-26/complex_overlap/native_contacts.json", "outputs/revision_2026-10-26/complex_overlap/contact_extraction_errors.json")))
             reports.append(run("conformation_metrics", "src/tnp/tnp_metrics.py"))
             reports.append(run("crystal_labels", "src/tnp/tnp_crystals.py", comparisons=("data/inputs/tnp_crystals.json",)))
             reports.append(run("workflow_figure", "src/make_revision_workflow.py"))
@@ -265,7 +267,9 @@ def replay(args):
             shutil.copyfile(path, out / path.name)
         result = {"status": "PASS", "fresh_disposable_copy": True, "source_study_modified": False,
                   "model_inference": False, "kaggle_kernels_launched": 0, "jobs": reports,
-                  "full_reference_archive_replayed": bool(args.reference_archive), "full_probe_repeated": not args.skip_probe}
+                  "full_reference_archive_replayed": bool(args.reference_archive),
+                  "full_probe_repeated": not (args.skip_probe or args.reuse_probe),
+                  "full_probe_reuse_validated": bool(args.reuse_probe)}
         (out / "reexecution.json").write_text(json.dumps(result, indent=2) + "\n")
     return result
 

@@ -50,6 +50,7 @@ keep the supplied manifest as the record of the distributed snapshot.
 |---|---|---|
 | Regional accuracy | `data/inputs/targets_vhh.json`, `outputs/structure/`, `src/reviewer_revision_analysis.py` | All-loop scores, distributions and paired intervals in `outputs/revision_2026-10-16/` |
 | Training overlap | `src/revision_training_audit.py`, `src/revision_overlap_extension.py` and recorded source pools | Per-target matches, screened membership and summaries in `outputs/revision_2026-10-17/overlap_extension/` |
+| Antigen/interface source overlap | `src/audit_complex_overlap.py`, source annotations and retained source complexes | Antigen, epitope and heavy-domain contact similarities in `outputs/revision_2026-10-26/complex_overlap/`; see [Complex overlap](docs/COMPLEX_OVERLAP.md) |
 | Experimental references | `src/reconstruct_revision_references.py` and 604 bundled source coordinate members | Exact 597-record reconstruction and reference-policy checks |
 | Sampling and probe | `outputs/{trajectory,hard,hitrate,ensemble}/`, `data/esm_probe/`, `src/reproduce_esm_probe.py` | Disagreement, finite-coverage and grouped probe results |
 | Inference repeats | `kaggle/kernels/revision-archive-20261023/`, `inference/repeat_outputs/` | Complete SimpleFold v1 and NanoBodyBuilder2 v2 coordinates, scores, run records and comparisons |
