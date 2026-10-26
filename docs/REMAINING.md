@@ -1,167 +1,51 @@
-# Remaining work for manuscript reproducibility
+# Revision status and final inputs
 
-Updated 26 October 2026. This checklist distinguishes workflow delivery,
-claim-dependent evidence, scientific requests and optional archival work.
-An unchecked item is not automatically a request for a new full GPU run.
-Check an item only after the stated evidence is present. This document does
-not certify reviewer acceptance or change the manuscript.
+Updated 26 October 2026. DONE means the author revision is complete by the
+analysis, clarification or claim withdrawal stated below. It does not mean
+that an unperformed experiment was completed or that the reviewers accepted it.
 
-## 1. IgFold workflow
+## Completed revisions
 
-Already included: all 597 regional-score records, six visualization examples
-and an IgFold code path in a separate TNP notebook. That TNP run built zero
-IgFold structures; it is not the benchmark generator. See
-`provenance/igfold_benchmark_evidence.json`. The added docking notebook copies
-one existing IgFold PDB; it does not run or time the 597-target benchmark.
+| Reviewer reference | Status | Completed work |
+|---|---|---|
+| R1 major 1; R2 comment 1, redundancy; R3 major 1a; R4 major 4, construction | DONE | Dataset selection, bound/free composition, identifiers, missing observations, sequence clustering and cohort membership are documented. |
+| R1 major 2; R2 comment 1; R3 major 1b; R4 major 4, overlap | DONE: available-source analysis and scope response | Model-specific PDB/date/VHH/H3 screens and the 393-target sensitivity are supplied. The response explains why no antigen/epitope/interface screen is added. Neither VHH nor complex-level training independence is certified. |
+| R1 minor, failures; R3 major 1c | DONE | Nine NanoBodyBuilder2 refusals and the separate partial output are identified and explained. |
+| R2 comment 2; R3 major 2a/3c; R4 major 2 | DONE | All-loop benchmark metrics and all four prepared-input regional rows are in the paper. The prepared-input scorer, files, results and tests are supplied. |
+| R3 major 2b | DONE: unsupported claim omitted | Verified SimpleFold/NanoBodyBuilder2 batch timings have defined boundaries. No IgFold runtime or three-model speed comparison is reported. No IgFold timing archive or new timing run is required. |
+| R3 major 4a/5a/5b/6a; R4 minor 2 | DONE | Distributions, paired intervals, hard/easy definitions, length adjustment, probe labels and per-panel populations are supplied. |
+| R1 major 3; R3 major 3a; R4 major 1/3/5 | DONE: claims narrowed | Docking is one illustrative holo re-docking case. H3-specific causation and general downstream-effect claims are withdrawn. A new contact study, repeated docking, second docking method or multi-complex benchmark is not promised. |
+| R1 major 4 | DONE: scope-based response | The response explains the common VHH-only prediction task and why antigen-context prediction followed by docking is not added. It does not claim that comparison was performed. |
+| R3 major 3b/7a/7b and minor 2 | DONE | Case selection, bounded architectural interpretation, joint-predictor literature and proportional conclusions are supplied. |
+| R1 minor, Figure 1; R3 minor 1; R4 minor 1 | DONE | The workflow figure, docking-branch count and rounding are corrected. |
+| R3 major 8a, structural/sampling analyses | DONE | Frozen inputs, scores, analysis code, sampling generators, cached probe data, run instructions and verification records are supplied. Full-paper code delivery still needs P1 and D1 below. |
 
-- [ ] Supply the original benchmark generation procedure, or a documented
-  and validated regeneration procedure for the same 597 inputs. A script or
-  notebook is sufficient; no particular historical filename is required.
-- [ ] Record the code version, model/weight identifier and retrieval source,
-  refinement and numbering settings, seed where used, and tested environment.
-  Do not invent unknown historical versions or seeds.
-- [ ] Connect generation to the supplied regional scorer. Use original
-  prediction files if recovered. Otherwise retain regenerated outputs as a
-  separate version, compare per-target scores with the primary records, and
-  report differences. New predictions are not recovered original predictions.
+## Only remaining handover inputs
 
-**Runtime is claim-dependent.** If the paper retains an IgFold runtime or
-speed comparison, provide measurement records, timing boundaries, output
-count, hardware and concurrency. `prediction_results.csv` is one possible
-source, not a required filename. The historical 4.08 s/target report is not
-verified timing evidence. If adequate records cannot be obtained, the authors
-must remove that claim or report a separately measured, labelled repeat.
-Do not rerun the entire benchmark solely to recreate the original CSV name.
+- [ ] **P1 — IgFold generation code and settings.** Add the benchmark script
+  or notebook, its model/weight version, refinement/numbering settings and
+  execution environment. State a seed if one was used. Connect the supplied
+  code to the frozen inputs and regional scorer. Fill manuscript P1 from
+  those facts. No runtime measurement or full-benchmark rerun is requested.
+- [ ] **D1 — Docking evaluation code and its data.** Add the script/notebook
+  or commands that produce the reported DockQ and epitope metrics and table
+  summaries. Include its reference/chain mapping, scoring inputs and per-pose
+  values supporting the top-1 and best-of-top-10 results. Identify the supplied
+  prepared files used by that workflow. There is no separate requirement for
+  all 40 historical pose files, permanent server pages or a job-hash ledger.
+- [ ] **P3 — Licence and deposited DOI.** Agree the licence for original code,
+  retain third-party terms, publish the declared version in a DOI-assigning
+  repository, and put its actual DOI in Code availability and the response.
+  Check the affected workflows after P1/D1 are added and refresh the manifest.
 
-Addresses R3 major 2b/8a and manuscript input P1. Available model identifiers
-and retrieval instructions can identify weights without redistributing them.
+P1/D1 complete the remaining full-paper code delivery under R3 major 8a.
+P3 completes the editor's explicit deposit request. The private GitHub
+repository is the collaboration copy, not the DOI deposit.
 
-## 2. Docking workflow and reported inputs
+## Already supplied; do not request again
 
-- [x] Include the four supplied prepared VHH files and fixed antigen in
-  `data/docking/`, with file hashes and verified VHH sequence correspondence
-  in `outputs/docking/7R73_prepared_regional_rmsd.json`. The experimental
-  VHH/receptor pair retains the native coordinate frame.
-- [x] Supply the preparation notebook and the reported HDOCK mode, restraints,
-  receptor/ligand assignment and ranking rule in `docs/DOCKING.md`.
-- [x] Rescore H1/H2/H3/framework from all four supplied prepared VHH files,
-  including the experimental control, using the frozen reference and original
-  Kabsch function. The independent alignment check and tests pass. Table 4
-  contains these prepared-input scores, not the earlier benchmark rows.
-- [ ] Connect the supplied prepared-file identities to the historical HDOCK
-  submissions. Include the native reference/chain mapping used by DockQ.
-  File presence alone does not verify which bytes were submitted to the server.
-- [ ] Record resolved preparation source/dependency versions and model-weight
-  identifiers where available. The supplied notebook uses a moving SimpleFold
-  branch and unpinned dependencies; its outputs are included, but its setup
-  has not been independently regenerated.
-- [ ] Retain the poses needed to check the published endpoints. The current
-  paper reports top-1 and best-of-top-10 results, so supply the retained ten
-  candidates per input and their scores. Every unreported pose explored by
-  the server is not required.
-- [ ] Supply runnable DockQ, epitope scoring and downstream table-generation
-  code, with versions, chain mapping, atom/contact definitions and per-pose
-  results. Reproduce the supplied top-1 and best-of-top-10 CSV summaries.
-  Regional monomer scoring is already implemented in `src/score_prepared_vhh.py`;
-  it does not verify these downstream endpoints.
-
-A web-server run can be documented as manual submission followed by local
-analysis. A new HDOCK API client or replacement server is not required. Keep
-job IDs and original server reports if available; permanent access to an old
-job page is not a substitute for, or a prerequisite to, retaining the inputs,
-settings and outputs needed for the reported analysis.
-
-Addresses the 7R73 part of R2 comment 2, R3 major 3c/8a and R4 major 2.
-The manuscript now gives the case-selection explanation and all four
-prepared-input rows. P2b regional computation is complete for the supplied
-files; submission linkage and downstream reproducibility remain separate
-checks. Case selection is an author response, not a new software component.
-
-## 3. Sampling generation and description
-
-Sampling code is already included:
-
-- [x] [Full-benchmark trajectory notebook](../kaggle/kernels/sf-traj-tfm-597/sf-traj-tfm-597.ipynb):
-  six predictions for each of 597 inputs, 500 generation steps, logging every
-  five steps, framework alignment and feature calculation.
-- [x] [Hard/easy notebook](../kaggle/kernels/sf-hard/sf-hard.ipynb):
-  target lists, six-sample generation and uncertainty scoring on 36 targets.
-- [x] [Hit-rate notebook](../kaggle/kernels/sf-hitrate/sf-hitrate.ipynb):
-  30 difficult targets and ten controls, 20 samples at each of four settings.
-- [x] Saved per-target results and cached probe embeddings support the
-  supplied analysis replay. The existing 15-job replay and five tests passed;
-  those checks did not regenerate the GPU sampling experiments.
-
-Samples are repeated SimpleFold predictions. Trajectories are intermediate
-generation coordinates, not molecular-dynamics or docking trajectories.
-
-- [ ] Specify fixed, usable source/dependency versions and model retrieval
-  instructions for the included generators. Their current installation cells
-  use a moving SimpleFold branch and some unpinned dependencies. A newly
-  selected version must not be labelled as a recovered historical version.
-- [ ] Document the run order, input attachment, GPU setup, output locations
-  and expected target/sample counts. Verify the documented path before calling
-  regeneration tested. Start with a representative GPU smoke check; a smoke
-  check validates integration, not replication of full-cohort statistics.
-  Full sampling repeats are needed only for a scientific validation question
-  or a changed result, not merely to populate an archive.
-- [x] Match the trajectory-coordinate description to the supplied logger:
-  per-residue means over unmasked atom coordinates, not C-alpha-only positions.
-  Methods, Figure 3 and the response use this definition. Numerical results
-  and trajectory features have not been replaced.
-
-**Not required by default:** every generated structure or every intermediate
-frame. Full raw archives would allow an independent audit of the exact
-historical coordinate-to-feature calculations. Their absence limits that
-audit, but does not mean the generation code is absent or invalidate saved-data
-analysis replay. Preserve available raw files; do not rerun all sampling
-solely to recreate them. No reviewer explicitly requested a full frame archive.
-
-## 4. Final code deposit
-
-- [ ] Confirm redistribution rights and approve the licence/terms for original
-  code. Supply those terms, normally in `LICENSE`, and preserve third-party
-  notices. Upstream data and weights may remain at stable retrieval sources
-  with identifiers and instructions; copying every upstream archive is not
-  a blanket requirement.
-- [ ] After integrating the missing workflows, test the affected entry points,
-  scoring and tables from a clean checkout. Run the existing checks on the
-  final package and update its manifest. Do not rerun every historical GPU
-  experiment for a documentation-only change. Check scientific agreement;
-  bit-for-bit equality across different GPU environments is not a blanket
-  requirement. Preserve differences rather than silently replacing results.
-- [ ] Publish the declared code/data contribution in a versioned DOI-assigning
-  repository with verified creator, version and source metadata. Verify the
-  accessible deposited files and insert the DOI in Code availability and the
-  response. The editor explicitly requires this deposit. A private GitHub
-  release or a reserved DOI does not complete it.
-
-`CITATION.cff` is recommended for citation convenience, not a separate reviewer
-requirement or a prerequisite to testing the code. The citation metadata in
-the deposit must still be accurate. See [GitHub's citation-file documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
-This section addresses the editor's requirement, R3 major 8a and input P3.
-
-## 5. Scientific responses, separate from packaging
-
-The authors must resolve the following requests in the manuscript and response.
-They are not automatically mandatory repository additions or instructions to
-launch experiments. If an experiment is undertaken and reported, include the
-inputs, procedure and outputs needed to check it. If it is not undertaken,
-give an evidence-based justification and the corresponding scope/claim changes;
-a justification does not guarantee reviewer acceptance.
-
-- [ ] R1 major 4: antigen-context prediction and downstream comparison, or a
-  justified response to that request. No such experiment is included.
-- [ ] R1 major 2: antigen/epitope/interface overlap, distinct from the completed
-  available-source VHH screen.
-- [ ] R4 major 3: evidence about CDR-H3 contributions to the native interface.
-- [ ] R4 major 5: docking controls/repeats and variance, or a justified,
-  explicitly limited response. Case-study wording is not a new control run.
-- [x] R3 major 3b: the Methods and response explain the resolved complex,
-  1.76-angstrom X-ray resolution, native interface and coordinate completeness
-  supporting the illustrative case. The case is not a representative sample.
-
-Full training independence remains unestablished. The 393-target set must not
-be called leakage-free. This is not an instruction to recover every unavailable
-pretraining corpus; it requires accurate coverage, limits and claims. Additional
-screens, if performed, must retain their sources, thresholds and cohort lists.
+Sampling generation code, input sequences, sampler settings and saved feature/
+result tables are present; see [Sampling](SAMPLING.md). No complete trajectory
+archive, compulsory sampling GPU rerun, historical timing CSV, redistributed
+model weights or archive of unreported experiments is required. Preserve
+existing records. Do not describe saved-data replay as a new GPU experiment.

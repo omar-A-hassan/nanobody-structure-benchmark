@@ -26,6 +26,7 @@ docs/DEPENDENCIES.md
 docs/DOCKING.md
 docs/NBB2_VERSION1.md
 docs/REMAINING.md
+docs/SAMPLING.md
 environments/analysis.in
 environments/analysis.lock
 environments/collection.in

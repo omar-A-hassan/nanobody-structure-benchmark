@@ -1,7 +1,7 @@
 # Coverage and explicit gaps
 
-[Remaining work](REMAINING.md) distinguishes workflow requirements,
-claim-dependent records, scientific responses and optional archival work.
+[Revision status](REMAINING.md) lists completed revisions and the three
+remaining handover inputs.
 `reproduce.py` is the public entry point for
 integrity checks and saved-analysis replay.
 
@@ -51,11 +51,10 @@ inputs, and finite coverage for 30 difficult plus ten control targets across
 four settings with 20 samples each. The retained artifacts do not constitute
 all raw coordinates for every trajectory or sample. The original sampling,
 trajectory, hit-rate, conformation and visualization notebooks are included.
-Full frame archives are not a default requirement for code delivery. They
-would support exact historical coordinate-to-feature auditing; generation
-code and saved-result analysis replay are separate capabilities. The sampling
-notebooks use a moving source branch and some unpinned dependencies. Their
-regeneration setup has not been verified by the recent saved-data replay.
+Generation code, inputs, settings and saved analysis records are supplied;
+[Sampling](SAMPLING.md) gives their use. Full frame archives and a new GPU
+run are not handover requirements. The recent replay checks saved-data
+analyses, not the notebooks' moving-source installation commands.
 The trajectory logger records per-residue means over unmasked atom coordinates,
 not C-alpha-only coordinates. The Methods and Figure 3 caption use that definition.
 
@@ -82,24 +81,17 @@ algorithm and stored results are unchanged.
   BioPython alignment check. The prepared control's computed regional RMSDs
   round to zero. These are monomer scores, not docked-pose scores.
   The two supplied docking CSVs are summary records, not a local pose-scoring
-  replay. HDOCK poses, DockQ/epitope scoring and table-generation code, and the
-  connection between the supplied PDBs and historical server submissions
-  still need integration. See `docs/DOCKING.md` and `docs/REMAINING.md`.
+  replay. The remaining docking input is the evaluation procedure and its
+  scoring data, item D1 in `docs/REMAINING.md`. This is not a request for a
+  separate historical job-hash audit.
 
-- The original IgFold benchmark generation notebook and timing CSV have not
-  been identified in the current package. The remaining task is to supply the
-  original procedure or a validated, separately identified regeneration path;
-  no specific notebook or CSV filename is required. All 597 regional scores
-  are included.
-  A historical transcript attributes 4.08 seconds per target to
-  `prediction_results.csv`, but does not establish hardware, timing boundaries
-  or concurrency. The separate TNP notebook contains executable IgFold code
-  but built zero structures. That run does not establish the original
-  benchmark settings. See `provenance/igfold_benchmark_evidence.json` and the
-  remaining-work checklist. Upstream IgFold training archives are separate
-  sources used for overlap screening.
-  Runtime records, hardware and timing boundaries are needed if a timing or
-  speed claim is retained; their absence is not a reason to invent a value.
+- The IgFold benchmark generation procedure/settings still need integration
+  under P1. All 597 regional scores are included. The separate TNP notebook
+  contains IgFold code but built zero structures; the docking preparation
+  notebook copies one existing IgFold PDB. Neither establishes the benchmark
+  configuration. No IgFold runtime or speed comparison is reported in the
+  revised paper, so a timing archive or new timing run is not requested.
+  The historical evidence record remains in `provenance/` for reference.
 - Original SimpleFold/NBB2 full-benchmark notebooks explicitly deleted
   predicted coordinates after scoring. Original results and recovered source
   notebooks survive. Historical SimpleFold commit/checkpoint hashes and full
@@ -138,13 +130,12 @@ algorithm and stored results are unchanged.
   change 0.014 Å and maximum change 1.952 Å.
   [Run-specific facts and local commands](NBB2_VERSION1.md) distinguish the
   archived v1 notebook from the newer preparation source.
-- Docking receptor/ligand inputs, HDOCK execution artifacts, poses, DockQ
-  evaluations and epitope files are not included. A documented manual HDOCK
-  submission with retained inputs, settings, reported candidate poses and
-  runnable local scoring is an acceptable workflow form; a new server client
-  and permanent job-page access are not required. The workflow diagram
-  depicts that separate study branch; its presence does not supply a docking
-  implementation or reproduce the manuscript's docking results.
+- The prepared docking receptor/VHH inputs, preparation notebook, regional
+  scorer and two endpoint CSV summaries are included. DockQ/epitope evaluation
+  code and its scoring data still need integration. A documented manual
+  HDOCK submission followed by local evaluation is sufficient as a workflow;
+  no server API client, permanent job-page access or blanket archive of all
+  historical poses is required.
 
 ## Deliberate exclusions and verification limits
 

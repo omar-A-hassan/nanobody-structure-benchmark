@@ -9,9 +9,9 @@ This package reproduces the supplied structural analyses. It does not yet
 reproduce every result in the manuscript. The original IgFold inference
 workflow and downstream docking evaluation still need integration. Prepared
 docking inputs, a preparation notebook and regional rescoring are included. See
-[Remaining work](docs/REMAINING.md) for workflow tasks, claim-dependent evidence,
-scientific responses and optional archival work. It is not a blanket request
-to regenerate every historical output.
+[Revision status](docs/REMAINING.md) lists completed responses and only three
+remaining handover inputs: IgFold generation code/settings, docking evaluation
+code/data, and the licence/DOI deposit.
 
 ## Reproduce the saved analyses
 
@@ -93,9 +93,9 @@ The ESM2 probe replay fits classifiers from the supplied cached embeddings.
 It does not run ESM2 embedding inference. The original sampling, trajectory
 and hit-rate generators are included under `kaggle/kernels/`. Their saved
 results support analysis replay; the recent replay did not rerun GPU sampling.
-Generator version pinning and run instructions still need verification, as specified in
-[Remaining work](docs/REMAINING.md#3-sampling-generation-and-description).
-Full raw sample/trajectory archives are not a default release requirement.
+[Sampling](docs/SAMPLING.md) gives the notebook settings, inputs, execution
+order and outputs. Full trajectory archives and new GPU sampling runs are not
+required for this handover. Saved-data replay is not a new generation run.
 
 ## Check the prepared docking inputs
 
@@ -108,8 +108,8 @@ frozen 7R73A reference. It reuses the original Kabsch function and checks the
 fit independently with BioPython. Omit `--check` to regenerate the regional
 CSV and JSON. It does not reproduce DockQ or epitope endpoints. The supplied
 preparation notebook and docking summary CSVs are described in
-[Docking case](docs/DOCKING.md). Retained poses and downstream scoring remain
-listed in [Remaining work](docs/REMAINING.md#2-docking-workflow-and-reported-inputs).
+[Docking case](docs/DOCKING.md). The missing downstream evaluation procedure
+and its data are item D1 in [Revision status](docs/REMAINING.md).
 
 ## Tests and source records
 
@@ -125,9 +125,9 @@ Pretrained model weights are not redistributed.
 ## Licence and citation
 
 The project licence and public version DOI have not been assigned. Before
-describing a deposit as the complete manuscript archive, resolve the applicable
-[workflow and deposit items](docs/REMAINING.md) and match its declared coverage
-to the final paper. Optional archival items are not publication gates.
+describing a deposit as the complete manuscript archive, add the remaining
+[handover inputs](docs/REMAINING.md) and match its declared coverage to the
+final paper.
 Existing source-data DOIs identify those datasets, not this repository.
 Upstream attribution and terms are retained in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

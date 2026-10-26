@@ -16,7 +16,7 @@ structural analyses or reference reconstruction.
 | Other overlap collection stages | Public sources and receipts; ANARCII for domain numbering | Entity, sequence-pool and nearest-neighbour evidence | Collection |
 | `reconstruct_revision_references.py` | Source release, SD-H table, frozen targets, scores and cohort CSVs | Exact frozen replay, exclusions, alternate-atom diagnosis and policy displacement | Reference |
 | `revision_reference_sensitivity.py` | Validated reconstruction summary, 393-cohort CSV, initial audit and original scores | Original-score subsets excluding affected references | Analysis |
-| `kaggle/kernels/sf-traj-tfm-597/` | Frozen 597 inputs, SimpleFold/ESM weights and the notebook's sampler logging patch | Six generated samples per target, intermediate per-residue coordinate averages and `traj_results.json` | Historical GPU notebook; source/dependency pinning and regeneration check remain open |
+| `kaggle/kernels/sf-traj-tfm-597/` | Frozen 597 inputs, SimpleFold/ESM weights and the notebook's sampler logging patch | Six generated samples per target, intermediate per-residue coordinate averages and `traj_results.json` | Supplied GPU source; settings and instructions in `docs/SAMPLING.md`; separate from saved-data replay |
 | `kaggle/kernels/sf-hard/` | Frozen inputs and the explicit 36-target hard/easy lists | Six-sample generation, aligned spread/errors and `hard_results.json` | Historical GPU notebook; separate from saved-data replay |
 | `kaggle/kernels/sf-hitrate/` | Frozen inputs, 30 hard/ten easy lists and four sampling settings | 3,200 generated predictions and per-setting `hitrate_results.json` | Historical GPU notebook; separate from saved-data replay |
 | `src/tnp/tnp_crystals.py` | Frozen references and `tnp_metrics.py` | Crystal conformation labels; percentile-calibrated geometry | Analysis |
@@ -37,10 +37,9 @@ their original execution assumptions. Analysis locks do not promise to resolve
 the original GPU inference software. Source hashes and historical execution
 limits are recorded under `provenance/`.
 
-Retaining every intermediate frame is optional, not a substitute for documenting
-these generators. Their raw archives permit a different check: recomputing
-features from the exact historical coordinates. Installation/regeneration
-checks and saved-result analysis replay must not be described as that audit.
+Sampling inputs, settings, execution order and outputs are documented in
+`docs/SAMPLING.md`. Intermediate-frame archives are optional. Saved-result
+analysis replay does not claim to rerun GPU generation.
 
 `provenance/original_scripts/consolidate_stats.py` is an unchanged historical
 aggregator, outside the active analysis entry points. It also expects unrelated

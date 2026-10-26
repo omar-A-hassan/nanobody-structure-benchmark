@@ -20,6 +20,5 @@ The preparation notebook is in `kaggle/kernels/7r73-docking/`. Regional
 rescoring against the frozen 7R73A reference is implemented in
 `src/score_prepared_vhh.py`; the CSV/JSON in `outputs/docking/` records the
 four VHH file hashes, atom counts and scores. The fixed antigen is covered
-by the repository checksum manifest. The link from these supplied inputs to
-the historical HDOCK submissions remains to be documented; see
-`docs/REMAINING.md`.
+by the repository checksum manifest. The remaining item is the downstream
+evaluation procedure and its scoring data, D1 in `docs/REMAINING.md`.

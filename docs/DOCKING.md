@@ -150,8 +150,9 @@ repository root. The scorer verifies identical 126-residue sequences, uses
 reference. No CDR is independently fitted. The JSON and CSV retain input
 hashes, full-precision regional scores and an independent BioPython alignment
 check. The control's zero values are computed monomer RMSDs, not a claim of
-perfect re-docking. These scores do not establish which files were submitted
-to HDOCK; the submission linkage is a separate provenance task.
+perfect re-docking. The supplied files are documented as the prepared docking
+inputs. Their names and chain mapping should be used by the evaluation code;
+a separate historical submission-hash audit is not required.
 
 `verification/prepared_vhh_validation.json` records a fresh distributed-file
 copy check: package inventory, regional-score replay and all eight unit tests.
