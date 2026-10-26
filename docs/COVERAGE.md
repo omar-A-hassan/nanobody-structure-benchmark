@@ -56,8 +56,8 @@ would support exact historical coordinate-to-feature auditing; generation
 code and saved-result analysis replay are separate capabilities. The sampling
 notebooks use a moving source branch and some unpinned dependencies. Their
 regeneration setup has not been verified by the recent saved-data replay.
-The trajectory logger's per-residue atom averages also need to be reconciled
-with the manuscript's C-alpha description; see the sampling checklist.
+The trajectory logger records per-residue means over unmasked atom coordinates,
+not C-alpha-only coordinates. The Methods and Figure 3 caption use that definition.
 
 The ESM probe includes all embeddings for 518 labelled targets (330 kinked,
 188 extended; the other 79 reference labels are excluded), all 37 layers,
@@ -74,6 +74,17 @@ are retained provenance, not supported scientific interpretations. The
 algorithm and stored results are unchanged.
 
 ## Inference provenance and unavailable work
+
+- The supplied docking preparation notebook and five prepared PDBs are now
+  included. All four VHH sequences match the 126-residue frozen 7R73A reference.
+  Regional rescoring uses 492 matched N/CA/C/CB atoms and a 350-atom framework
+  fit for each input. The CSV/JSON includes file hashes and an independent
+  BioPython alignment check. The prepared control's computed regional RMSDs
+  round to zero. These are monomer scores, not docked-pose scores.
+  The two supplied docking CSVs are summary records, not a local pose-scoring
+  replay. HDOCK poses, DockQ/epitope scoring and table-generation code, and the
+  connection between the supplied PDBs and historical server submissions
+  still need integration. See `docs/DOCKING.md` and `docs/REMAINING.md`.
 
 - The original IgFold benchmark generation notebook and timing CSV have not
   been identified in the current package. The remaining task is to supply the

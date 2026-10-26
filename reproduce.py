@@ -250,6 +250,7 @@ def replay(args):
             reports.append(run("reference_sensitivity", "src/revision_reference_sensitivity.py", extra=("--expanded-cohort", "outputs/revision_2026-10-17/overlap_extension/extended_lower_risk_targets.csv"), comparisons=("outputs/revision_2026-10-17/reference_sensitivity/reference_sensitivity.json",), omit_keys=("reference_source_sha256",)))
             reports.append(run("reused_figures", "src/recreate_reused_figures.py", comparisons=("outputs/revision_2026-10-17/reused_figures/reproduction.json",)))
             reports.append(run("retained_structure_scoring", "src/verify_retained_structure_scoring.py"))
+            reports.append(run("prepared_vhh_scoring", "src/score_prepared_vhh.py", extra=("--check",)))
             reports.append(run("conformation_metrics", "src/tnp/tnp_metrics.py"))
             reports.append(run("crystal_labels", "src/tnp/tnp_crystals.py", comparisons=("data/inputs/tnp_crystals.json",)))
             reports.append(run("workflow_figure", "src/make_revision_workflow.py"))

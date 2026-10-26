@@ -1,0 +1,12 @@
+{
+  "source_commit": "b0ba804904e2685e4276412a2ff69085043b859b",
+  "notebook": "kaggle/kernels/7r73-docking/docking.ipynb",
+  "original_executed_notebook_sha256": "ba5ee1ab5419b01f611f9d12f2f1cd6f2df53fa2a37a4b1f051f4d932d2b976a",
+  "code_source_sha256": "c933332d8179f57382c8ab12928bf54e21644ff5881f7099c7476eaca8129534",
+  "code_source_hash_definition": "SHA256 of json.dumps(code-cell source arrays, ensure_ascii=False, sort_keys=True), UTF-8",
+  "code_cells": 27,
+  "executed_code_cells": 27,
+  "cells_with_outputs": 26,
+  "scope": "Input preparation only. This notebook copies an IgFold PDB; it does not reproduce the IgFold benchmark, HDOCK, DockQ, epitope metrics or the supplied docking CSV summaries.",
+  "output_cleanup": "Execution counts and outputs were removed from the runnable notebook without changing cell sources. The original executed notebook remains in the source commit. No new prediction or docking run was launched."
+}

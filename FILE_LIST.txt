@@ -2,6 +2,12 @@
 .gitignore
 README.md
 THIRD_PARTY_NOTICES.md
+data/docking/7R73A_IgFold_DOCK.pdb
+data/docking/7R73A_NBB2_DOCK.pdb
+data/docking/7R73A_SimpleFold_DOCK.pdb
+data/docking/7R73_antigen_DOCK.pdb
+data/docking/7R73_experimental_DOCK.pdb
+data/docking/README.md
 data/esm_probe/embedding_manifest.json
 data/esm_probe/embeddings_00_08.npz
 data/esm_probe/embeddings_08_16.npz
@@ -17,6 +23,7 @@ data/regression/igfold_7nxb.receipt.json
 docs/COMPLETED_REPEATS.md
 docs/COVERAGE.md
 docs/DEPENDENCIES.md
+docs/DOCKING.md
 docs/NBB2_VERSION1.md
 docs/REMAINING.md
 environments/analysis.in
@@ -81,6 +88,8 @@ inference/repeat_outputs/simplefold_version1/source/kernel-metadata.json
 inference/repeat_outputs/simplefold_version1/source/simplefold-benchmark-archive-20261023.ipynb
 inference/repeat_outputs/simplefold_version1/status.json
 inference/repeat_outputs/simplefold_version1/verification.json
+kaggle/kernels/7r73-docking/README.md
+kaggle/kernels/7r73-docking/docking.ipynb
 kaggle/kernels/esm-probe/esm-probe.ipynb
 kaggle/kernels/esm-probe/kernel-metadata.json
 kaggle/kernels/nbb2-bench/kernel-metadata.json
@@ -124,6 +133,11 @@ kaggle/notebooks/legacy/sf-nbench.ipynb
 kaggle/notebooks/legacy/sf-traj.ipynb
 kaggle/notebooks/legacy/sf-traj2.ipynb
 kaggle/notebooks/legacy/sf-viz.ipynb
+outputs/docking/7R73_best_top10_docking_epitope.csv
+outputs/docking/7R73_prepared_regional_rmsd.csv
+outputs/docking/7R73_prepared_regional_rmsd.json
+outputs/docking/7R73_top1_docking_epitope.csv
+outputs/docking/README.md
 outputs/ensemble/run/ensemble_results.json
 outputs/ensemble/run/sf-ensemble.log
 outputs/esm-probe/esm-probe.log
@@ -1150,6 +1164,7 @@ provenance/ImmuneBuilder-LICENSE.txt
 provenance/SimpleFold-LICENSE.txt
 provenance/completed_repeats.json
 provenance/core_snapshot/protected_sha256.json
+provenance/docking_preparation_execution.json
 provenance/historical_execution_provenance.json
 provenance/igfold_benchmark_evidence.json
 provenance/igfold_record_metadata.json
@@ -1178,6 +1193,7 @@ src/revision_overlap_extension.py
 src/revision_reference_sensitivity.py
 src/revision_source_metadata.py
 src/revision_training_audit.py
+src/score_prepared_vhh.py
 src/summarize_completed_repeats.py
 src/tnp/tnp_analyse.py
 src/tnp/tnp_crystals.py
@@ -1186,6 +1202,7 @@ src/tnp/tnp_metrics.py
 src/tnp/tnp_validate.py
 src/verify_archive_reruns.py
 src/verify_retained_structure_scoring.py
+tests/test_prepared_vhh.py
 tests/test_repeat_validation.py
 tools/add_completed_repeats.py
 tools/add_nbb2_version1.py
@@ -1217,6 +1234,7 @@ verification/optional_environment.json
 verification/overlap_self_test.log
 verification/overlap_summary.log
 verification/prepare_probe.log
+verification/prepared_vhh_validation.json
 verification/principal_analysis.log
 verification/probe_reproduction/out_of_fold_predictions.npz
 verification/probe_reproduction/results.json

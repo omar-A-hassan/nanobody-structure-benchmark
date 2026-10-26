@@ -1,0 +1,55 @@
+{
+  "scope": "Fresh distributed-file copy: package inventory, prepared-input scoring and eight tests; no full analysis replay, inference or docking run",
+  "base_commit": "b0ba804904e2685e4276412a2ff69085043b859b",
+  "tests_passed": 8,
+  "fresh_distributed_file_copy": true,
+  "runs": [
+    {
+      "command": [
+        "uv",
+        "run",
+        "--locked",
+        "python",
+        "reproduce.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"files\": 1256, \"targets\": 597, \"score_counts\": [597, 597, 588], \"common_targets\": 588, \"reference_json_exact\": true, \"public_frozen_entries\": 31, \"configured_secret_scan\": \"PASS\", \"completed_repeat_archives\": [{\"run\": \"nbb2_version1\", \"model\": \"nbb2\", \"coordinates\": 588, \"coordinate_member_hashes\": \"PASS\", \"checkpoint_hashes_logged\": 0, \"saved_coordinate_scoring_exact_rows\": true}, {\"run\": \"nbb2_version2\", \"model\": \"nbb2\", \"coordinates\": 588, \"coordinate_member_hashes\": \"PASS\", \"checkpoint_hashes_logged\": 4, \"saved_coordinate_scoring_exact_rows\": true}, {\"run\": \"simplefold_version1\", \"model\": \"simplefold\", \"coordinates\": 597, \"coordinate_member_hashes\": \"PASS\", \"checkpoint_hashes_logged\": 1, \"saved_coordinate_scoring_exact_rows\": true}]}\n",
+      "stderr": "Using CPython 3.13.9\nCreating virtual environment at: .venv\nInstalled 18 packages in 157ms\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--locked",
+        "python",
+        "src/score_prepared_vhh.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"prepared_inputs\": 4,\n  \"saved_score_check\": true,\n  \"rows\": [\n    {\n      \"model\": \"NanoBodyBuilder2\",\n      \"file\": \"data/docking/7R73A_NBB2_DOCK.pdb\",\n      \"sha256\": \"ffdb452e8036231e3e4f74c96f3f293d1554cb7b63e4a8cb45ca85931fed38d8\",\n      \"residues\": 126,\n      \"heavy_atoms\": 973,\n      \"matched_atoms\": 492,\n      \"framework_fit_atoms\": 350,\n      \"cdr1\": 2.660147441592316,\n      \"cdr2\": 0.7243030202130667,\n      \"cdr3\": 1.0592940150611896,\n      \"framework\": 0.9275084703083962,\n      \"independent_alignment_max_difference_A\": 7.105427357601002e-15\n    },\n    {\n      \"model\": \"IgFold\",\n      \"file\": \"data/docking/7R73A_IgFold_DOCK.pdb\",\n      \"sha256\": \"df59d5dd533660cb578c0957b92605221253753c85697872bb04b861cb503671\",\n      \"residues\": 126,\n      \"heavy_atoms\": 973,\n      \"matched_atoms\": 492,\n      \"framework_fit_atoms\": 350,\n      \"cdr1\": 3.0787390509556336,\n      \"cdr2\": 1.4244031624919524,\n      \"cdr3\": 2.6130708976123596,\n      \"framework\": 0.8891349318060475,\n      \"independent_alignment_max_difference_A\": 7.105427357601002e-15\n    },\n    {\n      \"model\": \"SimpleFold\",\n      \"file\": \"data/docking/7R73A_SimpleFold_DOCK.pdb\",\n      \"sha256\": \"ed0bd3ef9a7e6a294579abf3e6235cd8fe6423facf5deb9c38d0e21bf4196328\",\n      \"residues\": 126,\n      \"heavy_atoms\": 973,\n      \"matched_atoms\": 492,\n      \"framework_fit_atoms\": 350,\n      \"cdr1\": 2.195775021057968,\n      \"cdr2\": 0.8131863046915242,\n      \"cdr3\": 5.763210481039918,\n      \"framework\": 0.9603224674300338,\n      \"independent_alignment_max_difference_A\": 7.105427357601002e-15\n    },\n    {\n      \"model\": \"Experimental\",\n      \"file\": \"data/docking/7R73_experimental_DOCK.pdb\",\n      \"sha256\": \"5ea873b2209b149a037e19a410bdccfa82298318440bdbe69d4817673482d07c\",\n      \"residues\": 126,\n      \"heavy_atoms\": 973,\n      \"matched_atoms\": 492,\n      \"framework_fit_atoms\": 350,\n      \"cdr1\": 6.526751786450488e-15,\n      \"cdr2\": 7.157050238216233e-15,\n      \"cdr3\": 5.206460684155506e-15,\n      \"framework\": 5.066068198256613e-15,\n      \"independent_alignment_max_difference_A\": 1.4210854715202004e-14\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--locked",
+        "--with-requirements",
+        "environments/inference-check.lock",
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_framework_fit_does_not_fit_the_loop (test_prepared_vhh.PreparedVHHTests.test_framework_fit_does_not_fit_the_loop) ... ok\ntest_parser_rejects_wrong_sequence_and_duplicate_atoms (test_prepared_vhh.PreparedVHHTests.test_parser_rejects_wrong_sequence_and_duplicate_atoms) ... ok\ntest_prepared_rows_match_the_reported_precision (test_prepared_vhh.PreparedVHHTests.test_prepared_rows_match_the_reported_precision) ... ok\ntest_coordinate_checks_reject_tampering_duplicates_and_traversal (test_repeat_validation.RepeatValidationTests.test_coordinate_checks_reject_tampering_duplicates_and_traversal) ... ok\ntest_new_numbered_checkpoint_hashes_are_required_when_requested (test_repeat_validation.RepeatValidationTests.test_new_numbered_checkpoint_hashes_are_required_when_requested) ... ok\ntest_paired_changes_are_not_differences_between_medians (test_repeat_validation.RepeatValidationTests.test_paired_changes_are_not_differences_between_medians) ... ok\ntest_reusable_nbb_notebook_keeps_corrected_weight_logging (test_repeat_validation.RepeatValidationTests.test_reusable_nbb_notebook_keeps_corrected_weight_logging) ... ok\ntest_v1_missing_checkpoint_hashes_is_explicitly_accepted (test_repeat_validation.RepeatValidationTests.test_v1_missing_checkpoint_hashes_is_explicitly_accepted) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.206s\n\nOK\n"
+    }
+  ],
+  "scorer_sha256": "7825186cf545e4c03765daabab0cdfd0e451c6cfa3186ca789fabb1173f53bd4",
+  "prepared_scores_sha256": "9ce1323feb5c165b64ae71873c35add4492ca5d78d0a268e09f1d3b8cb9b3174",
+  "existing_full_analysis_receipt": "verification/reexecution.json"
+}

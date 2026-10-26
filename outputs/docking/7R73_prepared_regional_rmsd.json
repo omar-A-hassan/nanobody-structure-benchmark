@@ -1,0 +1,89 @@
+{
+  "target": "7R73A",
+  "alignment": "framework",
+  "atom_names": [
+    "N",
+    "CA",
+    "C",
+    "CB"
+  ],
+  "cdr_spans_zero_based_half_open": {
+    "cdr1": [
+      24,
+      32
+    ],
+    "cdr2": [
+      49,
+      57
+    ],
+    "cdr3": [
+      95,
+      115
+    ]
+  },
+  "reference": "data/inputs/targets_vhh.json",
+  "reference_sha256": "310632cc19183377df9e74b07449c0b9d85baee0f6495552b83fabae4c9521db",
+  "kabsch_source": "kaggle/notebooks/legacy/sf-nbench-full.ipynb",
+  "kabsch_source_sha256": "a8c9ede0c77ef64291bf185a15058e7601f879c21cc45d6878313ce4b81daa37",
+  "scoring_source_sha256": "7825186cf545e4c03765daabab0cdfd0e451c6cfa3186ca789fabb1173f53bd4",
+  "independent_check": "BioPython SVDSuperimposer; coordinate tolerance 1e-9 angstrom",
+  "scope": "Prepared monomer regional RMSD only; no DockQ or epitope rescore and no HDOCK job-file identity check",
+  "rows": [
+    {
+      "model": "NanoBodyBuilder2",
+      "file": "data/docking/7R73A_NBB2_DOCK.pdb",
+      "sha256": "ffdb452e8036231e3e4f74c96f3f293d1554cb7b63e4a8cb45ca85931fed38d8",
+      "residues": 126,
+      "heavy_atoms": 973,
+      "matched_atoms": 492,
+      "framework_fit_atoms": 350,
+      "cdr1": 2.660147441592316,
+      "cdr2": 0.7243030202130667,
+      "cdr3": 1.0592940150611896,
+      "framework": 0.9275084703083962,
+      "independent_alignment_max_difference_A": 7.105427357601002e-15
+    },
+    {
+      "model": "IgFold",
+      "file": "data/docking/7R73A_IgFold_DOCK.pdb",
+      "sha256": "df59d5dd533660cb578c0957b92605221253753c85697872bb04b861cb503671",
+      "residues": 126,
+      "heavy_atoms": 973,
+      "matched_atoms": 492,
+      "framework_fit_atoms": 350,
+      "cdr1": 3.0787390509556336,
+      "cdr2": 1.4244031624919524,
+      "cdr3": 2.6130708976123596,
+      "framework": 0.8891349318060475,
+      "independent_alignment_max_difference_A": 7.105427357601002e-15
+    },
+    {
+      "model": "SimpleFold",
+      "file": "data/docking/7R73A_SimpleFold_DOCK.pdb",
+      "sha256": "ed0bd3ef9a7e6a294579abf3e6235cd8fe6423facf5deb9c38d0e21bf4196328",
+      "residues": 126,
+      "heavy_atoms": 973,
+      "matched_atoms": 492,
+      "framework_fit_atoms": 350,
+      "cdr1": 2.195775021057968,
+      "cdr2": 0.8131863046915242,
+      "cdr3": 5.763210481039918,
+      "framework": 0.9603224674300338,
+      "independent_alignment_max_difference_A": 7.105427357601002e-15
+    },
+    {
+      "model": "Experimental",
+      "file": "data/docking/7R73_experimental_DOCK.pdb",
+      "sha256": "5ea873b2209b149a037e19a410bdccfa82298318440bdbe69d4817673482d07c",
+      "residues": 126,
+      "heavy_atoms": 973,
+      "matched_atoms": 492,
+      "framework_fit_atoms": 350,
+      "cdr1": 6.526751786450488e-15,
+      "cdr2": 7.157050238216233e-15,
+      "cdr3": 5.206460684155506e-15,
+      "framework": 5.066068198256613e-15,
+      "independent_alignment_max_difference_A": 1.4210854715202004e-14
+    }
+  ]
+}

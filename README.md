@@ -7,7 +7,8 @@ screen contains 393 representatives.
 
 This package reproduces the supplied structural analyses. It does not yet
 reproduce every result in the manuscript. The original IgFold inference
-workflow and the docking workflow still need integration. See
+workflow and downstream docking evaluation still need integration. Prepared
+docking inputs, a preparation notebook and regional rescoring are included. See
 [Remaining work](docs/REMAINING.md) for workflow tasks, claim-dependent evidence,
 scientific responses and optional archival work. It is not a blanket request
 to regenerate every historical output.
@@ -52,6 +53,7 @@ keep the supplied manifest as the record of the distributed snapshot.
 | Experimental references | `src/reconstruct_revision_references.py` and 604 bundled source coordinate members | Exact 597-record reconstruction and reference-policy checks |
 | Sampling and probe | `outputs/{trajectory,hard,hitrate,ensemble}/`, `data/esm_probe/`, `src/reproduce_esm_probe.py` | Disagreement, finite-coverage and grouped probe results |
 | Inference repeats | `kaggle/kernels/revision-archive-20261023/`, `inference/repeat_outputs/` | Complete SimpleFold v1 and NanoBodyBuilder2 v2 coordinates, scores, run records and comparisons |
+| Prepared docking inputs | `data/docking/`, `src/score_prepared_vhh.py` | Four prepared-input H1/H2/H3/framework score rows and input hashes in `outputs/docking/` |
 | Figures | The analysis drivers, `src/recreate_reused_figures.py` and `src/make_revision_workflow.py` | Regional, sampling, probe and workflow figures |
 
 Existing analysis filenames and dated result paths are retained so scripts,
@@ -91,10 +93,23 @@ The ESM2 probe replay fits classifiers from the supplied cached embeddings.
 It does not run ESM2 embedding inference. The original sampling, trajectory
 and hit-rate generators are included under `kaggle/kernels/`. Their saved
 results support analysis replay; the recent replay did not rerun GPU sampling.
-Generator version pinning, run instructions and the trajectory-coordinate
-description still need verification, as specified in
+Generator version pinning and run instructions still need verification, as specified in
 [Remaining work](docs/REMAINING.md#3-sampling-generation-and-description).
 Full raw sample/trajectory archives are not a default release requirement.
+
+## Check the prepared docking inputs
+
+```sh
+uv run --locked python src/score_prepared_vhh.py --check
+```
+
+This command verifies all four prepared VHH regional-score rows against the
+frozen 7R73A reference. It reuses the original Kabsch function and checks the
+fit independently with BioPython. Omit `--check` to regenerate the regional
+CSV and JSON. It does not reproduce DockQ or epitope endpoints. The supplied
+preparation notebook and docking summary CSVs are described in
+[Docking case](docs/DOCKING.md). Retained poses and downstream scoring remain
+listed in [Remaining work](docs/REMAINING.md#2-docking-workflow-and-reported-inputs).
 
 ## Tests and source records
 

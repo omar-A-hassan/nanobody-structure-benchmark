@@ -15,3 +15,11 @@ All four VHH docking inputs contain the same 126 residues and 973 heavy atoms af
 Hydrogens were removed, protein ATOM records were retained, missing heavy atoms for residues already present were restored, unresolved missing residues were not rebuilt, the VHH chain identifier was normalized to H, and the antigen chain remained G.
 
 The same antigen coordinates were used for all docking runs. HDOCK was run in template-free mode without receptor or ligand binding-site restraints.
+
+The preparation notebook is in `kaggle/kernels/7r73-docking/`. Regional
+rescoring against the frozen 7R73A reference is implemented in
+`src/score_prepared_vhh.py`; the CSV/JSON in `outputs/docking/` records the
+four VHH file hashes, atom counts and scores. The fixed antigen is covered
+by the repository checksum manifest. The link from these supplied inputs to
+the historical HDOCK submissions remains to be documented; see
+`docs/REMAINING.md`.

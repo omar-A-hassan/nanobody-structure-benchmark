@@ -15,6 +15,11 @@ The experimentally observed gp120 conformation was held fixed across all docking
 
 This is a single-complex illustrative case and is not intended to establish a general relationship between VHH regional prediction error and docking performance.
 
+The supplied files support input inspection and regional monomer rescoring.
+The HDOCK/DockQ protocol and endpoint summaries below are reported records;
+they have not been reproduced locally from retained docking poses. Missing
+pose-scoring material is listed in [Remaining work](REMAINING.md).
+
 ## Case Selection
 
 7R73 was selected as an informative pilot because it provides:
@@ -122,7 +127,7 @@ The experimental gp120 epitope contains 26 residues.
 | IgFold | 0.022 | 35.767 | 0.000 | 2/26 | 0.077 | 0.042 |
 | SimpleFold | 0.009 | 60.919 | 0.000 | 0/26 | 0.000 | 0.000 |
 
-The complete derived result tables are stored in:
+The supplied top-1 and best-of-top-10 summary tables are stored in:
 
 `outputs/docking/`
 
@@ -130,14 +135,27 @@ The complete derived result tables are stored in:
 
 Framework-aligned CDR-H1, CDR-H2, CDR-H3, and framework RMSDs are reported for the exact docking VHH inputs using the structural scoring procedure described in the manuscript.
 
-The currently verified values include:
+The supplied prepared files give:
 
 | VHH input | H1 (Å) | H2 (Å) | H3 (Å) | Framework (Å) |
 |---|---:|---:|---:|---:|
-| NanoBodyBuilder2 | 2.660 | 0.734 | 1.087 | 0.923 |
-| SimpleFold | 2.046 | 0.893 | 6.130 | 0.963 |
+| NanoBodyBuilder2 | 2.660 | 0.724 | 1.059 | 0.928 |
+| IgFold | 3.079 | 1.424 | 2.613 | 0.889 |
+| SimpleFold | 2.196 | 0.813 | 5.763 | 0.960 |
+| Experimental control | 0.000 | 0.000 | 0.000 | 0.000 |
 
-IgFold and prepared experimental-control values should only be added once verified with the exact prepared docking files.
+Run `uv run --locked python src/score_prepared_vhh.py --check` from the
+repository root. The scorer verifies identical 126-residue sequences, uses
+492 matched N/CA/C/CB atoms and fits 350 framework atoms to the frozen 7R73A
+reference. No CDR is independently fitted. The JSON and CSV retain input
+hashes, full-precision regional scores and an independent BioPython alignment
+check. The control's zero values are computed monomer RMSDs, not a claim of
+perfect re-docking. These scores do not establish which files were submitted
+to HDOCK; the submission linkage is a separate provenance task.
+
+`verification/prepared_vhh_validation.json` records a fresh distributed-file
+copy check: package inventory, regional-score replay and all eight unit tests.
+It is separate from the earlier full saved-analysis replay and from inference.
 
 ## Notebook
 
@@ -145,7 +163,12 @@ The docking preparation workflow is stored under:
 
 `kaggle/kernels/7r73-docking/`
 
-The notebook contains the structural preparation workflow used to generate standardized docking inputs and support downstream evaluation.
+The notebook generates and standardizes the structural inputs. It copies an
+existing IgFold prediction and generates SimpleFold/NanoBodyBuilder2 inputs.
+It does not run the 597-target IgFold benchmark, HDOCK, DockQ, regional scoring
+or epitope scoring, and it does not generate the supplied docking summary CSVs.
+The runnable copy has no saved outputs. Its executed source is retained at
+the commit identified in `provenance/docking_preparation_execution.json`.
 
 ## Scope and Limitations
 

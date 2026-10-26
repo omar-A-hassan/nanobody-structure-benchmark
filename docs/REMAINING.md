@@ -1,6 +1,6 @@
 # Remaining work for manuscript reproducibility
 
-Updated 24 October 2026. This checklist distinguishes workflow delivery,
+Updated 26 October 2026. This checklist distinguishes workflow delivery,
 claim-dependent evidence, scientific requests and optional archival work.
 An unchecked item is not automatically a request for a new full GPU run.
 Check an item only after the stated evidence is present. This document does
@@ -11,7 +11,8 @@ not certify reviewer acceptance or change the manuscript.
 Already included: all 597 regional-score records, six visualization examples
 and an IgFold code path in a separate TNP notebook. That TNP run built zero
 IgFold structures; it is not the benchmark generator. See
-`provenance/igfold_benchmark_evidence.json`.
+`provenance/igfold_benchmark_evidence.json`. The added docking notebook copies
+one existing IgFold PDB; it does not run or time the 597-target benchmark.
 
 - [ ] Supply the original benchmark generation procedure, or a documented
   and validated regeneration procedure for the same 597 inputs. A script or
@@ -37,21 +38,32 @@ and retrieval instructions can identify weights without redistributing them.
 
 ## 2. Docking workflow and reported inputs
 
-- [ ] Supply the exact four prepared VHH files, fixed antigen, experimental
-  complex and residue/chain correspondence used for the reported case. Record
-  file identities, preferably with checksums. Unverified benchmark predictions
-  are not substitutes for these prepared inputs.
-- [ ] Supply the preparation script or sufficiently detailed preparation
-  steps, software versions and settings. Record HDOCK mode, restraints,
-  receptor/ligand assignment and pose-ranking rule.
+- [x] Include the four supplied prepared VHH files and fixed antigen in
+  `data/docking/`, with file hashes and verified VHH sequence correspondence
+  in `outputs/docking/7R73_prepared_regional_rmsd.json`. The experimental
+  VHH/receptor pair retains the native coordinate frame.
+- [x] Supply the preparation notebook and the reported HDOCK mode, restraints,
+  receptor/ligand assignment and ranking rule in `docs/DOCKING.md`.
+- [x] Rescore H1/H2/H3/framework from all four supplied prepared VHH files,
+  including the experimental control, using the frozen reference and original
+  Kabsch function. The independent alignment check and tests pass. Table 4
+  contains these prepared-input scores, not the earlier benchmark rows.
+- [ ] Connect the supplied prepared-file identities to the historical HDOCK
+  submissions. Include the native reference/chain mapping used by DockQ.
+  File presence alone does not verify which bytes were submitted to the server.
+- [ ] Record resolved preparation source/dependency versions and model-weight
+  identifiers where available. The supplied notebook uses a moving SimpleFold
+  branch and unpinned dependencies; its outputs are included, but its setup
+  has not been independently regenerated.
 - [ ] Retain the poses needed to check the published endpoints. The current
   paper reports top-1 and best-of-top-10 results, so supply the retained ten
   candidates per input and their scores. Every unreported pose explored by
   the server is not required.
-- [ ] Supply runnable regional, DockQ and epitope scoring and table-generation
+- [ ] Supply runnable DockQ, epitope scoring and downstream table-generation
   code, with versions, chain mapping, atom/contact definitions and per-pose
-  results. Check the reported table values from the supplied prepared files
-  and poses, including H1/H2/H3/framework scores for the prepared control.
+  results. Reproduce the supplied top-1 and best-of-top-10 CSV summaries.
+  Regional monomer scoring is already implemented in `src/score_prepared_vhh.py`;
+  it does not verify these downstream endpoints.
 
 A web-server run can be documented as manual submission followed by local
 analysis. A new HDOCK API client or replacement server is not required. Keep
@@ -60,9 +72,10 @@ job page is not a substitute for, or a prerequisite to, retaining the inputs,
 settings and outputs needed for the reported analysis.
 
 Addresses the 7R73 part of R2 comment 2, R3 major 3c/8a and R4 major 2.
-Inputs P2a/P2b also require the case-selection explanation and prepared-input
-metrics in the manuscript. Case selection is an author response, not a new
-software component.
+The manuscript now gives the case-selection explanation and all four
+prepared-input rows. P2b regional computation is complete for the supplied
+files; submission linkage and downstream reproducibility remain separate
+checks. Case selection is an author response, not a new software component.
 
 ## 3. Sampling generation and description
 
@@ -92,11 +105,10 @@ generation coordinates, not molecular-dynamics or docking trajectories.
   check validates integration, not replication of full-cohort statistics.
   Full sampling repeats are needed only for a scientific validation question
   or a changed result, not merely to populate an archive.
-- [ ] Resolve the trajectory-coordinate description. The included logger
-  averages the unmasked atom coordinates within each residue; the manuscript
-  Methods and Figure 3 currently call the logged values C-alpha coordinates.
-  Confirm the executed logger and align the description with the actual
-  feature. Do not silently relabel or replace numerical results.
+- [x] Match the trajectory-coordinate description to the supplied logger:
+  per-residue means over unmasked atom coordinates, not C-alpha-only positions.
+  Methods, Figure 3 and the response use this definition. Numerical results
+  and trajectory features have not been replaced.
 
 **Not required by default:** every generated structure or every intermediate
 frame. Full raw archives would allow an independent audit of the exact
@@ -145,7 +157,9 @@ a justification does not guarantee reviewer acceptance.
 - [ ] R4 major 3: evidence about CDR-H3 contributions to the native interface.
 - [ ] R4 major 5: docking controls/repeats and variance, or a justified,
   explicitly limited response. Case-study wording is not a new control run.
-- [ ] R3 major 3b: explain case selection in the manuscript and response.
+- [x] R3 major 3b: the Methods and response explain the resolved complex,
+  1.76-angstrom X-ray resolution, native interface and coordinate completeness
+  supporting the illustrative case. The case is not a representative sample.
 
 Full training independence remains unestablished. The 393-target set must not
 be called leakage-free. This is not an instruction to recover every unavailable
