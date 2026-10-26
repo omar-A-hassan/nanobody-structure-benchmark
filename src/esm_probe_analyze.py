@@ -1,9 +1,8 @@
-"""Frozen-embedding linear probe: does ESM2-3B linearly encode nanobody CDR-H3
-kinked/extended conformation? Decides controller-vs-side-stream for SimpleFold.
+"""Probe coarse nanobody CDR-H3 classes in frozen ESM2-3B embeddings.
 
 Reads outputs/esm-probe/{esm_probe_embeddings.npz,esm_probe_meta.json} (from the
 potatoguy44/esm-probe Kaggle kernel) and data/inputs/targets_vhh.json (for framework
-sequences, used only to build a leakage-safe split).
+sequences used to construct relatedness-grouped cross-validation folds).
 """
 import json
 
@@ -25,12 +24,8 @@ y = np.array([1 if r["kink"] == "kinked" else 0 for r in meta])
 tids = [r["tid"] for r in meta]
 print(f"n={len(y)}  kinked={y.sum()}  extended={(1-y).sum()}")
 
-# ---- framework-cluster grouping (germline proxy), for leakage-safe splits ----
-# ponytail: k-mer Jaccard clustering on the framework sequence, not a real IGHV
-# germline call (would need IgBLAST/ANARCI-germline). Cheap, dependency-free,
-# and it does the one job the split needs: same-germline-like nanobodies must not
-# straddle a train/test boundary, since attention lets framework context leak
-# into CDR3-pooled embeddings.
+# ---- framework-relatedness grouping --------------------------------------
+# Framework 5-mer groups are relatedness proxies, not verified germline groups.
 targets = {f"{t['pdb']}{t['H']}": t for t in json.load(open("data/inputs/targets_vhh.json"))}
 
 
@@ -163,18 +158,18 @@ ctrl_mlp_mean, ctrl_mlp_std = shuffled_auc(cdr3_mean[:, best["layer"], :], y, gr
 print(f"  MLP control AUC: {ctrl_mlp_mean:.4f} +/- {ctrl_mlp_std:.4f}")
 gap_mlp = auc_mlp - ctrl_mlp_mean
 
-# ---- pre-registered decision ----------------------------------------------
-print("\n=== DECISION (pre-registered thresholds: AUC>=0.70 AND gap>=0.15) ===")
+# ---- exploratory thresholds ----------------------------------------------
+print("\n=== EXPLORATORY CRITERIA (AUC>=0.70 AND gap>=0.15) ===")
 linear_pass = best["auc"] >= 0.70 and gap >= 0.15
 mlp_pass = auc_mlp >= 0.70 and gap_mlp >= 0.15
 print(f"linear:    AUC={best['auc']:.4f} (layer {best['layer']}), gap={gap:.4f} -> {'PASS' if linear_pass else 'FAIL'}")
 print(f"nonlinear: AUC={auc_mlp:.4f}, gap={gap_mlp:.4f} -> {'PASS' if mlp_pass else 'FAIL'}")
 if linear_pass:
-    print("TIER 1: signal linearly present -> controller")
+    print("The linear probe meets both exploratory criteria.")
 elif mlp_pass:
-    print("TIER 2: signal present, nonlinear only -> controller (trunk is nonlinear downstream)")
+    print("Only the nonlinear probe meets both exploratory criteria.")
 else:
-    print("TIER 3: no signal in frozen ESM2 embedding -> side-stream needed")
+    print("Neither probe meets both exploratory criteria.")
 
 out = {
     "n": int(len(y)), "n_kinked": int(y.sum()), "n_extended": int((1 - y).sum()),

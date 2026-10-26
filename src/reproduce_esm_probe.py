@@ -14,7 +14,7 @@ OUT = ROOT / 'outputs/revision_2026-10-23/probe_reproduction'
 OUT.mkdir(parents=True, exist_ok=True)
 source_path = ROOT / 'src/esm_probe_analyze.py'
 source = source_path.read_text()
-anchor = '# ---- pre-registered decision'
+anchor = '# ---- exploratory thresholds'
 assert source.count(anchor) == 1
 prefix = source.split(anchor)[0]
 calls = []

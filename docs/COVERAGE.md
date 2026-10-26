@@ -1,7 +1,6 @@
-# Coverage and explicit gaps
+# Reproduction coverage
 
-[Revision status](REMAINING.md) lists completed revisions and the three
-remaining handover inputs.
+[Remaining work](REMAINING.md) lists outstanding integration and release tasks.
 `reproduce.py` is the public entry point for
 integrity checks and saved-analysis replay.
 
@@ -15,8 +14,8 @@ fits, paired target bootstrap, PDB-block intervals, sequence redundancy,
 available-source training overlap, reference policy and length-adjusted
 uncertainty analyses are included.
 
-The complex-source audit supplies 281 common-set polymer-antigen sequence
-comparisons and 280 usable native interfaces, with model-linked antigen,
+The complex-source audit covers polymer-antigen sequences for 281 common-set
+references and 280 usable native interfaces, with model-linked antigen,
 epitope and heavy-domain contact-pattern matches. It records unavailable
 partners and zero-occupancy exclusions separately. These measurements and
 their limits are in `docs/COMPLEX_OVERLAP.md` and Supplementary Table S3.
@@ -58,9 +57,9 @@ four settings with 20 samples each. The retained artifacts do not constitute
 all raw coordinates for every trajectory or sample. The original sampling,
 trajectory, hit-rate, conformation and visualization notebooks are included.
 Generation code, inputs, settings and saved analysis records are supplied;
-[Sampling](SAMPLING.md) gives their use. Full frame archives and a new GPU
-run are not handover requirements. The recent replay checks saved-data
-analyses, not the notebooks' moving-source installation commands.
+[Sampling](SAMPLING.md) gives their use. Local replay evaluates saved-data
+analyses. GPU generation and the notebooks' moving-source installations are
+separate workflows.
 The trajectory logger records per-residue means over unmasked atom coordinates,
 not C-alpha-only coordinates. The Methods and Figure 3 caption use that definition.
 
@@ -69,34 +68,31 @@ The ESM probe includes all embeddings for 518 labelled targets (330 kinked,
 mean/anchor readouts, grouped five-fold fits, linear and MLP models and 50/20
 shuffled controls. The complete rerun captures 110 cross-validation calls
 (550 fitted folds). Best-layer selection is exploratory and is not nested
-cross-validation. Comments in historical code about preregistered thresholds
-are retained source wording, not independent evidence of preregistration.
+cross-validation. Threshold flags in the saved results are exploratory
+diagnostics, not evidence of preregistration.
 The exact historical scikit-learn version was not recorded; the validated
 current rerun uses 1.9.1. Cached-embedding fitting is distinct from generating
 new ESM2 embeddings with model weights.
-Historical controller/side-stream decisions printed by `esm_probe_analyze.py`
-are retained provenance, not supported scientific interpretations. The
-algorithm and stored results are unchanged.
+The probe evaluates coarse-class decodability. It does not establish the
+mechanism of SimpleFold coordinate errors. The original probe source is retained
+under `provenance/original_scripts/`; fitting and stored results are unchanged.
 
 ## Inference provenance and unavailable work
 
-- The supplied docking preparation notebook and five prepared PDBs are now
-  included. All four VHH sequences match the 126-residue frozen 7R73A reference.
+- The docking preparation notebook and five prepared PDBs are included.
+  All four VHH sequences match the 126-residue frozen 7R73A reference.
   Regional rescoring uses 492 matched N/CA/C/CB atoms and a 350-atom framework
   fit for each input. The CSV/JSON includes file hashes and an independent
   BioPython alignment check. The prepared control's computed regional RMSDs
   round to zero. These are monomer scores, not docked-pose scores.
   The two supplied docking CSVs are summary records, not a local pose-scoring
   replay. The remaining docking input is the evaluation procedure and its
-  scoring data, item D1 in `docs/REMAINING.md`. This is not a request for a
-  separate historical job-hash audit.
+  scoring inputs; see `docs/REMAINING.md`.
 
-- The IgFold benchmark generation procedure/settings still need integration
-  under P1. All 597 regional scores are included. The separate TNP notebook
-  contains IgFold code but built zero structures; the docking preparation
-  notebook copies one existing IgFold PDB. Neither establishes the benchmark
-  configuration. No IgFold runtime or speed comparison is reported in the
-  revised paper, so a timing archive or new timing run is not requested.
+- The IgFold benchmark generation procedure and settings are not included.
+  All 597 regional scores are included. The docking preparation notebook copies
+  one existing IgFold PDB rather than generating the benchmark predictions.
+  The paper reports no IgFold runtime or three-model speed comparison.
   The historical evidence record remains in `provenance/` for reference.
 - Original SimpleFold/NBB2 full-benchmark notebooks explicitly deleted
   predicted coordinates after scoring. Original results and recovered source
@@ -112,8 +108,8 @@ algorithm and stored results are unchanged.
 - An existing three-target NBB2 CPU check retains three new predictions,
   scores, source/weight hashes and execution receipts. Its maximum absolute
   difference across 24 regional scores is 0.058 Å. It is a later pipeline check,
-  not recovery of the original predictions. No new inference ran for assembly.
-- NBB2 version 1 is now included as a separate completed repeat: 588 retained
+  not recovery of the original predictions.
+- NBB2 version 1 is a separate completed repeat: 588 retained
   coordinates in one ZIP, manifest, original run verification, scores/logs,
   environment, run provenance, notebook and separate comparison JSON/CSV.
   All 588 primary IDs recur; local original-scorer replay matches the complete
@@ -126,7 +122,7 @@ algorithm and stored results are unchanged.
   extensionless `nanobody_model_*` weights; no weight hashes are inferred from
   other runs. The current preparation source includes corrected logging and
   a four-weight assertion. The completed NBB2 v2 and SimpleFold v1 runs are
-  now included as separate versions. Their local scorer replays match all
+  included as separate versions. Their local scorer replays match all
   saved rows exactly. NBB2 v2 records four weight hashes; SimpleFold records
   its 100M flow-checkpoint hash, source commit and worker input order. The
   ESM2 model identifier is recorded, but its weight-file hash was not logged.
@@ -136,19 +132,12 @@ algorithm and stored results are unchanged.
   change 0.014 Å and maximum change 1.952 Å.
   [Run-specific facts and local commands](NBB2_VERSION1.md) distinguish the
   archived v1 notebook from the newer preparation source.
-- The prepared docking receptor/VHH inputs, preparation notebook, regional
-  scorer and two endpoint CSV summaries are included. DockQ/epitope evaluation
-  code and its scoring data still need integration. A documented manual
-  HDOCK submission followed by local evaluation is sufficient as a workflow;
-  no server API client, permanent job-page access or blanket archive of all
-  historical poses is required.
 
 ## Deliberate exclusions and verification limits
 
-Private transcripts, assignment/ownership notes, response/checklist documents,
-manuscripts, manuscript builders, credentials, pretrained weights, native
-executables, multi-GB archives, incomplete downloads/range chunks and old
-handoff/verification trees are excluded. The public source selection and
+Local working documents, manuscript builders, credentials, pretrained weights,
+native executables, complete multi-GB source archives and incomplete downloads
+are excluded. The source selection and
 storage transformations are explicit in `provenance/source_selection.json`.
 Full source archives remain available from their recorded upstream locations.
 Their complete remote downloads and full ANARCII recollection are not part of
@@ -157,14 +146,12 @@ The auxiliary crystal-label replay gives identical labels, rounded metrics
 and summary values. Unrounded alpha/tau angles differ by at most
 2.842170943040401e-14 degrees, within the stated 1e-12-degree absolute check.
 This is recorded as roundoff agreement rather than exact JSON equality.
-All prior 15-check records are preserved byte-for-byte. The completed NBB2 v1,
-NBB2 v2 and SimpleFold v1 replays have separate reports. Checkpoint/archive
-boundary tests reject corrupt hashes, duplicate members and unsafe paths. The
-static inventory validates all completed repeat ZIPs and their manifests.
-The source-selection audit was refreshed after the new run artifacts were
-added. This updates `verification/source_integrity.json`, not scientific data
-or the preceding 15-check execution report. Its prior checksum remains in the
-core snapshot; the extension inventory records this one derived-report update.
+The completed NBB2 v1, NBB2 v2 and SimpleFold v1 replays have separate reports.
+Checkpoint/archive boundary tests reject corrupt hashes, duplicate members and
+unsafe paths. The static inventory validates all completed repeat ZIPs and
+their manifests. `verification/reexecution.json` records the analysis replay;
+`verification/source_integrity.json` records comparison with the selected
+sources. Earlier snapshot checksums are retained under `provenance/core_snapshot/`.
 
 The verifier checks syntax, configured credential patterns, notebook output
 removal, repository blob sizes, frozen targets/scores, curated receipt hashes

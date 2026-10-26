@@ -1,10 +1,8 @@
 # Entry points and dependency graph
 
-The source selection was based on the old handoff builder's explicit allowlist,
-then checked against file reads and imports in the standalone analysis scripts.
-The manuscript assembly scripts are outside this repository's scope. No script
-here requires the private manuscript, response or checklist documents for the
-structural analyses or reference reconstruction.
+The table lists the analysis entry points, their inputs, outputs and execution
+environments. Structural analyses and reference reconstruction use repository
+data and recorded upstream sources; manuscript assembly is outside their scope.
 
 | Entry point | Inputs | Output | Environment |
 |---|---|---|---|
@@ -77,8 +75,10 @@ values are provenance; model weights are neither shipped nor rehashed locally.
   original `make_figures.py` is unchanged, including its historical tie helper
   and superseded benchmark bar plot. The portable driver calls only the three
   reusable figures and supplies the revised average-tie Spearman definition.
-- Reconstruction report prose uses a neutral public description and portable
-  commands; internal search history and material-passport notes are omitted.
+- Probe fitting and result fields are unchanged. The public probe source uses
+  descriptive comments and exploratory diagnostic labels; the original selected
+  source is retained in `provenance/original_scripts/esm_probe_analyze.py`.
+  Notebook Markdown descriptions are clarified without changing code cells.
 - The public overlap receipt explicitly covers the copied subset, including
   compressed sources and the adapted audit. It verifies those entries before
   and after each extension command. Replay should start from a fresh copy;

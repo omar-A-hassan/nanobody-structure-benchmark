@@ -1,9 +1,8 @@
 # Completed NanoBodyBuilder2 repeat, version 1
 
-The frozen run is in `inference/repeat_outputs/nbb2_version1/`. It was copied
-from the study's `outputs/revision_2026-10-23/repeat_runs/nbb2_version1/`, not
-from version 1 rather than the later version on the same Kaggle reference,
-`potatoguy44/nbb2-benchmark-archive-20261023`.
+The frozen version-1 run is in `inference/repeat_outputs/nbb2_version1/`.
+It records version 1 of `potatoguy44/nbb2-benchmark-archive-20261023`, separately
+from later versions available under the same Kaggle reference.
 
 ## Verified facts
 
@@ -40,7 +39,7 @@ V1's notebook only selected checkpoint paths ending in `.pt` or `.pth`.
 ImmuneBuilder's `nanobody_model_*` files are extensionless, so the retained
 `output/run_provenance.json` has `checkpoint_sha256: {}`. This is a logging gap,
 not a coordinate or scoring failure. No hashes are backfilled from the earlier
-three-target CPU check, a later checkpoint download, or the running v2.
+three-target CPU check, a later checkpoint download, or the version-2 run.
 
 The archived v1 `repeat.ipynb` preserves that original filter. The separately
 included current `src/prepare_archive_reruns.py` fixes the filter and asserts
@@ -76,7 +75,8 @@ after the remote state is COMPLETE. It addresses the current remote version,
 so it cannot be used to refresh this frozen v1 snapshot. The local versioned
 mode excludes `--download` and preserves the original verification receipt.
 
-The preceding 15-check `verification/reexecution.json` and its associated
-artifacts are unchanged. The extension receipt is
-`provenance/nbb2_version1_extension.json`; the preceding public checksum context
-is retained under `provenance/core_snapshot/`.
+The version-1 extension receipt is `provenance/nbb2_version1_extension.json`.
+`provenance/core_snapshot/protected_sha256.json` retains the earlier snapshot's
+checksums, including that of its 15-check execution report. The current
+`verification/reexecution.json` records the expanded analysis replay; its job
+list defines the checks performed.

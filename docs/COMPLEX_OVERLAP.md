@@ -1,8 +1,9 @@
 # Antigen and interface source overlap
 
-This analysis answers the antigen/epitope/interface component of Reviewer 1
-major comment 2. It compares existing experimental source complexes. It does
-not generate complexes or establish exact checkpoint training membership.
+This analysis compares antigen sequences, epitopes and heavy-domain contact
+patterns between benchmark references and available model-linked experimental
+source complexes. It measures source-complex similarity, not exact checkpoint
+training membership.
 
 ## Run
 

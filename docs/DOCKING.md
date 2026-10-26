@@ -17,8 +17,8 @@ This is a single-complex illustrative case and is not intended to establish a ge
 
 The supplied files support input inspection and regional monomer rescoring.
 The HDOCK/DockQ protocol and endpoint summaries below are reported records;
-they have not been reproduced locally from retained docking poses. Missing
-pose-scoring material is listed in [Remaining work](REMAINING.md).
+local pose-scoring replay awaits the evaluation procedure and its inputs,
+listed in [Remaining work](REMAINING.md).
 
 ## Case Selection
 
@@ -150,9 +150,8 @@ repository root. The scorer verifies identical 126-residue sequences, uses
 reference. No CDR is independently fitted. The JSON and CSV retain input
 hashes, full-precision regional scores and an independent BioPython alignment
 check. The control's zero values are computed monomer RMSDs, not a claim of
-perfect re-docking. The supplied files are documented as the prepared docking
-inputs. Their names and chain mapping should be used by the evaluation code;
-a separate historical submission-hash audit is not required.
+perfect re-docking. The supplied files are the prepared docking inputs; their
+names and chain mapping identify the structures used for regional scoring.
 
 `verification/prepared_vhh_validation.json` records a fresh distributed-file
 copy check: package inventory, regional-score replay and all eight unit tests.

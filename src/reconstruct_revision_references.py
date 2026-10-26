@@ -1,4 +1,4 @@
-"""B3 reconstruction from SAbDab2 coordinates; never edits frozen/shared inputs.
+"""Reconstruct stored benchmark references from SAbDab2 coordinates.
 
 Run with isolated uv: uv run --no-project --python 3.12 --with biopython==1.85 --with numpy==2.2.6 python
 src/reconstruct_revision_references.py --archive PATH

@@ -9,7 +9,7 @@ It copies one existing IgFold PDB rather than executing the IgFold benchmark.
 The runnable notebook has been cleared of execution counts and outputs,
 without changes to its cell sources. The original executed copy remains in
 Git history at the commit recorded in `provenance/docking_preparation_execution.json`.
-Its install cells use a moving SimpleFold branch and unpinned dependencies;
-this update does not claim an independently tested regeneration setup.
+Its install cells use a moving SimpleFold branch and unpinned dependencies,
+so a new generation run can use different software versions.
 Prepared outputs are in `data/docking/`. Run regional rescoring locally with
 `uv run --locked python src/score_prepared_vhh.py --check`.

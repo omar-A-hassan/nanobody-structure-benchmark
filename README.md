@@ -5,13 +5,12 @@ NanoBodyBuilder2 on 597 experimental VHH references. The common comparison
 contains 588 targets. The available-source training-overlap and redundancy
 screen contains 393 representatives.
 
-This package reproduces the supplied structural analyses. It does not yet
-reproduce every result in the manuscript. The original IgFold inference
-workflow and downstream docking evaluation still need integration. Prepared
-docking inputs, a preparation notebook and regional rescoring are included. See
-[Revision status](docs/REMAINING.md) lists completed responses and only three
-remaining handover inputs: IgFold generation code/settings, docking evaluation
-code/data, and the licence/DOI deposit.
+The repository provides saved-data analysis replay, SimpleFold and
+NanoBodyBuilder2 inference notebooks, prepared docking inputs and regional
+rescoring. [Coverage](docs/COVERAGE.md) distinguishes supplied workflows from
+unavailable components. [Remaining work](docs/REMAINING.md) lists the IgFold
+generation and docking evaluation components still to be integrated, together
+with release requirements.
 
 ## Reproduce the saved analyses
 
@@ -57,12 +56,10 @@ keep the supplied manifest as the record of the distributed snapshot.
 | Prepared docking inputs | `data/docking/`, `src/score_prepared_vhh.py` | Four prepared-input H1/H2/H3/framework score rows and input hashes in `outputs/docking/` |
 | Figures | The analysis drivers, `src/recreate_reused_figures.py` and `src/make_revision_workflow.py` | Regional, sampling, probe and workflow figures |
 
-Existing analysis filenames and dated result paths are retained so scripts,
-source records and result comparisons keep the same references.
 [Dependencies](docs/DEPENDENCIES.md) lists each entry point and environment.
 [Coverage](docs/COVERAGE.md) describes the supplied data and their limits.
 
-## Reconstruct the complete source archive
+## Reconstruct the benchmark references
 
 The bundled coordinate members permit inspection without a full download.
 To validate extraction from the complete SAbDab2 release:
@@ -90,13 +87,11 @@ archives do not replace the primary benchmark. See
 coordinate-rescoring commands. These commands score retained coordinates;
 they do not generate new structures.
 
-The ESM2 probe replay fits classifiers from the supplied cached embeddings.
-It does not run ESM2 embedding inference. The original sampling, trajectory
-and hit-rate generators are included under `kaggle/kernels/`. Their saved
-results support analysis replay; the recent replay did not rerun GPU sampling.
-[Sampling](docs/SAMPLING.md) gives the notebook settings, inputs, execution
-order and outputs. Full trajectory archives and new GPU sampling runs are not
-required for this handover. Saved-data replay is not a new generation run.
+The ESM2 probe replay fits classifiers from the supplied cached embeddings;
+embedding inference is a separate step. Sampling, trajectory and hit-rate
+generators are included under `kaggle/kernels/`. [Sampling](docs/SAMPLING.md)
+gives their settings, inputs, execution order and outputs. Local analysis
+replay uses the saved records rather than generating new samples.
 
 ## Check the prepared docking inputs
 
@@ -109,8 +104,8 @@ frozen 7R73A reference. It reuses the original Kabsch function and checks the
 fit independently with BioPython. Omit `--check` to regenerate the regional
 CSV and JSON. It does not reproduce DockQ or epitope endpoints. The supplied
 preparation notebook and docking summary CSVs are described in
-[Docking case](docs/DOCKING.md). The missing downstream evaluation procedure
-and its data are item D1 in [Revision status](docs/REMAINING.md).
+[Docking case](docs/DOCKING.md). Integration of the downstream evaluation
+procedure is listed in [Remaining work](docs/REMAINING.md).
 
 ## Tests and source records
 
@@ -125,10 +120,8 @@ Pretrained model weights are not redistributed.
 
 ## Licence and citation
 
-The project licence and public version DOI have not been assigned. Before
-describing a deposit as the complete manuscript archive, add the remaining
-[handover inputs](docs/REMAINING.md) and match its declared coverage to the
-final paper.
+The project licence and version-specific archive DOI have not been assigned;
+see [Remaining work](docs/REMAINING.md).
 Existing source-data DOIs identify those datasets, not this repository.
 Upstream attribution and terms are retained in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

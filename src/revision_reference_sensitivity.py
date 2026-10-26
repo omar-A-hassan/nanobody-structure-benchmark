@@ -34,7 +34,7 @@ def paired_intervals(deltas, blocks):
 assert rounded(4.3645) == "4.365"
 assert paired_intervals(np.ones((4, 1)), [np.array([0, 1]), np.array([2, 3])]) == [[1., 1.]]
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument("--expanded-cohort", type=Path, help="B2 final expanded sensitivity CSV; must contain tid")
+parser.add_argument("--expanded-cohort", type=Path, help="Expanded overlap-screened cohort CSV; must contain tid")
 args = parser.parse_args()
 source = ROOT / "outputs/revision_2026-10-17/reference_reconstruction/summary.json"
 reconstruction = json.loads(source.read_text())

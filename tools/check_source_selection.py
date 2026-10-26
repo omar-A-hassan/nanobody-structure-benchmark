@@ -21,7 +21,8 @@ def main():
     parser.add_argument("--figure-source", type=Path, required=True)
     args = parser.parse_args()
     selection = json.loads((ROOT / "provenance/source_selection.json").read_text())
-    counts = {"source_hashes_checked": 0, "packaged_hashes_checked": 0, "notebook_source_cells_exact": 0}
+    counts = {"source_hashes_checked": 0, "packaged_hashes_checked": 0,
+              "notebook_code_cells_exact": 0, "notebook_markdown_adaptations": 0}
     for row in selection["files"]:
         base = args.source if row["source_root"] == "study" else args.figure_source.parent
         original, packaged = base / row["source"], ROOT / row["path"]
@@ -31,8 +32,12 @@ def main():
         counts["packaged_hashes_checked"] += 1
         if original.suffix == ".ipynb":
             a, b = json.loads(original.read_text()), json.loads(packaged.read_text())
-            assert [(c["cell_type"], c["source"]) for c in a["cells"]] == [(c["cell_type"], c["source"]) for c in b["cells"]]
-            counts["notebook_source_cells_exact"] += 1
+            assert [c["cell_type"] for c in a["cells"]] == [c["cell_type"] for c in b["cells"]]
+            for original_cell, packaged_cell in zip(a["cells"], b["cells"]):
+                if original_cell["cell_type"] == "code" or not row.get("markdown_only_changes"):
+                    assert original_cell["source"] == packaged_cell["source"], row["path"]
+            counts["notebook_code_cells_exact"] += 1
+            counts["notebook_markdown_adaptations"] += int(bool(row.get("markdown_only_changes")))
     archive = args.source / "outputs/revision_2026-10-16/sources/igfold_sabdab.zip"
     with tempfile.TemporaryDirectory(prefix="nanobody-source-check-") as temp:
         output = Path(temp) / "pool.json"

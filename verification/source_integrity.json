@@ -1,8 +1,9 @@
 {
   "status": "PASS",
-  "source_hashes_checked": 1143,
-  "packaged_hashes_checked": 1143,
-  "notebook_source_cells_exact": 38,
+  "source_hashes_checked": 1144,
+  "packaged_hashes_checked": 1144,
+  "notebook_code_cells_exact": 38,
+  "notebook_markdown_adaptations": 2,
   "igfold_pool_reextraction_exact": true,
   "current_reusable_figure_source_exact": true,
   "actual_repeat_metadata": [

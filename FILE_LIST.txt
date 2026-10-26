@@ -1956,6 +1956,7 @@ provenance/igfold_benchmark_evidence.json
 provenance/igfold_record_metadata.json
 provenance/nbb2_version1_extension.json
 provenance/original_scripts/consolidate_stats.py
+provenance/original_scripts/esm_probe_analyze.py
 provenance/original_scripts/revision_training_audit.py
 provenance/original_scripts/verify_archive_reruns.py
 provenance/public_frozen_receipt_scope.json

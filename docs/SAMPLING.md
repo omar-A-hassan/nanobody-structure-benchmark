@@ -1,7 +1,8 @@
 # Sampling code and saved analyses
 
-The generators and their saved analysis data are supplied. Full intermediate
-trajectory archives are not required for this handover.
+The repository includes generation notebooks, target lists, sampler settings
+and saved sampling records. Local replay uses those records; generation is a
+separate GPU workflow.
 
 ## Reproduce the reported analyses without inference
 
@@ -37,10 +38,10 @@ before generation. Its logger saves per-residue means of unmasked atom
 coordinates, not C-alpha-only positions.
 
 The notebooks retain their recorded installation commands, including the
-`fix-multichain-fasta-parsing` SimpleFold branch. Those moving-source commands
-are not a claim of a recovered historical commit or a newly tested GPU setup.
-This revision does not change the generators or require a new inference run.
-Save any new run separately rather than replace the supplied results.
+`fix-multichain-fasta-parsing` SimpleFold branch. A new run can install different
+source revisions or dependency versions from those recorded in the original
+execution. Keep new results separate from the supplied records. Notebook
+Markdown descriptions have been clarified; code cells are unchanged.
 
 The `sf-ensemble/` and `esm-probe/` folders contain the separate ensemble and
 embedding-generation sources. The manuscript's analysis replay uses the

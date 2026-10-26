@@ -9,7 +9,7 @@ from scipy.stats import spearmanr
 
 ROOT = Path(__file__).resolve().parents[1]
 source = ROOT / "paper_figure_sources/make_figures.py"
-assert source.is_file(), "The handoff must contain the original plot source"
+assert source.is_file(), "Missing original plot source: paper_figure_sources/make_figures.py"
 out = ROOT / "outputs/revision_2026-10-17/reused_figures"
 out.mkdir(parents=True, exist_ok=True)
 namespace = runpy.run_path(str(source))

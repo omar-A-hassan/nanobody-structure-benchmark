@@ -1,4 +1,4 @@
-"""Source-bound B2 extension; never imports the side-effectful 16 October audit.
+"""Extend the available-source VHH/H3 overlap screen without running the initial audit.
 
 Run with isolated uv dependencies. All generated data stays in overlap_extension.
 """
@@ -683,7 +683,7 @@ def summarize():
         nbb = json.loads((OUT / "nbb2_recovery_summary.json").read_text())
         oas = {name: json.loads((OUT / f"{name}_coverage.json").read_text())
                for name in ("af_oas_paired", "af_oas_unpaired")}
-        lines = ["# B2 source-bound overlap extension — 18 October 2026", "",
+        lines = ["# Available-source VHH/H3 overlap screen", "",
             "Status: feasible public-source extension complete; full model-specific exposure audit remains PARTIAL. This is not a training-independent benchmark certification.", "",
             "## Scope and validation", "",
             f"Recovered heavy-domain candidates for all {nbb['pdbs_entity_sequences_recovered']} previously unmapped NanoBodyBuilder2 manifest PDBs: {nbb['accepted_heavy_domains']} accepted domains and {nbb['unique_vh_h3_pairs']} distinct VH/H3 pairs. ANARCII {nbb['anarcii_version']} numbered every recovered protein entity rather than assuming a chain from its name. Benchmark H3 validation agreed on 597/597; full-domain validation agreed on 593/597 because of terminal trimming. Candidate recovery does not prove historical training-chain membership.", "",
@@ -701,7 +701,7 @@ def summarize():
             "## SimpleFold and unresolved coverage", "",
             "The official SwissProt and AFESM files contain 269,003 and 2,036,414 IDs, not sequence columns. The extended dictionary has 8,616,595 member occurrences and belongs to the extended recipe, not the 100M representative list. Checked official GitHub README/tree/config sources do not supply the full experimental membership manifest. Source receipts, recipe excerpts and the repository tree SHA are retained.", "",
             "Current RCSB entity mapping covers 594/597 VHH segments. Six entity-level manifest-accession flags were checked against current UniProt FASTAs: none contains the corresponding frozen VHH substring, and the accession descriptions are bacterial proteins. These flags are not accepted as confirmed VHH overlap. This current canonical check is not historical AFDB-model sequence verification.", "",
-            "Unresolved: full SimpleFold experimental/distilled sequence-level membership/similarity, language-model sequence pretraining, exact historical checkpoint exposure, and antigen/epitope/interface similarity. Available published OAS sources have now been screened, but do not prove the exact historical IgFold training snapshot. Missing evidence is disclosed, not interpreted as independence.", "",
+            "Coverage limits include full SimpleFold experimental/distilled sequence-level membership and similarity, language-model sequence pretraining, and exact historical checkpoint exposure. The available published OAS sources were screened without establishing the exact historical IgFold training snapshot. A separate antigen, epitope and heavy-domain interface source audit is supplied in outputs/revision_2026-10-26/complex_overlap/; see docs/COMPLEX_OVERLAP.md for its measurements and coverage.", "",
             "## Reproduction", "",
             "Use isolated uv with Python 3.12, Biopython 1.87, NumPy 2.2.6 and ANARCII 2.0.8. Stages: collect-rcsb, collect-obsolete, collect-benchmark, collect-oas, collect-simplefold, number-nbb, compare-nbb, compare-oas, analyze-simplefold, validate-simplefold-accessions, self-test, summarize. Existing validated source caches are reused. Collection requires network access; full pairwise screening requires CPU time, not a folding GPU. The frozen_input_sha256.json guard checks all original evidence files before and after each stage.", ""]
         (OUT / "REPORT.md").write_text("\n".join(lines))

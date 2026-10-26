@@ -30,24 +30,24 @@
       "source": "src/revision_overlap_extension.py",
       "source_root": "study",
       "source_sha256": "2bc645536b150a8a26e6e545a93f433280845f3d336603181a985142e460ca30",
-      "packaged_sha256": "f17114fa53ce1703c9b0592e615ba50f7c62b7218dd2af7bc81879c68eeca9bd",
-      "transformation": "Public storage/portable-path adaptation; numerical algorithms retained; see docs/DEPENDENCIES.md"
+      "packaged_sha256": "a0ab25c5787873fee758c5e75b7b5b03be9a48e49915940ff41e5dfd4db213bc",
+      "transformation": "Public wording and portable-path adaptations; numerical calculations and result fields retained; see docs/DEPENDENCIES.md"
     },
     {
       "path": "src/reconstruct_revision_references.py",
       "source": "src/reconstruct_revision_references.py",
       "source_root": "study",
       "source_sha256": "a8859ad9b956d22e32a763847f652127dded4cb622f2a843a17a8bca1a54607e",
-      "packaged_sha256": "46ca58ac1cb260091cbd5c05e1786613eeae2b44d61b613f353bced46114b074",
-      "transformation": "Public storage/portable-path adaptation; numerical algorithms retained; see docs/DEPENDENCIES.md"
+      "packaged_sha256": "c10717805cedd3fb61275f072983d76c31db08494be44e81c009120bc0fc78d9",
+      "transformation": "Public wording and portable-path adaptations; numerical calculations and result fields retained; see docs/DEPENDENCIES.md"
     },
     {
       "path": "src/revision_reference_sensitivity.py",
       "source": "src/revision_reference_sensitivity.py",
       "source_root": "study",
       "source_sha256": "69006cccc4bcdf2b70b11ebb140c52469df644f846770de3d550023f0eebffcf",
-      "packaged_sha256": "69006cccc4bcdf2b70b11ebb140c52469df644f846770de3d550023f0eebffcf",
-      "transformation": "byte-identical"
+      "packaged_sha256": "5cec297516e268266177005826e68bf7459e9dd197bd47d72e879a5681d21c34",
+      "transformation": "Public wording and portable-path adaptations; numerical calculations and result fields retained; see docs/DEPENDENCIES.md"
     },
     {
       "path": "src/verify_retained_structure_scoring.py",
@@ -62,24 +62,32 @@
       "source": "src/esm_probe_analyze.py",
       "source_root": "study",
       "source_sha256": "baad88ab6eca7b03d65bfec519690d60898b525057a35536163d816456cc1635",
+      "packaged_sha256": "fda9a7ee4c8515ed14cad1d081f73b1c11a59130a1d4164dc280bf9369e381b5",
+      "transformation": "Public wording and portable-path adaptations; numerical calculations and result fields retained; see docs/DEPENDENCIES.md"
+    },
+    {
+      "path": "provenance/original_scripts/esm_probe_analyze.py",
+      "source": "src/esm_probe_analyze.py",
+      "source_root": "study",
+      "source_sha256": "baad88ab6eca7b03d65bfec519690d60898b525057a35536163d816456cc1635",
       "packaged_sha256": "baad88ab6eca7b03d65bfec519690d60898b525057a35536163d816456cc1635",
-      "transformation": "byte-identical"
+      "transformation": "byte-identical original probe source"
     },
     {
       "path": "src/reproduce_esm_probe.py",
       "source": "src/reproduce_esm_probe.py",
       "source_root": "study",
       "source_sha256": "b422581c8e736bf7ae839fd99bf7b641e82281e607d03f29e3dcbbf2e5bdb179",
-      "packaged_sha256": "b422581c8e736bf7ae839fd99bf7b641e82281e607d03f29e3dcbbf2e5bdb179",
-      "transformation": "byte-identical"
+      "packaged_sha256": "a23566ed8f1cacedccd8ad00ec29472072fececb1ab83b737ce9a830323d088d",
+      "transformation": "Public wording and portable-path adaptations; numerical calculations and result fields retained; see docs/DEPENDENCIES.md"
     },
     {
       "path": "src/recreate_reused_figures.py",
       "source": "src/recreate_reused_figures.py",
       "source_root": "study",
       "source_sha256": "33c8d6ca5ed003218ed34c2c57f6aa24f186f7269fe845e982f0844f2791c9e4",
-      "packaged_sha256": "cf91d6f601c8734ac899f610055214787ad6a97041f838df972a36b53b1dc17d",
-      "transformation": "Public storage/portable-path adaptation; numerical algorithms retained; see docs/DEPENDENCIES.md"
+      "packaged_sha256": "d4c45c53a15c08072fada560a855391d05f01022790352fe9306d9c2fbbc1e3d",
+      "transformation": "Public wording and portable-path adaptations; numerical calculations and result fields retained; see docs/DEPENDENCIES.md"
     },
     {
       "path": "src/make_revision_workflow.py",
@@ -8014,8 +8022,9 @@
       "source": "kaggle/kernels/sf-hitrate/sf-hitrate.ipynb",
       "source_root": "study",
       "source_sha256": "45a2f6e4bf0578cca79e454af6f781bbf05bdad0d78ae21afc272cade5337fbd",
-      "packaged_sha256": "1cf60b0a3abbc8a1d27d213359e1f9cef61a1615f2bd6d58fa0c5fa7757d5d2e",
-      "transformation": "notebook outputs/execution counts/widgets removed; source cells preserved"
+      "packaged_sha256": "b009a6c453a8573eade163a075d5eb835c17c533aaa67c78f83326aee906b34f",
+      "transformation": "notebook outputs/execution counts/widgets removed; Markdown descriptions clarified; code cells preserved",
+      "markdown_only_changes": true
     },
     {
       "path": "kaggle/kernels/sf-traj/kernel-metadata.json",
@@ -8134,8 +8143,9 @@
       "source": "kaggle/kernels/esm-probe/esm-probe.ipynb",
       "source_root": "study",
       "source_sha256": "5e73736fc4ed0b7389152795709e2b7e34054a8a4bfd65759c66abccf0965fe4",
-      "packaged_sha256": "773f14f2731a4846b937cd69fc72f4028123ee87d9e3c6b864b6cba8007a8687",
-      "transformation": "notebook outputs/execution counts/widgets removed; source cells preserved"
+      "packaged_sha256": "e32784707b4a2213a779c560a8b5bb7b67b1034e5c54e21a843e09f20806cc95",
+      "transformation": "notebook outputs/execution counts/widgets removed; Markdown descriptions clarified; code cells preserved",
+      "markdown_only_changes": true
     },
     {
       "path": "kaggle/kernels/esm-probe/kernel-metadata.json",
