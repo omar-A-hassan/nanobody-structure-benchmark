@@ -1,0 +1,73 @@
+[{"stream_name":"stderr","time":7.615149938,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.6152672710000004,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.615272776,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.615275791,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.217083857,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.217112458,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.217116939,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.217120502,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":17.229512654,"data":"GPUs visible: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":17.857528351,"data":"597 targets validated; input sha256 310632cc19183377...\n"}
+,{"stream_name":"stdout","time":17.857557578,"data":"probe target: 10ZOA\n"}
+,{"stream_name":"stdout","time":17.857561583,"data":"[   0.1 min] start\n"}
+,{"stream_name":"stdout","time":83.543166046,"data":"probe OK: 1.0.1 8.6.1, 1718 atoms written\n"}
+,{"stream_name":"stdout","time":83.543196418,"data":"{'igfold': '1.0.1', 'antiberty': '1.0.0', 'torch': '2.11.0+cu128', 'openmm': '8.6.1', 'pdbfixer': '1.12.0', 'biotite': '2.0.0', 'numpy': '2.1.3'}\n"}
+,{"stream_name":"stdout","time":83.543202579,"data":"[   1.2 min] installed\n"}
+,{"stream_name":"stdout","time":93.736137423,"data":"weights warm\n"}
+,{"stream_name":"stdout","time":94.489445075,"data":"launched worker 0\n"}
+,{"stream_name":"stdout","time":94.492430498,"data":"launched worker 1\n"}
+,{"stream_name":"stdout","time":4159.357180047,"data":"--- worker 0 (rc=0) ---\n"}
+,{"stream_name":"stdout","time":4159.357250309,"data":"REFINE_FAIL 9XOUE OpenMMException: Particle coordinate is NaN.  For more information, see https://github.com/openmm/openmm/wiki/Frequently-Asked-Questions#\n"}
+,{"stream_name":"stdout","time":4159.357256452,"data":"shard 0 finished 299 in 4053s\n"}
+,{"stream_name":"stdout","time":4224.939964161,"data":"--- worker 1 (rc=0) ---\n"}
+,{"stream_name":"stdout","time":4224.940017929,"data":"REFINE_FAIL 8UW9B OpenMMException: Particle coordinate is NaN.  For more information, see https://github.com/openmm/openmm/wiki/Frequently-Asked-Questions#\n"}
+,{"stream_name":"stdout","time":4224.940047529,"data":"shard 1 finished 298 in 4120s\n"}
+,{"stream_name":"stdout","time":4224.940052789,"data":"\n"}
+,{"stream_name":"stdout","time":4224.940058263,"data":"597/597 built in 68.8 min; unrefined fallback: ['8UW9B', '9XOUE']\n"}
+,{"stream_name":"stdout","time":4224.940063404,"data":"[  70.3 min] built\n"}
+,{"stream_name":"stdout","time":4229.924293604,"data":"archived 597 coordinate files\n"}
+,{"stream_name":"stdout","time":4236.563739723,"data":"hashed 4 checkpoint files\n"}
+,{"stream_name":"stdout","time":4236.563785957,"data":"   igfold/trained_models/IgFold/igfold_1.safetensors\n"}
+,{"stream_name":"stdout","time":4236.563792487,"data":"   igfold/trained_models/IgFold/igfold_2.safetensors\n"}
+,{"stream_name":"stdout","time":4236.563797268,"data":"   igfold/trained_models/IgFold/igfold_3.safetensors\n"}
+,{"stream_name":"stdout","time":4236.563801709,"data":"   igfold/trained_models/IgFold/igfold_5.safetensors\n"}
+,{"stream_name":"stdout","time":4238.058411856,"data":"[  70.5 min] coordinates retained\n"}
+,{"stream_name":"stderr","time":4242.318797198,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":4242.319781268,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":4242.31980042,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":4242.31981021,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4242.319813357,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":4242.319816324,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":4242.319818958,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4242.319821659,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":4242.319824485,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":4242.319845052,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":4242.319849614,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":4242.319853886,"data":"Exception encountered at \"In [5]\":\n"}
+,{"stream_name":"stderr","time":4242.319858655,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":4242.319863097,"data":"ValueError                                Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":4242.319867932,"data":"/tmp/ipykernel_24/1646187532.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":4242.319872212,"data":"     18 _ref = _rng.normal(size=(20, 4, 3)); _pred = _ref.copy(); _pred[16:] += [5, 0, 0]\n"}
+,{"stream_name":"stderr","time":4242.319876323,"data":"     19 _fw = np.arange(20) \u003c 16\n"}
+,{"stream_name":"stderr","time":4242.319880202,"data":"---\u003e 20 _rot, _pm, _qm = kabsch(_pred[_fw], _ref[_fw])\n"}
+,{"stream_name":"stderr","time":4242.319884892,"data":"     21 _al = (_pred - _pm) @ _rot + _qm\n"}
+,{"stream_name":"stderr","time":4242.319889232,"data":"     22 assert abs(rmsd(_al[_fw], _ref[_fw])) \u003c 1e-9 and abs(rmsd(_al[~_fw], _ref[~_fw]) - 5) \u003c 1e-9\n"}
+,{"stream_name":"stderr","time":4242.319893632,"data":"\n"}
+,{"stream_name":"stderr","time":4242.319896986,"data":"/tmp/ipykernel_24/1646187532.py in kabsch(P, Q)\n"}
+,{"stream_name":"stderr","time":4242.31990067,"data":"      8 def kabsch(P, Q):\n"}
+,{"stream_name":"stderr","time":4242.319904455,"data":"      9     Pm, Qm = P.mean(0), Q.mean(0)\n"}
+,{"stream_name":"stderr","time":4242.319908296,"data":"---\u003e 10     V, _, W = np.linalg.svd((P - Pm).T @ (Q - Qm))\n"}
+,{"stream_name":"stderr","time":4242.319951865,"data":"     11     D = np.diag([1, 1, np.sign(np.linalg.det(V @ W))])\n"}
+,{"stream_name":"stderr","time":4242.319957528,"data":"     12     return V @ D @ W, Pm, Qm\n"}
+,{"stream_name":"stderr","time":4242.319961474,"data":"\n"}
+,{"stream_name":"stderr","time":4242.319964967,"data":"ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)-\u003e(n?,m?) (size 4 is different from 16)\n"}
+,{"stream_name":"stderr","time":4242.319980225,"data":"\n"}
+,{"stream_name":"stderr","time":4244.541927353,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4244.541953963,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4244.731827895,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4244.731855123,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4245.574186838,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":4245.655788736,"data":"[NbConvertApp] Writing 33828 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":4248.210564169,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4248.805504967,"data":"[NbConvertApp] Writing 382579 bytes to __results__.html\n"}
+]

@@ -1,0 +1,81 @@
+{
+  "n_primary": 597,
+  "n_generated": 597,
+  "n_common": 597,
+  "scoring_problems": {},
+  "residue_preservation_violations": [],
+  "fields": {
+    "chain_cdr1": {
+      "primary_median": 1.946,
+      "generated_median": 1.963,
+      "median_paired_change": 0.011,
+      "median_absolute_change": 0.033,
+      "maximum_absolute_change": 1.681,
+      "exact_values": 15,
+      "n": 597
+    },
+    "chain_cdr2": {
+      "primary_median": 1.247,
+      "generated_median": 1.249,
+      "median_paired_change": 0.0,
+      "median_absolute_change": 0.024,
+      "maximum_absolute_change": 0.343,
+      "exact_values": 17,
+      "n": 597
+    },
+    "chain_cdr3": {
+      "primary_median": 2.886,
+      "generated_median": 2.914,
+      "median_paired_change": 0.026,
+      "median_absolute_change": 0.035,
+      "maximum_absolute_change": 1.113,
+      "exact_values": 12,
+      "n": 597
+    },
+    "chain_framework": {
+      "primary_median": 0.827,
+      "generated_median": 0.841,
+      "median_paired_change": 0.021,
+      "median_absolute_change": 0.021,
+      "maximum_absolute_change": 0.189,
+      "exact_values": 21,
+      "n": 597
+    },
+    "fw_cdr1": {
+      "primary_median": 1.985,
+      "generated_median": 2.002,
+      "median_paired_change": 0.014,
+      "median_absolute_change": 0.035,
+      "maximum_absolute_change": 1.973,
+      "exact_values": 15,
+      "n": 597
+    },
+    "fw_cdr2": {
+      "primary_median": 1.087,
+      "generated_median": 1.093,
+      "median_paired_change": 0.007,
+      "median_absolute_change": 0.025,
+      "maximum_absolute_change": 0.181,
+      "exact_values": 21,
+      "n": 597
+    },
+    "fw_cdr3": {
+      "primary_median": 3.21,
+      "generated_median": 3.186,
+      "median_paired_change": 0.024,
+      "median_absolute_change": 0.034,
+      "maximum_absolute_change": 1.683,
+      "exact_values": 13,
+      "n": 597
+    },
+    "fw_framework": {
+      "primary_median": 0.668,
+      "generated_median": 0.695,
+      "median_paired_change": 0.023,
+      "median_absolute_change": 0.023,
+      "maximum_absolute_change": 0.15,
+      "exact_values": 18,
+      "n": 597
+    }
+  }
+}

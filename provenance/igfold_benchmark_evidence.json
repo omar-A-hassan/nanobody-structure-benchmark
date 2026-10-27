@@ -6,9 +6,15 @@
     "prediction_count": 597,
     "timing_seconds_per_target": 4.08,
     "timing_source_named_in_transcript": "prediction_results.csv",
-    "source_lines": [16418, 16438, 16504, 16513, 16624],
+    "source_lines": [
+      16418,
+      16438,
+      16504,
+      16513,
+      16624
+    ],
     "timing_status": "reported; original CSV, timing boundary, hardware and concurrency need verification",
-    "generation_code_status": "not yet identified as the original benchmark generator"
+    "generation_code_status": "the original benchmark generator remains unidentified; a documented generation procedure is now supplied in kaggle/kernels/igfold-bench"
   },
   "included_files": {
     "regional_scores": "outputs/structure/igfold/metrics/per_target_scores_igfold.json",
@@ -21,5 +27,33 @@
     "failure": "checkpoint-loading error",
     "benchmark_provenance": false
   },
-  "interpretation": "IgFold code and a historical timing report exist. They do not verify the original benchmark configuration or a controlled runtime comparison."
+  "interpretation": "IgFold code and a historical timing report exist. They do not verify the original benchmark configuration or a controlled runtime comparison.",
+  "supplied_generation": {
+    "notebook": "kaggle/kernels/igfold-bench/igfold-bench.ipynb",
+    "kernel": "potatoguy44/igfold-bench",
+    "outputs": "outputs/structure/igfold/generation",
+    "scorer": "src/score_igfold_generation.py",
+    "settings": {
+      "num_models": 4,
+      "do_refine": true,
+      "refinement_backend": "openmm",
+      "do_renum": false,
+      "seed": null
+    },
+    "versions": {
+      "igfold": "1.0.1",
+      "antiberty": "1.0.0",
+      "torch": "2.11.0+cu128",
+      "openmm": "8.6.1",
+      "pdbfixer": "1.12.0"
+    },
+    "predictions": 597,
+    "openmm_refinement_fallbacks": [
+      "8UW9B",
+      "9XOUE"
+    ],
+    "fallback_note": "OpenMM minimisation returned NaN coordinates for these targets; each was regenerated without refinement. A separate earlier execution failed on a different target, so the instability is not reproducible per target.",
+    "agreement_with_primary_record": "outputs/structure/igfold/generation/comparison_vs_primary.json",
+    "scope": "documented generation and scoring of the IgFold arm; this does not establish the configuration of the original benchmark run"
+  }
 }

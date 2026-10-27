@@ -1,0 +1,17 @@
+{
+ "id": "potatoguy44/igfold-bench",
+ "title": "igfold-bench",
+ "code_file": "igfold-bench.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "potatoguy44/sabdab2-nanobodies"
+ ],
+ "kernel_sources": [],
+ "competition_sources": [],
+ "model_sources": []
+}

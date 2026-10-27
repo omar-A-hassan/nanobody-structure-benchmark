@@ -94,6 +94,8 @@ kaggle/kernels/7r73-docking/README.md
 kaggle/kernels/7r73-docking/docking.ipynb
 kaggle/kernels/esm-probe/esm-probe.ipynb
 kaggle/kernels/esm-probe/kernel-metadata.json
+kaggle/kernels/igfold-bench/igfold-bench.ipynb
+kaggle/kernels/igfold-bench/kernel-metadata.json
 kaggle/kernels/nbb2-bench/kernel-metadata.json
 kaggle/kernels/nbb2-bench/nbb2-bench.ipynb
 kaggle/kernels/nbb2-bench-v5/kernel-metadata.json
@@ -1835,6 +1837,18 @@ outputs/revision_2026-10-26/complex_overlap/native_contacts.json
 outputs/revision_2026-10-26/complex_overlap/per_target_model_complex_overlap.csv
 outputs/revision_2026-10-26/complex_overlap/screen_inputs.json
 outputs/revision_2026-10-26/complex_overlap/summary.json
+outputs/structure/igfold/generation/comparison_vs_primary.csv
+outputs/structure/igfold/generation/comparison_vs_primary.json
+outputs/structure/igfold/generation/coordinate_manifest.json
+outputs/structure/igfold/generation/environment.txt
+outputs/structure/igfold/generation/igfold-bench.log
+outputs/structure/igfold/generation/igfold_coordinates.zip
+outputs/structure/igfold/generation/per_target_scores_igfold.csv
+outputs/structure/igfold/generation/per_target_scores_igfold.json
+outputs/structure/igfold/generation/results_igfold.json
+outputs/structure/igfold/generation/run_provenance.json
+outputs/structure/igfold/generation/worker0.log
+outputs/structure/igfold/generation/worker1.log
 outputs/structure/igfold/metrics/per_target_scores_igfold.csv
 outputs/structure/igfold/metrics/per_target_scores_igfold.json
 outputs/structure/nbb2/nbb2-bench.log
@@ -1981,6 +1995,7 @@ src/revision_overlap_extension.py
 src/revision_reference_sensitivity.py
 src/revision_source_metadata.py
 src/revision_training_audit.py
+src/score_igfold_generation.py
 src/score_prepared_vhh.py
 src/summarize_completed_repeats.py
 src/tnp/tnp_analyse.py

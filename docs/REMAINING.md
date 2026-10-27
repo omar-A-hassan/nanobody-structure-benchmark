@@ -3,10 +3,11 @@
 Updated 26 October 2026. These are the outstanding code-integration and release
 tasks; the supplied analysis workflows are described in the README and Coverage.
 
-- [ ] **P1 — IgFold generation code and settings.** Add the benchmark script
-  or notebook, model/weight version, refinement and numbering settings,
-  execution environment, and a seed if used. Identify the frozen inputs and
-  regional scorer it uses, and fill the corresponding manuscript Methods marker.
+- [x] **P1 — IgFold generation code and settings.** Supplied in
+  `kaggle/kernels/igfold-bench` with the retained coordinates, model-checkpoint
+  hashes, software environment and per-target scores in
+  `outputs/structure/igfold/generation`. `src/score_igfold_generation.py` rescores the
+  retained coordinates and compares them with the primary record.
 - [ ] **D1 — Docking evaluation procedure.** Add the DockQ and epitope-scoring
   script, notebook or exact commands. Identify the reference, chain mapping and
   scoring inputs, and provide the inputs or a usable retrieval/regeneration
@@ -16,6 +17,6 @@ tasks; the supplied analysis workflows are described in the README and Coverage.
   manifest and publish the declared version in a DOI-assigning repository.
   Add the version-specific DOI to the README, manuscript and response letter.
 
-P1 and D1 complete the outstanding inference and docking-evaluation components.
+D1 completes the outstanding docking-evaluation component.
 P3 completes the code-deposition requirement. The private GitHub collaboration
 copy is not the DOI deposit.
