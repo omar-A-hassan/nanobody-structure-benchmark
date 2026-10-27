@@ -1,5 +1,7 @@
 # Nanobody structure benchmark
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23698005.svg)](https://doi.org/10.5281/zenodo.23698005)
+
 Code and data for the structural comparison of SimpleFold, IgFold and
 NanoBodyBuilder2 on 597 experimental VHH references. The common comparison
 contains 588 targets. The available-source training-overlap and redundancy
