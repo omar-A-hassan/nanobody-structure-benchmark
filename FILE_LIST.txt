@@ -91,6 +91,7 @@ inference/repeat_outputs/simplefold_version1/source/simplefold-benchmark-archive
 inference/repeat_outputs/simplefold_version1/status.json
 inference/repeat_outputs/simplefold_version1/verification.json
 kaggle/kernels/7r73-docking/README.md
+kaggle/kernels/7r73-docking/docking evaluation.ipynb
 kaggle/kernels/7r73-docking/docking.ipynb
 kaggle/kernels/esm-probe/esm-probe.ipynb
 kaggle/kernels/esm-probe/kernel-metadata.json
@@ -128,6 +129,7 @@ kaggle/kernels/tnp-sf/kernel-metadata.json
 kaggle/kernels/tnp-sf/tnp-sf.ipynb
 kaggle/kernels/tnp-specialists/kernel-metadata.json
 kaggle/kernels/tnp-specialists/tnp-specialists.ipynb
+kaggle/notebooks/legacy/docking (1).ipynb
 kaggle/notebooks/legacy/nbb2-bench.ipynb
 kaggle/notebooks/legacy/nbb2-viz.ipynb
 kaggle/notebooks/legacy/sf-ensemble.ipynb
