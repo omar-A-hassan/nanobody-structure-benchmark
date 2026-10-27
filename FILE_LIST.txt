@@ -1,5 +1,6 @@
 .gitattributes
 .gitignore
+LICENSE
 README.md
 THIRD_PARTY_NOTICES.md
 data/docking/7R73A_IgFold_DOCK.pdb
@@ -26,7 +27,6 @@ docs/COVERAGE.md
 docs/DEPENDENCIES.md
 docs/DOCKING.md
 docs/NBB2_VERSION1.md
-docs/REMAINING.md
 docs/SAMPLING.md
 environments/analysis.in
 environments/analysis.lock

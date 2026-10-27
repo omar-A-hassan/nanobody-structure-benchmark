@@ -1,8 +1,7 @@
 # Reproduction coverage
 
-[Remaining work](REMAINING.md) lists outstanding integration and release tasks.
-`reproduce.py` is the public entry point for
-integrity checks and saved-analysis replay.
+`reproduce.py` is the public entry point for integrity checks and saved-analysis
+replay.
 
 ## Included scientific material
 
@@ -79,21 +78,23 @@ under `provenance/original_scripts/`; fitting and stored results are unchanged.
 
 ## Inference provenance and unavailable work
 
-- The docking preparation notebook and five prepared PDBs are included.
+- The docking preparation and evaluation notebooks and five prepared PDBs are included.
   All four VHH sequences match the 126-residue frozen 7R73A reference.
   Regional rescoring uses 492 matched N/CA/C/CB atoms and a 350-atom framework
   fit for each input. The CSV/JSON includes file hashes and an independent
   BioPython alignment check. The prepared control's computed regional RMSDs
   round to zero. These are monomer scores, not docked-pose scores.
-  The two supplied docking CSVs are summary records, not a local pose-scoring
-  replay. The remaining docking input is the evaluation procedure and its
-  scoring inputs; see `docs/REMAINING.md`.
+  The evaluation notebook and two summary CSVs are included. Its HDOCK pose
+  archives are hosted separately on Kaggle and are not included here; see
+  `docs/DOCKING.md` for the protocol and scope.
 
-- The IgFold benchmark generation procedure and settings are not included.
-  All 597 regional scores are included. The docking preparation notebook copies
-  one existing IgFold PDB rather than generating the benchmark predictions.
-  The paper reports no IgFold runtime or three-model speed comparison.
-  The historical evidence record remains in `provenance/` for reference.
+- The IgFold generation notebook, settings, retained coordinates and all 597
+  regional scores are included under `kaggle/kernels/igfold-bench/` and
+  `outputs/structure/igfold/generation/`. This generation run is distinct from
+  the historical source of the original primary IgFold scores; the docking
+  preparation notebook copies one existing IgFold PDB rather than generating
+  the benchmark predictions. The paper reports no IgFold runtime or three-model
+  speed comparison. The historical evidence record remains in `provenance/`.
 - Original SimpleFold/NBB2 full-benchmark notebooks explicitly deleted
   predicted coordinates after scoring. Original results and recovered source
   notebooks survive. Historical SimpleFold commit/checkpoint hashes and full

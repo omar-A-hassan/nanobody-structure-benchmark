@@ -1,8 +1,9 @@
 # Third-party sources and transformations
 
-No project-wide licence has been selected for this repository's own code,
-analyses or results. The notices below retain upstream attribution and source
-terms; they do not assign a new licence or clear separate model-weight terms.
+The repository's original code and documentation are licensed under the MIT
+License in `LICENSE`. Upstream datasets and third-party materials retain their
+own source terms; this project licence does not relicense those materials or
+clear separate model-weight terms. The notices below retain source attribution.
 
 1. **SAbDab2 Machine Learning Dataset, v0.1.0.** Capel, Vavourakis, Williams,
    Taylor and Deane; University of Oxford (2026).

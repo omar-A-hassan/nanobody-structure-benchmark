@@ -14,6 +14,10 @@ import time
 import zipfile
 
 ROOT = Path(__file__).resolve().parent
+EXECUTED_NOTEBOOKS = {
+    ROOT / "kaggle/notebooks/legacy/docking (1).ipynb",
+    ROOT / "kaggle/kernels/7r73-docking/docking evaluation.ipynb",
+}
 
 
 def digest(path):
@@ -114,7 +118,8 @@ def inventory():
             assert not re.search(r"/Users/[A-Za-z][A-Za-z0-9_-]*/", content), f"Private workstation path: {rel}"
         if path.suffix == ".ipynb":
             nb = json.loads(path.read_text())
-            assert all(not c.get("outputs") and c.get("execution_count") is None for c in nb["cells"] if c["cell_type"] == "code")
+            if path not in EXECUTED_NOTEBOOKS:
+                assert all(not c.get("outputs") and c.get("execution_count") is None for c in nb["cells"] if c["cell_type"] == "code")
     if (ROOT / "MANIFEST.sha256").exists():
         for line in (ROOT / "MANIFEST.sha256").read_text().splitlines():
             expected, name = line.split("  ", 1)

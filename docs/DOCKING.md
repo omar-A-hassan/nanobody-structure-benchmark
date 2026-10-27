@@ -15,10 +15,11 @@ The experimentally observed gp120 conformation was held fixed across all docking
 
 This is a single-complex illustrative case and is not intended to establish a general relationship between VHH regional prediction error and docking performance.
 
-The supplied files support input inspection and regional monomer rescoring.
-The HDOCK/DockQ protocol and endpoint summaries below are reported records;
-local pose-scoring replay awaits the evaluation procedure and its inputs,
-listed in [Remaining work](REMAINING.md).
+The HDOCK/DockQ evaluation procedure is supplied in
+`kaggle/kernels/7r73-docking/docking evaluation.ipynb`. The endpoint tables
+below are the saved results in `outputs/docking/`. The HDOCK pose archives used
+by that notebook are hosted on Kaggle and are not included in this repository,
+so the repository alone does not provide a local pose-rescoring replay.
 
 ## Case Selection
 

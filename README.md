@@ -5,12 +5,9 @@ NanoBodyBuilder2 on 597 experimental VHH references. The common comparison
 contains 588 targets. The available-source training-overlap and redundancy
 screen contains 393 representatives.
 
-The repository provides saved-data analysis replay, SimpleFold and
-NanoBodyBuilder2 inference notebooks, prepared docking inputs and regional
-rescoring. [Coverage](docs/COVERAGE.md) distinguishes supplied workflows from
-unavailable components. [Remaining work](docs/REMAINING.md) lists the IgFold
-generation and docking evaluation components still to be integrated, together
-with release requirements.
+The repository provides saved-data analysis replay, model-generation notebooks,
+prepared docking inputs, docking evaluation and regional rescoring.
+[Coverage](docs/COVERAGE.md) summarizes the supplied workflows and their limits.
 
 ## Reproduce the saved analyses
 
@@ -53,7 +50,7 @@ keep the supplied manifest as the record of the distributed snapshot.
 | Experimental references | `src/reconstruct_revision_references.py` and 604 bundled source coordinate members | Exact 597-record reconstruction and reference-policy checks |
 | Sampling and probe | `outputs/{trajectory,hard,hitrate,ensemble}/`, `data/esm_probe/`, `src/reproduce_esm_probe.py` | Disagreement, finite-coverage and grouped probe results |
 | Inference repeats | `kaggle/kernels/revision-archive-20261023/`, `inference/repeat_outputs/` | Complete SimpleFold v1 and NanoBodyBuilder2 v2 coordinates, scores, run records and comparisons |
-| Prepared docking inputs | `data/docking/`, `src/score_prepared_vhh.py` | Four prepared-input H1/H2/H3/framework score rows and input hashes in `outputs/docking/` |
+| 7R73 docking case | `data/docking/`, `kaggle/kernels/7r73-docking/`, `src/score_prepared_vhh.py` | Prepared structures, regional RMSDs and DockQ/epitope summaries; see [Docking case](docs/DOCKING.md) |
 | Figures | The analysis drivers, `src/recreate_reused_figures.py` and `src/make_revision_workflow.py` | Regional, sampling, probe and workflow figures |
 
 [Dependencies](docs/DEPENDENCIES.md) lists each entry point and environment.
@@ -93,7 +90,7 @@ generators are included under `kaggle/kernels/`. [Sampling](docs/SAMPLING.md)
 gives their settings, inputs, execution order and outputs. Local analysis
 replay uses the saved records rather than generating new samples.
 
-## Check the prepared docking inputs
+## Check the 7R73 docking case
 
 ```sh
 uv run --locked python src/score_prepared_vhh.py --check
@@ -102,10 +99,9 @@ uv run --locked python src/score_prepared_vhh.py --check
 This command verifies all four prepared VHH regional-score rows against the
 frozen 7R73A reference. It reuses the original Kabsch function and checks the
 fit independently with BioPython. Omit `--check` to regenerate the regional
-CSV and JSON. It does not reproduce DockQ or epitope endpoints. The supplied
-preparation notebook and docking summary CSVs are described in
-[Docking case](docs/DOCKING.md). Integration of the downstream evaluation
-procedure is listed in [Remaining work](docs/REMAINING.md).
+CSV and JSON. The supplied evaluation notebook computes the reported DockQ and
+epitope summaries from HDOCK pose archives hosted separately on Kaggle. See
+[Docking case](docs/DOCKING.md) for the protocol and scope.
 
 ## Tests and source records
 
@@ -120,8 +116,13 @@ Pretrained model weights are not redistributed.
 
 ## Licence and citation
 
-The project licence and version-specific archive DOI have not been assigned;
-see [Remaining work](docs/REMAINING.md).
-Existing source-data DOIs identify those datasets, not this repository.
-Upstream attribution and terms are retained in
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The repository's original code and documentation are licensed under the MIT
+License; see [`LICENSE`](LICENSE). Upstream datasets and third-party materials
+retain their own terms, listed in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+
+The benchmark source is Capel et al., “SAbDab2: The structural antibody database
+in the age of machine learning,” bioRxiv (2026),
+[doi:10.64898/2026.06.16.732554](https://doi.org/10.64898/2026.06.16.732554), and
+the [SAbDab2 Machine Learning Dataset v0.1.0](https://doi.org/10.5281/zenodo.20083995).
+For citations to this software version, use its Zenodo DOI after the release is
+archived.
