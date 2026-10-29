@@ -126,5 +126,4 @@ The benchmark source is Capel et al., “SAbDab2: The structural antibody databa
 in the age of machine learning,” bioRxiv (2026),
 [doi:10.64898/2026.06.16.732554](https://doi.org/10.64898/2026.06.16.732554), and
 the [SAbDab2 Machine Learning Dataset v0.1.0](https://doi.org/10.5281/zenodo.20083995).
-For citations to this software version, use its Zenodo DOI after the release is
-archived.
+To cite this software, use [doi:10.5281/zenodo.23698005](https://doi.org/10.5281/zenodo.23698005).
